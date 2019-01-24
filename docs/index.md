@@ -6,6 +6,10 @@ permalink: /index.html
 
 QGIS version 3.4.3-Madeira
 
+## Install QuickMapServices
+
+* 
+
 ## Locate the survey area
 
 * Change CRS (Coordinate Reference System) to EPSG:4326 - WGS 84 (bottom right hand corner of the window)
