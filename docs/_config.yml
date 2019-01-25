@@ -1,5 +1,7 @@
 theme: jekyll-theme-slate
 
+timezone: GMT
+
 # Permalinks
 permalink: pretty
 
