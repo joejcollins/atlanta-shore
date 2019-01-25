@@ -71,10 +71,6 @@ QGIS version 3.4.3-Madeira
     * Add saved file to map (un ticked)
     * GPX_USE_EXTENSIONS `YES`
     * OK
-* Choose a file name
-* CRS = (EPSG:4326 - WGS 84)
-* don't `Add saved file to map`
-* and set `GPX_USE_EXTENSIONS = YES`
 
 The file should look something like this:
 
