@@ -1,6 +1,8 @@
-theme: jekyll-theme-slate
-
+theme: jekyll-theme-minima
 timezone: GMT
+header_pages:
+  - QGIS.md
+  - survey.md
 
 # Permalinks
 permalink: pretty
