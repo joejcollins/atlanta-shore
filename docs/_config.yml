@@ -1,4 +1,4 @@
-theme: jekyll-theme-minima
+theme: jekyll-theme-slate
 timezone: GMT
 header_pages:
   - QGIS.md
