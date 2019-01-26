@@ -1,0 +1,4 @@
+transect,quadrat,waypoint,grid_reference,wetness,canopy,species
+,1,,,1,0.5,
+,2,1,,2,,
+,3,2,,1,,
