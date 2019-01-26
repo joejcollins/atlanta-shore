@@ -1,4 +1,55 @@
-transect,quadrat,waypoint,grid_reference,wetness,canopy,species
-,1,,,1,0.5,
-,2,1,,2,,
-,3,2,,1,,
+quadrat,1
+waypoint,0
+grid_reference,SO4619796207
+wetness,1
+canopy,50
+species,Rubus fruticosus
+,Mercurialis perennis
+,Sambucus nigra
+,Hyacinthoides non-scripta
+,Arum maculatum
+,Glechoma hederacea
+,Primula vulgaris
+quadrat,2
+waypoint,1
+grid_reference,SO4619796213
+wetness,1
+canopy,10
+species,Rubus fruticosus
+,Geranium robertianum
+,Glechoma hederacea
+,Stellaria holostea
+,Ranunculus repens
+,Galium aparine
+,Dryopteris dilatata
+,Silene dioica
+,Urtica dioica
+,Primula vulgaris
+,Fragaria vesca
+,Rumex sanguineus
+quadrat,3
+waypoint,2
+grid_reference,SO4620296222
+wetness,1
+canopy,40
+species,Stellaria holostea
+,Corylus avellana
+,Rubus fruticosus
+,Silene dioica
+,Rumex sanguineus
+,Rumex acetosa
+,Teucrium scorodina
+,Ranunculus repens
+,Agrostis capillaris
+,Primula vulgaris
+,Pteridium aquilinum
+,Glechoma hederacea
+,Kindbergia praelongum
+,Digitalis purpurea
+,Arrhenathium elatius
+quadrat,
+waypoint,
+grid_reference,
+wetness,
+canopy,
+species,
