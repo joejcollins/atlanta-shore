@@ -1,6 +1,15 @@
 # Botanical Survey
 
+## Python Environment Setup
+
+* pip install virtualenvwrapper
+* mkvirtualenv atlanta-shore
+* workon atlanta-shore
+* pip install -r requirements.txt
+
 ## Survey Prep
+
+* python ./src/data/add_id_to_waypoints.py
 
 ## Data Prep
 
