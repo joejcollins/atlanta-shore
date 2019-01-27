@@ -23,7 +23,7 @@ def transform(gpx_file):
     xslt_transform = ET.XSLT(xslt)
     newdom = xslt_transform(dom)
     file_transformed = ET.tostring(newdom, pretty_print=True)
-    output_file_name = gpx_file.replace(".gpx", "-with-name.gpx")
+    output_file_name = gpx_file_name.replace(".gpx", "-with-name.gpx")
     output_file = open(output_file_name, 'w+')
     output_file.write(file_transformed)
 
