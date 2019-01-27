@@ -9,11 +9,11 @@ title: Survey Procedure
 * Survey Sheet
     * Date
 
-![Example Survey Sheet]({{ site.baseurl }}/images/survey-sheet-example.jpg)
+![Survey View Ranger]({{ site.baseurl }}/images/survey-sheet-example.jpg)
 
 Garmin (GPS) mark way point
 
-![Example Survey Garmin]({{ site.baseurl }}/images/survey-sheet-example.jpg)
+![Survey Garmin]({{ site.baseurl }}/images/survey-garmin.jpg)
 
 Pictures up and down. GPS on camera.
 
