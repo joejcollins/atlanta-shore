@@ -23,21 +23,18 @@ function initMap() {
         success: function (xml) {
             var points = [];
             var bounds = new google.maps.LatLngBounds();
-            $(xml).find("trkpt").each(function () {
+            $(xml).find("wpt").each(function () {
                     var lat = $(this).attr("lat");
                     var lon = $(this).attr("lon");
-                    var p = new google.maps.LatLng(lat, lon);
-                    points.push(p);
-                    bounds.extend(p);
+                    var position = new google.maps.LatLng(lat, lon);
+                    var label = $(this).text()
+                    marker = new google.maps.Marker({
+                        position: position,
+                        label: label,
+                        map: map
+                    });
+                    bounds.extend(position);
             });
-            var poly = new google.maps.Polyline({
-                    path: points,
-                    strokeColor: "#FF00AA",
-                    strokeOpacity: .7,
-                    strokeWeight: 4
-            });
-            poly.setMap(map);
-            // fit bounds to track
             map.fitBounds(bounds);
         }
     });
