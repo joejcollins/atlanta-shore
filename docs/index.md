@@ -3,7 +3,7 @@ permalink: /index.html
 title: Home
 ---
 
-* [Location]({{ site.baseurl }}/location/)
+* [Survey Location]({{ site.baseurl }}/survey-location/)
 * [QGIS Setup Notes]({{ site.baseurl }}/QGIS/)
 * [Survey Sample Points]({{ site.baseurl }}/survey-points/)
 * [Survey Preparation]({{ site.baseurl }}/survey-prep/)

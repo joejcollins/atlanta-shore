@@ -18,12 +18,12 @@ function initMap() {
     var map = new google.maps.Map(document.getElementById('map'), mapOptions);
     $.ajax({
         type: "GET",
-        url: "https://raw.githubusercontent.com/joejcollins/atlanta-shore/master/data/raw/spains-hall-waypoints-regular-30m.gpx",
+        url: "https://raw.githubusercontent.com/joejcollins/atlanta-shore/master/data/raw/spains-hall-fence.gpx",
         dataType: "xml",
         success: function (xml) {
             var points = [];
             var bounds = new google.maps.LatLngBounds();
-            $(xml).find("trkpt").each(function () {
+            $(xml).find("wpt").each(function () {
                     var lat = $(this).attr("lat");
                     var lon = $(this).attr("lon");
                     var p = new google.maps.LatLng(lat, lon);
