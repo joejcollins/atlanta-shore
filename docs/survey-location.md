@@ -23,7 +23,7 @@ function initMap() {
         success: function (xml) {
             var points = [];
             var bounds = new google.maps.LatLngBounds();
-            $(xml).find("wpt").each(function () {
+            $(xml).find("trkpt").each(function () {
                     var lat = $(this).attr("lat");
                     var lon = $(this).attr("lon");
                     var p = new google.maps.LatLng(lat, lon);
