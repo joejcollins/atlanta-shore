@@ -1,7 +1,7 @@
 ---
-title: Location
+title: Survey Points
 ---
-# Location
+# Survey Points
 
 <!-- https://stackoverflow.com/questions/15829048/best-way-to-import-coordinates-from-gpx-file-and-display-using-google-maps-api -->
 
