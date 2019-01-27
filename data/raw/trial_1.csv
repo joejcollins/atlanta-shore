@@ -1,4 +1,4 @@
-quadrat,1
+survey_point,1
 waypoint,0
 grid_reference,SO4619796207
 wetness,1
@@ -10,7 +10,7 @@ species,Rubus fruticosus
 ,Arum maculatum
 ,Glechoma hederacea
 ,Primula vulgaris
-quadrat,2
+survey_point,2
 waypoint,1
 grid_reference,SO4619796213
 wetness,1
@@ -27,7 +27,7 @@ species,Rubus fruticosus
 ,Primula vulgaris
 ,Fragaria vesca
 ,Rumex sanguineus
-quadrat,3
+survey_point,3
 waypoint,2
 grid_reference,SO4620296222
 wetness,1
