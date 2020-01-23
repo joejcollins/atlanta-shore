@@ -13,6 +13,8 @@
 
 ## Data Prep
 
+* python ./src/data/make_dataset.py
+
 ## Directory Layout
 
     ├── LICENSE

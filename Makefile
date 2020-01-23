@@ -1,4 +1,5 @@
-# Make
+# Makefile
+# *remember to use tabs as separator*
 
 survey-prep:
 	python	./src/data/add_id_to_waypoints.py
