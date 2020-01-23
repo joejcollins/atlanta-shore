@@ -3,8 +3,8 @@
 View Ranger doesn't read the gpx extensions so in order
 to identify sample sites the id element is transformed into
 a gpx field. """
-import lxml.etree as ET
 import os
+import lxml.etree as ET
 
 FILES = ["trial-waypoints.gpx", "spains-hall-waypoints-regular-30m.gpx"]
 
@@ -24,7 +24,7 @@ def transform(gpx_file):
     newdom = xslt_transform(dom)
     file_transformed = ET.tostring(newdom, pretty_print=True)
     output_file_name = gpx_file_name.replace(".gpx", "-with-name.gpx")
-    output_file = open(output_file_name, 'w+')
+    output_file = open(output_file_name, 'wb')
     output_file.write(file_transformed)
 
 if __name__ == "__main__":
