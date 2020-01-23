@@ -122,3 +122,6 @@ package.json
 # Visual Studio
 .vs
 .vscode/
+
+# Intermediate datasets
+/data/processed
