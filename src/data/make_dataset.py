@@ -2,6 +2,7 @@
 
 ...from the waypoints, survey sheets and photos """
 import csv
+import re
 import datetime
 
 SURVEY_FILE_PATHS = ["./data/raw/2019-02/data-plant-2019-02-01-MEC.csv",
@@ -18,27 +19,10 @@ def date_from_file(file_path):
     return datetime.date(year, month, day)
 
 
-def get_next_quadrat(survey_file_reader):
-    """ Find the quadrat details up to the first species """
-    current_line = ['']
-    quadrat_dict = {}
-    while 'species' not in current_line[0]:
-        current_line = next(survey_file_reader)
-        quadrat_dict[current_line[0]] = current_line[1]
-    return quadrat_dict
-
-
-def get_the_rest_of_the_species(survey_file_reader):
-    current_line = ['']
-    while current_line[0] == '':
-        current_line = next(survey_file_reader)
-    return ""
-
-
 def main():
-    """ Transform all the  survey files 
+    """ Transform all the survey files
     
-    Create a set of records for each quadrat with the date and species identified.
+    Create a set of records for each waypoint with the date and species identified.
     """
     with open("./data/processed/records.csv", 'w+', newline='') as records_file:
         record_writer = csv.DictWriter(records_file, fieldnames=["date", "quadrat", "waypoint",
@@ -50,12 +34,25 @@ def main():
         for survey_file_path in SURVEY_FILE_PATHS:
             with open(survey_file_path, newline='') as survey_file:
                 survey_file_reader = csv.reader(survey_file, delimiter=',')
-                # Add the date, quadrat information and species to each record
+                # Add the date
                 record = {'date': date_from_file(survey_file_path).isoformat()}
-                quadrat = get_next_quadrat(survey_file_reader)
-                record.update(quadrat)
-                # TODO deal with remaining species at that waypoint
-                record_writer.writerow(record)
+                for row in survey_file_reader:
+                    # Get the waypoint information.
+                    while 'species' not in row[0]:
+                        record[row[0]] = row[1]
+                        row = next(survey_file_reader)
+                    # Get the individual species
+                    while True:
+                        record['species'] = row[1]
+                        # write a species record
+                        record_writer.writerow(record)
+                        try:
+                            row = next(survey_file_reader)
+                        except StopIteration:
+                            break # at the end of the file
+                        if re.match(r'species|^$', row[0]) == None:
+                            record[row[0]] = row[1] # add the read row to the record
+                            break # at the end of the species list
 
 
 if __name__ == "__main__":
