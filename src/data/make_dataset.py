@@ -18,26 +18,21 @@ def date_from_file(file_path):
     return datetime.date(year, month, day)
 
 
-def get_next_quadrat(csv_reader):
-    """ Find the quadrat details up to the first 'species' """
-    quadrat = "dummy"
-    waypoint = "dummy"
-    grid_reference = "dummy"
-    photo_up = "dummy"
-    photo_down = "dummy"
-    wetness = "dummy"
-    canopy = "dummy"
-    species = "dummy"
-    return {
-        'quadrat': quadrat,
-        'waypoint': waypoint,
-        'grid_reference': grid_reference,
-        'photo_up': photo_up,
-        'photo_down': photo_down,
-        'wetness': wetness,
-        'canopy': canopy,
-        'species': species
-        }
+def get_next_quadrat(survey_file_reader):
+    """ Find the quadrat details up to the first species """
+    current_line = ['']
+    quadrat_dict = {}
+    while 'species' not in current_line[0]:
+        current_line = next(survey_file_reader)
+        quadrat_dict[current_line[0]] = current_line[1]
+    return quadrat_dict
+
+
+def get_the_rest_of_the_species(survey_file_reader):
+    current_line = ['']
+    while current_line[0] == '':
+        current_line = next(survey_file_reader)
+    return ""
 
 
 def main():
@@ -55,15 +50,12 @@ def main():
         for survey_file_path in SURVEY_FILE_PATHS:
             with open(survey_file_path, newline='') as survey_file:
                 survey_file_reader = csv.reader(survey_file, delimiter=',')
+                # Add the date, quadrat information and species to each record
+                record = {'date': date_from_file(survey_file_path).isoformat()}
                 quadrat = get_next_quadrat(survey_file_reader)
-                for row in survey_file_reader:
-                    # add the date, quadrat information and species to each record
-                    record = {'date': date_from_file(survey_file_path).isoformat()}
-                    quadrat = get_next_quadrat(survey_file_reader)
-                    record.update(quadrat)
-                    species = {'species': "Dummius speciesus maximus"}
-                    record.update(species)
-                    record_writer.writerow(record)
+                record.update(quadrat)
+                # TODO deal with remaining species at that waypoint
+                record_writer.writerow(record)
 
 
 if __name__ == "__main__":
