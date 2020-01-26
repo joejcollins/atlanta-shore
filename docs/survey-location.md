@@ -3,6 +3,8 @@ title: Location
 ---
 # Location
 
+Survey area.
+
 <!-- https://stackoverflow.com/questions/15829048/best-way-to-import-coordinates-from-gpx-file-and-display-using-google-maps-api -->
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
