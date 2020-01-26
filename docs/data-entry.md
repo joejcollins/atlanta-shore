@@ -2,34 +2,42 @@
 title: Data Entry
 ---
 
-* csv
-* single column
-* similar to MAVIS
+* Use a `csv` file so you can edit with Excel.
+* Three columns, key, value and comment.
 
 ```csv
-survey_point,1
-waypoint,0
-grid_reference,SO4619796207
-wetness,1
-canopy,50
-species,Rubus fruticosus
-,Mercurialis perennis
-,Sambucus nigra
-,Hyacinthoides non-scripta
-,Arum maculatum
-,Glechoma hederacea
-,Primula vulgaris
-survey_point,2
-waypoint,1
-grid_reference,SO4619796213
-wetness,1
-canopy,10
-species,Rubus fruticosus
-,Geranium robertianum
-,Glechoma hederacea
-,Stellaria holostea
-,Ranunculus repens
+quadrat,9,Light covering of snow
+waypoint,1,
+grid_reference,TL6787633142,
+photo_up,P2010002,
+photo_down,P2010003,
+wetness,1,
+canopy,95,
+species,Mercurialis perennis,
+,Urtica dioica,
+,Silene dioica,
+,Fagus sylvatica,
+,Sambucus nigra,
+,Glechoma hederacea,
+,Acer campestre,
+,Kindbergia praelonga,
+,Brachythecium rutabulum,
 .
 .
 .
+```
+
+The 'make_dataset.py` will process this into rows for each species record.
+
+```csv
+date,quadrat,waypoint,grid_reference,photo_up,photo_down,wetness,canopy,species,comments
+2019-02-01,9,1,TL6787633142,P2010002,P2010003,1,95,Mercurialis perennis,Light covering of snow
+2019-02-01,9,1,TL6787633142,P2010002,P2010003,1,95,Urtica dioica,Light covering of snow
+2019-02-01,9,1,TL6787633142,P2010002,P2010003,1,95,Silene dioica,Light covering of snow
+2019-02-01,9,1,TL6787633142,P2010002,P2010003,1,95,Fagus sylvatica,Light covering of snow
+2019-02-01,9,1,TL6787633142,P2010002,P2010003,1,95,Sambucus nigra,Light covering of snow
+2019-02-01,9,1,TL6787633142,P2010002,P2010003,1,95,Glechoma hederacea,Light covering of snow
+2019-02-01,9,1,TL6787633142,P2010002,P2010003,1,95,Acer campestre,Light covering of snow
+2019-02-01,9,1,TL6787633142,P2010002,P2010003,1,95,Kindbergia praelonga,Light covering of snow
+2019-02-01,9,1,TL6787633142,P2010002,P2010003,1,95,Brachythecium rutabulum,Light covering of snow
 ```
