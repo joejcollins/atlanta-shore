@@ -27,7 +27,7 @@ species,Mercurialis perennis,
 .
 ```
 
-The 'make_dataset.py` will process this into rows for each species record.
+The `make_dataset.py` will process this into rows for each species record.
 
 ```csv
 date,quadrat,waypoint,grid_reference,photo_up,photo_down,wetness,canopy,species,comments
