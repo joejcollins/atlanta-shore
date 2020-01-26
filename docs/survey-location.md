@@ -45,4 +45,4 @@ function initMap() {
     });
 }
 </script>
-<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBHCMGq3m39ZUjAw6FbBqZ2L_I9JHGHO2c&callback=initMap"></script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=&callback=initMap"></script>
