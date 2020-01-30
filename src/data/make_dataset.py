@@ -10,6 +10,8 @@ SURVEY_FILE_PATHS = ["./data/raw/2019-02/data-plant-2019-02-01-MEC.csv",
                      "./data/raw/2019-06/data-plant-2019-06-20-MEC.csv",
                      "./data/raw/2019-06/data-plant-2019-06-21-MEC.csv"]
 
+SAMPLE_SITES_FILE_PATH = "./data/raw/spains-hall-waypoints-regular-30m-with-name.gpx"
+
 
 def date_from_file(file_path):
     """ Extract the survey date from the survey file path """
@@ -19,8 +21,10 @@ def date_from_file(file_path):
     day = int(split_path[-2])
     return datetime.date(year, month, day)
 
+def create_waypoints_table():
+    pass
 
-def main():
+def create_records_table():
     """ Transform all the survey files into a records list
 
     Create a records for each waypoint with the date and species identified.
@@ -71,4 +75,5 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    create_waypoints_table()
+    create_records_table()
