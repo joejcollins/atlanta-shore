@@ -310,9 +310,9 @@ date,quadrat,waypoint,grid_reference,photo_up,photo_down,wetness,canopy,species,
 2019-02-01,22,52,TL6782633173,P2010062,P2010063,1,40,Sambucus nigra,
 2019-02-01,22,52,TL6782633173,P2010062,P2010063,1,40,Kindbergia praelonga,
 2019-02-01,22,52,TL6782633173,P2010062,P2010063,1,40,Poa trivialis,
-2019-02-01,23,53,TL6781933204,P2010064,P2010065,1,5,Crataegus monogyna,"near electric line and fence; species, wetness and canopy from photograph"
-2019-02-01,23,53,TL6781933204,P2010064,P2010065,1,5,Mercurialis perennis,"near electric line and fence; species, wetness and canopy from photograph"
-2019-02-01,23,53,TL6781933204,P2010064,P2010065,1,5,Glechoma hederacea,"near electric line and fence; species, wetness and canopy from photograph"
+2019-02-01,37,53,TL6781933204,P2010064,P2010065,1,5,Crataegus monogyna,"near electric line and fence; species, wetness and canopy from photograph"
+2019-02-01,37,53,TL6781933204,P2010064,P2010065,1,5,Mercurialis perennis,"near electric line and fence; species, wetness and canopy from photograph"
+2019-02-01,37,53,TL6781933204,P2010064,P2010065,1,5,Glechoma hederacea,"near electric line and fence; species, wetness and canopy from photograph"
 2019-02-02,3,1,TL6778733146,P2020001,P2020002,1,5,Urtica dioica,
 2019-02-02,3,1,TL6778733146,P2020001,P2020002,1,5,Rubus fruticosus agg.,
 2019-02-02,3,1,TL6778733146,P2020001,P2020002,1,5,Galium aparine,
@@ -559,12 +559,12 @@ date,quadrat,waypoint,grid_reference,photo_up,photo_down,wetness,canopy,species,
 2019-06-20,37,8,TL6781933210,P6200015,P6200016,1,50,Silene dioica,quadrat was near fence 
 2019-06-20,37,8,TL6781933210,P6200015,P6200016,1,50,Poa trivialis,quadrat was near fence 
 2019-06-20,37,8,TL6781933210,P6200015,P6200016,1,50,Plantago major,quadrat was near fence 
-2019-06-20,38,9,TL6779133211,P6200017,P6200018,1,85,Galium aparine,
-2019-06-20,38,9,TL6779133211,P6200017,P6200018,1,85,Urtica dioica,
-2019-06-20,38,9,TL6779133211,P6200017,P6200018,1,85,Glechoma hederacea,
-2019-06-20,38,9,TL6779133211,P6200017,P6200018,1,85,Mercurialis perennis,
-2019-06-20,38,9,TL6779133211,P6200017,P6200018,1,85,Kindbergia praelonga,
-2019-06-20,38,9,TL6779133211,P6200017,P6200018,1,85,Brachythecium rutabulum,
+2019-06-20,36,9,TL6779133211,P6200017,P6200018,1,85,Galium aparine,
+2019-06-20,36,9,TL6779133211,P6200017,P6200018,1,85,Urtica dioica,
+2019-06-20,36,9,TL6779133211,P6200017,P6200018,1,85,Glechoma hederacea,
+2019-06-20,36,9,TL6779133211,P6200017,P6200018,1,85,Mercurialis perennis,
+2019-06-20,36,9,TL6779133211,P6200017,P6200018,1,85,Kindbergia praelonga,
+2019-06-20,36,9,TL6779133211,P6200017,P6200018,1,85,Brachythecium rutabulum,
 2019-06-20,39,10,TL6775733202,P6200019,P6200020,1,95,Urtica dioica,
 2019-06-20,39,10,TL6775733202,P6200019,P6200020,1,95,Silene dioica,
 2019-06-20,39,10,TL6775733202,P6200019,P6200020,1,95,Poa trivialis,
