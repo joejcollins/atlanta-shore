@@ -26,7 +26,7 @@ Waypoints for sampling.
         id: 'mapbox/streets-v11',
         accessToken: 'pk.eyJ1Ijoiam9lamNvbGxpbnMiLCJhIjoiY2s1djkydG04MGF0aDNtbWRoeWV5azZrMyJ9.4q2Mqrow-1aCB5bXkJEDDA'
     }).addTo(map);
-    var runLayer = omnivore.gpx('https://raw.githubusercontent.com/joejcollins/atlanta-shore/master/data/raw/spains-hall-waypoints-regular-30m.gpx')
+    var runLayer = omnivore.gpx('https://raw.githubusercontent.com/joejcollins/atlanta-shore/master/data/raw/spains-hall-waypoints-regular-30m-with-name-edited.gpx')
     .on('ready', function() {
         map.fitBounds(runLayer.getBounds());
     })
