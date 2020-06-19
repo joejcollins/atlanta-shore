@@ -18,10 +18,6 @@
     <name>Sample Site 1</name>
     <description>Sample Site 1</description>
   </wpt>
-  <wpt lat="51.972526790804501" lon="0.440879363164244">
-    <name>Sample Site 2</name>
-    <description>Sample Site 2</description>
-  </wpt>
   <wpt lat="51.972275405229652" lon="0.439992080757396">
     <name>Sample Site 45</name>
     <description>Sample Site 45</description>
@@ -81,6 +77,10 @@
   <wpt lat="51.9714398340817" lon="0.441257077150634">
     <name>Sample Site 3</name>
     <description>Sample Site 3</description>
+  </wpt>
+  <wpt lat="51.971430784508129" lon="0.441693385452312">
+    <name>Sample Site 4</name>
+    <description>Sample Site 4</description>
   </wpt>
   <wpt lat="51.971421733319254" lon="0.442129693524288">
     <name>Sample Site 8</name>
