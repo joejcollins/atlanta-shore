@@ -84,12 +84,6 @@
 		<name>013</name>
 		<sym>Flag, Blue</sym>
 	</wpt>
-	<wpt lat="51.972082" lon="0.440691">
-		<ele>65.869949</ele>
-		<time>2020-06-20T10:09:30Z</time>
-		<name>014</name>
-		<sym>Flag, Blue</sym>
-	</wpt>
 	<wpt lat="51.972320" lon="0.440830">
 		<ele>69.023102</ele>
 		<time>2020-06-20T10:15:00Z</time>
