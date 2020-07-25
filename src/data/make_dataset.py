@@ -8,7 +8,10 @@ import datetime
 SURVEY_FILE_PATHS = ["./data/raw/2019-02/data-plant-2019-02-01-MEC.csv",
                      "./data/raw/2019-02/data-plant-2019-02-02-MEC.csv",
                      "./data/raw/2019-06/data-plant-2019-06-20-MEC.csv",
-                     "./data/raw/2019-06/data-plant-2019-06-21-MEC.csv"]
+                     "./data/raw/2019-06/data-plant-2019-06-21-MEC.csv",
+                     "./data/raw/2020-06/data-plant-2020-06-19-MEC.csv",
+                     "./data/raw/2020-06/data-plant-2020-06-20-MEC.csv",
+                     "./data/raw/2020-06/data-plant-2020-06-21-MEC.csv"]
 
 SAMPLE_SITES_FILE_PATH = "./data/raw/spains-hall-waypoints-regular-30m-with-name.gpx"
 
