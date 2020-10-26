@@ -8,7 +8,7 @@ canopy,30,quadrat on field edge
 species,Viola arvensis,
 ,Convolvulus arvensis,
 ,Triticum aestivum,
-,Hordeum vulgare,
+,Hordeum distichon,
 ,Avena sativa,
 ,Tripleurospermum inodorum,
 ,Plantago major,
@@ -80,7 +80,7 @@ species,Urtica dioica,
 ,Kindbergia praelonga,
 ,Bromopsis ramosa,
 ,Brachythecium rutabulum,
-,Cirsium crispus,Other species indicate this thistle more likely to have been Carduus crispus and C.palustre was mis-identification so changed to C.crispus
+,Carduus crispus,Other species indicate this thistle more likely to have been Carduus crispus and C.palustre was mis-identification so changed to C.crispus
 quadrat,47,
 waypoint,25,
 grid_reference,TL6822833091,
@@ -197,7 +197,7 @@ species,Urtica dioica,
 ,Adoxa moschatellina,
 ,Glechoma hederacea,
 ,Kindbergia praelonga,
-,Salix sp,Seedling
+,Salix sp.,Seedling
 ,Prunus spinosa,
 quadrat,28,
 waypoint,31,
@@ -214,7 +214,7 @@ species,Juncus effusus,
 ,Epilobium hirsutum,
 ,Carduus crispus,Reviewed photo and changed from Cirsium arvense
 ,Cirsium palustre,
-,Scophularia auriculata,Synonym S.aquatica
+,Scrophularia auriculata,Synonym S.aquatica
 ,Solanum dulcamara,
 ,Mentha aquatica,
 ,Poa trivialis,
