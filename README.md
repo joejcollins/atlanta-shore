@@ -1,18 +1,6 @@
 # Botanical Survey
 
-Spains Hall, Finchingfield
-
-## Python Environment Setup
-
-* pip install virtualenvwrapper
-
-or
-
-* pip install virtualenvwrapper-win
-
-* mkvirtualenv atlanta-shore
-* workon atlanta-shore
-* pip install -r requirements.txt
+Spains Hall, Finchingfield.
 
 ## Survey Prep
 
