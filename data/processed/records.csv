@@ -70,7 +70,7 @@ date,quadrat,waypoint,grid_reference,photo_up,photo_down,wetness,canopy,species,
 2019-02-01,41,8,TL6790333088,P2010016,P2010017,1,25,Sambucus nigra,
 2019-02-01,41,8,TL6790333088,P2010016,P2010017,1,25,Crataegus monogyna,
 2019-02-01,41,8,TL6790333088,P2010016,P2010017,1,25,Ranunculus repens,
-2019-02-01,41,8,TL6790333088,P2010016,P2010017,1,25,Ranunculus ficaria,
+2019-02-01,41,8,TL6790333088,P2010016,P2010017,1,25,Ficaria verna,
 2019-02-01,41,8,TL6790333088,P2010016,P2010017,1,25,Poa trivialis, - Atypical form with blunt ligules?
 2019-02-01,41,8,TL6790333088,P2010016,P2010017,1,25,Mercurialis perennis,
 2019-02-01,41,8,TL6790333088,P2010016,P2010017,1,25,Carex pendula,
@@ -99,7 +99,7 @@ date,quadrat,waypoint,grid_reference,photo_up,photo_down,wetness,canopy,species,
 2019-02-01,57,11,TL6793533126,P2010022,P2010023,1,95,Brachythecium rutabulum,
 2019-02-01,42,12,TL6793833093,P2010024,P2010025,3,65,Urtica dioica,wetness ranged from 2-5 as by stream from 'spring'
 2019-02-01,42,12,TL6793833093,P2010024,P2010025,3,65,Galium aparine,wetness ranged from 2-5 as by stream from 'spring'
-2019-02-01,42,12,TL6793833093,P2010024,P2010025,3,65,Ranunculus ficaria,wetness ranged from 2-5 as by stream from 'spring'
+2019-02-01,42,12,TL6793833093,P2010024,P2010025,3,65,Ficaria verna,wetness ranged from 2-5 as by stream from 'spring'
 2019-02-01,42,12,TL6793833093,P2010024,P2010025,3,65,Apium nodiflorum,wetness ranged from 2-5 as by stream from 'spring'
 2019-02-01,42,12,TL6793833093,P2010024,P2010025,3,65,Poa trivialis,wetness ranged from 2-5 as by stream from 'spring'
 2019-02-01,42,12,TL6793833093,P2010024,P2010025,3,65,Sambucus nigra,wetness ranged from 2-5 as by stream from 'spring'
@@ -268,7 +268,7 @@ date,quadrat,waypoint,grid_reference,photo_up,photo_down,wetness,canopy,species,
 2019-02-01,44,49,TL6784533092,P2010056,P2010057,1,5,Urtica dioica,near electric line
 2019-02-01,44,49,TL6784533092,P2010056,P2010057,1,5,Mercurialis perennis,near electric line
 2019-02-01,44,49,TL6784533092,P2010056,P2010057,1,5,Ulmus procera,near electric line
-2019-02-01,44,49,TL6784533092,P2010056,P2010057,1,5,Ranunculus ficaria,near electric line
+2019-02-01,44,49,TL6784533092,P2010056,P2010057,1,5,Ficaria verna,near electric line
 2019-02-01,44,49,TL6784533092,P2010056,P2010057,1,5,Galium aparine,near electric line
 2019-02-01,44,49,TL6784533092,P2010056,P2010057,1,5,Sambucus nigra,near electric line
 2019-02-01,44,49,TL6784533092,P2010056,P2010057,1,5,Cirsium palustre,near electric line
@@ -284,7 +284,7 @@ date,quadrat,waypoint,grid_reference,photo_up,photo_down,wetness,canopy,species,
 2019-02-01,54,50,TL6781833130,P2010058,P2010059,1,25,Mercurialis perennis,
 2019-02-01,54,50,TL6781833130,P2010058,P2010059,1,25,Populus x canadensis,
 2019-02-01,54,50,TL6781833130,P2010058,P2010059,1,25,Anthriscus sylvestris,
-2019-02-01,54,50,TL6781833130,P2010058,P2010059,1,25,Ranunculus ficaria,
+2019-02-01,54,50,TL6781833130,P2010058,P2010059,1,25,Ficaria verna,
 2019-02-01,54,50,TL6781833130,P2010058,P2010059,1,25,Carpinus betulus,
 2019-02-01,54,50,TL6781833130,P2010058,P2010059,1,25,Kindbergia praelonga,
 2019-02-01,54,50,TL6781833130,P2010058,P2010059,1,25,Brachythecium rutabulum,
