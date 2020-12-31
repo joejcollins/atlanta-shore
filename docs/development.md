@@ -1,3 +1,6 @@
+---
+title: Development Environment
+---
 
 # Development Setup
 

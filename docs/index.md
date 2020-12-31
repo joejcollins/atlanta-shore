@@ -9,3 +9,4 @@ title: Home
 * [Survey Preparation]({{ site.baseurl }}/survey-prep/)
 * [Survey Procedure]({{ site.baseurl }}/survey-procedure/)
 * [Data Entry]({{ site.baseurl }}/data-entry/)
+* [Development Environment]({{ site.baseurl }}/development/)
