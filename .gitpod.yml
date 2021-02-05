@@ -17,4 +17,5 @@ tasks:
 
 vscode:
   extensions:
+    - Ikuyadeu.r
     - james-yu.latex-workshop
