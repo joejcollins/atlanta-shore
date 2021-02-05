@@ -2,7 +2,11 @@ image:
   file: .gitpod.Dockerfile
 
 tasks:
-  - init: pip3 install -r requirements.txt
+  - init: |
+      pip3 install -r requirements.txt
+      curl -fsSL https://starship.rs/install.sh | bash -s -- --yes
+      echo 'eval "$(starship init bash)"' >> $HOME/.bashrc
+
     command: make dataset
 
   - name: LaTeX auto-rebuild
@@ -10,4 +14,7 @@ tasks:
       while find . -name '*.tex' | xargs inotifywait -qqre modify .; do \
         latexmk -pdf ; \
       done
-  - name: Terminal
+
+vscode:
+  extensions:
+    - james-yu.latex-workshop
