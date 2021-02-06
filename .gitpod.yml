@@ -9,14 +9,3 @@ tasks:
       source $HOME/.bashrc
 
     command: make dataset
-
-  - name: LaTeX auto-rebuild
-    command: >
-      while find . -name '*.tex' | xargs inotifywait -qqre modify .; do \
-        latexmk -pdf ; \
-      done
-
-vscode:
-  extensions:
-    - james-yu.latex-workshop
-    - ikuyadeu.r
