@@ -6,6 +6,7 @@ tasks:
       pip3 install -r requirements.txt
       curl -fsSL https://starship.rs/install.sh | bash -s -- --yes
       echo 'eval "$(starship init bash)"' >> $HOME/.bashrc
+      source $HOME/.bashrc
 
     command: make dataset
 
@@ -17,5 +18,5 @@ tasks:
 
 vscode:
   extensions:
-    - Ikuyadeu.r
     - james-yu.latex-workshop
+    - ikuyadeu.r
