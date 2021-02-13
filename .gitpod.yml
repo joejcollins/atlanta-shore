@@ -16,7 +16,11 @@ tasks:
 ports:
   - port: 8787
     onOpen: open-browser
-  
+  - port: 3000-8786
+    onOpen: ignore
+  - port: 8786-15000
+    onOpen: ignore
+
 vscode:
   extensions:
     - eamodio.gitlens
