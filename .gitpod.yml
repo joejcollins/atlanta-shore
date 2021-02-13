@@ -4,12 +4,11 @@ image:
 tasks:
   - init: |
       pip3 install -r requirements.txt
-      curl -fsSL https://starship.rs/install.sh | bash -s -- --yes
-      echo 'eval "$(starship init bash)"' >> $HOME/.bashrc
-      source $HOME/.bashrc
+      make dataset
 
   - command: |
-      make dataset
+      echo 'eval "$(starship init bash)"' >> $HOME/.bashrc
+      sudo bash -c "echo 'setwd(\"/workspace/atlanta-shore\")' >> /home/gitpod/.Rprofile"
       sudo usermod --password $(openssl passwd -1 $RSTUDIO_PASSWORD) gitpod
       sudo rstudio-server start
 
