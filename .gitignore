@@ -112,7 +112,6 @@ _site
 .bundle
 .RData
 .Rproj.user
-*.Rproj
 .Rhistory
 .sass-cache
 Gemfile
