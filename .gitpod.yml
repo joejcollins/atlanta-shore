@@ -8,4 +8,18 @@ tasks:
       echo 'eval "$(starship init bash)"' >> $HOME/.bashrc
       source $HOME/.bashrc
 
-    command: make dataset
+  - command: |
+      make dataset
+      sudo usermod --password $(openssl passwd -1 $RSTUDIO_PASSWORD) gitpod
+      sudo rstudio-server start
+
+ports:
+  - port: 8787
+    onOpen: open-browser
+  
+vscode:
+  extensions:
+    - eamodio.gitlens
+    - streetsidesoftware.code-spell-checker
+    - ms-python.python
+    - Ikuyadeu.r
