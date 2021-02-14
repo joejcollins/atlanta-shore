@@ -14,5 +14,6 @@ RUN sudo apt-get update \
     && sudo bash -c "echo R_LIBS_USER=/workspace/R/library >> /etc/R/Renviron.site" \
     && sudo mkdir -p /workspace/R/library \
     && sudo R -e "install.packages(\"tinytex\", lib=\"/workspace/R/library\")" \
-    && sudo R -e "tinytex::install_tinytex(force=TRUE, dir=\"/home/gitpod\")" \
+    && sudo mkdir -p /home/gitpod/.TinyTeX \
+    && sudo R -e "tinytex::install_tinytex(force=TRUE, dir=\"/home/gitpod/.TinyTeX\")" \
     && sudo bash -c "echo 'setwd(\"/workspace/atlanta-shore\")' >> /etc/R/Rprofile.site"
