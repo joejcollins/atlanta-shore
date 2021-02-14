@@ -10,5 +10,6 @@ RUN sudo apt-get update \
     && sudo usermod -a -G rstudio-users gitpod \
     && sudo touch /etc/rstudio/rserver.conf \
     && sudo bash -c "echo auth-required-user-group=rstudio-users >> /etc/rstudio/rserver.conf" \
-    && sudo bash -c "echo r-libs-user=/workspace/R/library >> /etc/R/Renviron.site" \
+    && sudo bash -c "echo R_LIBS=/workspace/R/library >> /etc/R/Renviron.site" \
+    && sudo bash -c "echo R_LIBS_USER=/workspace/R/library >> /etc/R/Renviron.site" \
     && sudo bash -c "echo 'setwd(\"/workspace/atlanta-shore\")' >> /etc/R/Rprofile.site" 
