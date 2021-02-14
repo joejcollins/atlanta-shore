@@ -1,5 +1,7 @@
 # R package list
+dir.create(".R")
 dir.create(".R/library")
+.libPaths(".R/library")
 install.packages(c(
     "base64enc", 
     "digest", 
