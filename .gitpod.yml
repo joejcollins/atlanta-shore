@@ -8,7 +8,6 @@ tasks:
 
   - command: |
       echo 'eval "$(starship init bash)"' >> $HOME/.bashrc
-      sudo bash -c "echo 'setwd(\"/workspace/atlanta-shore\")' >> /home/gitpod/.Rprofile"
       sudo usermod --password $(openssl passwd -1 $RSTUDIO_PASSWORD) gitpod
       sudo rstudio-server start
 
