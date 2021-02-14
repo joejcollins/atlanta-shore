@@ -13,7 +13,6 @@ RUN sudo apt-get update \
     && sudo bash -c "echo R_LIBS=/workspace/R/library >> /etc/R/Renviron.site" \
     && sudo bash -c "echo R_LIBS_USER=/workspace/R/library >> /etc/R/Renviron.site" \
     && sudo mkdir -p /workspace/R/library \
-    && sudo chmod 775 /workspace/R/library \
     && sudo R -e "install.packages(\"tinytex\", lib=\"/workspace/R/library\")" \
     && sudo mkdir -p /home/gitpod/.TinyTeX \
     && sudo R -e "tinytex::install_tinytex(force=TRUE, dir=\"/home/gitpod/.TinyTeX\")" \

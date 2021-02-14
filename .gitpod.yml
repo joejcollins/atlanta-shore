@@ -4,6 +4,7 @@ image:
 tasks:
   - init: |
       pip3 install -r requirements.txt
+      sudo mkdir -p /workspace/R/library
       Rscript requirements.r
       make dataset
 
