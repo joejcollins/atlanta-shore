@@ -1,15 +1,19 @@
 image:
   file: .gitpod.Dockerfile
 
+
 tasks:
-  - init: |
+  # The python modules survive a restart because they are in the user director
+  # The data
+  - before: |
+      sudo mkdir -p /workspace/R/library
+
+    init: |
       pip3 install -r requirements.txt
-      groups
-      whoami
       Rscript requirements.r
       make dataset
 
-  - command: |
+    command: |
       echo 'eval "$(starship init bash)"' >> $HOME/.bashrc
       sudo usermod --password $(openssl passwd -1 $RSTUDIO_PASSWORD) gitpod
       sudo rstudio-server restart
