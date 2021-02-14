@@ -11,5 +11,4 @@ RUN sudo apt-get update \
     && sudo bash -c "echo auth-required-user-group=rstudio-users >> /etc/rstudio/rserver.conf" \
     && sudo R -e "install.packages(\"tinytex\")" \
     && sudo mkdir -p /home/gitpod/.TinyTeX \
-    && sudo R -e "tinytex::install_tinytex(force=TRUE, dir=\"/home/gitpod/.TinyTeX\")" \
-    && sudo touch /home/gitpod/.Renviron 
+    && sudo R -e "tinytex::install_tinytex(force=TRUE, dir=\"/home/gitpod/.TinyTeX\")" 
