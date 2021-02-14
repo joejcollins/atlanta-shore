@@ -8,5 +8,4 @@ RUN sudo apt-get update \
     && sudo gdebi -n rstudio-server-1.4.1103-amd64.deb \
     && sudo groupadd rstudio-users \
     && sudo touch /etc/rstudio/rserver.conf \
-    && sudo bash -c "echo auth-required-user-group=rstudio-users >> /etc/rstudio/rserver.conf" \
-    && wget -qO- "https://yihui.org/tinytex/install-bin-unix.sh" | sh 
+    && sudo bash -c "echo auth-required-user-group=rstudio-users >> /etc/rstudio/rserver.conf" 
