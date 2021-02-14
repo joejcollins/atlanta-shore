@@ -4,7 +4,7 @@ image:
 tasks:
   - init: |
       pip3 install -r requirements.txt
-      sudo Rscript requirements.r
+      Rscript requirements.r
       make dataset
 
   - command: |
