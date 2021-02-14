@@ -5,6 +5,7 @@ tasks:
   - init: |
       pip3 install -r requirements.txt
       sudo mkdir -p /workspace/R/library
+      sudo chmod -R 775 /workspace/R/library
       Rscript requirements.r
       make dataset
 
