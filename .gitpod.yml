@@ -5,6 +5,7 @@ tasks:
   - init: |
       pip3 install -r requirements.txt
       groups
+      whoami
       Rscript requirements.r
       make dataset
 
