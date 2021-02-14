@@ -16,4 +16,4 @@ install.packages(c(
     "stringi"  , 
     "stringr"  , 
     "tinytex"  , 
-    "xfun"))
+    "xfun") lib="/workspace/R/library/")
