@@ -6,11 +6,11 @@ RUN sudo apt-get update \
     && sudo apt-get install -y r-base gdebi-core \
     && wget https://download2.rstudio.org/server/bionic/amd64/rstudio-server-1.4.1103-amd64.deb \
     && sudo gdebi -n rstudio-server-1.4.1103-amd64.deb \
+    && sudo R -e "tinytex::install_tinytex()" \
     && sudo groupadd rstudio-users \
     && sudo usermod -a -G rstudio-users gitpod \
     && sudo touch /etc/rstudio/rserver.conf \
     && sudo bash -c "echo auth-required-user-group=rstudio-users >> /etc/rstudio/rserver.conf" \
     && sudo bash -c "echo R_LIBS=/workspace/R/library >> /etc/R/Renviron.site" \
     && sudo bash -c "echo R_LIBS_USER=/workspace/R/library >> /etc/R/Renviron.site" \
-    && sudo bash -c "echo 'setwd(\"/workspace/atlanta-shore\")' >> /etc/R/Rprofile.site" \
-    && sudo R -e "tinytex::install_tinytex()"
+    && sudo bash -c "echo 'setwd(\"/workspace/atlanta-shore\")' >> /etc/R/Rprofile.site"
