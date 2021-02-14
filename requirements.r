@@ -1,4 +1,5 @@
 # Package list
+dir.create(".R/")
 install.packages(c(
     "base64enc", 
     "digest", 
@@ -16,4 +17,4 @@ install.packages(c(
     "stringi", 
     "stringr", 
     "tinytex", 
-    "xfun"), lib="/workspace/R/library")
+    "xfun"), lib=".R/")

@@ -1,20 +1,21 @@
 image:
   file: .gitpod.Dockerfile
 
-
 tasks:
-  # The python modules survive a restart because they are in the user director
-  # The data
+  # Ensure that the Python Modules and R packages are installed.
   - init: |
-      pip3 install -r requirements.txt
+      python -m pip install virtualenv
+      virtualenv .venv
+      source .venv/bin/activate
+      pip install -r requirements.txt
       make dataset
-
-    command: |
-      sudo usermod -a -G rstudio-users gitpod
-      sudo usermod -a -G staff gitpod
-      sudo mkdir -p /workspace/R/library
       Rscript requirements.r
+  # Start up the rstudio-server with permissions for the `gitpod` user. 
+  - command: |
       echo 'eval "$(starship init bash)"' >> $HOME/.bashrc
+      source $HOME/.bashrc
+      source .venv/bin/activate
+      sudo usermod -a -G rstudio-users gitpod
       sudo usermod --password $(openssl passwd -1 $RSTUDIO_PASSWORD) gitpod
       sudo rstudio-server restart
 
