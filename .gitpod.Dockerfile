@@ -12,4 +12,5 @@ RUN sudo apt-get update \
     && sudo bash -c "echo auth-required-user-group=rstudio-users >> /etc/rstudio/rserver.conf" \
     && sudo bash -c "echo R_LIBS=/workspace/R/library >> /etc/R/Renviron.site" \
     && sudo bash -c "echo R_LIBS_USER=/workspace/R/library >> /etc/R/Renviron.site" \
-    && sudo bash -c "echo 'setwd(\"/workspace/atlanta-shore\")' >> /etc/R/Rprofile.site" 
+    && sudo bash -c "echo 'setwd(\"/workspace/atlanta-shore\")' >> /etc/R/Rprofile.site" \
+    && sudo R -e "tinytex::install_tinytex()""

@@ -17,5 +17,3 @@ install.packages(c(
     "stringr"  , 
     "tinytex"  , 
     "xfun"))
-
-tinytex::install_tinytex()
