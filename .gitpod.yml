@@ -11,10 +11,11 @@ tasks:
       make dataset
       Rscript requirements.r
   # Start up the rstudio-server with permissions for the `gitpod` user. 
-  - command: |
+    command: |
       echo 'eval "$(starship init bash)"' >> $HOME/.bashrc
       source $HOME/.bashrc
       source .venv/bin/activate
+      echo R_LIBS_USER=$GITPOD_REPO_ROOT/.R >> /home/gitpod/.Renviron
       sudo usermod -a -G rstudio-users gitpod
       sudo usermod --password $(openssl passwd -1 $RSTUDIO_PASSWORD) gitpod
       sudo rstudio-server restart
