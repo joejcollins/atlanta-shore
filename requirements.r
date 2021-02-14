@@ -18,3 +18,4 @@ install.packages(c(
     "stringr", 
     "tinytex", 
     "xfun"), lib=".R/")
+tinytex::install_tinytex(force=TRUE, dir="/home/gitpod/.TinyTeX")
