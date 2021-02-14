@@ -4,12 +4,13 @@ image:
 tasks:
   - init: |
       pip3 install -r requirements.txt
+      Rscript requirements.r
       make dataset
 
   - command: |
       echo 'eval "$(starship init bash)"' >> $HOME/.bashrc
       sudo usermod --password $(openssl passwd -1 $RSTUDIO_PASSWORD) gitpod
-      sudo rstudio-server start
+      sudo rstudio-server restart
 
 ports:
   - port: 8787
