@@ -5,15 +5,15 @@ image:
 tasks:
   # The python modules survive a restart because they are in the user director
   # The data
-  - before: |
-      sudo mkdir -p /workspace/R/library
-
-    init: |
+  - init: |
       pip3 install -r requirements.txt
-      Rscript requirements.r
       make dataset
 
     command: |
+      sudo usermod -a -G rstudio-users gitpod
+      sudo usermod -a -G staff gitpod
+      sudo mkdir -p /workspace/R/library
+      Rscript requirements.r
       echo 'eval "$(starship init bash)"' >> $HOME/.bashrc
       sudo usermod --password $(openssl passwd -1 $RSTUDIO_PASSWORD) gitpod
       sudo rstudio-server restart
