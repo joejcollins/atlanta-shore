@@ -2,21 +2,15 @@ image:
   file: .gitpod.Dockerfile
 
 tasks:
-  # Ensure that the Python Modules and R packages are installed.
   - init: |
-      python -m pip install virtualenv
-      virtualenv .venv
-      source .venv/bin/activate
-      echo "include-system-site-packages = true" >> .venv/pyvenv.cfg
-      pip install -r requirements.txt
-      make dataset
-      Rscript requirements.r
-  # Start up the rstudio-server with permissions for the `gitpod` user. 
+      mkdir -p ../.R/library
+      sudo Rscript requirements.r
+      pip3 install -r requirements.txt
+      make
     command: |
       echo 'eval "$(starship init bash)"' >> $HOME/.bashrc
       source $HOME/.bashrc
-      source .venv/bin/activate
-      sudo bash -c "echo R_LIBS_USER=$GITPOD_REPO_ROOT/.R/library > /home/gitpod/.Renviron"
+      sudo bash -c "echo R_LIBS_USER=$GITPOD_REPO_ROOT/../.R/library > /home/gitpod/.Renviron"
       sudo bash -c "echo 'setwd(\"$GITPOD_REPO_ROOT\")' > /home/gitpod/.Rprofile"
       sudo usermod -a -G rstudio-users gitpod
       sudo usermod --password $(openssl passwd -1 $RSTUDIO_PASSWORD) gitpod
@@ -36,3 +30,4 @@ vscode:
     - streetsidesoftware.code-spell-checker
     - ms-python.python
     - Ikuyadeu.r
+    - efoerster.texlab
