@@ -14,7 +14,7 @@ tasks:
       sudo bash -c "echo 'setwd(\"$GITPOD_REPO_ROOT\")' > /home/gitpod/.Rprofile"
       sudo usermod -a -G rstudio-users gitpod
       sudo usermod --password $(openssl passwd -1 $RSTUDIO_PASSWORD) gitpod
-      # sudo rstudio-server restart
+      sudo rstudio-server restart
 
 ports:
   - port: 8787
