@@ -10,6 +10,26 @@
         "**/__pycache__": true,
         "**/.pytest_cache": true
     },
+    "latex-workshop.latex.autoBuild.run": "onSave",
+    "latex-workshop.latex.recipes": [
+        {
+          "name": "pdflatex",
+          "tools": [
+            "pdflatex"
+          ]
+        }
+      ],
+    "latex-workshop.latex.tools": [
+    {
+        "name": "pdflatex",
+        "command": "pdflatex",
+        "args": [
+        "-synctex=1",
+        "-interaction=nonstopmode",
+        "%DOC%"
+        ]
+    }
+    ],
     "python.linting.enabled": true,
     "python.linting.pylintEnabled": false,
     "python.linting.pylintUseMinimalCheckers": false,
@@ -18,5 +38,9 @@
     "editor.minimap.enabled": false,
     "python.linting.flake8Enabled": true,
     "python.pythonPath": "/home/gitpod/.pyenv/versions/3.6.10/bin/python",
-    "workbench.colorTheme": "Default Dark+"
+    "workbench.colorTheme": "Default Dark+",
+    "workbench.editorAssociations": {
+      "*.md": "default",
+      "*.pdf": "cweijan.officeViewer"
+    },
 }

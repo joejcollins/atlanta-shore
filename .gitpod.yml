@@ -31,4 +31,5 @@ vscode:
     - streetsidesoftware.code-spell-checker
     - ms-python.python
     - Ikuyadeu.r
-    - efoerster.texlab
+    - james-yu.latex-workshop
+    - cweijan.vscode-office
