@@ -5,6 +5,7 @@ tasks:
   - init: |
       mkdir -p ../.R/library
       sudo Rscript requirements.r
+      pyenv global 3.6.10
       pip install -r requirements.txt
       make
     command: |
