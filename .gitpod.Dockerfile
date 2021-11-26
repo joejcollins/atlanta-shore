@@ -1,6 +1,6 @@
-FROM gitpod/workspace-full
+FROM gitpod/workspace-full:latest
 
-# Install LaTeX and R Server
+# Install LaTeX, R Server, Python and Starship
 RUN sudo apt-get -q update \
  && sudo apt-get install -yq texlive-latex-extra  \
  && sudo apt-get install -y r-base gdebi-core \
@@ -10,4 +10,5 @@ RUN sudo apt-get -q update \
  && sudo groupadd rstudio-users \
  && sudo touch /etc/rstudio/rserver.conf \
  && sudo bash -c "echo auth-required-user-group=rstudio-users >> /etc/rstudio/rserver.conf" \
+ && pyenv install 3.6.10 \
  && curl -fsSL https://starship.rs/install.sh | bash -s -- --yes
