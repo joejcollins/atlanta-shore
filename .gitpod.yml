@@ -27,8 +27,10 @@ ports:
 
 vscode:
   extensions:
-    - eamodio.gitlens
-    - streetsidesoftware.code-spell-checker
-    - ms-python.python
     - Ikuyadeu.r
     - james-yu.latex-workshop
+    - ms-python.python
+    - streetsidesoftware.code-spell-checker
+
+
+

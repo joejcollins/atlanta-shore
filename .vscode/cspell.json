@@ -17,6 +17,7 @@
         "funcs",
         "getenv",
         "GUIDs",
+        "Ikuyadeu",
         "ldap",
         "lineinfile",
         "lpass",
