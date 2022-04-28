@@ -31,13 +31,23 @@
     }
     ],
     "python.linting.enabled": true,
+    "python.formatting.provider": "black",
+    "python.formatting.blackArgs": [
+      "--line-length",
+      "110"
+    ],
+    "python.linting.flake8Enabled": true,
+    "python.linting.flake8Args": [
+      "--max-line-length=110"
+    ],
+    "python.linting.mypyEnabled": true,
+    "editor.rulers": [110],
     "python.linting.pylintEnabled": false,
     "python.linting.pylintUseMinimalCheckers": false,
     "editor.detectIndentation": true,
     "python.languageServer": "Jedi",
     "editor.minimap.enabled": false,
-    "python.linting.flake8Enabled": true,
-    "python.pythonPath": "/home/gitpod/.pyenv/versions/3.6.10/bin/python",
+    "python.defaultInterpreterPath": "/home/gitpod/.pyenv/versions/3.6.10/bin/python",
     "workbench.colorTheme": "Default Dark+",
     "workbench.editorAssociations": {
       "*.md": "default",

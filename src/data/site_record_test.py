@@ -22,7 +22,7 @@ species,Urtica dioica,
 
 
 def test_site_record():
-    """ Read in a site record and confirm attributes. """
+    """Read in a site record and confirm attributes."""
     the_site_record = site_record.SiteRecord(SITE_RECORD_STRING)
     assert the_site_record.quadrat == 3
     assert the_site_record.waypoint == 1
