@@ -1,0 +1,41 @@
+[project]
+name = "atlanta-shore"
+version = "0.1.0"
+description = "Spains Hall data and analysis."
+authors = [
+    "Joe Collins <joejcollins@gmail.com>",
+    "Mags Cousins <magscousins@hotmail.com>"
+]
+license = "MIT"
+readme = "README.md"
+python = "^3.6"
+homepage = "https://github.com/joejcollins/atlanta-shore"
+repository = "https://github.com/joejcollins/atlanta-shore"
+documentation = "https://github.com/joejcollins/atlanta-shore"
+
+# Requirements
+[dependencies]
+Click = "^7.0"
+
+[dev-dependencies]
+black = { version = "^18.3-alpha.0", python = "^3.6" }
+
+[tools.flake8]
+max-complexity = 10
+max-line-length = 110
+exclude =
+    .git
+    .pytest_cache
+    .vscode
+    __pycache__
+select =
+    E # pep8 errors
+    F # pyflakes errors
+    W # pep8 warnings
+    B # flake8-bugbear warnings
+ignore =
+    E501 # "Line lengths are recommended to be no greater than 79 characters"
+    E203 # "Whitespace before ':'": conflicts with black
+    W503 # "line break before binary operator": conflicts with black
+per-file-ignores =
+    __init__.py:F401
