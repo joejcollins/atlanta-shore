@@ -8,22 +8,22 @@ tasks:
       pyenv global 3.6.10
       pip install -r requirements.txt
       make
-    command: |
-      echo 'eval "$(starship init bash)"' >> $HOME/.bashrc
-      source $HOME/.bashrc
-      sudo bash -c "echo R_LIBS_USER=$GITPOD_REPO_ROOT/../.R/library > /home/gitpod/.Renviron"
-      sudo bash -c "echo 'setwd(\"$GITPOD_REPO_ROOT\")' > /home/gitpod/.Rprofile"
-      sudo usermod -a -G rstudio-users gitpod
-      sudo usermod --password $(openssl passwd -1 $RSTUDIO_PASSWORD) gitpod
-      sudo rstudio-server restart
+    # command: |
+    #   echo 'eval "$(starship init bash)"' >> $HOME/.bashrc
+    #   source $HOME/.bashrc
+    #   sudo bash -c "echo R_LIBS_USER=$GITPOD_REPO_ROOT/../.R/library > /home/gitpod/.Renviron"
+    #   sudo bash -c "echo 'setwd(\"$GITPOD_REPO_ROOT\")' > /home/gitpod/.Rprofile"
+    #   sudo usermod -a -G rstudio-users gitpod
+    #   sudo usermod --password $(openssl passwd -1 $RSTUDIO_PASSWORD) gitpod
+    #   sudo rstudio-server restart
 
-ports:
-  - port: 8787
-    onOpen: open-browser
-  - port: 3000-8786
-    onOpen: ignore
-  - port: 8786-15000
-    onOpen: ignore
+# ports:
+#   - port: 8787
+#     onOpen: open-browser
+#   - port: 3000-8786
+#     onOpen: ignore
+#   - port: 8786-15000
+#     onOpen: ignore
 
 vscode:
   extensions:
