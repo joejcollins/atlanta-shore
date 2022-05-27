@@ -13,7 +13,7 @@ more-itertools==8.1.0
 mypy==0.950
 packaging==20.0
 pluggy==0.13.1
-py==1.8.1
+py==1.10.0
 pycodestyle==2.8.0
 pyflakes==2.4.0
 pylint==2.4.4
