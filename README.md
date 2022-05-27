@@ -20,9 +20,9 @@ and transformed their environment to suit their needs.
 Every year a botanical survey has been conducted to monitor how the botany
 of the beaver introduction site has been transformed under beaver management.
 
-<img src="./docs/images/data-management.jpg" alt="survey" width="200"/>
-
 ## Analysis in Action
+
+<img src="./docs/images/data-management.jpg" alt="survey" width="200"/>
 
 This is an on going study and the progress of the analysis in Open Source.
 You can take and look an run the analyses yourself at
