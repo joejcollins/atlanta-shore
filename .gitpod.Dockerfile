@@ -10,5 +10,4 @@ RUN sudo apt-get -q update \
  && sudo groupadd rstudio-users \
  && sudo touch /etc/rstudio/rserver.conf \
  && sudo bash -c "echo auth-required-user-group=rstudio-users >> /etc/rstudio/rserver.conf" \
- && pyenv install 3.6.10 \
  && curl -fsSL https://starship.rs/install.sh | bash -s -- --yes

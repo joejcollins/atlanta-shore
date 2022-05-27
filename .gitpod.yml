@@ -2,15 +2,19 @@ image:
   file: .gitpod.Dockerfile
 
 tasks:
-  - init: |
+  - name: Initialize R and Python
+    init: |
       mkdir -p ../.R/library
       sudo Rscript requirements.r
-      pyenv global 3.6.10
-      pip install -r requirements.txt
+      virtualenv .venv
+      . .venv/bin/activate
+      pip install --upgrade pip setuptools
+      pip install -Ur requirements-no-versions.txt
+      pip freeze > requirements.txt
       make
-    # command: |
-    #   echo 'eval "$(starship init bash)"' >> $HOME/.bashrc
-    #   source $HOME/.bashrc
+    command: |
+      echo 'eval "$(starship init bash)"' >> $HOME/.bashrc
+      source $HOME/.bashrc
     #   sudo bash -c "echo R_LIBS_USER=$GITPOD_REPO_ROOT/../.R/library > /home/gitpod/.Renviron"
     #   sudo bash -c "echo 'setwd(\"$GITPOD_REPO_ROOT\")' > /home/gitpod/.Rprofile"
     #   sudo usermod -a -G rstudio-users gitpod

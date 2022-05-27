@@ -1,0 +1,5 @@
+black
+debugpy
+lxml
+mypy
+pytest
