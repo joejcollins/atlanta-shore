@@ -13,8 +13,6 @@ tasks:
       pip freeze > requirements.txt
       make
     command: |
-      echo 'eval "$(starship init bash)"' >> $HOME/.bashrc
-      source $HOME/.bashrc
       sudo bash -c "echo R_LIBS_USER=$GITPOD_REPO_ROOT/../.R/library > /home/gitpod/.Renviron"
       sudo bash -c "echo 'setwd(\"$GITPOD_REPO_ROOT\")' > /home/gitpod/.Rprofile"
       sudo usermod -a -G rstudio-users gitpod
