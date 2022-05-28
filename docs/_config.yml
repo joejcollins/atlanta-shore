@@ -1,6 +1,5 @@
 # SITE CONFIGURATION
-baseurl: "" # the sub path of your site, e.g. /blog/
-url: "0.0.0.0" # the base hostname & protocol for your site
+baseurl: "/atlanta-shore" # the sub path of your site, e.g. /blog/
 
 # THEME-SPECIFIC CONFIGURATION
 theme_settings:

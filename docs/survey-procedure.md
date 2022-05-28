@@ -3,6 +3,7 @@ layout: default
 title: Survey Procedure
 navigation_weight: 2
 ---
+# Survey Procedure
 
 * Use *viewranger*, to navigate to the nearest unsurveyed sample site.
 * Mark the sample site in *viewranger* by changing the icon.
