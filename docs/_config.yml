@@ -1,6 +1,6 @@
 # SITE CONFIGURATION
 
-url: https://joejcollins.github.io/
+url: https://joejcollins.github.io
 baseurl: /atlanta-shore # the sub path of your site, e.g. /blog/
 
 # THEME-SPECIFIC CONFIGURATION

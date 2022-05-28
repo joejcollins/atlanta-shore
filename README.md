@@ -12,6 +12,4 @@ and transformed their environment to suit their needs.
 Every year a botanical survey has been conducted to monitor how the botany
 of the beaver introduction site has been transformed under beaver management.
 
-This is an on going study and both the data and analysis in Open Source.
-You can take and look an run the analyses yourself at
-<https://gitpod.io/#https://github.com/joejcollins/atlanta-shore>.
+This is an on going study and both the data and analysis are Open Source.
