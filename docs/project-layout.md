@@ -1,7 +1,8 @@
 ---
+layout: default
 title: Project Layout
+navigation_weight: 2
 ---
-
 ## Survey Prep
 
 * python ./src/data/add_id_to_waypoints.py

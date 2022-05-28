@@ -1,6 +1,7 @@
 ---
-permalink: /index.html
+layout: default
 title: Home
+navigation_weight: 1
 ---
 
 * [Survey Location Map]({{ site.baseurl }}/survey-location/)

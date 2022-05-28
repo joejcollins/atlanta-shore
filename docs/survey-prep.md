@@ -1,5 +1,7 @@
 ---
-title: Survey Preparation
+layout: default
+title: Survey Prep
+navigation_weight: 2
 ---
 
 * grid of points with QGIS

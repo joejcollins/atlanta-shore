@@ -1,5 +1,7 @@
 ---
+layout: default
 title: Survey Data Handling
+navigation_weight: 2
 ---
 
 ## View Ranger

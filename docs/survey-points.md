@@ -1,5 +1,7 @@
 ---
+layout: default
 title: Survey Points
+navigation_weight: 2
 ---
 # Survey Points
 

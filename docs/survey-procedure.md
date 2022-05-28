@@ -1,5 +1,7 @@
 ---
+layout: default
 title: Survey Procedure
+navigation_weight: 2
 ---
 
 * Use *viewranger*, to navigate to the nearest unsurveyed sample site.

@@ -1,7 +1,8 @@
 ---
+layout: default
 title: Location
+navigation_weight: 2
 ---
-# Location
 
 Survey area.
 
