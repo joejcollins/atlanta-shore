@@ -45,7 +45,7 @@
             p.navigation_weight %}
             <li class="nav-item">
               <a
-                href="{{ p.url }}"
+                href="{{ site.baseurl | p.url }}"
                 class="nav-link{% if p.url == page.url %} active{% endif %}"
               >
                 {{ p.title }}

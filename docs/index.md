@@ -3,11 +3,20 @@ layout: default
 title: Home
 navigation_weight: 1
 ---
+# Beavers, Botany and Biodiversity
 
-* [Survey Location Map]({{ site.baseurl }}/survey-location/)
-* [QGIS Setup Notes]({{ site.baseurl }}/QGIS/)
-* [Survey Sample Points]({{ site.baseurl }}/survey-points/)
-* [Survey Preparation]({{ site.baseurl }}/survey-prep/)
-* [Survey Procedure]({{ site.baseurl }}/survey-procedure/)
-* [Data Entry]({{ site.baseurl }}/data-entry/)
-* [Development Environment]({{ site.baseurl }}/development/)
+A volunteer lead study of the effects of the introduction of beavers
+on botanical biodiversity.
+
+Beavers were reintroduced to the [Spains Hall Estate](https://www.spainshallestate.co.uk/nfm_beavers)
+in 2019 
+as part of a re-wilding and natural flood management programme.
+Since then the beavers have started a family
+and transformed their environment to suit their needs.
+
+Every year a botanical survey has been conducted to monitor how the botany
+of the beaver introduction site has been transformed under beaver management.
+
+This is an on going study and both the data and analysis in Open Source.
+You can take and look an run the analyses yourself at
+<https://gitpod.io/#https://github.com/joejcollins/atlanta-shore>.

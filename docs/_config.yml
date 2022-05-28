@@ -1,22 +1,10 @@
-theme: jekyll-theme-slate
-timezone: GMT
-header_pages:
-  - QGIS.md
-  - survey.md
+# SITE CONFIGURATION
+baseurl: "" # the sub path of your site, e.g. /blog/
+url: "0.0.0.0" # the base hostname & protocol for your site
 
-# Permalinks
-permalink: pretty
+# THEME-SPECIFIC CONFIGURATION
+theme_settings:
+  # Meta
+  title: Beavers and Botany
 
-# Conversion
-markdown:         kramdown
-highlighter:      rouge
-
-# Markdown Processor
-kramdown:
-  auto_ids: true
-  input: GFM
-  hard_wrap: false
-
-plugins:
-   - jekyll-paginate
-   - jekyll-sitemap
+timezone: Europe/London
