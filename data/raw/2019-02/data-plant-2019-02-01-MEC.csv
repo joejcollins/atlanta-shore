@@ -400,7 +400,7 @@ species,Glechoma hederacea,
 ,Salix cinerea,
 ,Geranium robertianum,
 ,Adoxa moschatellina,
-,Poa trivialis,Initially determined as P.nemoralis
+,Poa trivialis,Initially determined as P.nemoralis but this was incorrect
 ,Kindbergia praelonga,
 ,Brachythecium rutabulum,
 quadrat,25,
@@ -419,7 +419,7 @@ species,Mercurialis perennis,
 ,Acer campestre,
 ,Kindbergia praelonga,
 ,Brachythecium rutabulum,
-,Poa trivialis,Initially determined as P.nemoralis
+,Poa trivialis,Initially determined as P.nemoralis but this was incorrect
 quadrat,8,
 waypoint,47,
 grid_reference,TL6784833153,

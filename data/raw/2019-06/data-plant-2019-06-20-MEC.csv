@@ -44,7 +44,7 @@ grid_reference,TL6769833299,
 photo_up,P6200005,
 photo_down,P6200006,
 wetness,2,
-canopy,40,"quadrat had bare ground and disturbance with puddle, near fence, Galium saxatile unlikely changed to Galium sp."
+canopy,40,
 species,Anisantha sterilis,
 ,Galium aparine,
 ,Carex acutiformis,
@@ -55,7 +55,7 @@ species,Anisantha sterilis,
 ,Angelica sylvestris,
 ,Urtica dioica,
 ,Ranunculus repens,
-,Galium sp.,"poor specimen,  indeterminate"
+,Galium sp.,"poor specimen,  unable to determinate with confidence"
 ,Cirsium palustre,
 ,Rubus fruticosus agg.,
 ,Holcus lanatus,
