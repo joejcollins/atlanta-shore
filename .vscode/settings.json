@@ -1,4 +1,6 @@
 {
+    "editor.rulers": [88],
+    "python.linting.pylintEnabled": false,
     "python.testing.pytestEnabled": true,
     "python.testing.unittestEnabled": false,
     "python.testing.pytestArgs": [
@@ -31,19 +33,13 @@
     ],
     "python.linting.enabled": true,
     "python.formatting.provider": "black",
-    "python.formatting.blackArgs": [
-      "--line-length",
-      "110"
-    ],
     "python.linting.flake8Enabled": true,
     "python.linting.flake8Args": [
-      "--max-line-length=110"
+      "--max-line-length=88"
     ],
     "python.linting.mypyEnabled": true,
-    "editor.rulers": [110],
-    "python.linting.pylintEnabled": false,
     "editor.detectIndentation": true,
     "editor.minimap.enabled": false,
     "workbench.colorTheme": "Visual Studio Light",
-    "python.defaultInterpreterPath": ".venv/Scripts/python"
+    "python.defaultInterpreterPath": ".venv/bin/python"
 }
