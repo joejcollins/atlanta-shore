@@ -23,6 +23,7 @@
         "lineinfile",
         "lpass",
         "organisation",
+        "prebuilds",
         "pyenv",
         "pylint",
         "pytest",
