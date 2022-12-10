@@ -9,7 +9,7 @@ tasks:
       sudo Rscript requirements.r
     command: |
       sudo bash -c "echo R_LIBS_USER=$GITPOD_REPO_ROOT/../.R/library > /home/gitpod/.Renviron"
-      ln -s /workspace/captain-scarlet /home/gitpod/captain-scarlet
+      ln -s /workspace/atlanta-shore /home/gitpod/atlanta-shore
       # https://stackoverflow.com/questions/47541007/how-to-i-bypass-the-login-page-on-rstudio
       sudo usermod -a -G sudo gitpod
       sudo bash -c "echo 'server-user=gitpod' >> /etc/rstudio/rserver.conf"
