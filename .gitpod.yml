@@ -1,38 +1,43 @@
+---
 image:
   file: .gitpod.Dockerfile
 
 tasks:
-  - name: Initialize R and Python
+  - name: R Setup
     init: |
       mkdir -p ../.R/library
       sudo Rscript requirements.r
-      virtualenv .venv
+    command: |
+      sudo bash -c "echo R_LIBS_USER=$GITPOD_REPO_ROOT/../.R/library > /home/gitpod/.Renviron"
+      ln -s /workspace/captain-scarlet /home/gitpod/captain-scarlet
+      # https://stackoverflow.com/questions/47541007/how-to-i-bypass-the-login-page-on-rstudio
+      sudo usermod -a -G sudo gitpod
+      sudo bash -c "echo 'server-user=gitpod' >> /etc/rstudio/rserver.conf"
+      sudo bash -c "echo 'auth-none=1' >> /etc/rstudio/rserver.conf"
+      # Restart the rserver with sudo otherwise it won't run for the gitpod user (dunno why)
+      sudo rserver
+      sudo pkill rserver
+  - name: Python setup
+    init: |
+      python3 -m venv .venv
       . .venv/bin/activate
       pip install --upgrade pip setuptools
       pip install -Ur requirements-no-versions.txt
       pip freeze > requirements.txt
-      make
     command: |
-      sudo bash -c "echo R_LIBS_USER=$GITPOD_REPO_ROOT/../.R/library > /home/gitpod/.Renviron"
-      sudo bash -c "echo 'setwd(\"$GITPOD_REPO_ROOT\")' > /home/gitpod/.Rprofile"
-      sudo usermod -a -G rstudio-users gitpod
-      sudo usermod --password $(openssl passwd -1 $RSTUDIO_PASSWORD) gitpod
-    #   sudo rstudio-server restart
+      alias python='python3'
 
-# ports:
-#   - port: 8787
-#     onOpen: open-browser
-#   - port: 3000-8786
-#     onOpen: ignore
-#   - port: 8786-15000
-#     onOpen: ignore
+ports:
+  - port: 8787
+    onOpen: open-browser
+  - port: 3000-8786
+    onOpen: ignore
+  - port: 8786-15000
+    onOpen: ignore
 
 vscode:
   extensions:
-    - Ikuyadeu.r
+    - reditorsupport.r
     - james-yu.latex-workshop
     - ms-python.python
     - streetsidesoftware.code-spell-checker
-
-
-
