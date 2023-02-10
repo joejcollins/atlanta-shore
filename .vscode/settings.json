@@ -41,5 +41,8 @@
     "editor.detectIndentation": true,
     "editor.minimap.enabled": false,
     "workbench.colorTheme": "Visual Studio Light",
-    "python.defaultInterpreterPath": ".venv/bin/python"
+    "python.defaultInterpreterPath": ".venv/bin/python",
+    "python.terminal.activateEnvironment": true,
+    "terminal.integrated.defaultProfile.linux": "bash",
+
 }
