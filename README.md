@@ -1,5 +1,7 @@
 # Beavers, Botany and Biodiversity
 
+## Background
+
 A volunteer lead study of the effects of the introduction of beavers
 on botanical biodiversity.
 
@@ -12,4 +14,13 @@ and transformed their environment to suit their needs.
 Every year a botanical survey has been conducted to monitor how the botany
 of the beaver introduction site has been transformed under beaver management.
 
-This is an on going study and both the data and analysis are Open Source.
+## Data and Analysis
+
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#github.com/joejcollins/atlanta-shore)
+
+To use Rstudio run `rserver` in the VSCode terminal.
+
+Take a look at <https://github.com/tgrrr/cookiecutter-data-science-r> and
+<https://github.com/drivendata/cookiecutter-data-science>.
+
+Documents at <https://joejcollins.github.io/captain-scarlet/>.

@@ -1,30 +1,31 @@
-# Makefile
-# *remember to use tabs as separator*
-.venv/touchfile: requirements.txt
-	test -d .venv || virtualenv .venv
-	. .venv/bin/activate; pip install --upgrade pip setuptools
-	. .venv/bin/activate; pip install -Ur requirements.txt
-	# Script to start flask
-	@echo "#\!/bin/bash" > .venv/flask.sh
-	@echo ". .venv/bin/activate" >> .venv/flask.sh
-	@echo "export FLASK_APP=flask_app" >> .venv/flask.sh
-	@echo "export FLASK_ENV=development"  >> .venv/flask.sh
-	@echo "flask run"  >> .venv/flask.sh
-	chmod u+x .venv/flask.sh
-	# Done now
-	touch .venv/touchfile
+# Consistent set of make tasks.
+.DEFAULT_GOAL:= help  # because it's is a safe task.
 
-test: venv
-	. .venv/bin/activate; pytest
-
-clean:
+clean:  # Remove all build, test, coverage and Python artifacts.
 	rm -rf .venv
 	find . -name "*.pyc" -exec rm -f {} \;
 	find . -type f -name "*.py[co]" -delete -or -type d -name "__pycache__" -delete
 
+compile:  # Compile the requirements files using pip-tools.
+	. .venv/bin/activate; python -m pip install pip-tools
+	. .venv/bin/activate; python -m piptools compile -o requirements.txt pyproject.toml && echo "-e ." >> requirements.txt
+
+.PHONY: help
+help: # Show help for each of the makefile recipes.
+	@grep -E '^[a-zA-Z0-9 -]+:.*#'  makefile | sort | while read -r l; do printf "\033[1;32m$$(echo $$l | cut -f 1 -d':')\033[00m:$$(echo $$l | cut -f 2- -d'#')\n"; done
 
 survey-prep:
 	. .venv/bin/activate; python ./src/data/add_id_to_waypoints.py
 
 dataset:
 	. .venv/bin/activate; python ./src/data/make_dataset.py
+
+requirements:  # Install the requirements for Python and R.
+	python3 -m venv .venv
+	. .venv/bin/activate; python -m pip install --upgrade pip setuptools
+	. .venv/bin/activate; python -m pip install -r requirements.txt
+	sudo Rscript "setup.R"
+
+test:  # Run the tests.
+	. .venv/bin/activate; python -m pytest ./src_python/pytest_unit
+	Rscript -e "testthat::test_dir('src_r/tests')"

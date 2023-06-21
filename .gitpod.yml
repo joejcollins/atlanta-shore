@@ -3,29 +3,21 @@ image:
   file: .gitpod.Dockerfile
 
 tasks:
-  - name: R Setup
-    init: |
-      mkdir -p ../.R/library
-      sudo Rscript requirements.r
-    command: |
-      sudo bash -c "echo R_LIBS_USER=$GITPOD_REPO_ROOT/../.R/library > /home/gitpod/.Renviron"
-      ln -s /workspace/atlanta-shore /home/gitpod/atlanta-shore
-      # https://stackoverflow.com/questions/47541007/how-to-i-bypass-the-login-page-on-rstudio
-      sudo usermod -a -G sudo gitpod
-      sudo bash -c "echo 'server-user=gitpod' >> /etc/rstudio/rserver.conf"
-      sudo bash -c "echo 'auth-none=1' >> /etc/rstudio/rserver.conf"
-      # Restart the rserver with sudo otherwise it won't run for the gitpod user (dunno why)
-      sudo rserver
-      sudo pkill rserver
-  - name: Python setup
-    init: |
-      python3 -m venv .venv
-      . .venv/bin/activate
-      pip install --upgrade pip setuptools
-      pip install -Ur requirements-no-versions.txt
-      pip freeze > requirements.txt
-    command: |
-      alias python='python3'
+- name: R and Python setup
+  init: |
+    mkdir -p ../.R/library
+    make requirements
+  command: |
+    sudo bash -c "echo R_LIBS_USER=$GITPOD_REPO_ROOT/../.R/library > /home/gitpod/.Renviron"
+    ln -s /workspace/captain-scarlet /home/gitpod/captain-scarlet
+    # https://stackoverflow.com/questions/47541007/how-to-i-bypass-the-login-page-on-rstudio
+    sudo usermod -a -G sudo gitpod
+    sudo bash -c "echo 'server-user=gitpod' >> /etc/rstudio/rserver.conf"
+    sudo bash -c "echo 'auth-none=1' >> /etc/rstudio/rserver.conf"
+    # Restart the rserver with sudo otherwise it won't run for the gitpod user (dunno why)
+    sudo rserver
+    sudo pkill rserver
+    alias python='python3'
 
 ports:
   - port: 8787
@@ -37,10 +29,14 @@ ports:
 
 vscode:
   extensions:
-    - reditorsupport.r
-    - james-yu.latex-workshop
+    - bungcip.better-toml
+    - eamodio.gitlens
     - ms-python.python
+    - ms-python.isort
+    - RDebugger.r-debugger
+    - reditorsupport.r
     - streetsidesoftware.code-spell-checker
+    - sourcery.sourcery
 
 github:
   prebuilds:

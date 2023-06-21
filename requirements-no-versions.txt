@@ -1,7 +1,0 @@
-black
-debugpy
-flake8
-lxml
-mypy
-pytest
-OSGridConverter

@@ -31,6 +31,7 @@
         ]
     }
     ],
+    "python.terminal.activateEnvironment": true,
     "python.linting.enabled": true,
     "python.formatting.provider": "black",
     "python.linting.flake8Enabled": true,
@@ -42,7 +43,7 @@
     "editor.minimap.enabled": false,
     "workbench.colorTheme": "Visual Studio Light",
     "python.defaultInterpreterPath": ".venv/bin/python",
-    "python.terminal.activateEnvironment": true,
     "terminal.integrated.defaultProfile.linux": "bash",
-
+    "r.bracketedPaste": true,
+    "r.rterm.linux": ".venv/bin/radian"
 }
