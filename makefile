@@ -27,5 +27,5 @@ requirements:  # Install the requirements for Python and R.
 	sudo Rscript "setup.R"
 
 test:  # Run the tests.
-	. .venv/bin/activate; python -m pytest ./src_python/pytest_unit
-	Rscript -e "testthat::test_dir('src_r/tests')"
+	. .venv/bin/activate; python -m pytest ./tests/pytest
+	Rscript -e "testthat::test_dir('tests')"
