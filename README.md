@@ -1,4 +1,4 @@
-# Beavers, Botany and Biodiversity
+# Beavers and Botany
 
 ## Background
 
