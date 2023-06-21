@@ -25,6 +25,7 @@ dependencies = [
     "mypy",
     "pip-tools", # used to manage requirements.txt.
     "pytest",  # used for testing, not needed for production.
+    "radian",
     "ruff",
     "OSGridConverter"
 ]
