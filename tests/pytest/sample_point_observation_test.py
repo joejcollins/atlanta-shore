@@ -1,4 +1,6 @@
 """Test the Sample Point Observation class."""
+from datetime import date
+
 from python.models.sample_point_observation import SamplePointObservation
 
 OBSERVATION_STRING = """quadrat,49,
@@ -44,7 +46,20 @@ def test_as_csv() -> None:
     observation = SamplePointObservation.set_values_from_observation_csv(
         OBSERVATION_STRING
     )
+    observation.observation_date = date(2023, 6, 23)
     # Act
-    csv = observation.as_csv()
+    csv = observation.to_csv()
     # Assert
-    assert csv.startswith("shit")
+    assert csv.startswith("49, 2023-06-23, 1, TL6796833089, P6240001,")
+
+
+def test_csv_headers() -> None:
+    """Confirm that the correct headers are returned."""
+    # Arrange
+    observation = SamplePointObservation.set_values_from_observation_csv(
+        OBSERVATION_STRING
+    )
+    # Act
+    headers = observation.csv_headers()
+    # Assert
+    assert headers.startswith("sample_point_id, observation_date, garmin_waypoint_id")

@@ -1,10 +1,9 @@
 """Schema for an observation at a sampling point."""
 import csv
 from datetime import date
-from io import StringIO
 from typing import List, Optional
 
-from pydantic import BaseModel,  Field
+from pydantic import BaseModel, Field
 
 
 class SamplePointObservation(BaseModel):
@@ -14,7 +13,7 @@ class SamplePointObservation(BaseModel):
     were created in a hurry without due attention."""
 
     sample_point_id: int = Field(alias='quadrat')
-    observation_date: date = Optional[date]
+    observation_date: date = date(1970, 1, 1)
     garmin_waypoint_id: int = Field(alias="waypoint")  # Garmin Waypoints file.
     garmin_grid_ref: str = Field(alias="grid_reference")  # If the Garmin file fails.
     photo_up_id: str = Field(alias="photo_up")
@@ -44,14 +43,18 @@ class SamplePointObservation(BaseModel):
 
         return cls(**data)
 
-    def as_csv(self) -> str:
-        """Return the observation as csv."""
-        field_names = list(self.__fields__.keys())
-        data = [self.dict()]
-        csv_string = ''
+    def to_csv(self) -> str:
+        """Output as csv"""
+        field_values = []
+        for field_name, field_value in self.__dict__.items():
+            if field_name == 'observation_date':
+                field_value = field_value.isoformat()
+            elif isinstance(field_value, list):
+                field_value = '|'.join(map(str, field_value))
+            field_values.append(str(field_value))
+        return ', '.join(field_values)
 
-        with StringIO() as csv:
-            writer = csv.DictWriter(csv, fieldnames=field_names)
-            writer.writerows(data)
-            csv_string = csv.getvalue()
-        return csv_string
+    def csv_headers(self) -> str:
+        """Return the headers for a csv file"""
+        field_names = [field_name for field_name, field_value in self.__dict__.items()]
+        return ', '.join(field_names)
