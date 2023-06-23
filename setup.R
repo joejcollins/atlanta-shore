@@ -1,5 +1,5 @@
 # R package list
-.libPaths("../.R/library")
+.libPaths(".R/library")
 install.packages(c(
     "base64enc",
     "devtools",

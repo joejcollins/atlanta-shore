@@ -1,0 +1,14 @@
+Package: atlanta.shore
+Title: Beavers and Botany
+Version: 0.0.0.9000
+Authors@R: 
+    person("Joe", "Collins", , "joejcollins@gmail.com", role = c("aut", "cre"),
+           comment = c(ORCID = "0009-0004-5788-9856"))
+Description: Processing and analysis of the Spains Hall botanical data.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3

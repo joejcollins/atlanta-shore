@@ -23,6 +23,7 @@ dependencies = [
     "flake8",
     "lxml",  # for parsing GPX files.
     "mypy",
+    "pydantic",
     "pip-tools", # used to manage requirements.txt.
     "pytest",  # used for testing, not needed for production.
     "radian",
