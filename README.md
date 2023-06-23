@@ -23,4 +23,4 @@ To use Rstudio run `rserver` in the VSCode terminal.
 Take a look at <https://github.com/tgrrr/cookiecutter-data-science-r> and
 <https://github.com/drivendata/cookiecutter-data-science>.
 
-Documents at <https://joejcollins.github.io/captain-scarlet/>.
+Documents at <https://joejcollins.github.io/atlanta-shore/>.
