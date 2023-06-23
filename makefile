@@ -25,7 +25,7 @@ requirements:  # Install the requirements for Python and R.
 	. .venv/bin/activate; python -m pip install --upgrade pip setuptools
 	. .venv/bin/activate; python -m pip install -r requirements.txt
 	sudo Rscript "setup.R"
-	sudo Rscript -e ".libPaths(".R/library"); devtools::install()"
+	# sudo Rscript -e ".libPaths("../.R/library"); devtools::install()"
 
 test:  # Run the tests.
 	. .venv/bin/activate; python -m pytest ./tests/pytest
