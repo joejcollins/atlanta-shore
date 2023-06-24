@@ -8,7 +8,7 @@ class SurveyFileReader:
     def __init__(self, file_path: str) -> None:
         """Initialize with the survey file path."""
         # Open the file on initialization and ensure that there are no records yet.
-        self.file = open(file_path, 'r')
+        self.file = open(file_path, "r")
         self.current_record = None
         self.next_line = None  # So we can read ahead.
 
@@ -39,7 +39,7 @@ class SurveyFileReader:
             self.next_line = line  # Keep line in case it's needed for next record.
             # The species list is the last field in the record.
             field_name = self._field_name(line)
-            if field_name == 'species':
+            if field_name == "species":
                 record_lines += line
                 species_found = True
             elif species_found:
@@ -58,6 +58,6 @@ class SurveyFileReader:
 
     def _field_name(self, line):
         """Return the field name from the line."""
-        field_name, _ = line.split(',', 1)
+        field_name, _ = line.split(",", 1)
         field_name = field_name.strip()
         return field_name
