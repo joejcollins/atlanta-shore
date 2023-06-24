@@ -10,7 +10,7 @@ def test_read_first_record() -> None:
     record = next(survey_file_reader)
     # Assert
     assert record.startswith("quadrat,63,\nwaypoint,1,\ngrid_reference,TL6769933268,")
-    assert record.endswith(",Kindbergia praelonga,")
+    assert record.endswith(",Kindbergia praelonga,\n")
 
 
 def test_read_second_record() -> None:
@@ -22,6 +22,7 @@ def test_read_second_record() -> None:
     record = next(survey_file_reader)
     # Assert
     assert record.startswith("quadrat,1,\nwaypoint,2,\ngrid_reference,TL6772733270,")
+    assert record.endswith(",Ranunculus repens,\n")
 
 
 def test_read_last_record() -> None:
@@ -33,4 +34,4 @@ def test_read_last_record() -> None:
     for record in survey_file_reader:
         pass
     # Assert
-    assert record.endswith(",,,")
+    assert record.startswith("quadrat,16,\nwaypoint,3,\ngrid_reference,TL6769833299,")
