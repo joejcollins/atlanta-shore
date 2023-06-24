@@ -31,32 +31,28 @@ class SurveyFileReader:
     def _read_record(self) -> Optional[str]:
         """Read from the file to the end of the species list."""
         record_lines = ""
-        species_found = False  # The species list is the last field in the record.
+        in_species = False  # The species list is the last field in the record.
         # If there is a line from the next record, add it to the record lines.
-        if self.next_line and self._field_name(self.next_line):
+        if self.next_line and self._get_field(self.next_line):
             record_lines += self.next_line
         for line in self.file:
             self.next_line = line  # Keep line in case it's needed for next record.
             # The species list is the last field in the record.
-            field_name = self._field_name(line)
-            if field_name == "species":
+            field = self._get_field(line)
+            if field != "species" and in_species and field:
+                break  # We have reached the end of the record.
+            elif field != "species":
+                record_lines += line  # Append another field or species line.
+            else:  # We have reached the species list.
                 record_lines += line
-                species_found = True
-            elif species_found:
-                if field_name:  # then we are on to the next record
-                    break
-                else:  # Append another species line.
-                    record_lines += line
-            # Append the other lines to the record.
-            else:
-                record_lines += line
+                in_species = True
         # Return the lines or close and finish.
         if record_lines:
             return record_lines
         self.file.close()
         return None
 
-    def _field_name(self, line):
+    def _get_field(self, line):
         """Return the field name from the line."""
         field_name, _ = line.split(",", 1)
         field_name = field_name.strip()
