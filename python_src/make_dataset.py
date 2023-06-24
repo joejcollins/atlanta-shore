@@ -19,6 +19,9 @@ def date_from_file(file_path):
 
 def create_observations_table():
     """Create the observations table"""
+    settings = AtlantaShoreSettings()
+    first_observations_file = settings.observations_files[0]
+    
 
     with open("./data/processed/observations.csv", "w+", newline="") as records_file:
         record_writer = csv.DictWriter(
