@@ -11,26 +11,6 @@
         "**/__pycache__": true,
         "**/.pytest_cache": true
     },
-    "latex-workshop.latex.autoBuild.run": "onSave",
-    "latex-workshop.latex.recipes": [
-        {
-          "name": "pdflatex",
-          "tools": [
-            "pdflatex"
-          ]
-        }
-      ],
-    "latex-workshop.latex.tools": [
-    {
-        "name": "pdflatex",
-        "command": "pdflatex",
-        "args": [
-        "-synctex=1",
-        "-interaction=nonstopmode",
-        "%DOC%"
-        ]
-    }
-    ],
     "python.terminal.activateEnvironment": true,
     "python.linting.enabled": true,
     "python.formatting.provider": "black",

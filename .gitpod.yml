@@ -5,7 +5,7 @@ image:
 tasks:
 - name: R and Python setup
   init: |
-    mkdir -p ../.R/library
+    mkdir -p .R/library
     make requirements
   command: |
     sudo bash -c "echo R_LIBS_USER=$GITPOD_REPO_ROOT/.R/library > /home/gitpod/.Renviron"
