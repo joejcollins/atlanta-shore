@@ -4,8 +4,8 @@
 import csv
 import datetime
 
-from python.models.sample_point_observation import SamplePointObservation
-from python.settings import AtlantaShoreSettings
+from python_src.models.sample_point_observation import SamplePointObservation
+from python_src.settings import AtlantaShoreSettings
 
 
 def date_from_file(file_path):

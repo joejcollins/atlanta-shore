@@ -20,6 +20,10 @@ survey-prep:
 dataset:
 	. .venv/bin/activate; python ./src/data/make_dataset.py
 
+report:  # Report the python version and pip list.
+	.venv/bin/python --version
+	.venv/bin/python -m pip list -v
+
 requirements:  # Install the requirements for Python and R.
 	python3 -m venv .venv
 	. .venv/bin/activate; python -m pip install --upgrade pip setuptools
