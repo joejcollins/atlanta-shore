@@ -1,5 +1,6 @@
 """Iterate through a survey data file."""
 
+
 class SurveyFileReader:
     """Iterate through a survey data file."""
     
@@ -8,6 +9,7 @@ class SurveyFileReader:
         self.file_path = file_path
         self.file = open(file_path, 'r')
         self.current_record = None
+        self.next_record = None
 
     def __iter__(self):
         return self
@@ -22,7 +24,8 @@ class SurveyFileReader:
             self.file.close()
             raise StopIteration
 
-        self.current_record = None  # Reset current record for the next iteration
+        self.current_record = self.next_record
+        self.next_record = None
         return record
 
     def _read_record(self):
@@ -36,14 +39,40 @@ class SurveyFileReader:
                 record_lines.append(line.rstrip())
                 species_found = True
             elif species_found:
-                if field_name.strip():
-                    self.current_record = '\n'.join(record_lines)
+                if field_name.strip():  # then we are on to the next record.
+                    self.next_record = '\n'.join(record_lines)
                     break
                 else:
                     record_lines.append(line.rstrip())
             # Append the other lines to the record.
             else:
                 record_lines.append(line.rstrip())
+
+        if record_lines:
+            return '\n'.join(record_lines)
+
+        self.file.close()
+        return None
+
+
+    def _read_record_wrong(self):
+        record_lines = []
+        species_found = False
+        for line in self.file:
+            line = line.rstrip()
+            field_name, _ = line.strip().split(',', 1)
+
+            record_lines.append(line)
+
+            if field_name.strip() == 'species':
+                record_lines.append(line)
+                species_found = True
+            elif species_found:
+                if field_name.strip() == 'quadrat':
+                    self.next_record = line
+                    return '\n'.join(record_lines)
+                else:
+                    record_lines.append(line)
 
         if record_lines:
             return '\n'.join(record_lines)
