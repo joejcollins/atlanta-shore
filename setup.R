@@ -1,5 +1,5 @@
 # R package list
-.libPaths("../.R/library")
+.libPaths(".R/library")
 install.packages(c(
     "base64enc",
     "devtools",
@@ -28,5 +28,5 @@ install.packages(c(
     "testthat",
     "tidyverse",
     "tinytex",
-    "xfun"), lib = "../.R/library")
+    "xfun"), lib = ".R/library")
     devtools::install_github("ManuelHentschel/vscDebugger")

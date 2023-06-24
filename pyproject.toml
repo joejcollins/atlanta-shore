@@ -40,7 +40,7 @@ dependencies = [
 [tool.setuptools]
 py-modules = [
     "python_src",
-    "tests"
+    "pytest"
 ]  #  Disable auto discovery of modules (and only include the ones we specifically want).
 
 [tool.black]
