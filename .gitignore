@@ -450,3 +450,6 @@ vignettes/*.pdf
 
 # translation temp files
 po/*~
+
+# Ignore process data unless compelled to.
+data/processed/*
