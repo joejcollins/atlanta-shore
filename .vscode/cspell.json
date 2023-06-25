@@ -32,6 +32,7 @@
         "pyenv",
         "pylint",
         "pytest",
+        "readr",
         "regen",
         "repens",
         "rsync",
@@ -41,6 +42,8 @@
         "ujson",
         "useable",
         "vcpus",
-        "werkzeug"
+        "werkzeug",
+        "xlab",
+        "ylab"
     ]
 }
