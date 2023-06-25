@@ -1,0 +1,22 @@
+"""Standard logger for the project."""
+import logging
+from python_src.settings import ATLANTA_SHORE
+
+
+def setup_logger() -> logging.Logger:
+    """Create a standard logger"""
+    logger = logging.getLogger(__name__)
+    logger.setLevel(ATLANTA_SHORE.log_level)
+
+    # Create a formatter for the log messages
+    formatter = logging.Formatter(ATLANTA_SHORE.log_format)
+
+    # Create a StreamHandler to write log messages to stdout
+    stdout_handler = logging.StreamHandler()
+    stdout_handler.setLevel(ATLANTA_SHORE.log_level)
+    stdout_handler.setFormatter(formatter)
+
+    # Add the stdout handler to the logger
+    logger.addHandler(stdout_handler)
+
+    return logger

@@ -1,45 +1,47 @@
-""" Merge the data
-
-...from the waypoints, survey sheets and photos """
+""" Create the main observations data file by merging the observations files. """
 import csv
-import datetime
+from typing import List
+from python_src.logger import setup_logger
 
+
+from python_src.handlers.survey_file_reader import SurveyFileReader
 from python_src.models.sample_point_observation import SamplePointObservation
-from python_src.settings import AtlantaShoreSettings
+from python_src.settings import ATLANTA_SHORE
+
+LOG = setup_logger()
 
 
-def date_from_file(file_path):
-    """Extract the survey date from the survey file path"""
-    split_path = file_path.split("-")
-    year = int(split_path[-4])
-    month = int(split_path[-3])
-    day = int(split_path[-2])
-    return datetime.date(year, month, day)
+def _get_field_names(first_observations_file) -> List[str]:
+    """Get the field names from the first observations file."""
+    survey_file_reader = SurveyFileReader(first_observations_file)
+    first_record = next(survey_file_reader)
+    sample_point_observation = SamplePointObservation.set_values_from_observation_csv(
+        first_record
+    )
+    return sample_point_observation.headers()
 
 
-def create_observations_table():
+def create_observations_table() -> None:
     """Create the observations table"""
-    settings = AtlantaShoreSettings()
-    first_observations_file = settings.observations_files[0]
-    
+    # Get the headers from the first file.
+    first_observations_file = ATLANTA_SHORE.observations_files[0]
+    fieldnames = _get_field_names(first_observations_file)
 
     with open("./data/processed/observations.csv", "w+", newline="") as records_file:
         record_writer = csv.DictWriter(
             records_file,
-            fieldnames=[
-                "date",
-                "quadrat",
-                "waypoint",
-                "grid_reference",
-                "photo_up",
-                "photo_down",
-                "wetness",
-                "canopy",
-                "species",
-                "comments",
-            ],
+            fieldnames=fieldnames,
         )
         record_writer.writeheader()
+        for observations_file in ATLANTA_SHORE.observations_files:
+            LOG.warn(f"observations_file: {observations_file}")
+            survey_file_reader = SurveyFileReader(observations_file)
+            for record in survey_file_reader:
+                LOG.debug(f"record: {record}")
+                sample_point_observation = (
+                    SamplePointObservation.set_values_from_observation_csv(record)
+                )
+                record_writer.writerow(sample_point_observation.dict())
 
 
 if __name__ == "__main__":

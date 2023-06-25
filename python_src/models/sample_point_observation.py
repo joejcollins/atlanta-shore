@@ -1,7 +1,7 @@
 """Schema for an observation at a sampling point."""
 import csv
 from datetime import date
-from typing import List, Optional
+from typing import List, Dict, Any
 
 from pydantic import BaseModel, Field
 
@@ -28,7 +28,7 @@ class SamplePointObservation(BaseModel):
     ) -> "SamplePointObservation":
         """Set the values of the model from the csv observation record."""
         csv_data = csv.reader(observation_csv.splitlines())
-        data = {}
+        data: Dict[Any, Any] = {}
         for row in csv_data:
             csv_field_name = row[0]
             csv_field_value = row[1]
@@ -54,7 +54,11 @@ class SamplePointObservation(BaseModel):
             field_values.append(str(field_value))
         return ', '.join(field_values)
 
+    def headers(self) -> List[str]:
+        """Return the headers for the csv file"""
+        return [field_name for field_name, _ in self.__dict__.items()]
+
     def csv_headers(self) -> str:
         """Return the headers for a csv file"""
-        field_names = [field_name for field_name, field_value in self.__dict__.items()]
+        field_names = [field_name for field_name, _ in self.__dict__.items()]
         return ', '.join(field_names)
