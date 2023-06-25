@@ -1,7 +1,9 @@
 """Global settings for the project."""
 import inspect
 import os
-from dataclasses import dataclass
+from typing import List
+
+from pydantic import BaseModel
 
 
 def this_directory() -> str:
@@ -13,14 +15,13 @@ def this_directory() -> str:
     return os.path.dirname(calling_file_path)
 
 
-@dataclass
-class AtlantaShoreSettings:
+class AtlantaShoreSettings(BaseModel):
     """Settings for the Atlanta Shore Project."""
 
     log_format: str = "[%(asctime)s] [%(levelname)s] %(message)s. %(pathname)s:%(lineno)d, in %(funcName)s()"
     log_level: str = "WARN"  # as a string so it can be read and set in a settings.json.
 
-    observations_files = [
+    data_files: List[str] = [
         "2019-02/data-plant-2019-02-01-MEC.csv",
         "2019-02/data-plant-2019-02-02-MEC.csv",
         "2019-06/data-plant-2019-06-20-MEC.csv",
@@ -34,3 +35,12 @@ class AtlantaShoreSettings:
         "2022-06/data-plant-2022-06-25-MEC.csv",
         "2022-06/data-plant-2022-06-26-MEC.csv",
     ]
+
+    @property
+    def observations_files(self) -> List[str]:
+        """Return the observation file paths as a list of strings."""
+        data_directory = "./data/raw"
+        return [f"{data_directory}/{data_file}" for data_file in self.data_files]
+
+
+ATLANTA_SHORE = AtlantaShoreSettings()
