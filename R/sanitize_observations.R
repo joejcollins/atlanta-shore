@@ -5,6 +5,8 @@ library(readr)
 sample_points_path <- paste0("data/raw/spains-hall-waypoints-regular-30m",
                              "-with-name-edited.csv")
 sample_points <- read_csv(sample_points_path)
+# force the id to be an integer, not sure why this is necessary
+sample_points$sample_point_id <- as.integer(sample_points$sample_point_id)
 
 # Plotting Ordnance Survey Grid References
 plot(sample_points$eastings, sample_points$northings,
@@ -31,20 +33,26 @@ plot(sample_points$x, sample_points$y,
      ylab = "Northings",
      main = "Sample Points Standardized")
 
-
-
 observations <- read.csv("data/processed/observations.csv")
 observations$observation_date <- as.Date(observations$observation_date)
 
 # Check that all the points have the same number of observations
 table(observations$sample_point_id)
+length(unique(observations$sample_point_id))
+
+# Make sure that the same ids are in both sets
+sample_point_ids <- unlist(sample_points$sample_point_id)
+observations_sample_point_ids <- unlist(unique(observations$sample_point_id))
+setdiff(sample_point_ids, observations_sample_point_ids)
+setdiff(observations_sample_point_ids,sample_point_ids)
 
 library(dplyr)
 observations_sample_point_11 <- observations %>% filter(sample_point_id == 11)
 observations_sample_point_16 <- observations %>% filter(sample_point_id == 16)
 
 
-merged_data <- merge(observations, sample_points, by = "sample_point_id")
+# Outer join to get all the points
+merged_data <- merge(observations, sample_points, by = "sample_point_id", all = TRUE)
 
 
 start_date <- as.Date("2021-01-01")
