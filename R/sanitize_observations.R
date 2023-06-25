@@ -54,13 +54,45 @@ observations_sample_point_16 <- observations %>% filter(sample_point_id == 16)
 # Outer join to get all the points
 merged_data <- merge(observations, sample_points, by = "sample_point_id", all = TRUE)
 
+# Wetness Estimates
+library(ggplot2)
+
+start_date <- as.Date("2019-01-01")
+end_date <- as.Date("2019-12-31")
+
+observations_year <- merged_data %>% filter(observation_date >= start_date & observation_date <= end_date)
+
+wetness_19 <- ggplot(observations_year, aes(x, y, fill = wetness_estimate)) +
+  geom_tile() +
+  scale_fill_gradient(low = "white", high = "blue")
+wetness_19 + labs(title = "Wetness Estimate 2019")
+
+start_date <- as.Date("2020-01-01")
+end_date <- as.Date("2020-12-31")
+
+observations_year <- merged_data %>% filter(observation_date >= start_date & observation_date <= end_date)
+
+wetness_20 <- ggplot(observations_year, aes(x, y, fill = wetness_estimate)) +
+  geom_tile() +
+  scale_fill_gradient(low = "white", high = "blue")
+wetness_20 + labs(title = "Wetness Estimate 2020")
 
 start_date <- as.Date("2021-01-01")
 end_date <- as.Date("2021-12-31")
 
 observations_year <- merged_data %>% filter(observation_date >= start_date & observation_date <= end_date)
 
-library(ggplot2)
-ggplot(observations_year, aes(x, y, fill = wetness_estimate)) +
+wetness_21 <- ggplot(observations_year, aes(x, y, fill = wetness_estimate)) +
   geom_tile() +
   scale_fill_gradient(low = "white", high = "blue")
+wetness_21 + labs(title = "Wetness Estimate 2021")
+
+start_date <- as.Date("2022-01-01")
+end_date <- as.Date("2022-12-31")
+
+observations_year <- merged_data %>% filter(observation_date >= start_date & observation_date <= end_date)
+
+wetness_22 <- ggplot(observations_year, aes(x, y, fill = wetness_estimate)) +
+  geom_tile() +
+  scale_fill_gradient(low = "white", high = "blue")
+wetness_22 + labs(title = "Wetness Estimate 2022")
