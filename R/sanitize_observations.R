@@ -14,12 +14,12 @@ plot(sample_points$eastings, sample_points$northings,
      ylab = "Northings",
      main = "Sample Points OS Grid")
 
-eastings_origin <- min(sample_points$eastings) + 30
-northings_origin <- min(sample_points$northings) + 30
+eastings_origin <- min(sample_points$eastings)
+northings_origin <- min(sample_points$northings)
 
 # The points have a 30 metre separation so they and be standardized
-sample_points$x <- (sample_points$eastings - eastings_origin) / 30
-sample_points$y <- (sample_points$northings - northings_origin) / 30
+sample_points$x <- ((sample_points$eastings - eastings_origin) / 30) + 1
+sample_points$y <- ((sample_points$northings - northings_origin) / 30) + 1
 
 # Plotting Ordnance the Standardized Grid
 plot(sample_points$x, sample_points$y,
