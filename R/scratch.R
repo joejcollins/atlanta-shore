@@ -5,8 +5,8 @@ eastings_origin <- min(sample_points$eastings)
 northings_origin <- min(sample_points$northings)
 
 # The points have a 30 metre separation
-sample_points$x <- (sample_points$eastings - eastings_origin) / 30
-sample_points$y <- (sample_points$northings - northings_origin) / 30
+sample_points$x <- (sample_points$eastings - eastings_origin + 15) / 30
+sample_points$y <- (sample_points$northings - northings_origin + 15) / 30
 
 observations <- read.csv("data/processed/observations.csv")
 observations$observation_date <- as.Date(observations$observation_date)
@@ -23,3 +23,4 @@ library(ggplot2)
 ggplot(observations_year, aes(x, y, fill = wetness_estimate)) +
   geom_tile() +
   scale_fill_gradient(low = "white", high = "blue")
+
