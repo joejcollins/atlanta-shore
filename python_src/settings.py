@@ -16,7 +16,7 @@ def this_directory() -> str:
     return os.path.dirname(calling_file_path)
 
 
-def date_from_file(file_path):
+def date_from_file(file_path: str) -> datetime.date:
     """Extract the survey date from the survey file path"""
     split_path = file_path.split("-")
     year = int(split_path[-4])

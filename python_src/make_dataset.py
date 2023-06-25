@@ -2,6 +2,7 @@
 import csv
 from typing import List
 from python_src.logger import setup_logger
+from settings import date_from_file
 
 
 from python_src.handlers.survey_file_reader import SurveyFileReader
@@ -35,12 +36,14 @@ def create_observations_table() -> None:
         record_writer.writeheader()
         for observations_file in ATLANTA_SHORE.observations_files:
             LOG.info(f"observations_file: {observations_file}")
+            observation_date = date_from_file(observations_file)
             survey_file_reader = SurveyFileReader(observations_file)
             for record in survey_file_reader:
                 LOG.debug(f"record: {record}")
                 sample_point_observation = (
                     SamplePointObservation.set_values_from_observation_csv(record)
                 )
+                sample_point_observation.observation_date = observation_date
                 record_writer.writerow(sample_point_observation.dict())
 
 
