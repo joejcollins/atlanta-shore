@@ -8,7 +8,7 @@ from python_src.handlers.survey_file_reader import SurveyFileReader
 from python_src.models.sample_point_observation import SamplePointObservation
 from python_src.settings import ATLANTA_SHORE
 
-LOG = setup_logger()
+LOG = setup_logger(__name__)
 
 
 def _get_field_names(first_observations_file) -> List[str]:
@@ -34,7 +34,7 @@ def create_observations_table() -> None:
         )
         record_writer.writeheader()
         for observations_file in ATLANTA_SHORE.observations_files:
-            LOG.warn(f"observations_file: {observations_file}")
+            LOG.info(f"observations_file: {observations_file}")
             survey_file_reader = SurveyFileReader(observations_file)
             for record in survey_file_reader:
                 LOG.debug(f"record: {record}")
@@ -46,3 +46,4 @@ def create_observations_table() -> None:
 
 if __name__ == "__main__":
     create_observations_table()
+    print("Done")

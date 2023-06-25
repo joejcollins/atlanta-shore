@@ -3,9 +3,9 @@ import logging
 from python_src.settings import ATLANTA_SHORE
 
 
-def setup_logger() -> logging.Logger:
+def setup_logger(name: str = __name__) -> logging.Logger:
     """Create a standard logger"""
-    logger = logging.getLogger(__name__)
+    logger = logging.getLogger(name)
     logger.setLevel(ATLANTA_SHORE.log_level)
 
     # Create a formatter for the log messages
