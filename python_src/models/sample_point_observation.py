@@ -18,7 +18,7 @@ class SamplePointObservation(BaseModel):
     garmin_grid_ref: str = Field(alias="grid_reference")  # If the Garmin file fails.
     photo_up_id: str = Field(alias="photo_up")
     photo_down_id: str = Field(alias="photo_down")
-    wetness_estimate: int = Field(alias="wetness")  # estimated wetness of the ground.
+    wetness_estimate: float = Field(alias="wetness")  # estimated wetness of the ground.
     canopy_cover_estimate: int = Field(alias="canopy")  # estimated percentage cover.
     species_identified: List[str] = Field(alias="species")  # list of species found.
 
