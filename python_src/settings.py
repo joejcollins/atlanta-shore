@@ -35,8 +35,8 @@ class AtlantaShoreSettings(BaseModel):
     log_level: str = "WARN"  # as a string so it can be read and set in settings.json.
 
     data_files: List[str] = [
-        "2019-02/data-plant-2019-02-01-MEC.csv",
-        "2019-02/data-plant-2019-02-02-MEC.csv",
+        # "2019-02/data-plant-2019-02-01-MEC.csv",  # Winter survey
+        # "2019-02/data-plant-2019-02-02-MEC.csv",  # Winter survey
         "2019-06/data-plant-2019-06-20-MEC.csv",
         "2019-06/data-plant-2019-06-21-MEC.csv",
         "2020-06/data-plant-2020-06-19-MEC.csv",

@@ -17,8 +17,8 @@ help: # Show help for each of the makefile recipes.
 survey-prep:
 	. .venv/bin/activate; python ./src/data/add_id_to_waypoints.py
 
-dataset:
-	. .venv/bin/activate; python ./src/data/make_dataset.py
+dataset:  # Prepare the datasets for analysis
+	. .venv/bin/activate; python ./python_src/make_observations_dataset.py
 
 report:  # Report the python version and pip list.
 	.venv/bin/python --version

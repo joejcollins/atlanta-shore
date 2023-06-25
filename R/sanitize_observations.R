@@ -1,5 +1,6 @@
 # Sanitize the observations dataset
 
+
 library(readr)
 sample_points_path <- paste0("data/raw/spains-hall-waypoints-regular-30m",
                              "-with-name-edited.csv")
@@ -30,12 +31,22 @@ plot(sample_points$x, sample_points$y,
      ylab = "Northings",
      main = "Sample Points Standardized")
 
+
+
 observations <- read.csv("data/processed/observations.csv")
 observations$observation_date <- as.Date(observations$observation_date)
 
-merged_data <- merge(observations, sample_points, by = "sample_point_id")
+# Check that all the points have the same number of observations
+table(observations$sample_point_id)
 
 library(dplyr)
+observations_sample_point_11 <- observations %>% filter(sample_point_id == 11)
+observations_sample_point_16 <- observations %>% filter(sample_point_id == 16)
+
+
+merged_data <- merge(observations, sample_points, by = "sample_point_id")
+
+
 start_date <- as.Date("2021-01-01")
 end_date <- as.Date("2021-12-31")
 
