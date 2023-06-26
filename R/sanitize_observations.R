@@ -1,6 +1,5 @@
 # Sanitize the observations dataset
 
-
 library(readr)
 sample_points_path <- paste0("data/raw/spains-hall-waypoints-regular-30m",
                              "-with-name-edited.csv")
@@ -62,63 +61,68 @@ end_date <- as.Date("2019-12-31")
 
 observations_year <- merged_data %>% filter(observation_date >= start_date & observation_date <= end_date)
 
-ggplot(observations_year, aes(x, y, fill = wetness_estimate)) +
-  geom_tile() +
-  scale_fill_gradient(low = "white", high = "blue") + 
-  labs(title = "Wetness Estimate 2019") +
-  theme(axis.title.x=element_blank(),
-        axis.text.x=element_blank(),
-        axis.ticks.x=element_blank(),
-        axis.title.y=element_blank(),
-        axis.text.y=element_blank(),
-        axis.ticks.y=element_blank())
+create_heatmap_plot <- function(data, title, fill, colour) {
+  plot <- ggplot(data, aes(x, y, fill = {{fill}})) +
+    geom_tile() +
+    scale_fill_gradient(low = "white", high = {{colour}}) + 
+    labs(title = title) +
+    theme(
+      axis.title.x = element_blank(),
+      axis.text.x = element_blank(),
+      axis.ticks.x = element_blank(),
+      axis.title.y = element_blank(),
+      axis.text.y = element_blank(),
+      axis.ticks.y = element_blank()
+    )
+  
+  return(plot)
+}
+
+heatmap_plot <- create_heatmap_plot(
+  data = observations_year,
+  title = "Wetness Estimate 2019",
+  fill = wetness_estimate,
+  colour = "blue"
+)
+print(heatmap_plot)
 
 start_date <- as.Date("2020-01-01")
 end_date <- as.Date("2020-12-31")
 
 observations_year <- merged_data %>% filter(observation_date >= start_date & observation_date <= end_date)
 
-ggplot(observations_year, aes(x, y, fill = wetness_estimate)) +
-  geom_tile() +
-  scale_fill_gradient(low = "white", high = "blue") + 
-  labs(title = "Wetness Estimate 2020") +
-  theme(axis.title.x=element_blank(),
-        axis.text.x=element_blank(),
-        axis.ticks.x=element_blank(),
-        axis.title.y=element_blank(),
-        axis.text.y=element_blank(),
-        axis.ticks.y=element_blank())
+heatmap_plot <- create_heatmap_plot(
+  data = observations_year,
+  title = "Wetness Estimate 2020",
+  fill = wetness_estimate,
+  colour = "blue"
+)
+print(heatmap_plot)
 
 start_date <- as.Date("2021-01-01")
 end_date <- as.Date("2021-12-31")
 
 observations_year <- merged_data %>% filter(observation_date >= start_date & observation_date <= end_date)
 
-ggplot(observations_year, aes(x, y, fill = wetness_estimate)) +
-  geom_tile() +
-  scale_fill_gradient(low = "white", high = "blue") + 
-  labs(title = "Wetness Estimate 2021") +
-  theme(axis.title.x=element_blank(),
-        axis.text.x=element_blank(),
-        axis.ticks.x=element_blank(),
-        axis.title.y=element_blank(),
-        axis.text.y=element_blank(),
-        axis.ticks.y=element_blank())
+heatmap_plot <- create_heatmap_plot(
+  data = observations_year,
+  title = "Wetness Estimate 2021",
+  fill = wetness_estimate,
+  colour = "blue"
+)
+print(heatmap_plot)
 
 start_date <- as.Date("2022-01-01")
 end_date <- as.Date("2022-12-31")
 
 observations_year <- merged_data %>% filter(observation_date >= start_date & observation_date <= end_date)
 
-ggplot(observations_year, aes(x, y, fill = wetness_estimate)) +
-  geom_tile() +
-  scale_fill_gradient(low = "white", high = "blue") + 
-  labs(title = "Wetness Estimate 2022") +
-  theme(axis.title.x=element_blank(),
-        axis.text.x=element_blank(),
-        axis.ticks.x=element_blank(),
-        axis.title.y=element_blank(),
-        axis.text.y=element_blank(),
-        axis.ticks.y=element_blank())
+heatmap_plot <- create_heatmap_plot(
+  data = observations_year,
+  title = "Wetness Estimate 2022",
+  fill = wetness_estimate,
+  colour = "blue"
+)
+print(heatmap_plot)
 
 write.csv(merged_data, "data/processed/sample_point_observations.csv", row.names=FALSE)
