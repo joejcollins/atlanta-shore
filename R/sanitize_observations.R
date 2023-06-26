@@ -62,37 +62,63 @@ end_date <- as.Date("2019-12-31")
 
 observations_year <- merged_data %>% filter(observation_date >= start_date & observation_date <= end_date)
 
-wetness_19 <- ggplot(observations_year, aes(x, y, fill = wetness_estimate)) +
+ggplot(observations_year, aes(x, y, fill = wetness_estimate)) +
   geom_tile() +
-  scale_fill_gradient(low = "white", high = "blue")
-wetness_19 + labs(title = "Wetness Estimate 2019")
+  scale_fill_gradient(low = "white", high = "blue") + 
+  labs(title = "Wetness Estimate 2019") +
+  theme(axis.title.x=element_blank(),
+        axis.text.x=element_blank(),
+        axis.ticks.x=element_blank(),
+        axis.title.y=element_blank(),
+        axis.text.y=element_blank(),
+        axis.ticks.y=element_blank())
 
 start_date <- as.Date("2020-01-01")
 end_date <- as.Date("2020-12-31")
 
 observations_year <- merged_data %>% filter(observation_date >= start_date & observation_date <= end_date)
 
-wetness_20 <- ggplot(observations_year, aes(x, y, fill = wetness_estimate)) +
+ggplot(observations_year, aes(x, y, fill = wetness_estimate)) +
   geom_tile() +
-  scale_fill_gradient(low = "white", high = "blue")
-wetness_20 + labs(title = "Wetness Estimate 2020")
+  scale_fill_gradient(low = "white", high = "blue") + 
+  labs(title = "Wetness Estimate 2020") +
+  theme(axis.title.x=element_blank(),
+        axis.text.x=element_blank(),
+        axis.ticks.x=element_blank(),
+        axis.title.y=element_blank(),
+        axis.text.y=element_blank(),
+        axis.ticks.y=element_blank())
 
 start_date <- as.Date("2021-01-01")
 end_date <- as.Date("2021-12-31")
 
 observations_year <- merged_data %>% filter(observation_date >= start_date & observation_date <= end_date)
 
-wetness_21 <- ggplot(observations_year, aes(x, y, fill = wetness_estimate)) +
+ggplot(observations_year, aes(x, y, fill = wetness_estimate)) +
   geom_tile() +
-  scale_fill_gradient(low = "white", high = "blue")
-wetness_21 + labs(title = "Wetness Estimate 2021")
+  scale_fill_gradient(low = "white", high = "blue") + 
+  labs(title = "Wetness Estimate 2021") +
+  theme(axis.title.x=element_blank(),
+        axis.text.x=element_blank(),
+        axis.ticks.x=element_blank(),
+        axis.title.y=element_blank(),
+        axis.text.y=element_blank(),
+        axis.ticks.y=element_blank())
 
 start_date <- as.Date("2022-01-01")
 end_date <- as.Date("2022-12-31")
 
 observations_year <- merged_data %>% filter(observation_date >= start_date & observation_date <= end_date)
 
-wetness_22 <- ggplot(observations_year, aes(x, y, fill = wetness_estimate)) +
+ggplot(observations_year, aes(x, y, fill = wetness_estimate)) +
   geom_tile() +
-  scale_fill_gradient(low = "white", high = "blue")
-wetness_22 + labs(title = "Wetness Estimate 2022")
+  scale_fill_gradient(low = "white", high = "blue") + 
+  labs(title = "Wetness Estimate 2022") +
+  theme(axis.title.x=element_blank(),
+        axis.text.x=element_blank(),
+        axis.ticks.x=element_blank(),
+        axis.title.y=element_blank(),
+        axis.text.y=element_blank(),
+        axis.ticks.y=element_blank())
+
+write.csv(merged_data, "data/processed/sample_point_observations.csv", row.names=FALSE)
