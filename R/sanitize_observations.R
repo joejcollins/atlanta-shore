@@ -126,5 +126,5 @@ heatmap_plot <- create_heatmap_plot(
 )
 print(heatmap_plot)
 
-write.csv(merged_data, "data/processed/sample_point_observations.csv", row.names=FALSE)
+# write.csv(merged_data, "data/processed/sample_point_observations.csv", row.names=FALSE)
 
