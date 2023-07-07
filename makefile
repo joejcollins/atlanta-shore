@@ -29,8 +29,8 @@ requirements:  # Install the requirements for Python and R.
 	. .venv/bin/activate; python -m pip install --upgrade pip setuptools
 	. .venv/bin/activate; python -m pip install -r requirements.txt
 	Rscript "setup.R"
-	Rscript -e ".libPaths('.R/library'); devtools::install()"
 
 test:  # Run the tests.
 	. .venv/bin/activate; python -m pytest ./tests/pytest
+	Rscript -e ".libPaths('.R/library'); devtools::install()"
 	Rscript -e "testthat::test_dir('tests')"
