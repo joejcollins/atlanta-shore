@@ -50,7 +50,9 @@ observations_sample_point_11 <- observations %>% filter(sample_point_id == 11)
 observations_sample_point_16 <- observations %>% filter(sample_point_id == 16)
 
 # Outer join to get all the points
-merged_data <- merge(observations, sample_points, by = "sample_point_id", all = TRUE)
+# merged_data <- merge(observations, sample_points, by = "sample_point_id", all = TRUE)
+merged_data <- observations
+
 
 # Wetness Estimates
 library(ggplot2)
