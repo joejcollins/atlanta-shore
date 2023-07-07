@@ -12,8 +12,8 @@ m <- leaflet()
 m <- addProviderTiles(m, "OpenStreetMap.Mapnik")
 
 # Add markers for each point
-for (i in 1:nrow(hill_heights)) {
-  m <- addMarkers(m, lng = hill_heights$longitude[i], lat = hill_heights$latitude[i])
+for (i in 1:nrow(sample_points)) {
+  m <- addMarkers(m, lng = sample_points$lon[i], lat = sample_points$lat[i])
 }
 
 # Display the map
