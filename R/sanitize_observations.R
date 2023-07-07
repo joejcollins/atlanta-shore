@@ -32,7 +32,7 @@ plot(sample_points$x, sample_points$y,
      ylab = "Northings",
      main = "Sample Points Standardized")
 
-observations <- read.csv("data/processed/observations.csv")
+observations <- read.csv("data/processed/sample_point_observations.csv")
 observations$observation_date <- as.Date(observations$observation_date)
 
 # Check that all the points have the same number of observations
@@ -49,7 +49,6 @@ library(dplyr)
 observations_sample_point_11 <- observations %>% filter(sample_point_id == 11)
 observations_sample_point_16 <- observations %>% filter(sample_point_id == 16)
 
-
 # Outer join to get all the points
 merged_data <- merge(observations, sample_points, by = "sample_point_id", all = TRUE)
 
@@ -62,7 +61,7 @@ end_date <- as.Date("2019-12-31")
 observations_year <- merged_data %>% filter(observation_date >= start_date & observation_date <= end_date)
 
 create_heatmap_plot <- function(data, title, fill, colour) {
-  plot <- ggplot(data, aes(x, y, fill = {{fill}})) +
+  plot <- ggplot(data, aes(x.x, y.x, fill = {{fill}})) +
     geom_tile() +
     scale_fill_gradient(low = "white", high = {{colour}}) + 
     labs(title = title) +
@@ -126,3 +125,4 @@ heatmap_plot <- create_heatmap_plot(
 print(heatmap_plot)
 
 write.csv(merged_data, "data/processed/sample_point_observations.csv", row.names=FALSE)
+

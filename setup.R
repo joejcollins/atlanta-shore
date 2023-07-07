@@ -13,6 +13,7 @@ install.packages(c(
     "jsonlite",
     "knitr",
     "languageserver",
+    "leaflet",
     "lintr",
     "lubridate",
     "Rcpp",

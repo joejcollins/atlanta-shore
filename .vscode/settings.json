@@ -26,5 +26,5 @@
   "terminal.integrated.defaultProfile.linux": "bash",
   "terminal.integrated.scrollback": 100000,
   "r.bracketedPaste": true,
-  "r.rterm.linux": ".venv/bin/radian"
+  "r.rterm.linux": "/workspace/atlanta-shore/.venv/bin/radian"
 }
