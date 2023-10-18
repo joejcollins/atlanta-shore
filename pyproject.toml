@@ -28,7 +28,8 @@ dependencies = [
     "pytest",  # used for testing, not needed for production.
     "radian",
     "ruff",
-    "OSGridConverter"
+    "OSGridConverter",
+    "jupyter"
 ]
 
 [project.urls]

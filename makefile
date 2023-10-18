@@ -7,8 +7,8 @@ clean:  # Remove all build, test, coverage and Python artifacts.
 	find . -type f -name "*.py[co]" -delete -or -type d -name "__pycache__" -delete
 
 compile:  # Compile the requirements files using pip-tools.
-	. .venv/bin/activate; python -m pip install pip-tools
-	. .venv/bin/activate; python -m piptools compile -o requirements.txt pyproject.toml && echo "-e ." >> requirements.txt
+	rm -f requirements.*
+	.venv/bin/pip-compile --output-file=requirements.txt && echo "-e ." >> requirements.txt
 
 .PHONY: help
 help: # Show help for each of the makefile recipes.
@@ -24,13 +24,13 @@ report:  # Report the python version and pip list.
 	.venv/bin/python --version
 	.venv/bin/python -m pip list -v
 
-requirements:  # Install the requirements for Python and R.
+venv:  # Install the requirements for Python and R.
 	python3 -m venv .venv
-	. .venv/bin/activate; python -m pip install --upgrade pip setuptools
-	. .venv/bin/activate; python -m pip install -r requirements.txt
+	.venv/bin/python -m pip install --upgrade pip setuptools
+	.venv/bin/python -m pip install -r requirements.txt
 	Rscript "setup.R"
 
 test:  # Run the tests.
-	. .venv/bin/activate; python -m pytest ./tests/pytest
+	. .venv/bin/python -m pytest ./tests/pytest
 	Rscript -e ".libPaths('.R/library'); devtools::install()"
 	Rscript -e "testthat::test_dir('tests')"
