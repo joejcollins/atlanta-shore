@@ -454,8 +454,8 @@ po/*~
 # Ignore process data unless compelled to.
 data/processed/*
 
-# Ignore the 
-/reports/*
+# Ignore the generated html in
+/reports/html.*
 
 #JetBrains IDEs
 .idea/*
