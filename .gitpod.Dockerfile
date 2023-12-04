@@ -1,9 +1,5 @@
 FROM rocker/rstudio:latest
 
-USER root
-
-RUN apt-get --quiet update
-
 # Get pyenv but put it in /usr/local/pyenv rather that the user's home directory
 # so it can be used in different dev containers which have different users.
 ENV PYENV_ROOT="/usr/local/pyenv"
@@ -30,5 +26,9 @@ RUN pyenv rehash
 # We can't use an alias because the container's entrypoint is a shell script and .bashrc is not sourced.
 RUN update-alternatives --install /usr/bin/python python ${PYENV_ROOT}/versions/${PYENV_VERSION}/bin/python 1
 
-# Expose the ports for the APIs
-EXPOSE 8090-8093
+# Install TinyTex for all users.
+RUN wget -qO- "https://yihui.org/tinytex/install-unx.sh" | sh -s - --admin --no-path
+RUN sudo cp ~/.TinyTeX /usr/local/TinyTeX/.TinyTeX
+
+# Expose the port for RStudio
+EXPOSE 8787

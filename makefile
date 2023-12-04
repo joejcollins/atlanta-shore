@@ -28,12 +28,6 @@ gitpod-before:  # Customize the terminal and install global project dependencies
 	sudo usermod -a -G sudo gitpod
 	sudo bash -c "echo 'server-user=gitpod' >> /etc/rstudio/rserver.conf"
 	sudo bash -c "echo 'auth-none=1' >> /etc/rstudio/rserver.conf"
-	# Install TinyTex for the gitpod user (it's a bit hard to install for all users).
-	wget -qO- "https://yihui.org/tinytex/install-bin-unix.sh" | sh
-	# Add /home/gitpod/bin to the paths so TinyTex can be found.
-	sudo bash -c "echo 'export PATH=$$PATH:/home/gitpod/bin' >> /home/gitpod/.bashrc"
-	sudo bash -c "echo 'export PATH=$$PATH:/home/gitpod/bin' >> /home/gitpod/.bash_profile"
-	sudo bash -c "echo 'export PATH=$$PATH:/home/gitpod/bin' >> /home/gitpod/.profile"
 
 gitpod-init:  # Downloading dependencies and compiling source code.
 	$(MAKE) venv
@@ -48,12 +42,13 @@ report:  # Report the python version and pip list.
 	.venv/bin/python --version
 	.venv/bin/python -m pip list -v
 
-venv:  # Install the requirements for Python and R (including TinyTex).
-	python3 -m venv .venv
+venv:  # Install the requirements for Python and R.
+	-pyenv update
+	-pyenv install --skip-existing
+	python -m venv .venv
 	.venv/bin/python -m pip install --upgrade pip setuptools
 	.venv/bin/python -m pip install -r requirements.txt
 	Rscript "setup.R"
-	wget -qO- "https://yihui.org/tinytex/install-bin-unix.sh" | sh
 
 test:  # Run the tests.
 	. .venv/bin/python -m pytest ./tests/pytest

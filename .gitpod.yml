@@ -7,9 +7,9 @@ tasks:
   before: |
     make gitpod-before
   init: |
-    echo "init"
+    make gitpod-init
   command: |
-    echo "command"
+    make gitpod-command
 
 ports:
   - port: 8787

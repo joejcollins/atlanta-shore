@@ -1,5 +1,7 @@
 {
-  "editor.rulers": [88],
+  "editor.rulers": [
+    88
+  ],
   "python.linting.pylintEnabled": false,
   "python.testing.pytestEnabled": true,
   "python.testing.unittestEnabled": false,
@@ -7,9 +9,11 @@
     "./tests/pytest"
   ],
   "files.exclude": {
-      "**/*.pyc": {"when": "$(basename).py"}, 
-      "**/__pycache__": true,
-      "**/.pytest_cache": true
+    "**/*.pyc": {
+      "when": "$(basename).py"
+    },
+    "**/__pycache__": true,
+    "**/.pytest_cache": true
   },
   "python.terminal.activateEnvironment": false,
   "python.linting.enabled": true,
@@ -24,7 +28,15 @@
   "workbench.colorTheme": "Visual Studio Light",
   "python.defaultInterpreterPath": ".venv/bin/python",
   "terminal.integrated.defaultProfile.linux": "bash",
+  "terminal.integrated.profiles.linux": {
+    "bash": {
+      "path": "bash",
+      "args": [
+        "-l"
+      ]
+    }
+  },
   "terminal.integrated.scrollback": 100000,
   "r.bracketedPaste": true,
-  "r.rterm.linux": "/workspace/atlanta-shore/.venv/bin/radian"
+  "r.rterm.linux": "/workspace/atlanta-shore/.venv/bin/radian",
 }
