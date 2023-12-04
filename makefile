@@ -20,6 +20,24 @@ survey-prep:
 dataset:  # Prepare the datasets for analysis
 	. .venv/bin/activate; python ./python_src/make_observations_dataset.py
 
+gitpod-init:  
+	mkdir -p .R/library
+
+gitpod-command:
+	sudo bash -c "echo R_LIBS_USER=$GITPOD_REPO_ROOT/.R/library > /home/gitpod/.Renviron"
+	ln -s /workspace/atlanta-shore /home/gitpod/atlanta-shore
+	# https://stackoverflow.com/questions/47541007/how-to-i-bypass-the-login-page-on-rstudio
+	sudo usermod -a -G sudo gitpod
+	sudo bash -c "echo 'server-user=gitpod' >> /etc/rstudio/rserver.conf"
+	sudo bash -c "echo 'auth-none=1' >> /etc/rstudio/rserver.conf"
+	# Restart the rserver with sudo otherwise it won't run for the gitpod user (dunno why)
+	sudo rserver
+	sudo pkill rserver
+	alias python='python3'
+	# Add /home/gitpod/bin to the path so TinyTex can be found.
+	sudo bash -c "echo 'export DOTPROFILE=yes' >> /home/gitpod/.profile"
+	sudo bash -c "echo 'export PATH=$PATH:/home/gitpod/bin' >> /home/gitpod/.profile"
+
 report:  # Report the python version and pip list.
 	.venv/bin/python --version
 	.venv/bin/python -m pip list -v
