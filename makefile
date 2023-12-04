@@ -20,7 +20,9 @@ survey-prep:
 dataset:  # Prepare the datasets for analysis
 	. .venv/bin/activate; python ./python_src/make_observations_dataset.py
 
-gitpod-init:  
+gitpod-before:  # 
+
+gitpod-init:  # Set up the 
 	mkdir -p .R/library
 
 gitpod-command:

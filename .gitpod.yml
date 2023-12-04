@@ -4,6 +4,8 @@ image:
 
 tasks:
 - name: R and Python setup
+  before: |
+    echo "before"
   init: |
     echo "init"
   command: |
