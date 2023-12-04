@@ -28,7 +28,7 @@ RUN update-alternatives --install /usr/bin/python python ${PYENV_ROOT}/versions/
 
 # Install TinyTex for all users.
 RUN wget -qO- "https://yihui.org/tinytex/install-unx.sh" | sh -s - --admin --no-path
-RUN sudo cp ~/.TinyTeX /usr/local/TinyTeX/.TinyTeX
+RUN sudo cp -r ~/.TinyTeX /usr/local/TinyTeX
 
 # Expose the port for RStudio
 EXPOSE 8787
