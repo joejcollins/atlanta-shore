@@ -21,20 +21,18 @@ dataset:  # Prepare the datasets for analysis
 	. .venv/bin/activate; python ./python_src/make_observations_dataset.py
 
 gitpod-before:  # Customize the terminal and install global project dependencies.
-	sudo bash -c "echo R_LIBS_USER=$GITPOD_REPO_ROOT/.R/library > /home/gitpod/.Renviron"
-	sudo bash -c "echo R_LIBS_USER=$GITPOD_REPO_ROOT/.R/library > /home/gitpod/.Renviron"
+	mkdir -p $(GITPOD_REPO_ROOT)/.R/library
+	sudo bash -c "echo R_LIBS_USER=$$GITPOD_REPO_ROOT/.R/library > /home/gitpod/.Renviron"
 	# https://stackoverflow.com/questions/47541007/how-to-i-bypass-the-login-page-on-rstudio
 	sudo usermod -a -G sudo gitpod
 	sudo bash -c "echo 'server-user=gitpod' >> /etc/rstudio/rserver.conf"
 	sudo bash -c "echo 'auth-none=1' >> /etc/rstudio/rserver.conf"
 	# Install TinyTex for the gitpod user (it's a bit hard to install for all users).
 	wget -qO- "https://yihui.org/tinytex/install-bin-unix.sh" | sh
-	# Add /home/gitpod/bin to the path so TinyTex can be found.
-	sudo bash -c "echo 'export DOTPROFILE=yes' >> /home/gitpod/.profile"
-	sudo bash -c "echo 'export PATH=$PATH:/home/gitpod/bin' >> /home/gitpod/.profile"
+	# Add /home/gitpod/bin to the paths so TinyTex can be found.
+	sudo bash -c "echo 'export PATH=$$PATH:/home/gitpod/bin' >> /home/gitpod/.bash_profile"
 
-gitpod-init:  # Downloading dependencies or compiling source code.
-	mkdir -p .R/library
+gitpod-init:  # Downloading dependencies and compiling source code.
 	$(MAKE) venv
 
 gitpod-command:  # Start your database or development server.

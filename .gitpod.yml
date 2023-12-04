@@ -5,7 +5,7 @@ image:
 tasks:
 - name: R and Python setup
   before: |
-    echo "before"
+    make gitpod-before
   init: |
     echo "init"
   command: |
