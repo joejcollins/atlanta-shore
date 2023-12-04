@@ -24,11 +24,12 @@ report:  # Report the python version and pip list.
 	.venv/bin/python --version
 	.venv/bin/python -m pip list -v
 
-venv:  # Install the requirements for Python and R.
+venv:  # Install the requirements for Python and R (including TinyTex).
 	python3 -m venv .venv
 	.venv/bin/python -m pip install --upgrade pip setuptools
 	.venv/bin/python -m pip install -r requirements.txt
 	Rscript "setup.R"
+	wget -qO- "https://yihui.org/tinytex/install-bin-unix.sh" | sh
 
 test:  # Run the tests.
 	. .venv/bin/python -m pytest ./tests/pytest

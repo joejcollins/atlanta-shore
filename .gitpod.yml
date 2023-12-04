@@ -18,8 +18,9 @@ tasks:
     sudo rserver
     sudo pkill rserver
     alias python='python3'
-    sudo bash -c "echo 'export PATH=$PATH:/home/gitpod/bin' >> /home/gitpod/.bash_profile"
-    
+    # Add /home/gitpod/bin to the path so TinyTex can be found.
+    sudo bash -c "echo 'export DOTPROFILE=yes' >> /home/gitpod/.profile"
+    sudo bash -c "echo 'export PATH=$PATH:/home/gitpod/bin' >> /home/gitpod/.profile"
 
 ports:
   - port: 8787
