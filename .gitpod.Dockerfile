@@ -9,13 +9,6 @@ RUN apt-get install --assume-yes git sudo \
  && git clone https://github.com/pyenv/pyenv-update.git ${PYENV_ROOT}/plugins/pyenv-update \
  && sudo chmod 777 ${PYENV_ROOT}
 
-# Install Python build dependencies (tzdata needs some special handling)
-RUN DEBIAN_FRONTEND=noninteractive TZ=Etc/UTC apt-get -y install tzdata
-RUN apt-get install --assume-yes make
-RUN apt-get install --assume-yes libssl-dev
-RUN apt-get install --assume-yes libbz2-dev libreadline-dev libsqlite3-dev wget curl llvm openssh-client vim
-RUN apt-get install --assume-yes libncursesw5-dev xz-utils tk-dev libxml2-dev libxmlsec1-dev libffi-dev liblzma-dev unzip
-
 # Install Python 3.11.6 using pyenv
 RUN apt-get -y install locales
 ENV PYENV_VERSION=3.11.6
