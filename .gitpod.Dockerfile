@@ -11,7 +11,10 @@ RUN apt-get install --assume-yes git sudo \
 
 # Install Python build dependencies (tzdata needs some special handling)
 RUN DEBIAN_FRONTEND=noninteractive TZ=Etc/UTC apt-get -y install tzdata
-RUN apt-get install --assume-yes make build-essential libssl-dev zlib1g-dev
+RUN apt-get install --assume-yes make
+RUN apt-get install --assume-yes build-essential
+RUN apt-get install --assume-yes libssl-dev
+RUN apt-get install --assume-yes zlib1g-dev
 RUN apt-get install --assume-yes libbz2-dev libreadline-dev libsqlite3-dev wget curl llvm openssh-client vim
 RUN apt-get install --assume-yes libncursesw5-dev xz-utils tk-dev libxml2-dev libxmlsec1-dev libffi-dev liblzma-dev unzip
 
