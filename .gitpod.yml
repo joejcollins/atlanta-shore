@@ -6,7 +6,7 @@ tasks:
 - name: R and Python setup
   init: |
     mkdir -p .R/library
-    make requirements
+    make venv
   command: |
     sudo bash -c "echo R_LIBS_USER=$GITPOD_REPO_ROOT/.R/library > /home/gitpod/.Renviron"
     ln -s /workspace/atlanta-shore /home/gitpod/atlanta-shore
