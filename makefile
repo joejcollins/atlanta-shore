@@ -21,6 +21,7 @@ dataset:  # Prepare the datasets for analysis
 	. .venv/bin/activate; python ./python_src/make_observations_dataset.py
 
 gitpod-before:  # Customize the terminal and install global project dependencies.
+	# Move the R library to where we can see it.
 	mkdir -p $(GITPOD_REPO_ROOT)/.R/library
 	sudo bash -c "echo R_LIBS_USER=$$GITPOD_REPO_ROOT/.R/library > /home/gitpod/.Renviron"
 	# https://stackoverflow.com/questions/47541007/how-to-i-bypass-the-login-page-on-rstudio
