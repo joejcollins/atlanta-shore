@@ -1,1 +1,1 @@
-FROM docker pull rocker/verse:4.3.2
+FROM rocker/rstudio:4.3.2
