@@ -31,7 +31,9 @@ gitpod-before:  # Customize the terminal and install global project dependencies
 	# Install TinyTex for the gitpod user (it's a bit hard to install for all users).
 	wget -qO- "https://yihui.org/tinytex/install-bin-unix.sh" | sh
 	# Add /home/gitpod/bin to the paths so TinyTex can be found.
+	sudo bash -c "echo 'export PATH=$$PATH:/home/gitpod/bin' >> /home/gitpod/.bashrc"
 	sudo bash -c "echo 'export PATH=$$PATH:/home/gitpod/bin' >> /home/gitpod/.bash_profile"
+	sudo bash -c "echo 'export PATH=$$PATH:/home/gitpod/bin' >> /home/gitpod/.profile"
 
 gitpod-init:  # Downloading dependencies and compiling source code.
 	$(MAKE) venv
