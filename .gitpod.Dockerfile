@@ -32,7 +32,3 @@ RUN update-alternatives --install /usr/bin/python python ${PYENV_ROOT}/versions/
 
 # Expose the ports for the APIs
 EXPOSE 8090-8093
-
-# Install TinyTex for the gitpod user (it's a bit hard to install for all users).
-USER gitpod
-RUN wget -qO- "https://yihui.org/tinytex/install-bin-unix.sh" | sh
