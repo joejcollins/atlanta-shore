@@ -1,22 +1,4 @@
-\documentclass[a4paper,12pt]{article}
-
-% Packages
-\usepackage[utf8]{inputenc}
-\usepackage[T1]{fontenc}
-\usepackage{geometry}
-\usepackage{hyperref}
-
-% Page setup
-\geometry{a4paper, margin=1in}
-
-% Title and Author
-\title{Data Analysis Proposal}
-\author{Joe Collins}
-\date{\today}
-
-\begin{document}
-
-\maketitle
+# Beavers and Botany Background
 
 The Spains Hall Estate
 (in Finchingfield, Essex)
@@ -48,8 +30,9 @@ this is a volunteer lead study
 run by a collaborative team of experts from the fields of hydrology, botany and software development.
 These are:
 
+Sarah Brockless - Ecologist <https://www.linkedin.com/in/sarah-brockless-833291a7/>.
 Joe Collins - Software Engineer <https://www.linkedin.com/in/joejcollins/>.
-Mags Cousins - Ecologist.
+Mags Cousins - Botanist <https://www.researchgate.net/profile/Mags-Cousins>.
 Dave Gasca - Hydrologist <https://www.linkedin.com/in/david-gasca-7830537/>.
 
 The team are seeking to develop and enhance these techniques
@@ -67,5 +50,3 @@ will take to opportunity to get involved in the practical.
 
 The survey data and preliminary processing are available
 to review at <https://github.com/joejcollins/atlanta-shore>.
-
-\end{document}

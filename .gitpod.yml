@@ -18,6 +18,8 @@ tasks:
     sudo rserver
     sudo pkill rserver
     alias python='python3'
+    sudo bash -c "echo 'export PATH=$PATH:/home/gitpod/bin' >> /home/gitpod/.bash_profile"
+    
 
 ports:
   - port: 8787
@@ -31,27 +33,10 @@ vscode:
   extensions:
     - bungcip.better-toml
     - eamodio.gitlens
-    - ms-python.python
+    - james-yu.latex-workshop
     - ms-python.isort
+    - ms-python.python
     - RDebugger.r-debugger
     - reditorsupport.r
-    - streetsidesoftware.code-spell-checker
     - sourcery.sourcery
-
-github:
-  prebuilds:
-    # enable for the default branch (defaults to true)
-    master: true
-    # enable for all branches in this repo (defaults to false)
-    branches: false
-    # enable for pull requests coming from this repo (defaults to true)
-    pullRequests: true
-    # enable for pull requests coming from forks (defaults to false)
-    pullRequestsFromForks: false
-    # add a check to pull requests (defaults to true)
-    addCheck: true
-    # add a "Review in Gitpod" button as a comment to pull requests (defaults to false)
-    addComment: false
-    # add a "Review in Gitpod" button to the pull request's description (defaults to false)
-    addBadge: false
-    
+    - streetsidesoftware.code-spell-checker
