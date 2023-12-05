@@ -22,6 +22,10 @@ RUN ${PYENV_ROOT}/bin/pyenv install ${PYENV_VERSION}
 RUN pyenv global ${PYENV_VERSION}
 RUN pyenv rehash
 
+# Update alternatives so that the pyenv Python is the default Python.
+# We can't use an alias because the container's entrypoint is a shell script and .bashrc is not sourced.
+RUN update-alternatives --install /usr/bin/python python ${PYENV_ROOT}/versions/${PYENV_VERSION}/bin/python 1
+
 # For convenience add pyenv to the .bashrc file for root.
 USER root
 RUN echo 'eval "$(pyenv init -)"' >> ~/.bashrc
