@@ -7,7 +7,7 @@ tasks:
   before: |
     make gitpod-before
   init: |
-    make venv
+    make gitpod-init
   command: |
     make gitpod-command
 
