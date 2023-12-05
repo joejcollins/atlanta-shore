@@ -5,11 +5,11 @@ image:
 tasks:
 - name: R and Python setup
   before: |
-    make gitpod-before
+    echo "make gitpod-before"
   init: |
-    make gitpod-init
+    echo "make gitpod-init"
   command: |
-    make gitpod-command
+    echo "make gitpod-command"
 
 ports:
   - port: 8787

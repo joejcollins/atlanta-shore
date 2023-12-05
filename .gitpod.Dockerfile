@@ -1,1 +1,1 @@
-FROM rocker/tidyverse:4.3.2
+FROM rocker/verse:4.3.2
