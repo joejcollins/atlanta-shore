@@ -31,7 +31,7 @@ gitpod-before:  # Customize the terminal and install global project dependencies
 	# Ensure the pyenv is configured for the user.
 	echo 'eval "$(pyenv init - --no-rehash)"' >> ~/.bashrc
 	git config --global --add safe.directory /opt/pyenv
-	git config --global --add safe.directory /opt/pyenv/plugins/pyenv-update
+	sudo chmod -R 777 ${PYENV_ROOT}
 
 gitpod-command:  # Ensure that the rserver is available.
 	ln -s $(GITPOD_REPO_ROOT) $(HOME)/atlanta-shore
