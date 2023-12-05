@@ -21,10 +21,14 @@ ports:
 
 vscode:
   extensions:
+    - bierner.markdown-mermaid
     - bungcip.better-toml
     - eamodio.gitlens
     - james-yu.latex-workshop
+    - ms-python.black-formatter
     - ms-python.isort
+    - ms-python.mypy-type-checker
+    - ms-python.pylint
     - ms-python.python
     - RDebugger.r-debugger
     - reditorsupport.r

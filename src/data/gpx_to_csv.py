@@ -7,7 +7,9 @@ import csv
 import os
 
 import lxml.etree as ET
-from OSGridConverter import latlong2grid  # Accurate enough, probably matches ViewRanger and Garmin
+from OSGridConverter import (
+    latlong2grid,  # Accurate enough, probably matches ViewRanger and Garmin
+)
 
 FILES = ["spains-hall-waypoints-regular-30m-with-name-edited.gpx"]
 

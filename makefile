@@ -41,6 +41,9 @@ gitpod-command:  # Ensure that the rserver is available.
 	sudo rserver
 	sudo pkill rserver
 
+lint:  # Lint the code with ruff, yamllint and ansible-lint.
+	.venv/bin/python -m ruff .
+
 report:  # Report the python version and pip list.
 	.venv/bin/python --version
 	.venv/bin/python -m pip list -v

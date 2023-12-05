@@ -1,11 +1,11 @@
 """ Create the main observations data file by merging the observations files. """
 import csv
 from typing import List
-from python_src.logger import setup_logger
+
 from settings import date_from_file
 
-
 from python_src.handlers.survey_file_reader import SurveyFileReader
+from python_src.logger import setup_logger
 from python_src.models.sample_point_observation import SamplePointObservation
 from python_src.settings import ATLANTA_SHORE
 

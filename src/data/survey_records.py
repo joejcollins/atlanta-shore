@@ -10,5 +10,5 @@ class SurveyRecords(object):
         with open(survey_file_path, newline='') as survey_file:
 
     def next_site()
-    
+
 

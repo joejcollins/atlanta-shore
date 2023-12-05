@@ -2,8 +2,8 @@
 
 ...from the waypoints, survey sheets and photos """
 import csv
-import re
 import datetime
+import re
 
 SURVEY_FILE_PATHS = [
     "./data/raw/2019-02/data-plant-2019-02-01-MEC.csv",
