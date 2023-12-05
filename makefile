@@ -59,6 +59,3 @@ test:  # Run the tests.
 	. .venv/bin/python -m pytest ./tests/pytest
 	Rscript -e ".libPaths('.R/library'); devtools::install()"
 	Rscript -e "testthat::test_dir('tests')"
-
-shit:
-	echo 'eval "$$(pyenv init - --no-rehash)"' >> ~/.bashrc
