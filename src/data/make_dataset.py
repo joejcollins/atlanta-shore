@@ -79,13 +79,10 @@ def create_records_table():
                             row = next(survey_file_reader)
                         except StopIteration:
                             break  # at the end of the file
-                        if re.match(r"species|^$", row[0]) == None:
+                        if re.match(r"species|^$", row[0]) is None:
                             # Next waypoint so add the read row to the record
                             record[row[0]] = row[1]
-                            if row[2]:  # there is a comment
-                                waypoint_comments = row[2]
-                            else:
-                                waypoint_comments = ""
+                            waypoint_comments = row[2] or ""
                             break  # at the end of the species list
 
 
