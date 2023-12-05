@@ -39,4 +39,42 @@
   "terminal.integrated.scrollback": 100000,
   "r.bracketedPaste": true,
   "r.rterm.linux": "/workspace/atlanta-shore/.venv/bin/radian",
+   "latex-workshop.latex.recipes": [
+    {
+     "name": "pdfLaTeX",
+     "tools": [
+      "pdflatex"
+     ]
+    },
+    {
+     "name": "latexmk",
+     "tools": [
+      "latexmk"
+     ]
+    },
+    {
+     "name": "xelatex",
+     "tools": [
+      "xelatex"
+     ]
+    },
+    {
+     "name": "pdflatex ➞ bibtex ➞ pdflatex x 2",
+     "tools": [
+      "pdflatex",
+      "bibtex",
+      "pdflatex",
+      "pdflatex"
+     ]
+    },
+    {
+    "name": "xelatex ➞ bibtex ➞ xelatex x 2",
+    "tools": [
+      "xelatex",
+      "bibtex",
+      "xelatex",
+      "xelatex"
+     ]
+    }
+   ]
 }
