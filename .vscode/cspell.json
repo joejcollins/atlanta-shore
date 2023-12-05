@@ -47,6 +47,7 @@
         "ujson",
         "useable",
         "vcpus",
+        "venv",
         "werkzeug",
         "xlab",
         "ylab"
