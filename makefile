@@ -28,12 +28,13 @@ gitpod-before:  # Customize the terminal and install global project dependencies
 	sudo usermod -a -G sudo gitpod
 	sudo bash -c "echo 'server-user=gitpod' >> /etc/rstudio/rserver.conf"
 	sudo bash -c "echo 'auth-none=1' >> /etc/rstudio/rserver.conf"
+	# Ensure the pyenv is configured for the user.
+	echo 'eval "$(pyenv init - --no-rehash)"' >> ~/.bashrc
+	git config --global --add safe.directory /opt/pyenv
+	git config --global --add safe.directory /opt/pyenv/plugins/pyenv-update
 
-gitpod-init:  # Downloading dependencies and compiling source code.
-	$(MAKE) venv
-
-gitpod-command:  # Start your database or development server.
-	ln -s /workspace/atlanta-shore /home/gitpod/atlanta-shore
+gitpod-command:  # Ensure that the rserver is available.
+	ln -s $(GITPOD_REPO_ROOT) $(HOME)/atlanta-shore
 	# Restart the rserver with sudo otherwise it won't run for the gitpod user (dunno why)
 	sudo rserver
 	sudo pkill rserver
