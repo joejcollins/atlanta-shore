@@ -16,10 +16,12 @@ jobs:
         with:
           submodules: true
           clean: true
-      - name: Install Python
+      - name: Install Python.
         uses: actions/setup-python@v2
         with:
           python-version: 3.11
       - name: Create the virtual environment and run tests.
         run: |
-          make venv
+          make gitpod-before
+          make gitpod-init
+
