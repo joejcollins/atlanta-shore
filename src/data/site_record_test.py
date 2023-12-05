@@ -1,5 +1,5 @@
 """ Tests for site_record.py """
-import src.data.site_record as site_record
+from src.data import site_record
 
 SITE_RECORD_STRING = """quadrat,3,
 waypoint,1,
@@ -18,10 +18,10 @@ species,Urtica dioica,
 ,Ficaria verna,
 ,Glechoma hederacea,
 ,Holcus mollis,
-,Brachythecium rutabulum,"""
+,Brachythecium rutabulum,"""  # noqa: E501
 
 
-def test_site_record():
+def test_site_record() -> None:
     """Read in a site record and confirm attributes."""
     the_site_record = site_record.SiteRecord(SITE_RECORD_STRING)
     assert the_site_record.quadrat == 3
