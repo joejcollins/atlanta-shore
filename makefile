@@ -30,7 +30,7 @@ gitpod-before:  # Customize the terminal and install global project dependencies
 	sudo bash -c "echo 'auth-none=1' >> /etc/rstudio/rserver.conf"
 	# Ensure the pyenv is configured for the user.
 	echo 'eval ""$(pyenv init - --no-rehash)""' >> ~/.bashrc
-	sudo chmod -R 777 ${PYENV_ROOT}
+	-sudo chmod -R 777 ${PYENV_ROOT}
 
 gitpod-init:  # Downloading dependencies and compiling source code.
 	$(MAKE) venv
