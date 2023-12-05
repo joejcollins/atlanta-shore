@@ -22,7 +22,6 @@ ports:
 vscode:
   extensions:
     - bierner.markdown-mermaid
-    - bungcip.better-toml
     - eamodio.gitlens
     - james-yu.latex-workshop
     - ms-python.black-formatter
@@ -34,3 +33,4 @@ vscode:
     - reditorsupport.r
     - sourcery.sourcery
     - streetsidesoftware.code-spell-checker
+    - tamasfe.even-better-toml

@@ -58,7 +58,10 @@ def create_records_table():
             with open(survey_file_path, newline="") as survey_file:
                 survey_file_reader = csv.reader(survey_file, delimiter=",")
                 # Prepare an empty record with the file date
-                record = {"date": date_from_file(survey_file_path).isoformat(), "comments": ""}
+                record = {
+                    "date": date_from_file(survey_file_path).isoformat(),
+                    "comments": "",
+                }
                 waypoint_comments = ""  # to collect waypoint comments
                 for row in survey_file_reader:
                     # Read the waypoint information into the record.
