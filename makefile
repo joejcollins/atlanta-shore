@@ -23,7 +23,7 @@ dataset:  # Prepare the datasets for analysis
 gitpod-before:  # Customize the terminal and install global project dependencies.
 	# Move the R library to where we can see it.
 	mkdir -p $(GITPOD_REPO_ROOT)/.R/library
-	sudo bash -c "echo R_LIBS_USER=$$GITPOD_REPO_ROOT/.R/library > /home/gitpod/.Renviron"
+	sudo bash -c "echo R_LIBS_USER=$$GITPOD_REPO_ROOT/.R/library > $(HOME)/.Renviron"
 	# https://stackoverflow.com/questions/47541007/how-to-i-bypass-the-login-page-on-rstudio
 	sudo usermod -a -G sudo gitpod
 	sudo bash -c "echo 'server-user=gitpod' >> /etc/rstudio/rserver.conf"
