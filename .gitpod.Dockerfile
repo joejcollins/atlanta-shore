@@ -19,7 +19,7 @@ RUN apt-get install --assume-yes git sudo \
 # Install Python 3.11.6 using pyenv
 RUN apt-get -y install locales
 ENV PYENV_VERSION=3.11.6
-RUN /usr/local/pyenv/bin/pyenv install ${PYENV_VERSION}
+RUN ${PYENV_ROOT}/bin/pyenv install ${PYENV_VERSION}
 RUN pyenv global ${PYENV_VERSION}
 RUN pyenv rehash
 
