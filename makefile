@@ -30,7 +30,6 @@ gitpod-before:  # Customize the terminal and install global project dependencies
 	sudo bash -c "echo 'auth-none=1' >> /etc/rstudio/rserver.conf"
 	# Ensure the pyenv is configured for the user.
 	echo 'eval "$(pyenv init - --no-rehash)"' >> ~/.bashrc
-	git config --global --add safe.directory /opt/pyenv
 	sudo chmod -R 777 ${PYENV_ROOT}
 
 gitpod-command:  # Ensure that the rserver is available.
@@ -44,7 +43,6 @@ report:  # Report the python version and pip list.
 	.venv/bin/python -m pip list -v
 
 venv:  # Install the requirements for Python and R.
-	-pyenv update
 	-pyenv install --skip-existing
 	python -m venv .venv
 	.venv/bin/python -m pip install --upgrade pip setuptools

@@ -13,8 +13,6 @@ ENV PYENV_ROOT="/opt/pyenv"
 ENV PATH="${PYENV_ROOT}/bin:${PATH}"
 RUN apt-get install --assume-yes git sudo \
  && git clone https://github.com/pyenv/pyenv.git ${PYENV_ROOT} \
- && git clone https://github.com/pyenv/pyenv-virtualenv.git ${PYENV_ROOT}/plugins/pyenv-virtualenv \
- && git clone https://github.com/pyenv/pyenv-update.git ${PYENV_ROOT}/plugins/pyenv-update \
  && sudo chmod -R 777 ${PYENV_ROOT}
 
 # Install Python 3.11.6 using pyenv
