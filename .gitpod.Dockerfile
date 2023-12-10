@@ -1,6 +1,9 @@
 # Get a Rocker image with LaTeX already installed.
 FROM rocker/verse:4.3.2
 
+# Add some extra latex packages
+RUN tlmgr install isodate helvet uarial
+
 # Install the Pyenv pre-requisites.
 RUN apt-get --quiet update
 RUN sudo apt-get install --assume-yes build-essential libssl-dev zlib1g-dev \
