@@ -33,4 +33,4 @@ RUN echo 'eval "$(pyenv init -)"' >> ~/.bashrc
 # Add a few LaTeX packages
 USER rstudio
 RUN tlmgr update --self
-RUN tlmgr install isodate beamer helvet uarial babel
+RUN tlmgr install isodate beamer
