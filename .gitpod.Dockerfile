@@ -29,3 +29,8 @@ RUN update-alternatives --install /usr/bin/python python ${PYENV_ROOT}/versions/
 # For convenience add pyenv to the .bashrc file for root.
 USER root
 RUN echo 'eval "$(pyenv init -)"' >> ~/.bashrc
+
+# Add a few LaTeX packages
+USER rstudio
+RUN tlmgr update --self
+RUN tlmgr install isodate beamer helvet uarial
