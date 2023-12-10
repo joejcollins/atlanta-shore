@@ -1,4 +1,15 @@
-Internship Opportunity: Ecological Research Project - Statistical Analysis (Summer 2024)
+---
+title: "Beavers and Botany"
+date: "10 December 2023"
+author: "Joe Collins"
+
+output:
+  pdf_document:
+    template: ../markdown_template.tex
+---
+# Ecological Research Project
+
+## Statistical Analysis (Summer 2024)
 
 About Us:
 Join our vibrant team at the Spains Hall estate in Essex and be a part of a volunteer-led ecological research project dedicated to exploring and preserving the unique biodiversity of the region. This summer, we are offering an exciting internship opportunity focused on statistical analysis.
@@ -10,6 +21,10 @@ Duration: 3 Months (Summer 2024)
 Location: Remote and Spains Hall Estate, Essex
 
 Responsibilities:
+
+test
+
+fdf
 
 Conduct statistical analysis on ecological data sets to support ongoing research initiatives.
 Collaborate closely with volunteers and researchers to refine and implement statistical models.

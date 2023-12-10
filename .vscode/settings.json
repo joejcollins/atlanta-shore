@@ -35,7 +35,52 @@
   "terminal.integrated.scrollback": 100000,
   "r.bracketedPaste": true,
   "r.rterm.linux": "/workspace/atlanta-shore/.venv/bin/radian",
-   "latex-workshop.latex.recipes": [
+  "latex-workshop.latex.tools": [
+    {
+     "name": "latexmk",
+     "command": "latexmk",
+     "args": [
+      "-synctex=1",
+      "-interaction=nonstopmode",
+      "-file-line-error",
+      "-pdf",
+      "-outdir=%OUTDIR%",
+      "%DOC%"
+     ],
+     "env": {}
+    },
+    {
+     "name": "xelatex",
+     "command": "xelatex",
+     "args": [
+      "-synctex=1",
+      "-interaction=nonstopmode",
+      "-file-line-error",
+      "%DOC%"
+     ],
+     "env": {}
+    },
+    {
+     "name": "pdflatex",
+     "command": "pdflatex",
+     "args": [
+      "-synctex=1",
+      "-interaction=nonstopmode",
+      "-file-line-error",
+      "%DOC%"
+     ],
+     "env": {}
+    },
+    {
+     "name": "bibtex",
+     "command": "bibtex",
+     "args": [
+      "%DOCFILE%"
+     ],
+     "env": {}
+    }
+   ],   
+  "latex-workshop.latex.recipes": [
     {
      "name": "pdfLaTeX",
      "tools": [
@@ -43,7 +88,7 @@
      ]
     },
     {
-     "name": "latexmk",
+     "name": "latexmk 🔃",
      "tools": [
       "latexmk"
      ]
@@ -55,7 +100,7 @@
      ]
     },
     {
-     "name": "pdflatex ➞ bibtex ➞ pdflatex x 2",
+     "name": "pdflatex ➞ bibtex ➞ pdflatex`×2",
      "tools": [
       "pdflatex",
       "bibtex",
@@ -64,7 +109,7 @@
      ]
     },
     {
-    "name": "xelatex ➞ bibtex ➞ xelatex x 2",
+    "name": "xelatex ➞ bibtex ➞ xelatex`×2",
     "tools": [
       "xelatex",
       "bibtex",
@@ -72,5 +117,5 @@
       "xelatex"
      ]
     }
-   ]
+   ]   
 }
