@@ -2,7 +2,7 @@
 FROM rocker/verse:4.3.2
 
 # Add some extra latex packages
-RUN tlmgr install isodate helvet uarial
+RUN tlmgr install isodate
 
 # Install the Pyenv pre-requisites.
 RUN apt-get --quiet update
