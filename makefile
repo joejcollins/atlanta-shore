@@ -31,6 +31,8 @@ gitpod-before:  # Customize the terminal and install global project dependencies
 	# Ensure the pyenv is configured for the user.
 	echo 'eval ""$(pyenv init - --no-rehash)""' >> ~/.bashrc
 	-sudo chmod -R 777 ${PYENV_ROOT}
+	# For convenience open up the permissions on the TexLive directory
+	-sudo chmod -R 777 /usr/local/texlive
 
 gitpod-init:  # Downloading dependencies and compiling source code.
 	$(MAKE) venv

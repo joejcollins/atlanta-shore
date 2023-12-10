@@ -26,11 +26,7 @@ RUN pyenv rehash
 # We can't use an alias because the container's entrypoint is a shell script and .bashrc is not sourced.
 RUN update-alternatives --install /usr/bin/python python ${PYENV_ROOT}/versions/${PYENV_VERSION}/bin/python 1
 
-# For convenience add pyenv to the .bashrc file for root.
-USER root
-RUN echo 'eval "$(pyenv init -)"' >> ~/.bashrc
-
-# Add a few LaTeX packages
+# Add a few LaTeX packages that aren't already installed.
 USER rstudio
 RUN tlmgr update --self
-RUN tlmgr install isodate beamer
+RUN tlmgr install isodate beamer substr babel-english
