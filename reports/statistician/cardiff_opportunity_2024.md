@@ -13,8 +13,6 @@ output:
 
 About Us:
 
-Test
-
 Join our vibrant team at the Spains Hall estate in Essex and be a part of a volunteer-led ecological research project dedicated to exploring and preserving the unique biodiversity of the region. This summer, we are offering an exciting internship opportunity focused on statistical analysis.
 
 Position: Statistical Analysis Intern
