@@ -3,13 +3,13 @@ image:
   file: .gitpod.Dockerfile
 
 tasks:
-- name: R and Python setup
-  before: |
-    make gitpod-before
-  init: |
-    make gitpod-init
-  command: |
-    make gitpod-command
+  - name: R and Python setup
+    before: |
+      make gitpod-before
+    init: |
+      make gitpod-init
+    command: |
+      make gitpod-command
 
 ports:
   - port: 8787
@@ -22,6 +22,7 @@ ports:
 vscode:
   extensions:
     - bierner.markdown-mermaid
+    - charliermarsh.ruff
     - eamodio.gitlens
     - james-yu.latex-workshop
     - ms-python.black-formatter
@@ -31,6 +32,5 @@ vscode:
     - ms-python.python
     - RDebugger.r-debugger
     - reditorsupport.r
-    - sourcery.sourcery
     - streetsidesoftware.code-spell-checker
     - tamasfe.even-better-toml
