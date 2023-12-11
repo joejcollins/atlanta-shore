@@ -1,11 +1,11 @@
 ---
 title: "Beavers and Botany"
-date: "10 December 2023"
+date: "11 December 2023"
 author: "Joe Collins"
 
 output:
   pdf_document:
-    template: ../markdown_template.tex
+    template: ../markdown_template.ltx
 ---
 # Ecological Research Project
 
