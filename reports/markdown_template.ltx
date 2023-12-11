@@ -16,9 +16,9 @@
 \setlength{\parindent}{0pt}  % No indentation for paragraphs
 \setlength{\parskip}{1em}  % Add space between paragraphs
 
-% Unnumbered sections
-\newcommand{\othersection}[1]{\section*{#1}}
-\renewcommand{\section}[1]{\othersection{#1}}%
+% Remove the section numbers
+\setcounter{secnumdepth}{0}
+\renewcommand{\thesection}{}
 
 % Title and Author
 \title{$title$}
