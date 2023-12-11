@@ -33,6 +33,8 @@ gitpod-before:  # Customize the terminal and install global project dependencies
 	-sudo chmod -R 777 ${PYENV_ROOT}
 	# For convenience open up the permissions on the TexLive directory
 	-sudo chmod -R 777 /usr/local/texlive
+	# Set the git merge strategy
+	git config pull.rebase false
 
 gitpod-init:  # Downloading dependencies and compiling source code.
 	$(MAKE) venv
