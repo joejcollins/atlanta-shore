@@ -1,15 +1,27 @@
 ---
-title: "Biodiversity, Beavers and Botany"
+title: "Verifying Biodiversity Gains using Georeferenced Images"
 date: "11 December 2023"
 author: "Joe Collins"
+email: "j.collins@zengenti.com"
 
 output:
   pdf_document:
     template: ../markdown_template.ltx
 ---
-# Ecological Research Project
+# Background
 
-## Statistical Analysis (Summer 2024)
+In 2019 the estate introduced beavers into a fenced enclosure as part of their program of nature recovery and natural flood reduction.  The beavers have flourished and the site provides a very well documented demonstration of the effects of the introduction of beavers on biodiversity and water levels.  An annual botanical survey has been conducted to monitor the effects of the beaver introduction on the plant assemblages across the enclosure
+
+
+Data set with geolocated and classified images.
+
+# Objective
+
+Use machine learning techniques to predict Elenberg values from geolocated images.
+
+# Action
+
+
 
 About Us:
 
