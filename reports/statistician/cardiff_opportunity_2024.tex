@@ -1,0 +1,82 @@
+\documentclass[12pt]{article}
+
+% Packages
+\usepackage[british]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{hyperref}  % Required for hyperlinks
+\usepackage[english]{isodate}
+
+% Make it look kind of like Word
+\usepackage[margin=1in]{geometry}
+\providecommand{\tightlist}{%  This command is in the pandoc template
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\raggedright
+\renewcommand{\familydefault}{\sfdefault}  
+\setlength{\parindent}{0pt}  % No indentation for paragraphs
+\setlength{\parskip}{1em}  % Add space between paragraphs
+
+\title{Using Image Analysis and Machine Learning\\for Biodiversity Monitoring}
+\author{Joe Collins - j.collins@zengenti.com}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\section*{Background}
+
+In 2019, the Spains Hall Estate, Essex,
+initiated a nature recovery and natural flood management program by introducing beavers, widely regarded as bioengineers,
+into a fenced enclosure.
+Comprehensive monitoring of the hydrology, canopy cover, and botanical species composition has been conducted
+each year (2019-2023) to assess the impact of beavers within the enclosure.
+Each year two standardised geolocated full colour images were taken at each survey point
+capturing canopy cover (light) and ground cover of vegetation,
+bare ground and/or open water.
+
+In the summer of 2023, more beavers were introduced into two further enclosures.
+Survey data from the first enclosure will be utilized
+to predict the timeline for impacts on woodland cover, changes in water levels and botanical changes in the new enclosures.
+It is hoped to deploy machine learning techniques on the geolocated images
+to predict Ellenberg indicator values (EIVs) and changes in light levels (L) and moisture levels (M), resulting from the beaver activity.
+
+The model will be truthed against the real survey data and aims to predict changes in biodiversity,
+which will enable the utilisation of beavers as bioengineers within Biodiversity Net Gain calculations and Ecosystem Services. 
+
+\section*{Objective}
+
+Utilize machine learning techniques to predict Ellenberg indicator values (EIVs)
+from geolocated images.
+The focus is on automatically extracting features,
+such as shape descriptors and leaf area index,
+to generate a model predicting EIVs for images from the two additional enclosures.
+
+\section*{Collaborative Team}
+
+Whilst the Spains Hall estate is a commercial enterprise,
+this is a volunteer lead study
+run by a collaborative team consisting of:
+
+\begin{description}
+    \item[Sarah Brockless] Ecologist \href{https://www.linkedin.com/in/sarah-brockless-833291a7/}{https://www.linkedin.com/in/sarah-brockless-833291a7/}.
+    \item[Joe Collins] Software Engineer \href{https://www.linkedin.com/in/joejcollins/}{https://www.linkedin.com/in/joejcollins/}.
+    \item[Mags Cousins] Botanist \href{https://www.researchgate.net/profile/Mags-Cousins}{https://www.researchgate.net/profile/Mags-Cousins}
+    \item[David Gasca] Hydrologist \href{https://www.linkedin.com/in/david-gasca-7830537/}{https://www.linkedin.com/in/david-gasca-7830537/}.
+\end{description}
+
+The team would welcome input from a data scientist.
+
+\section*{Opportunity Details}
+
+\begin{description}
+    \item[Data Availability] This is an open source project and
+        the data thus far is available on \href{https://github.com/joejcollins/atlanta-shore}{https://github.com/joejcollins/atlanta-shore}.
+    \item[Tools] The project uses both R and Python for data preparation and statistical analysis.
+        Some familiarity with Git is needed but training can be given.
+    \item[Survey Assistance] There will be an opportunity to assist with the botanical survey
+        and data collection on site at the Spains Hall Estate, 20-24 June 2024.
+    \item[Contact] For further information contact Joe Collins at \href{mailto:j.collins@zengenti.com}{j.collins@zengenti.com}.
+\end{description}
+
+\end{document}

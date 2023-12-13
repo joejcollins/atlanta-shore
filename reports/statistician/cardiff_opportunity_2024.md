@@ -25,7 +25,8 @@ to predict the timeline for impacts on woodland cover, changes in water levels a
 The objective is to deploy machine learning techniques on the geolocated images
 to predict Ellenberg indicator values (EIVs) and changes in light levels (L) and moisture levels (M), resulting from the beaver activity.
  
-The model will be truthed against the real survey data and aims to predict changes in biodiversity, which will enable the utilisation of beavers as bioengineers within Biodiversity Net Gain calculations and Ecosystem Services. 
+The model will be truthed against the real survey data and aims to predict changes in biodiversity,
+which will enable the utilisation of beavers as bioengineers within Biodiversity Net Gain calculations and Ecosystem Services. 
 
 # Objective
 
