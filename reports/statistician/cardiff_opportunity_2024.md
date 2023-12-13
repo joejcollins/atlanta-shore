@@ -1,5 +1,5 @@
 ---
-title: "Verifying Biodiversity Gains using Georeferenced Images"
+title: "Using Image Analysis and Machine Learning for Biodiversity Monitoring"
 date: "11 December 2023"
 author: "Joe Collins"
 email: "j.collins@zengenti.com"
@@ -23,14 +23,14 @@ Data from the first enclosure will be utilized
 to predict the timeline for biodiversity gains in the new enclosures.
 The objective is to employ machine learning techniques
 to predict Ellenberg indicator values (EIVs)
-and National Vegetation Classification (NVC) from geolocated images.
+and British National Vegetation Classification (NVC) from geolocated images.
 This predictive model aims to confirm changes in biodiversity as they occur,
 eliminating the necessity for a detailed botanical survey.
 
 # Objective
 
 Utilize machine learning techniques to predict Ellenberg indicator values (EIVs)
-and National Vegetation Classification (NVC) from geolocated images.
+and British National Vegetation Classification (NVC) from geolocated images.
 The focus is on automatically extracting features,
 such as shape descriptors and leaf area index,
 to generate a model predicting EIVs and NVC for images from the two additional enclosures.
@@ -41,30 +41,20 @@ Whilst the Spains Hall estate is a commercial enterprise,
 this is a volunteer lead study
 run by a collaborative team consisting of:
 
-* Sarah Brockless - Ecologist <https://www.linkedin.com/in/sarah-brockless-833291a7/>.
-* Joe Collins - Software Engineer <https://www.linkedin.com/in/joejcollins/>.
-* Mags Cousins - Botanist <https://www.researchgate.net/profile/Mags-Cousins>.
-* Dave Gasca - Hydrologist <https://www.linkedin.com/in/david-gasca-7830537/>.
+* Sarah Brockless - Ecologist [LinkedIn](https://www.linkedin.com/in/sarah-brockless-833291a7/).
+* Joe Collins - Software Engineer [LinkedIn](https://www.linkedin.com/in/joejcollins/).
+* Mags Cousins - Botanist [ResearchGate](https://www.researchgate.net/profile/Mags-Cousins).
+* Dave Gasca - Hydrologist [LinkedIn](https://www.linkedin.com/in/david-gasca-7830537/).
 
 The team would welcome input from a data scientist.
 
 # Opportunity Details
 
-## Data Availability
-
-This is an open source project
-and the data thus far is available at <https://github.com/joejcollins/atlanta-shore>.
-
-## Tools
-
-The project uses both R and Python for data preparation and statistical analysis.
+* **Data Availability** This is an open source project
+and the data thus far is available on [Github](https://github.com/joejcollins/atlanta-shore).
+* **Tools** The project uses both R and Python for data preparation and statistical analysis.
 Some familiarity with Git is needed but training can be given.
-
-## Survey Assistance
-
-There will be an opportunity to assist with the botanical survey,
-20-24 June 2024 for which a modicum of physical fitness would be required.
-
-## Contact
-
-For further information contact Joe Collins at <j.collins@zengenti.com>.
+* **Survey Assistance** There will be an opportunity to assist with the botanical survey,
+at the Spains Hall Estate,
+20-24 June 2024.
+* **Contact** For further information contact Joe Collins at <j.collins@zengenti.com>.

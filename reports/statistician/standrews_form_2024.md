@@ -1,7 +1,8 @@
 ---
 title: "Predicting biodiversity gains from beaver introduction"
 date: "11 December 2023"
-author: "Spains Hall Estate, Essex"
+author: "Joe Collins"
+email: "j.collins@zengenti.com"
 
 output:
   pdf_document:
@@ -9,12 +10,26 @@ output:
 ---
 ## Description
 
-In 2019 the estate introduced beavers into a fenced enclosure as part of their program of nature recovery and natural flood reduction.  The beavers have flourished and the site provides a very well documented demonstration of the effects of the introduction of beavers on biodiversity and water levels.  An annual botanical survey has been conducted to monitor the effects of the beaver introduction on the plant assemblages across the enclosure and water levels are monitored using auto data loggers.  In the summer of 2023 the Spains Hall Estate introduced beavers into two much larger and more gently sloping enclosures.
+In 2019 the estate introduced beavers into a fenced enclosure
+as part of their program of nature recovery and natural flood reduction.
+The beavers have flourished and the site provides a very well documented demonstration
+of the effects of the introduction of beavers on biodiversity and water levels.
+An annual botanical survey has been conducted to monitor the effects of the beaver introduction
+on the plant assemblages across the enclosure and water levels are monitored using auto data loggers.
+In the summer of 2023 the Spains Hall Estate introduced beavers into two much larger
+and more gently sloping enclosures.
 
-Using data from the first enclosure we would like to predict the potential biodiversity gains for the two new enclosures, providing both a timeline and confidence limits. The data thus far is available for review at <https://github.com/joejcollins/atlanta-shore>. 
+Using data from the first enclosure we would like to predict the potential biodiversity gains for the two new enclosures,
+providing both a timeline and confidence limits.
+The data thus far is available for review at <https://github.com/joejcollins/atlanta-shore>. 
 
-There will be an opportunity to assist with the botanical survey, 20-24 June 2024 for which a modicum of physical fitness would be required.
+There will be an opportunity to assist with the botanical survey,
+20-24 June 2024 for which a modicum of physical fitness would be required.
 
 ## Comments
 
-The project uses R for statistical analysis.  Some familiarity with Git is needed but training can be given.  It would be an advantage to have some experience with Python.  The team includes the estate manager, two ecologists, a hydrologist and a software engineer, but would welcome input from a statistician.
+The project uses R for statistical analysis.
+Some familiarity with Git is needed but training can be given.
+It would be an advantage to have some experience with Python.
+The team includes the estate manager, two ecologists, a hydrologist and a software engineer,
+but would welcome input from a statistician.
