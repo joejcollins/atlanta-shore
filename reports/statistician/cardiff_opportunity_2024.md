@@ -1,6 +1,6 @@
 ---
 title: "Using Image Analysis and Machine Learning for Biodiversity Monitoring"
-date: "11 December 2023"
+date: "13 December 2023"
 author: "Joe Collins"
 email: "j.collins@zengenti.com"
 
@@ -11,29 +11,28 @@ output:
 # Background
 
 In 2019, the Spains Hall Estate, Essex,
-initiated a nature recovery and flood reduction program by introducing beavers
+initiated a nature recovery and natural flood management program by introducing beavers, widely regarded as bioengineers,
 into a fenced enclosure.
-A comprehensive annual botanical survey has been conducted
-to assess the impact of the beaver introduction on plant assemblages within the enclosure.
-Geolocated images were captured at each survey point,
-covering canopy and ground vegetation.
+Comprehensive monitoring of the hydrology, canopy cover, and botanical species composition has been conducted
+each year (2019-2023) to assess the impact of beavers within the enclosure.
+Two standardised geolocated full colour images were taken at each survey point
+capturing canopy cover (light) and ground cover of vegetatio, bare ground and/or open water.
 
-In the summer of 2023, beavers were introduced into two additional enclosures.
-Data from the first enclosure will be utilized
-to predict the timeline for biodiversity gains in the new enclosures.
-The objective is to employ machine learning techniques
-to predict Ellenberg indicator values (EIVs)
-and British National Vegetation Classification (NVC) from geolocated images.
-This predictive model aims to confirm changes in biodiversity as they occur,
-eliminating the necessity for a detailed botanical survey.
+In the summer of 2023, more beavers were introduced into two further enclosures.
+Survey data from the first enclosure will be utilized
+to predict the timeline for impacts on woodland cover, changes in water levels and botanical changes in the new enclosures.
+The objective is to deploy machine learning techniques on the geolocated images
+to predict Ellenberg indicator values (EIVs) and changes in light levels (L) and moisture levels (M), resulting from the beaver activity.
+ 
+The model will be truthed against the real survey data and aims to predict changes in biodiversity, which will enable the utilisation of beavers as bioengineers within Biodiversity Net Gain calculations and Ecosystem Services. 
 
 # Objective
 
 Utilize machine learning techniques to predict Ellenberg indicator values (EIVs)
-and British National Vegetation Classification (NVC) from geolocated images.
+from geolocated images.
 The focus is on automatically extracting features,
 such as shape descriptors and leaf area index,
-to generate a model predicting EIVs and NVC for images from the two additional enclosures.
+to generate a model predicting EIVs for images from the two additional enclosures.
 
 # Collaborative Team
 
@@ -54,7 +53,7 @@ The team would welcome input from a data scientist.
 and the data thus far is available on [Github](https://github.com/joejcollins/atlanta-shore).
 * **Tools** The project uses both R and Python for data preparation and statistical analysis.
 Some familiarity with Git is needed but training can be given.
-* **Survey Assistance** There will be an opportunity to assist with the botanical survey,
+* **Survey Assistance** There will be an opportunity to assist with the botanical survey and data collection on site
 at the Spains Hall Estate,
 20-24 June 2024.
 * **Contact** For further information contact Joe Collins at <j.collins@zengenti.com>.
