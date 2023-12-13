@@ -16,7 +16,8 @@ into a fenced enclosure.
 Comprehensive monitoring of the hydrology, canopy cover, and botanical species composition has been conducted
 each year (2019-2023) to assess the impact of beavers within the enclosure.
 Two standardised geolocated full colour images were taken at each survey point
-capturing canopy cover (light) and ground cover of vegetatio, bare ground and/or open water.
+capturing canopy cover (light) and ground cover of vegetation,
+bare ground and/or open water.
 
 In the summer of 2023, more beavers were introduced into two further enclosures.
 Survey data from the first enclosure will be utilized
