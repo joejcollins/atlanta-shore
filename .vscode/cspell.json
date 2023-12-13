@@ -1,6 +1,6 @@
 {
     "version": "0.2",
-    "language": "en",
+    "language": "en-GB",
     "words": [
         "abcdefghijklmnopqrstuvwxyz",
         "apidocs",
@@ -19,6 +19,7 @@
         "flasgger",
         "funcs",
         "Galium",
+        "geolocated",
         "getenv",
         "GUIDs",
         "Ikuyadeu",
