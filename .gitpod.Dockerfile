@@ -29,4 +29,4 @@ RUN update-alternatives --install /usr/bin/python python ${PYENV_ROOT}/versions/
 # Add a few LaTeX packages that aren't already installed.
 USER rstudio
 RUN tlmgr update --self
-RUN tlmgr install isodate beamer substr babel-english sectsty
+RUN tlmgr install isodate beamer substr babel-english sectsty float

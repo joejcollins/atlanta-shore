@@ -1,10 +1,8 @@
 % Class Identification
-\NeedsTeXFormat{LaTeX2e}[1995/06/01]
-\ProvidesClass{./roles}
-              [2023/12/25 v1.0 roles]
+\ProvidesClass{roles}[2023/12/14 Custom Class for Support Roles]
 
 % Base Class
-\LoadClass[12pt, a4paper, twoside, british]{article}
+\LoadClass[a4paper,12pt]{article}
 
 % Packages
 \usepackage[british]{babel}
@@ -15,7 +13,7 @@
 \usepackage{graphicx}
 \usepackage{float}
 
-% Make it look kind of like Word
+% Make it look kind of like MS Word
 \usepackage[margin=1in]{geometry}
 \providecommand{\tightlist}{%  This command is in the pandoc template
   \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
@@ -23,3 +21,5 @@
 \renewcommand{\familydefault}{\sfdefault}  
 \setlength{\parindent}{0pt}  % No indentation for paragraphs
 \setlength{\parskip}{1em}  % Add space between paragraphs
+
+\endinput
