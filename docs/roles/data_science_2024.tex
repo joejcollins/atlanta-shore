@@ -1,24 +1,8 @@
-\documentclass[12pt]{article}
-
-% Packages
-\usepackage[british]{babel}
-\usepackage[utf8]{inputenc}
-\usepackage[T1]{fontenc}
-\usepackage{hyperref}  % Required for hyperlinks
-\usepackage[english]{isodate}
-
-% Make it look kind of like Word
-\usepackage[margin=1in]{geometry}
-\providecommand{\tightlist}{%  This command is in the pandoc template
-  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
-\raggedright
-\renewcommand{\familydefault}{\sfdefault}  
-\setlength{\parindent}{0pt}  % No indentation for paragraphs
-\setlength{\parskip}{1em}  % Add space between paragraphs
+\documentclass{./roles}
 
 \title{Using Image Analysis and Machine Learning\\for Biodiversity Monitoring}
 \author{Joe Collins - j.collins@zengenti.com}
-\date{\today}
+\date{14 December 2023}
 
 \begin{document}
 
@@ -34,6 +18,15 @@ each year (2019-2023) to assess the impact of beavers within the enclosure.
 Each year two standardized geolocated full colour images were taken at each survey point
 capturing canopy cover (light) and ground cover of vegetation,
 bare ground and/or open water.
+
+\begin{figure}[H]
+  \centering
+  \begin{tabular}{cc}
+    \includegraphics[width=0.45\linewidth]{../images/survey-up.jpg} &
+    \includegraphics[width=0.45\linewidth]{../images/survey-down.jpg} \\
+    Canopy Cover & Ground Cover \\
+  \end{tabular}
+\end{figure}
 
 In the summer of 2023, more beavers were introduced into two further enclosures.
 Survey data from the first enclosure will be utilized
