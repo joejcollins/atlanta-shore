@@ -1,5 +1,5 @@
 ---
-name: Python Tests
+name: python-tests
 
 on:
   push:
@@ -10,6 +10,8 @@ jobs:
     runs-on: ubuntu-latest
     container:
       image: rocker/verse:4.3.2
+    env:
+      GITHUB_PAT: ${{ secrets.PAT_NO_PERMISSIONS }}
     steps:
       - name: Checkout the repo.
         uses: actions/checkout@v4
@@ -22,7 +24,7 @@ jobs:
           python-version: 3.11
       - name: Create the virtual environment and run tests.
         run: |
+          echo $GITHUB_PAT
           make gitpod-before
           make gitpod-init
-    env:
-      GITHUB_PAT: ${{ secrets.PAT_NO_PERMISSIONS }}
+
