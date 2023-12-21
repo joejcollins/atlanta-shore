@@ -28,7 +28,7 @@ jobs:
       uses: docker/build-push-action@v5
       with:
         context: .
-        file: ./gitpod.Dockerfile
+        file: ./.gitpod.Dockerfile
         push: true
         tags: |
           joejcollins/atlanta-shore:latest
