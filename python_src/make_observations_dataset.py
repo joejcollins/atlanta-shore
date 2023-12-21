@@ -2,12 +2,10 @@
 import csv
 from typing import List
 
-from settings import date_from_file
-
 from python_src.handlers.survey_file_reader import SurveyFileReader
 from python_src.logger import setup_logger
 from python_src.models.sample_point_observation import SamplePointObservation
-from python_src.settings import ATLANTA_SHORE
+from python_src.settings import ATLANTA_SHORE, date_from_file
 
 LOG = setup_logger(__name__)
 
