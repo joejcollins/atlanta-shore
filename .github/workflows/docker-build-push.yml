@@ -32,4 +32,4 @@ jobs:
         push: true
         tags: |
           joejcollins/atlanta-shore:latest
-          joejcollins/atlanta-shore::${{ github.sha }}
+          joejcollins/atlanta-shore:${{ github.sha }}
