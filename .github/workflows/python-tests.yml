@@ -1,5 +1,5 @@
 ---
-name: python-tests
+name: Python and R Tests
 
 on:
   push:
