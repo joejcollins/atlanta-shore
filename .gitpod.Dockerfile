@@ -31,7 +31,7 @@ USER rstudio
 RUN tlmgr update --self
 RUN tlmgr install isodate beamer substr babel-english sectsty float
 
-# Build the virtual environment for the rstudio user.
+# Build the Python virtual environment and R library so they are available for other users.
 WORKDIR /app
 RUN mkdir -p /app/.R/library
 COPY pyproject.toml requirements.txt setup.R makefile /app/
