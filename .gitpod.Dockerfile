@@ -34,6 +34,7 @@ RUN tlmgr install isodate beamer substr babel-english sectsty float
 # Build the virtual environment for the rstudio user.
 WORKDIR /app
 COPY requirements.txt /app/
+COPY setup.R /app/
 COPY makefile /app/
 RUN eval "$(pyenv init -)" \
   && make venv
