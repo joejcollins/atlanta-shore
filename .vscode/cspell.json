@@ -41,6 +41,7 @@
         "lubridate",
         "lxml",
         "magrittr",
+        "nolint",
         "organisation",
         "praelonga",
         "prebuilds",

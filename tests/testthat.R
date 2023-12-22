@@ -8,6 +8,6 @@
 
 library(testthat)
 library(devtools)
-load_all("./")  # library(atlanta.shore)
+load_all("./")  # library(atlanta.shore) # nolint: commented_code_linter.
 
 test_check("atlanta.shore")
