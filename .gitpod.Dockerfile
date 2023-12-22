@@ -30,3 +30,8 @@ RUN update-alternatives --install /usr/bin/python python ${PYENV_ROOT}/versions/
 USER rstudio
 RUN tlmgr update --self
 RUN tlmgr install isodate beamer substr babel-english sectsty float
+
+# Build the virtual environment for the rstudio user.
+COPY makefile .
+RUN eval "$(pyenv init -)" \
+  && make venv
