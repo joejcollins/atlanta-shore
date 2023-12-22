@@ -29,7 +29,7 @@ gitpod-before:  # Customize the terminal and install global project dependencies
 	sudo bash -c "echo 'server-user=gitpod' >> /etc/rstudio/rserver.conf"
 	sudo bash -c "echo 'auth-none=1' >> /etc/rstudio/rserver.conf"
 	# Ensure the pyenv is configured for the user.
-	echo 'eval ""$(pyenv init - --no-rehash)""' >> ~/.bashrc
+	echo 'eval "$$(pyenv init - --no-rehash)"' >> ~/.bashrc
 	-sudo chmod -R 777 ${PYENV_ROOT}
 	# For convenience open up the permissions on the TexLive directory
 	-sudo chmod -R 777 /usr/local/texlive

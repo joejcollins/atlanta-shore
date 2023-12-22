@@ -1,4 +1,5 @@
-^LICENSE\.md$
 .venv
 ^.*\.Rproj$
+^\.R$
 ^\.Rproj\.user$
+^LICENSE\.md$
