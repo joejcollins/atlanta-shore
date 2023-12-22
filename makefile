@@ -27,7 +27,7 @@ gitpod-before:  # Customize the terminal and install global project dependencies
 	sudo bash -c "echo R_LIBS_USER=$$GITPOD_REPO_ROOT/.R/library > $(HOME)/.Renviron"
 	# https://stackoverflow.com/questions/47541007/how-to-i-bypass-the-login-page-on-rstudio
 	-if id -u gitpod &>/dev/null; then sudo usermod -aG sudo gitpod; fi
-	sudo bash -c "echo 'server-user=gitpod' >> /etc)/rstudio/rserver.conf"
+	sudo bash -c "echo 'server-user=gitpod' >> /etc/rstudio/rserver.conf"
 	sudo bash -c "echo 'auth-none=1' >> /etc/rstudio/rserver.conf"
 	# Ensure the pyenv is configured for the user.
 	echo 'eval "$$(pyenv init - --no-rehash)"' >> ~/.bashrc
