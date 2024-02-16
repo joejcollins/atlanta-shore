@@ -50,7 +50,7 @@ lint:  # Lint the code with ruff, yamllint and ansible-lint.
 	.venv/bin/python -m ruff .
 
 report:  # Report the python version and pip list.
-    whoami
+	whoami
 	.venv/bin/python --version
 	.venv/bin/python -m pip list -v
 	Rscript -e "library()"
