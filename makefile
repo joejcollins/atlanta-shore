@@ -42,7 +42,7 @@ gitpod-init:  # Downloading dependencies and compiling source code.
 
 gitpod-command:  # Ensure that the rserver is available.
 	ln -s $(GITPOD_REPO_ROOT) $(HOME)/atlanta-shore
-	# Restart the rserver with sudo otherwise it won't run for the gitpod user (dunno why)
+	# Restart the rserver with sudo otherwise it won't run for the gitpod user (dunno why).
 	sudo rserver
 	sudo pkill rserver
 
@@ -53,7 +53,8 @@ report:  # Report the python version and pip list.
 	whoami
 	.venv/bin/python --version
 	.venv/bin/python -m pip list -v
-	Rscript -e "installed_packages <- as.data.frame(installed.packages()); print(installed_packages[c('Package', 'LibPath')])"
+	Rscript -e "installed_packages <- as.data.frame(installed.packages()); \
+		print(installed_packages[c('Package', 'LibPath')])"
 
 venv:  # Install the requirements for Python and R.
 	-pyenv install --skip-existing
