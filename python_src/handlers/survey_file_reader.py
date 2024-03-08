@@ -7,8 +7,8 @@ class SurveyFileReader:
 
     def __init__(self, file_path: str) -> None:
         """Initialize with the survey file path."""
-        # Open the file on initialization and ensure that there are no records yet.
-        self.file = open(file_path, "r")
+        # Open the file on initialization and ensure there are no records yet.
+        self.file = open(file_path, "r", encoding="utf-8")
         self.current_record = None
         self.next_line = None  # So we can read ahead.
 
@@ -19,13 +19,13 @@ class SurveyFileReader:
         """Return the next record in the file."""
         # If there is no record go and get it.
         if self.current_record is None:
-            self.current_record = self._read_record()
+            self.current_record: Optional[str] = self._read_record()
         # Create a record to return or stop.
         record = self.current_record
         if record is None:  # we are at the end of the file.
             self.file.close()
             raise StopIteration
-        self.current_record = None  # Reset current record for the next iteration
+        self.current_record = None  # Reset current record for next iteration.
         return record
 
     def _read_record(self) -> Optional[str]:
