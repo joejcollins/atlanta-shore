@@ -53,7 +53,7 @@ report:  # Report the python version and pip list.
 	whoami
 	.venv/bin/python --version
 	.venv/bin/python -m pip list -v
-	Rscript -e "library()"
+	Rscript -e "installed_packages <- as.data.frame(installed.packages()); print(installed_packages[c('Package', 'LibPath')])"
 
 venv:  # Install the requirements for Python and R.
 	-pyenv install --skip-existing
