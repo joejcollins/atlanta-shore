@@ -1,3 +1,4 @@
+library(leaflet.providers)
 library(leaflet)
 library(readr)
 sample_points_path <- paste0("data/raw/spains-hall-waypoints-regular-30m",
@@ -18,3 +19,4 @@ for (i in 1:nrow(sample_points)) {
 
 # Display the map
 m
+
