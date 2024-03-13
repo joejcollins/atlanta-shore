@@ -49,6 +49,9 @@ gitpod-command:  # Ensure that the rserver is available.
 lint:  # Lint the code with ruff, yamllint and ansible-lint.
 	.venv/bin/python -m ruff .
 
+mypy:  # Type check the code with mypy.
+	.venv/bin/python -m mypy ./python_src ./tests
+
 report:  # Report the python version and pip list.
 	whoami
 	.venv/bin/python --version

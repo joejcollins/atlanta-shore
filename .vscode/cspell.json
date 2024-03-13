@@ -49,6 +49,7 @@
         "pyenv",
         "pylint",
         "pytest",
+        "quadrat",
         "Rcpp",
         "readr",
         "reditorsupport",
