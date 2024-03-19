@@ -1,7 +1,7 @@
 """Test the Sample Point Observation class."""
 from datetime import date
 
-from python_src.models.sample_point_observation import SamplePointObservation
+from models.sample_point_observation import SamplePointObservation
 
 OBSERVATION_STRING = """quadrat,49,
 waypoint,1,
