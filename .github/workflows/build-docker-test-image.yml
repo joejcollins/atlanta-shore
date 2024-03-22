@@ -1,10 +1,10 @@
-name: Docker Build and Push
+name: Build the Docker test image and push to dockerhub
 
 on:
   push:
     paths:
       - '.gitpod.Dockerfile'
-      - '.github/workflows/docker-build-push.yml'
+      - '.github/workflows/build-docker-test-image.yml'
 
 jobs:
   build-and-push:

@@ -1,5 +1,5 @@
 ---
-name: Python and R Tests
+name: Run the Python and R Tests
 
 on:
   push:
@@ -9,7 +9,7 @@ jobs:
   run_python_tests:
     runs-on: ubuntu-latest
     container:
-      image: rocker/verse:4.3.2
+      image: joejcollins/atlanta-shore:latest
     env:
       GITHUB_PAT: ${{ secrets.PAT_NO_PERMISSIONS }}
     steps:
@@ -18,10 +18,6 @@ jobs:
         with:
           submodules: true
           clean: true
-      - name: Install Python.
-        uses: actions/setup-python@v2
-        with:
-          python-version: 3.11
       - name: Create the virtual environment and run tests.
         run: |
           echo $GITHUB_PAT
