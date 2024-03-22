@@ -45,6 +45,8 @@ gitpod-before:  # Customize the terminal and install global project dependencies
 	-git config pull.rebase false
 	# Get Starship running
 	echo 'eval "$$(starship init bash)"' >> ~/.bashrc
+	# Make sure the gitpod user is using bash
+	sudo chsh -s /usr/bin/bash gitpod
 
 gitpod-init:  # Copy accross the pre-built .venv and the .R libraries.
 	cp -r /app/.venv .venv
