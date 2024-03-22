@@ -33,5 +33,4 @@ jobs:
         push: true
         tags: |
           joejcollins/atlanta-shore:latest
-          joejcollins/atlanta-shore:$(date +%Y-%m-%d)
           joejcollins/atlanta-shore:${{ github.sha }}
