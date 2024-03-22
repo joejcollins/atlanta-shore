@@ -37,9 +37,10 @@ COPY pyproject.toml requirements.txt setup.R Makefile /app/
 RUN eval "$(pyenv init -)" \
  && make venv
 
+RUN ln -sf /bin/bash /bin/sh
+
 # Add a few LaTeX packages that aren't already installed.
-###
-# User is rstudio because they are to be used in Rstudio.
+## User is rstudio because they are to be used in Rstudio.
 USER rstudio
 RUN tlmgr update --self
 RUN tlmgr install isodate beamer substr babel-english sectsty float
