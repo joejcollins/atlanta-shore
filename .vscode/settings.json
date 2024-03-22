@@ -22,13 +22,13 @@
   "editor.minimap.enabled": false,
   "workbench.colorTheme": "Visual Studio Light",
   "python.defaultInterpreterPath": ".venv/bin/python",
-  "terminal.integrated.defaultProfile.linux": "bash",
   "terminal.integrated.shellIntegration.enabled": true,
+  "terminal.integrated.defaultProfile.linux": "bash",
   "terminal.integrated.profiles.linux": {
     "bash": {
-      "path": "bash",
+      "path": "/usr/bin/bash",
       "args": [
-        "-l"
+        "--login"
       ]
     }
   },
