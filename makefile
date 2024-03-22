@@ -3,10 +3,10 @@
 
 clean:  # Remove all build, test, coverage and Python artifacts.
 	rm -rf .venv
+	rm -rf atlanta_shore.egg-info
 	find . -name "*.pyc" -exec rm -f {} \;
 	find . -type f -name "*.py[co]" -delete -or -type d -name "__pycache__" -delete
-	rm -rf .R/library/
-	rm -rf atlanta_shore.egg-info
+	rm -rf .R/library/*
 
 compile:  # Compile the requirements files using pip-tools.
 	rm -f requirements.*
