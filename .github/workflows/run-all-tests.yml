@@ -10,10 +10,11 @@ jobs:
     runs-on: ubuntu-latest
     container:
       image: joejcollins/atlanta-shore:latest
+      options: --user root # needs to be root or the checkout fails.
     env:
       GITHUB_PAT: ${{ secrets.PAT_NO_PERMISSIONS }}
     steps:
-      - name: Checkout the repo without the Github action because it does not work on the container.
+      - name: Checkout the repo (ensuring the user is root ^^^ or it fails).
         uses: actions/checkout@v4
         with:
           submodules: false
