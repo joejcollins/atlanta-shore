@@ -5,7 +5,7 @@ clean:  # Remove all build, test, coverage and Python artifacts.
 	rm -rf .venv
 	find . -name "*.pyc" -exec rm -f {} \;
 	find . -type f -name "*.py[co]" -delete -or -type d -name "__pycache__" -delete
-	rm -rf .R
+	rm -rf .R/library/
 	rm -rf atlanta_shore.egg-info
 
 compile:  # Compile the requirements files using pip-tools.
@@ -41,8 +41,8 @@ gitpod-before:  # Customize the terminal and install global project dependencies
 
 gitpod-init:  # Copy accross the pre-built .venv and the .R libraries.
 	cp -r /app/.venv .venv
-	cp -r /app/.R .R
 	cp -r /app/atlanta_shore.egg-info atlanta_shore.egg-info
+	cp -r /app/.R/library/ .R/library/
 
 gitpod-command:  # Ensure that the rserver is available.
 	ln -s $(GITPOD_REPO_ROOT) $(HOME)/atlanta-shore
