@@ -43,7 +43,7 @@ gitpod-init:  # Copy accross the pre-built .venv and the .R libraries.
 	cp -r /app/.venv .venv
 	cp -r /app/atlanta_shore.egg-info atlanta_shore.egg-info
 	.venv/bin/python -m pip install -e .
-	cp -r /app/.R/library/ .R/library/
+	cp -r /app/.R/library/* .R/library
 
 gitpod-command:  # Ensure that the rserver is available.
 	ln -s $(GITPOD_REPO_ROOT) $(HOME)/atlanta-shore
