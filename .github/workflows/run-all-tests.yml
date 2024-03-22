@@ -21,7 +21,6 @@ jobs:
           clean: true
       - name: Create the virtual environment and run tests.
         run: |
-          echo $GITHUB_PAT
           export GITPOD_REPO_ROOT="$(pwd)"
           make gitpod-before
           make gitpod-init
