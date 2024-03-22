@@ -1,14 +1,13 @@
 """Test the functions using for making the dataset."""
-from python_src.make_observations_dataset import _get_field_names
-from python_src.settings import ATLANTA_SHORE
+from python_src import make_observations_dataset, settings
 
 
 def test_get_field_names() -> None:
     """Test that the field names are correct."""
     # ARRANGE
-    first_observations_file = ATLANTA_SHORE.observations_files[0]
+    first_observations_file = settings.ATLANTA_SHORE.observations_files[0]
     # ACT
-    field_names = _get_field_names(first_observations_file)
+    field_names =  make_observations_dataset._get_field_names(first_observations_file)
     # ASSERT
     assert field_names == [
         "sample_point_id",

@@ -4,11 +4,11 @@ image:
 
 tasks:
   - name: R and Python setup
-    before: |
+    before: | # Preparatory steps that should run before the main setup, such as setting up tools.
       make gitpod-before
-    init: |
+    init: | # Tasks for setting up the project, like downloading dependencies.
       make gitpod-init
-    command: |
+    command: | # Commands that start your main application or services.
       make gitpod-command
 
 ports:
@@ -28,7 +28,6 @@ vscode:
     - ms-python.black-formatter
     - ms-python.isort
     - ms-python.mypy-type-checker
-    - ms-python.pylint
     - ms-python.python
     - RDebugger.r-debugger
     - reditorsupport.r

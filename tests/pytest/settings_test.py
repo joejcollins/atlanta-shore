@@ -1,4 +1,5 @@
 """Confirm that the settings module is working as expected."""
+
 from python_src.settings import ATLANTA_SHORE
 
 

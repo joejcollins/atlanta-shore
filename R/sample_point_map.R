@@ -18,3 +18,4 @@ for (i in 1:nrow(sample_points)) {
 
 # Display the map
 m
+

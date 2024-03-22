@@ -1,5 +1,4 @@
 """Iterate through a survey data file."""
-from typing import Optional
 
 
 class SurveyFileReader:
@@ -7,10 +6,10 @@ class SurveyFileReader:
 
     def __init__(self, file_path: str) -> None:
         """Initialize with the survey file path."""
-        # Open the file on initialization and ensure that there are no records yet.
-        self.file = open(file_path, "r")
-        self.current_record = None
-        self.next_line = None  # So we can read ahead.
+        # Open the file on initialization and ensure there are no records yet.
+        self.file = open(file_path, "r", encoding="utf-8")
+        self.current_record: str | None = None
+        self.next_line: str | None = None  # So we can read ahead.
 
     def __iter__(self):
         return self
@@ -25,10 +24,10 @@ class SurveyFileReader:
         if record is None:  # we are at the end of the file.
             self.file.close()
             raise StopIteration
-        self.current_record = None  # Reset current record for the next iteration
+        self.current_record = None  # Reset current record for next iteration.
         return record
 
-    def _read_record(self) -> Optional[str]:
+    def _read_record(self) -> str | None:
         """Read from the file to the end of the species list."""
         record_lines = ""
         in_species = False  # The species list is the last field in the record.

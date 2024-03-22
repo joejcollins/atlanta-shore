@@ -1,4 +1,5 @@
 """Test the Sample Point Observation class."""
+
 from datetime import date
 
 from python_src.models.sample_point_observation import SamplePointObservation
