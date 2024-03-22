@@ -47,7 +47,7 @@ gitpod-command:  # Ensure that the rserver is available.
 	sudo pkill rserver
 
 lint:  # Lint the code with ruff, yamllint and ansible-lint.
-	.venv/bin/python -m ruff .
+	.venv/bin/python -m ruff check .
 
 mypy:  # Type check the code with mypy.
 	.venv/bin/python -m mypy ./python_src ./tests
