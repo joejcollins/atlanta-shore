@@ -1,5 +1,6 @@
 """Confirm that the survey file reader can iterate through a file."""
-from handlers.survey_file_reader import SurveyFileReader
+
+from python_src.handlers.survey_file_reader import SurveyFileReader
 
 
 def test_read_first_record() -> None:
