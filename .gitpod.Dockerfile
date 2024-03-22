@@ -26,14 +26,9 @@ RUN pyenv rehash
 # We can't use an alias because the container's entrypoint is a shell script and .bashrc is not sourced.
 RUN update-alternatives --install /usr/bin/python python ${PYENV_ROOT}/versions/${PYENV_VERSION}/bin/python 1
 
-# Add a few LaTeX packages that aren't already installed.
-USER rstudio
-RUN tlmgr update --self
-RUN tlmgr install isodate beamer substr babel-english sectsty float
-
 # Add Starship because I like it
-# RUN sh -c "$(curl -fsSL https://starship.rs/install.sh)" -- --yes \
-# && echo 'eval "$(starship init bash)"' > .bashrc
+RUN sh -c "$(curl -fsSL https://starship.rs/install.sh)" -- --yes \
+&& echo 'eval "$(starship init bash)"' > .bashrc
 
 # Build the Python virtual environment and R library so they are available for other users.
 WORKDIR /app
@@ -41,3 +36,11 @@ RUN mkdir -p /app/.R/library
 COPY pyproject.toml requirements.txt setup.R makefile /app/
 RUN eval "$(pyenv init -)" \
   && make venv
+
+# Add a few LaTeX packages that aren't already installed.
+###
+# User is rstudio because they are to be used from rstudio.
+USER rstudio
+RUN tlmgr update --self
+RUN tlmgr install isodate beamer substr babel-english sectsty float
+
