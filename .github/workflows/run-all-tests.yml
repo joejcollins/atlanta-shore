@@ -22,6 +22,7 @@ jobs:
       - name: Create the virtual environment and run tests.
         run: |
           echo $GITHUB_PAT
+          ls
           make gitpod-before
           make gitpod-init
           make report
