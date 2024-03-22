@@ -25,6 +25,8 @@ jobs:
           export GITPOD_REPO_ROOT="$(pwd)"
           make gitpod-before
           make gitpod-init
+          cat ~/.Rprofile
+          cat ~/.Renviron
           make report
           make test
 
