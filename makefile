@@ -23,7 +23,7 @@ dataset:  # Prepare the datasets for analysis
 	. .venv/bin/activate; python ./python_src/make_observations_dataset.py
 
 gitpod-before:  # Customize the terminal and install global project dependencies.
-	# Move the R library to where we can see it.
+	# Move the R library to where the developers can see it like the .venv.
 	mkdir -p .R/library
 	echo '.libPaths(c("'"${GITPOD_REPO_ROOT}/.R/library"'", .libPaths()))' > $(HOME)/.Rprofile
 	sudo bash -c "echo R_LIBS_USER=$$GITPOD_REPO_ROOT/.R/library > $(HOME)/.Renviron"
@@ -42,6 +42,7 @@ gitpod-before:  # Customize the terminal and install global project dependencies
 gitpod-init:  # Copy accross the pre-built .venv and the .R libraries.
 	cp -r /app/.venv .venv
 	cp -r /app/atlanta_shore.egg-info atlanta_shore.egg-info
+	.venv/bin/python -m pip install -e .
 	cp -r /app/.R/library/ .R/library/
 
 gitpod-command:  # Ensure that the rserver is available.
