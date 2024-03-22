@@ -22,6 +22,8 @@ dependencies = [
     "debugpy",  # only required for debugging, not needed for production.
     "flake8",
     "lxml",  # for parsing GPX files.
+    "mkdocs",
+    "mkdocs-material",  # theme for the documentation.
     "mypy",
     "pandas",
     "pydantic",
@@ -37,7 +39,6 @@ dependencies = [
 "homepage" = "https://github.com/joejcollins/atlanta-shore"
 "repository" = "https://github.com/joejcollins/atlanta-shore"
 "documentation" = "https://github.com/joejcollins/atlanta-shore"
-
 
 [tool.setuptools]
 py-modules = [
@@ -70,8 +71,8 @@ pythonVersion = "3.10"
 pythonPlatform = "Linux"
 
 [tool.ruff]
-select = ["F", "E", "W", "C90", "I"]
-fixable = ["ALL"]
+lint.select = ["F", "E", "W", "C90", "I"]
+lint.fixable = ["ALL"]
 target-version = "py311"
 exclude = [
     ".git",

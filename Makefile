@@ -3,8 +3,10 @@
 
 clean:  # Remove all build, test, coverage and Python artifacts.
 	rm -rf .venv
+	rm -rf atlanta_shore.egg-info
 	find . -name "*.pyc" -exec rm -f {} \;
 	find . -type f -name "*.py[co]" -delete -or -type d -name "__pycache__" -delete
+	rm -rf .R/library/*
 
 compile:  # Compile the requirements files using pip-tools.
 	rm -f requirements.*
@@ -12,7 +14,7 @@ compile:  # Compile the requirements files using pip-tools.
 
 .PHONY: help
 help: # Show help for each of the makefile recipes.
-	@grep -E '^[a-zA-Z0-9 -]+:.*#'  makefile | sort | while read -r l; do printf "\033[1;32m$$(echo $$l | cut -f 1 -d':')\033[00m:$$(echo $$l | cut -f 2- -d'#')\n"; done
+	@grep -E '^[a-zA-Z0-9 -]+:.*#'  Makefile | sort | while read -r l; do printf "\033[1;32m$$(echo $$l | cut -f 1 -d':')\033[00m:$$(echo $$l | cut -f 2- -d'#')\n"; done
 
 survey-prep:
 	. .venv/bin/activate; python ./src/data/add_id_to_waypoints.py
@@ -20,10 +22,15 @@ survey-prep:
 dataset:  # Prepare the datasets for analysis
 	. .venv/bin/activate; python ./python_src/make_observations_dataset.py
 
+.PHONY: docs  # because there is a directory called docs.
+docs:  # Build the mkdocs documentation.
+	.venv/bin/python -m mkdocs build --clean
+
 gitpod-before:  # Customize the terminal and install global project dependencies.
-	# Move the R library to where we can see it.
+	# Move the R library to where the developers can see it like the .venv.
 	mkdir -p .R/library
-	echo '.libPaths(c("'"${GITPOD_REPO_ROOT}/.R/library"'", .libPaths()))' > ~/.Rprofile
+	# And ensure that R is aware of the new location.
+	echo '.libPaths(c("'"${GITPOD_REPO_ROOT}/.R/library"'", .libPaths()))' > $(HOME)/.Rprofile
 	sudo bash -c "echo R_LIBS_USER=$$GITPOD_REPO_ROOT/.R/library > $(HOME)/.Renviron"
 	# https://stackoverflow.com/questions/47541007/how-to-i-bypass-the-login-page-on-rstudio
 	-if id -u gitpod &>/dev/null; then sudo usermod -aG sudo gitpod; fi
@@ -36,24 +43,34 @@ gitpod-before:  # Customize the terminal and install global project dependencies
 	-sudo chmod -R 777 /usr/local/texlive
 	# Set the git merge strategy
 	-git config pull.rebase false
+	# Get Starship running
+	echo 'eval "$$(starship init bash)"' >> ~/.bashrc
 
-gitpod-init:  # Downloading dependencies and compiling source code.
-	$(MAKE) venv
+gitpod-init:  # Copy accross the pre-built .venv and the .R libraries.
+	cp -r /app/.venv .venv
+	cp -r /app/atlanta_shore.egg-info atlanta_shore.egg-info
+	.venv/bin/python -m pip install -e .
+	cp -r /app/.R/library/* .R/library
 
 gitpod-command:  # Ensure that the rserver is available.
+	# Ensure that the Rproject is available in the users home directory.
 	ln -s $(GITPOD_REPO_ROOT) $(HOME)/atlanta-shore
-	# Restart the rserver with sudo otherwise it won't run for the gitpod user (dunno why)
+	# Restart the rserver with sudo otherwise it won't run for the gitpod user (dunno why).
 	sudo rserver
 	sudo pkill rserver
 
 lint:  # Lint the code with ruff, yamllint and ansible-lint.
-	.venv/bin/python -m ruff .
+	.venv/bin/python -m ruff check .
+
+mypy:  # Type check the code with mypy.
+	.venv/bin/python -m mypy ./python_src ./tests
 
 report:  # Report the python version and pip list.
-    whoami
+	whoami
 	.venv/bin/python --version
 	.venv/bin/python -m pip list -v
-	Rscript -e "library()"
+	Rscript -e "installed_packages <- as.data.frame(installed.packages()); \
+		print(installed_packages[c('Package', 'LibPath')])"
 
 venv:  # Install the requirements for Python and R.
 	-pyenv install --skip-existing
