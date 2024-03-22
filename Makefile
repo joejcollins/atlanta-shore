@@ -14,7 +14,7 @@ compile:  # Compile the requirements files using pip-tools.
 
 .PHONY: help
 help: # Show help for each of the makefile recipes.
-	@grep -E '^[a-zA-Z0-9 -]+:.*#'  makefile | sort | while read -r l; do printf "\033[1;32m$$(echo $$l | cut -f 1 -d':')\033[00m:$$(echo $$l | cut -f 2- -d'#')\n"; done
+	@grep -E '^[a-zA-Z0-9 -]+:.*#'  Makefile | sort | while read -r l; do printf "\033[1;32m$$(echo $$l | cut -f 1 -d':')\033[00m:$$(echo $$l | cut -f 2- -d'#')\n"; done
 
 survey-prep:
 	. .venv/bin/activate; python ./src/data/add_id_to_waypoints.py
@@ -22,9 +22,14 @@ survey-prep:
 dataset:  # Prepare the datasets for analysis
 	. .venv/bin/activate; python ./python_src/make_observations_dataset.py
 
+.PHONY: docs  # because there is a directory called docs.
+docs:  # Build the mkdocs documentation.
+	.venv/bin/python -m mkdocs build --clean
+
 gitpod-before:  # Customize the terminal and install global project dependencies.
 	# Move the R library to where the developers can see it like the .venv.
 	mkdir -p .R/library
+	# And ensure that R is aware of the new location.
 	echo '.libPaths(c("'"${GITPOD_REPO_ROOT}/.R/library"'", .libPaths()))' > $(HOME)/.Rprofile
 	sudo bash -c "echo R_LIBS_USER=$$GITPOD_REPO_ROOT/.R/library > $(HOME)/.Renviron"
 	# https://stackoverflow.com/questions/47541007/how-to-i-bypass-the-login-page-on-rstudio
@@ -46,6 +51,7 @@ gitpod-init:  # Copy accross the pre-built .venv and the .R libraries.
 	cp -r /app/.R/library/* .R/library
 
 gitpod-command:  # Ensure that the rserver is available.
+	# Ensure that the Rproject is available in the users home directory.
 	ln -s $(GITPOD_REPO_ROOT) $(HOME)/atlanta-shore
 	# Restart the rserver with sudo otherwise it won't run for the gitpod user (dunno why).
 	sudo rserver

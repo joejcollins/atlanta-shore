@@ -33,7 +33,7 @@ RUN sh -c "$(curl -fsSL https://starship.rs/install.sh)" -- --yes \
 # Build the Python virtual environment and R library so they are available for other users.
 WORKDIR /app
 RUN mkdir -p /app/.R/library
-COPY pyproject.toml requirements.txt setup.R makefile /app/
+COPY pyproject.toml requirements.txt setup.R Makefile /app/
 RUN eval "$(pyenv init -)" \
   && make venv
 
