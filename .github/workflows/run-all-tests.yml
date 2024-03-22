@@ -13,10 +13,10 @@ jobs:
     env:
       GITHUB_PAT: ${{ secrets.PAT_NO_PERMISSIONS }}
     steps:
-      - name: Checkout the repo.
-        uses: actions/checkout@v2
+      - name: Checkout the repo without the Github action because it does not work on the container.
+        uses: actions/checkout@v4
         with:
-          submodules: true
+          submodules: false
           clean: true
       - name: Create the virtual environment and run tests.
         run: |
