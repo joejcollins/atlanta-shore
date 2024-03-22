@@ -28,14 +28,14 @@ RUN update-alternatives --install /usr/bin/python python ${PYENV_ROOT}/versions/
 
 # Add Starship because I like it
 RUN sh -c "$(curl -fsSL https://starship.rs/install.sh)" -- --yes \
-&& echo 'eval "$(starship init bash)"' >> ~/.bashrc
+ && echo 'eval "$(starship init bash)"' >> ~/.bashrc
 
 # Build the Python virtual environment and R library so they are available for other users.
 WORKDIR /app
 RUN mkdir -p /app/.R/library
 COPY pyproject.toml requirements.txt setup.R Makefile /app/
 RUN eval "$(pyenv init -)" \
-  && make venv
+ && make venv
 
 # Add a few LaTeX packages that aren't already installed.
 ###
