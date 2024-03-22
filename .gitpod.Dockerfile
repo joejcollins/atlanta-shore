@@ -28,7 +28,7 @@ RUN update-alternatives --install /usr/bin/python python ${PYENV_ROOT}/versions/
 
 # Add Starship because I like it
 RUN sh -c "$(curl -fsSL https://starship.rs/install.sh)" -- --yes \
-&& echo 'eval "$(starship init bash)"' > .bashrc
+&& echo 'eval "$(starship init bash)"' >> ~/.bashrc
 
 # Build the Python virtual environment and R library so they are available for other users.
 WORKDIR /app
