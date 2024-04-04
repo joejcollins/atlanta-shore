@@ -27,8 +27,8 @@ RUN pyenv rehash
 RUN update-alternatives --install /usr/bin/python python ${PYENV_ROOT}/versions/${PYENV_VERSION}/bin/python 1
 
 # Add Starship because I like it
-RUN sh -c "$(curl -fsSL https://starship.rs/install.sh)" -- --yes \
- && echo 'eval "$(starship init bash)"' >> ~/.bashrc
+# RUN sh -c "$(curl -fsSL https://starship.rs/install.sh)" -- --yes \
+#  && echo 'eval "$(starship init bash)"' >> ~/.bashrc
 
 # Build the Python virtual environment and R library so they are available for other users.
 WORKDIR /app
