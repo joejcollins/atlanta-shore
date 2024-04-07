@@ -25,9 +25,13 @@
   "terminal.integrated.shellIntegration.enabled": true,
   "terminal.integrated.defaultProfile.linux": "bash",
   "terminal.integrated.profiles.linux": {
-    "bash": {
-      "path": "/bin/bash"
-    }
+        "bash": {
+            "path": "bash",
+            "icon": "terminal-bash",
+            "args": [
+                "-l"
+            ]
+        },
   },
   "terminal.integrated.scrollback": 100000,
   "r.bracketedPaste": true,
@@ -114,5 +118,8 @@
       "xelatex"
      ]
     }
-   ]   
+  ],
+  "terminal.integrated.automationProfile.linux": {
+
+  }
 }
