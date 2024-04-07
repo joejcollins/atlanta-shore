@@ -13,6 +13,15 @@ SURVEY_FILE_PATHS = [
     "./data/raw/2020-06/data-plant-2020-06-19-MEC.csv",
     "./data/raw/2020-06/data-plant-2020-06-20-MEC.csv",
     "./data/raw/2020-06/data-plant-2020-06-21-MEC.csv",
+    "./data/raw/2022-06/data-plant-2021-06-20-MEC.csv",
+    "./data/raw/2022-06/data-plant-2021-06-21-MEC.csv",
+    "./data/raw/2022-06/data-plant-2022-06-24-MEC.csv",
+    "./data/raw/2022-06/data-plant-2022-06-25-MEC.csv",
+    "./data/raw/2022-06/data-plant-2022-06-26-MEC.csv",
+    "./data/raw/2022-06/data-plant-2023-06-22-MEC.csv",
+    "./data/raw/2022-06/data-plant-2023-06-23-MEC.csv",
+    "./data/raw/2022-06/data-plant-2023-06-24-MEC.csv",
+    "./data/raw/2022-06/data-plant-2023-06-25-MEC.csv",
 ]
 
 SAMPLE_SITES_FILE_PATH = "./data/raw/spains-hall-waypoints-regular-30m-with-name.gpx"
