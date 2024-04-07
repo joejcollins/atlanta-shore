@@ -40,12 +40,13 @@ gitpod-before:  # Customize the terminal and install global project dependencies
 	-sudo chmod -R 777 /usr/local/texlive
 	# Set the git merge strategy
 	-git config pull.rebase false
-	# Get Starship running
+	# Get Starship running.
 	echo 'eval "$$(starship init bash)"' >> ~/.bashrc
 	# Ensure the pyenv is configured for the user.
-	echo '# The pyenv init has to be last for some reason.' >> ~/.bashrc
 	echo 'eval "$$(pyenv init - --no-rehash)"' >> ~/.bashrc
 	-sudo chmod -R 777 ${PYENV_ROOT}
+	# Remove the .bash_profile so the .bashrc gets sourced.
+	rm -f ~/.bash_profile
 
 gitpod-init:  # Copy accross the pre-built .venv and the .R libraries.
 	cp -r /app/.venv .venv
