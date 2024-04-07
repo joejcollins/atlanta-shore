@@ -32,7 +32,7 @@ class AtlantaShoreSettings(BaseModel):
         "[%(asctime)s] [%(levelname)s] %(message)s. "
         "%(pathname)s:%(lineno)d, in %(funcName)s()"
     )
-    log_level: str = "WARN"  # as a string so it can be read and set in settings.json.
+    log_level: str = "INFO"  # as a string so it can be read and set in settings.json.
 
     data_files: List[str] = [
         # "2019-02/data-plant-2019-02-01-MEC.csv",  # Winter survey
@@ -47,6 +47,10 @@ class AtlantaShoreSettings(BaseModel):
         "2022-06/data-plant-2022-06-24-MEC.csv",
         "2022-06/data-plant-2022-06-25-MEC.csv",
         "2022-06/data-plant-2022-06-26-MEC.csv",
+        "2023-06/data-plant-2023-06-22-MEC.csv",
+        "2023-06/data-plant-2023-06-23-MEC.csv",
+        "2023-06/data-plant-2023-06-24-MEC.csv",
+        "2023-06/data-plant-2023-06-25-MEC.csv",
     ]
 
     @property
