@@ -233,7 +233,7 @@ date,quadrat,waypoint,grid_reference,photo_up,photo_down,wetness,canopy,species,
 2019-02-01,5,45,TL6809133063,P2010048,P2010049,1,85,Salix cinerea,
 2019-02-01,5,45,TL6809133063,P2010048,P2010049,1,85,Geranium robertianum,
 2019-02-01,5,45,TL6809133063,P2010048,P2010049,1,85,Adoxa moschatellina,
-2019-02-01,5,45,TL6809133063,P2010048,P2010049,1,85,Poa trivialis, - Initially determined as P.nemoralis
+2019-02-01,5,45,TL6809133063,P2010048,P2010049,1,85,Poa trivialis, - Initially determined as P.nemoralis but this was incorrect
 2019-02-01,5,45,TL6809133063,P2010048,P2010049,1,85,Kindbergia praelonga,
 2019-02-01,5,45,TL6809133063,P2010048,P2010049,1,85,Brachythecium rutabulum,
 2019-02-01,25,46,TL6784933174,P2010050,P2010051,1,15,Mercurialis perennis,
@@ -245,7 +245,7 @@ date,quadrat,waypoint,grid_reference,photo_up,photo_down,wetness,canopy,species,
 2019-02-01,25,46,TL6784933174,P2010050,P2010051,1,15,Acer campestre,
 2019-02-01,25,46,TL6784933174,P2010050,P2010051,1,15,Kindbergia praelonga,
 2019-02-01,25,46,TL6784933174,P2010050,P2010051,1,15,Brachythecium rutabulum,
-2019-02-01,25,46,TL6784933174,P2010050,P2010051,1,15,Poa trivialis, - Initially determined as P.nemoralis
+2019-02-01,25,46,TL6784933174,P2010050,P2010051,1,15,Poa trivialis, - Initially determined as P.nemoralis but this was incorrect
 2019-02-01,8,47,TL6784833153,P2010052,P2010053,1,55,Fraxinus excelsior,
 2019-02-01,8,47,TL6784833153,P2010052,P2010053,1,55,Eupatorium cannabinum,
 2019-02-01,8,47,TL6784833153,P2010052,P2010053,1,55,Silene dioica,
@@ -487,28 +487,28 @@ date,quadrat,waypoint,grid_reference,photo_up,photo_down,wetness,canopy,species,
 2019-06-20,1,2,TL6772733270,P6200003,P6200004,1,40,Urtica dioica,
 2019-06-20,1,2,TL6772733270,P6200003,P6200004,1,40,Silene dioica,
 2019-06-20,1,2,TL6772733270,P6200003,P6200004,1,40,Ranunculus repens,
-2019-06-20,16,3,TL6769833299,P6200005,P6200006,2,40,Anisantha sterilis,"quadrat had bare ground and disturbance with puddle, near fence, Galium saxatile unlikely changed to Galium sp."
-2019-06-20,16,3,TL6769833299,P6200005,P6200006,2,40,Galium aparine,"quadrat had bare ground and disturbance with puddle, near fence, Galium saxatile unlikely changed to Galium sp."
-2019-06-20,16,3,TL6769833299,P6200005,P6200006,2,40,Carex acutiformis,"quadrat had bare ground and disturbance with puddle, near fence, Galium saxatile unlikely changed to Galium sp."
-2019-06-20,16,3,TL6769833299,P6200005,P6200006,2,40,Arrhenatherum elatius,"quadrat had bare ground and disturbance with puddle, near fence, Galium saxatile unlikely changed to Galium sp."
-2019-06-20,16,3,TL6769833299,P6200005,P6200006,2,40,Pulicaria dysenterica,"quadrat had bare ground and disturbance with puddle, near fence, Galium saxatile unlikely changed to Galium sp."
-2019-06-20,16,3,TL6769833299,P6200005,P6200006,2,40,Lotus pedunculatus,"quadrat had bare ground and disturbance with puddle, near fence, Galium saxatile unlikely changed to Galium sp."
-2019-06-20,16,3,TL6769833299,P6200005,P6200006,2,40,Filipendula ulmaria,"quadrat had bare ground and disturbance with puddle, near fence, Galium saxatile unlikely changed to Galium sp."
-2019-06-20,16,3,TL6769833299,P6200005,P6200006,2,40,Angelica sylvestris,"quadrat had bare ground and disturbance with puddle, near fence, Galium saxatile unlikely changed to Galium sp."
-2019-06-20,16,3,TL6769833299,P6200005,P6200006,2,40,Urtica dioica,"quadrat had bare ground and disturbance with puddle, near fence, Galium saxatile unlikely changed to Galium sp."
-2019-06-20,16,3,TL6769833299,P6200005,P6200006,2,40,Ranunculus repens,"quadrat had bare ground and disturbance with puddle, near fence, Galium saxatile unlikely changed to Galium sp."
-2019-06-20,16,3,TL6769833299,P6200005,P6200006,2,40,Galium sp.,"quadrat had bare ground and disturbance with puddle, near fence, Galium saxatile unlikely changed to Galium sp. - poor specimen,  indeterminate"
-2019-06-20,16,3,TL6769833299,P6200005,P6200006,2,40,Cirsium palustre,"quadrat had bare ground and disturbance with puddle, near fence, Galium saxatile unlikely changed to Galium sp."
-2019-06-20,16,3,TL6769833299,P6200005,P6200006,2,40,Rubus fruticosus agg.,"quadrat had bare ground and disturbance with puddle, near fence, Galium saxatile unlikely changed to Galium sp."
-2019-06-20,16,3,TL6769833299,P6200005,P6200006,2,40,Holcus lanatus,"quadrat had bare ground and disturbance with puddle, near fence, Galium saxatile unlikely changed to Galium sp."
-2019-06-20,16,3,TL6769833299,P6200005,P6200006,2,40,Jacobaea vulgaris,"quadrat had bare ground and disturbance with puddle, near fence, Galium saxatile unlikely changed to Galium sp."
-2019-06-20,16,3,TL6769833299,P6200005,P6200006,2,40,Plantago major,"quadrat had bare ground and disturbance with puddle, near fence, Galium saxatile unlikely changed to Galium sp."
-2019-06-20,16,3,TL6769833299,P6200005,P6200006,2,40,Prunella vulgaris,"quadrat had bare ground and disturbance with puddle, near fence, Galium saxatile unlikely changed to Galium sp."
-2019-06-20,16,3,TL6769833299,P6200005,P6200006,2,40,Poa trivialis,"quadrat had bare ground and disturbance with puddle, near fence, Galium saxatile unlikely changed to Galium sp."
-2019-06-20,16,3,TL6769833299,P6200005,P6200006,2,40,Myosotis sylvatica,"quadrat had bare ground and disturbance with puddle, near fence, Galium saxatile unlikely changed to Galium sp."
-2019-06-20,16,3,TL6769833299,P6200005,P6200006,2,40,Sonchus arvensis,"quadrat had bare ground and disturbance with puddle, near fence, Galium saxatile unlikely changed to Galium sp."
-2019-06-20,16,3,TL6769833299,P6200005,P6200006,2,40,Heracleum sphondylium,"quadrat had bare ground and disturbance with puddle, near fence, Galium saxatile unlikely changed to Galium sp."
-2019-06-20,16,3,TL6769833299,P6200005,P6200006,2,40,Tripleurospermum inodorum,"quadrat had bare ground and disturbance with puddle, near fence, Galium saxatile unlikely changed to Galium sp."
+2019-06-20,16,3,TL6769833299,P6200005,P6200006,2,40,Anisantha sterilis,
+2019-06-20,16,3,TL6769833299,P6200005,P6200006,2,40,Galium aparine,
+2019-06-20,16,3,TL6769833299,P6200005,P6200006,2,40,Carex acutiformis,
+2019-06-20,16,3,TL6769833299,P6200005,P6200006,2,40,Arrhenatherum elatius,
+2019-06-20,16,3,TL6769833299,P6200005,P6200006,2,40,Pulicaria dysenterica,
+2019-06-20,16,3,TL6769833299,P6200005,P6200006,2,40,Lotus pedunculatus,
+2019-06-20,16,3,TL6769833299,P6200005,P6200006,2,40,Filipendula ulmaria,
+2019-06-20,16,3,TL6769833299,P6200005,P6200006,2,40,Angelica sylvestris,
+2019-06-20,16,3,TL6769833299,P6200005,P6200006,2,40,Urtica dioica,
+2019-06-20,16,3,TL6769833299,P6200005,P6200006,2,40,Ranunculus repens,
+2019-06-20,16,3,TL6769833299,P6200005,P6200006,2,40,Galium sp.," - poor specimen,  unable to determinate with confidence"
+2019-06-20,16,3,TL6769833299,P6200005,P6200006,2,40,Cirsium palustre,
+2019-06-20,16,3,TL6769833299,P6200005,P6200006,2,40,Rubus fruticosus agg.,
+2019-06-20,16,3,TL6769833299,P6200005,P6200006,2,40,Holcus lanatus,
+2019-06-20,16,3,TL6769833299,P6200005,P6200006,2,40,Jacobaea vulgaris,
+2019-06-20,16,3,TL6769833299,P6200005,P6200006,2,40,Plantago major,
+2019-06-20,16,3,TL6769833299,P6200005,P6200006,2,40,Prunella vulgaris,
+2019-06-20,16,3,TL6769833299,P6200005,P6200006,2,40,Poa trivialis,
+2019-06-20,16,3,TL6769833299,P6200005,P6200006,2,40,Myosotis sylvatica,
+2019-06-20,16,3,TL6769833299,P6200005,P6200006,2,40,Sonchus arvensis,
+2019-06-20,16,3,TL6769833299,P6200005,P6200006,2,40,Heracleum sphondylium,
+2019-06-20,16,3,TL6769833299,P6200005,P6200006,2,40,Tripleurospermum inodorum,
 2019-06-20,62,4,TL6766733264,P6200007,P6200008,1,10,Rumex obtusifolius,"quadrat was near fence above drain, Poa pratensis could be P.trivialis again but no sample to confirm."
 2019-06-20,62,4,TL6766733264,P6200007,P6200008,1,10,Cirsium arvense,"quadrat was near fence above drain, Poa pratensis could be P.trivialis again but no sample to confirm."
 2019-06-20,62,4,TL6766733264,P6200007,P6200008,1,10,Rubus fruticosus agg.,"quadrat was near fence above drain, Poa pratensis could be P.trivialis again but no sample to confirm."
@@ -721,7 +721,7 @@ date,quadrat,waypoint,grid_reference,photo_up,photo_down,wetness,canopy,species,
 2019-06-21,5,22,TL6808733060,P6210003,P6210004,1,90,Mercurialis perennis,
 2019-06-21,5,22,TL6808733060,P6210003,P6210004,1,90,Urtica dioica,
 2019-06-21,5,22,TL6808733060,P6210003,P6210004,1,90,Galium aparine,
-2019-06-21,5,22,TL6808733060,P6210003,P6210004,1,90,Galium verum, - Galium verum unlikely
+2019-06-21,5,22,TL6808733060,P6210003,P6210004,1,90,Galium verum,
 2019-06-21,5,22,TL6808733060,P6210003,P6210004,1,90,Glechoma hederacea,
 2019-06-21,5,22,TL6808733060,P6210003,P6210004,1,90,Adoxa moschatellina,
 2019-06-21,5,22,TL6808733060,P6210003,P6210004,1,90,Brachythecium rutabulum,
@@ -1188,7 +1188,7 @@ date,quadrat,waypoint,grid_reference,photo_up,photo_down,wetness,canopy,species,
 2020-06-20,57,2,TL6794133122,P6200004,P6200005,1,85,Galium aparine,
 2020-06-20,57,2,TL6794133122,P6200004,P6200005,1,85,Brachythecium rutabulum,
 2020-06-20,57,2,TL6794133122,P6200004,P6200005,1,85,Silene dioica,
-2020-06-20,57,2,TL6794133122,P6200004,P6200005,1,85,Poa sp., - Probably the same Poa that is widespread in the woods and hard to identify!
+2020-06-20,57,2,TL6794133122,P6200004,P6200005,1,85,Poa trivialis, - .
 2020-06-20,56,3,TL6791833117,P6200006,P6200007,2,95,Mercurialis perennis,
 2020-06-20,56,3,TL6791833117,P6200006,P6200007,2,95,Urtica dioica,
 2020-06-20,56,3,TL6791833117,P6200006,P6200007,2,95,Silene dioica,
@@ -1221,7 +1221,7 @@ date,quadrat,waypoint,grid_reference,photo_up,photo_down,wetness,canopy,species,
 2020-06-20,59,6,TL6787533112,P6200012,P6200013,2,15,Apium nodiflorum,On edge of central drainage channel
 2020-06-20,59,6,TL6787533112,P6200012,P6200013,2,15,Mercurialis perennis,On edge of central drainage channel
 2020-06-20,59,6,TL6787533112,P6200012,P6200013,2,15,Myosotis sylvatica,On edge of central drainage channel
-2020-06-20,59,6,TL6787533112,P6200012,P6200013,2,15,Poa sp.,On edge of central drainage channel - Probably the same Poa that is widespread in the woods and hard to identify!
+2020-06-20,59,6,TL6787533112,P6200012,P6200013,2,15,Poa trivialis,On edge of central drainage channel
 2020-06-20,58,7,TL6784433120,P6200014,P6200015,2,65,Eupatorium cannabinum,
 2020-06-20,58,7,TL6784433120,P6200014,P6200015,2,65,Angelica sylvestris,
 2020-06-20,58,7,TL6784433120,P6200014,P6200015,2,65,Carex acutiformis,
@@ -1323,7 +1323,7 @@ date,quadrat,waypoint,grid_reference,photo_up,photo_down,wetness,canopy,species,
 2020-06-20,16,18,TL6769833299,P6200040,P6200041,2,5,Carex acutiformis,
 2020-06-20,16,18,TL6769833299,P6200040,P6200041,2,5,Plantago major,
 2020-06-20,16,18,TL6769833299,P6200040,P6200041,2,5,Juncus inflexus,
-2020-06-20,16,18,TL6769833299,P6200040,P6200041,2,5,Galium sp.," - Indeterminate, too rough for palustre?"
+2020-06-20,16,18,TL6769833299,P6200040,P6200041,2,5,Galium sp., - Indeterminate.
 2020-06-20,16,18,TL6769833299,P6200040,P6200041,2,5,Geranium dissectum,
 2020-06-20,16,18,TL6769833299,P6200040,P6200041,2,5,Myosotis laxa,
 2020-06-20,16,18,TL6769833299,P6200040,P6200041,2,5,Vicia cracca,
@@ -1406,7 +1406,7 @@ date,quadrat,waypoint,grid_reference,photo_up,photo_down,wetness,canopy,species,
 2020-06-20,60,25,TL6790333003,P6200055,P6200056,1,0,Sonchus asper,Arable reversion area
 2020-06-20,60,25,TL6790333003,P6200055,P6200056,1,0,Urtica dioica,Arable reversion area
 2020-06-20,60,25,TL6790333003,P6200055,P6200056,1,0,Elymus caninus,Arable reversion area
-2020-06-20,60,25,TL6790333003,P6200055,P6200056,1,0,Koeleria macrantha,Arable reversion area
+2020-06-20,60,25,TL6790333003,P6200055,P6200056,1,0,Polypogon viridis,Arable reversion area
 2020-06-20,60,25,TL6790333003,P6200055,P6200056,1,0,Chenopodium album,Arable reversion area
 2020-06-20,60,25,TL6790333003,P6200055,P6200056,1,0,Arrhenatherum elatius,Arable reversion area
 2020-06-20,60,25,TL6790333003,P6200055,P6200056,1,0,Sisymbrium officinale,Arable reversion area
@@ -1600,3 +1600,1486 @@ date,quadrat,waypoint,grid_reference,photo_up,photo_down,wetness,canopy,species,
 2020-06-21,6,6,TL6776233143,P6210009,P6210010,1,0,Schedonorus arundinaceus,Near fence and arable crop
 2020-06-21,6,6,TL6776233143,P6210009,P6210010,1,0,Lamium album,Near fence and arable crop
 2020-06-21,6,6,TL6776233143,P6210009,P6210010,1,0,Bromus hordeaceus,Near fence and arable crop
+2021-06-20,5,1,TL6809333054,P6200001,P6200002,2,45,Galium aparine,
+2021-06-20,5,1,TL6809333054,P6200001,P6200002,2,45,Rubus fruticosus,
+2021-06-20,5,1,TL6809333054,P6200001,P6200002,2,45,Glechoma hederacea,
+2021-06-20,5,1,TL6809333054,P6200001,P6200002,2,45,Holcus lanatus,
+2021-06-20,5,1,TL6809333054,P6200001,P6200002,2,45,Urtica dioica,
+2021-06-20,5,1,TL6809333054,P6200001,P6200002,2,45,Silene dioica,
+2021-06-20,5,1,TL6809333054,P6200001,P6200002,2,45,Mercurialis perennis,
+2021-06-20,5,1,TL6809333054,P6200001,P6200002,2,45,Arrhenatherum elatius,
+2021-06-20,5,1,TL6809333054,P6200001,P6200002,2,45,Heracleum sphondylium,
+2021-06-20,5,1,TL6809333054,P6200001,P6200002,2,45,Rubus caesius,
+2021-06-20,5,1,TL6809333054,P6200001,P6200002,2,45,Anisantha sterilis,
+2021-06-20,5,1,TL6809333054,P6200001,P6200002,2,45,Poa trivialis,
+2021-06-20,32,2,TL6805333060,P6200003,P6200004,2,35,Urtica dioica,
+2021-06-20,32,2,TL6805333060,P6200003,P6200004,2,35,Silene dioica,
+2021-06-20,32,2,TL6805333060,P6200003,P6200004,2,35,Galium aparine,
+2021-06-20,32,2,TL6805333060,P6200003,P6200004,2,35,Holcus lanatus,
+2021-06-20,32,2,TL6805333060,P6200003,P6200004,2,35,Stachys sylvatica,
+2021-06-20,32,2,TL6805333060,P6200003,P6200004,2,35,Glechoma hederacea,
+2021-06-20,32,2,TL6805333060,P6200003,P6200004,2,35,Ulmus procera, - sapling
+2021-06-20,32,2,TL6805333060,P6200003,P6200004,2,35,Anisantha sterilis,
+2021-06-20,32,2,TL6805333060,P6200003,P6200004,2,35,Rubus fruticosus,
+2021-06-20,32,2,TL6805333060,P6200003,P6200004,2,35,Myosotis sylvatica,
+2021-06-20,32,2,TL6805333060,P6200003,P6200004,2,35,Mercurialis perennis,
+2021-06-20,32,2,TL6805333060,P6200003,P6200004,2,35,Poa trivialis?,
+2021-06-20,32,2,TL6805333060,P6200003,P6200004,2,35,Schedonorus giganteus,
+2021-06-20,32,2,TL6805333060,P6200003,P6200004,2,35,Bromopsis ramosus,
+2021-06-20,32,2,TL6805333060,P6200003,P6200004,2,35,Geum urbanum,
+2021-06-20,32,2,TL6805333060,P6200003,P6200004,2,35,Rumex sanguineus,
+2021-06-20,32,2,TL6805333060,P6200003,P6200004,2,35,Salix cinerea,
+2021-06-20,31,3,TL6802633060,P6200005,P6200006,4,5,Carex pendula,spans a beaver canal so averaged to 4
+2021-06-20,31,3,TL6802633060,P6200005,P6200006,4,5,Filipendula ulmaria,spans a beaver canal so averaged to 4
+2021-06-20,31,3,TL6802633060,P6200005,P6200006,4,5,Stachys sylvatica,spans a beaver canal so averaged to 4
+2021-06-20,31,3,TL6802633060,P6200005,P6200006,4,5,Urtica dioica,spans a beaver canal so averaged to 4
+2021-06-20,31,3,TL6802633060,P6200005,P6200006,4,5,Rubus fruticosus,spans a beaver canal so averaged to 4
+2021-06-20,31,3,TL6802633060,P6200005,P6200006,4,5,Galium aparine,spans a beaver canal so averaged to 4
+2021-06-20,31,3,TL6802633060,P6200005,P6200006,4,5,Scrophularia auriculata,spans a beaver canal so averaged to 4
+2021-06-20,31,3,TL6802633060,P6200005,P6200006,4,5,Mercurialis perennis,spans a beaver canal so averaged to 4
+2021-06-20,31,3,TL6802633060,P6200005,P6200006,4,5,Juncus effusus,spans a beaver canal so averaged to 4
+2021-06-20,31,3,TL6802633060,P6200005,P6200006,4,5,Jucus inflexus,spans a beaver canal so averaged to 4
+2021-06-20,31,3,TL6802633060,P6200005,P6200006,4,5,Holcus lanatus,spans a beaver canal so averaged to 4
+2021-06-20,31,3,TL6802633060,P6200005,P6200006,4,5,Poa trivialis,spans a beaver canal so averaged to 4
+2021-06-20,31,3,TL6802633060,P6200005,P6200006,4,5,Glechoma hederacea,spans a beaver canal so averaged to 4
+2021-06-20,31,3,TL6802633060,P6200005,P6200006,4,5,Epilobium hirsutum,spans a beaver canal so averaged to 4
+2021-06-20,31,3,TL6802633060,P6200005,P6200006,4,5,Solanum dulcamara,spans a beaver canal so averaged to 4
+2021-06-20,31,3,TL6802633060,P6200005,P6200006,4,5,Arrhenatherum elatius,spans a beaver canal so averaged to 4
+2021-06-20,31,3,TL6802633060,P6200005,P6200006,4,5,Persicaria lapathifolia,spans a beaver canal so averaged to 4
+2021-06-20,31,3,TL6802633060,P6200005,P6200006,4,5,Sonchus sp?,spans a beaver canal so averaged to 4
+2021-06-20,31,3,TL6802633060,P6200005,P6200006,4,5,Ranunculus repens,spans a beaver canal so averaged to 4
+2021-06-20,31,3,TL6802633060,P6200005,P6200006,4,5,Brachypodium sylvaticum,spans a beaver canal so averaged to 4
+2021-06-20,47,4,TL6802433086,P6200007,P6200008,2,55,Galium aparine,
+2021-06-20,47,4,TL6802433086,P6200007,P6200008,2,55,Urtica dioica,
+2021-06-20,47,4,TL6802433086,P6200007,P6200008,2,55,Silene dioica,
+2021-06-20,47,4,TL6802433086,P6200007,P6200008,2,55,Angelica sylvestris,
+2021-06-20,47,4,TL6802433086,P6200007,P6200008,2,55,Glechoma hederacea,
+2021-06-20,47,4,TL6802433086,P6200007,P6200008,2,55,Myosotis arvensis,
+2021-06-20,47,4,TL6802433086,P6200007,P6200008,2,55,Adoxa moschatellina,
+2021-06-20,47,4,TL6802433086,P6200007,P6200008,2,55,Ulmus procera, - canopy
+2021-06-20,47,4,TL6802433086,P6200007,P6200008,2,55,Mercurialis perennis,
+2021-06-20,50,5,TL6800533085,P6200009,P6200010,2,40,Carduus crispus,
+2021-06-20,50,5,TL6800533085,P6200009,P6200010,2,40,Symphytum x uplandicum,
+2021-06-20,50,5,TL6800533085,P6200009,P6200010,2,40,Arrhenatherum elatius,
+2021-06-20,50,5,TL6800533085,P6200009,P6200010,2,40,Geranium robertianum,
+2021-06-20,50,5,TL6800533085,P6200009,P6200010,2,40,Galium aparine,
+2021-06-20,50,5,TL6800533085,P6200009,P6200010,2,40,Heracleum sphondylium,
+2021-06-20,50,5,TL6800533085,P6200009,P6200010,2,40,Rubus caesius,
+2021-06-20,50,5,TL6800533085,P6200009,P6200010,2,40,Stachys sylvatica,
+2021-06-20,50,5,TL6800533085,P6200009,P6200010,2,40,Angelica sylvestris,
+2021-06-20,50,5,TL6800533085,P6200009,P6200010,2,40,Urtica dioica,
+2021-06-20,50,5,TL6800533085,P6200009,P6200010,2,40,Fraxinus excelsior,
+2021-06-20,50,5,TL6800533085,P6200009,P6200010,2,40,Mercurialis perennis,
+2021-06-20,50,5,TL6800533085,P6200009,P6200010,2,40,Myosotis sylvatica,
+2021-06-20,50,5,TL6800533085,P6200009,P6200010,2,40,Circaea lutetiana,
+2021-06-20,35,6,TL6798933058,P6200011,P6200012,5,65,," - all open water near dam, which extends from the original ditch by about 20m"
+2021-06-20,49,7,TL6797233094,P6200013,P6200014,1,90,Urtica dioica,
+2021-06-20,49,7,TL6797233094,P6200013,P6200014,1,90,Glechoma hederacea,
+2021-06-20,49,7,TL6797233094,P6200013,P6200014,1,90,Silene dioica,
+2021-06-20,49,7,TL6797233094,P6200013,P6200014,1,90,Galium aparine,
+2021-06-20,49,7,TL6797233094,P6200013,P6200014,1,90,Angelica sylvestris,
+2021-06-20,49,7,TL6797233094,P6200013,P6200014,1,90,Alliaria petiolata,
+2021-06-20,49,7,TL6797233094,P6200013,P6200014,1,90,Anthriscus sylvestris,
+2021-06-20,49,7,TL6797233094,P6200013,P6200014,1,90,Sambucus nigra,
+2021-06-20,49,7,TL6797233094,P6200013,P6200014,1,90,Poa trivialis?,
+2021-06-20,49,7,TL6797233094,P6200013,P6200014,1,90,Myosotis sylvatica,
+2021-06-20,49,7,TL6797233094,P6200013,P6200014,1,90,Stachys sylvatica,
+2021-06-20,34,8,TL6796833063,P6200015,P6200016,5,40,Veronica beccabunga, - edge of ditch which now has mud dam
+2021-06-20,34,8,TL6796833063,P6200015,P6200016,5,40,Plantago major,
+2021-06-20,34,8,TL6796833063,P6200015,P6200016,5,40,Symphytum x uplandicum,
+2021-06-20,34,8,TL6796833063,P6200015,P6200016,5,40,Ranunculus repens,
+2021-06-20,34,8,TL6796833063,P6200015,P6200016,5,40,Rubus fruticosus,
+2021-06-20,34,8,TL6796833063,P6200015,P6200016,5,40,Carex pendula,
+2021-06-20,34,8,TL6796833063,P6200015,P6200016,5,40,Angelica sylvestris,
+2021-06-20,34,8,TL6796833063,P6200015,P6200016,5,40,Cardamine flexuosa,
+2021-06-20,34,8,TL6796833063,P6200015,P6200016,5,40,Galium aparine,
+2021-06-20,34,8,TL6796833063,P6200015,P6200016,5,40,Poa trivialis?,
+2021-06-20,34,8,TL6796833063,P6200015,P6200016,5,40,Salix cinerea, - canopy
+2021-06-20,34,8,TL6796833063,P6200015,P6200016,5,40,Scrophularia auriculata,
+2021-06-20,34,8,TL6796833063,P6200015,P6200016,5,40,Rumex sanguineus,
+2021-06-20,42,9,TL6793733095,P6200017,P6200018,5,90,Urtica dioica," - point is in the water near springhead, species were on the bank"
+2021-06-20,42,9,TL6793733095,P6200017,P6200018,5,90,Mercurialis perennis,
+2021-06-20,42,9,TL6793733095,P6200017,P6200018,5,90,Angelica sylvestris,
+2021-06-20,42,9,TL6793733095,P6200017,P6200018,5,90,Solanum dulcamara,
+2021-06-20,42,9,TL6793733095,P6200017,P6200018,5,90,Nasturtium officinale,
+2021-06-20,57,10,TL6794533124,P6200019,P6200020,1,10,Dactylis glomerata, - Between fence and hedge which comprises Corylus avellana and Sambucus nigra
+2021-06-20,57,10,TL6794533124,P6200019,P6200020,1,10,Anthriscus sylvestris,
+2021-06-20,57,10,TL6794533124,P6200019,P6200020,1,10,Urtica dioica,
+2021-06-20,57,10,TL6794533124,P6200019,P6200020,1,10,Arrhenatherum elatius,
+2021-06-20,57,10,TL6794533124,P6200019,P6200020,1,10,Galium aparine,
+2021-06-20,57,10,TL6794533124,P6200019,P6200020,1,10,Mercurialis perennis,
+2021-06-20,57,10,TL6794533124,P6200019,P6200020,1,10,Silene dioica,
+2021-06-20,57,10,TL6794533124,P6200019,P6200020,1,10,Ranunculus repens,
+2021-06-20,57,10,TL6794533124,P6200019,P6200020,1,10,Taraxacum officinale,
+2021-06-20,56,11,TL6790933115,P6200021,P6200022,2,85,Urtica dioica,Young ash dying nearby
+2021-06-20,56,11,TL6790933115,P6200021,P6200022,2,85,Galium aparine,Young ash dying nearby
+2021-06-20,56,11,TL6790933115,P6200021,P6200022,2,85,Rubus caesius,Young ash dying nearby
+2021-06-20,56,11,TL6790933115,P6200021,P6200022,2,85,Galium hederacea,Young ash dying nearby
+2021-06-20,56,11,TL6790933115,P6200021,P6200022,2,85,Mercurialis perennis,Young ash dying nearby
+2021-06-20,56,11,TL6790933115,P6200021,P6200022,2,85,Silene dioica,Young ash dying nearby
+2021-06-20,56,11,TL6790933115,P6200021,P6200022,2,85,Sambucus nigra,Young ash dying nearby
+2021-06-20,7,12,TL6791133153,P6200023,P6200024,1,98,Mercurialis perennis,
+2021-06-20,7,12,TL6791133153,P6200023,P6200024,1,98,Urtica dioica,
+2021-06-20,7,12,TL6791133153,P6200023,P6200024,1,98,Rubus fruticosus,
+2021-06-20,7,12,TL6791133153,P6200023,P6200024,1,98,Fagus sylvatica,
+2021-06-20,7,12,TL6791133153,P6200023,P6200024,1,98,Malus sylvestris, - canopy
+2021-06-20,7,12,TL6791133153,P6200023,P6200024,1,98,Ulmus procera, - canopy
+2021-06-20,7,12,TL6791133153,P6200023,P6200024,1,98,Acer campestre, - canopy
+2021-06-20,9,13,TL6788233149,P6200025,P6200026,1,95,Urtica dioica,
+2021-06-20,9,13,TL6788233149,P6200025,P6200026,1,95,Silene dioica,
+2021-06-20,9,13,TL6788233149,P6200025,P6200026,1,95,Galium aparine,
+2021-06-20,9,13,TL6788233149,P6200025,P6200026,1,95,Glechoma hederacea,
+2021-06-20,9,13,TL6788233149,P6200025,P6200026,1,95,Myosotis sylvatica,
+2021-06-20,9,13,TL6788233149,P6200025,P6200026,1,95,Sambucus nigra,
+2021-06-20,9,13,TL6788233149,P6200025,P6200026,1,95,Kindbergia praelonga,
+2021-06-20,9,13,TL6788233149,P6200025,P6200026,1,95,Ulmus procera,
+2021-06-20,59,14,TL6787433120,P6200027,P6200028,3,5,Urtica dioica," - dead ash nearby, near a new or extended dam"
+2021-06-20,59,14,TL6787433120,P6200027,P6200028,3,5,Silene dioica,
+2021-06-20,59,14,TL6787433120,P6200027,P6200028,3,5,Myosotis sylvatica,
+2021-06-20,59,14,TL6787433120,P6200027,P6200028,3,5,Sambucus nigra,
+2021-06-20,59,14,TL6787433120,P6200027,P6200028,3,5,Mercurialis perennis,
+2021-06-20,59,14,TL6787433120,P6200027,P6200028,3,5,Galium aparine,
+2021-06-20,59,14,TL6787433120,P6200027,P6200028,3,5,Poa trivialis,
+2021-06-20,59,14,TL6787433120,P6200027,P6200028,3,5,Brachythecium rutabulum,
+2021-06-20,59,14,TL6787433120,P6200027,P6200028,3,5,Kindbergia praelonga,
+2021-06-20,8,15,TL6784833144,P6200029,P6200030,2,85,Eupatorium cannabinum, - E.cannabinum appears to have spread in this area
+2021-06-20,8,15,TL6784833144,P6200029,P6200030,2,85,Ranunculus repens,
+2021-06-20,8,15,TL6784833144,P6200029,P6200030,2,85,Galium aparine,
+2021-06-20,8,15,TL6784833144,P6200029,P6200030,2,85,Arctium minus,
+2021-06-20,8,15,TL6784833144,P6200029,P6200030,2,85,Myosotis sylvatica,
+2021-06-20,8,15,TL6784833144,P6200029,P6200030,2,85,Poa trivialis,
+2021-06-20,8,15,TL6784833144,P6200029,P6200030,2,85,Cirsium vulgare,
+2021-06-20,8,15,TL6784833144,P6200029,P6200030,2,85,Glechoma hederacea,
+2021-06-20,25,16,TL6785033176,P6200031,P6200032,1,40,Urtica dioica,
+2021-06-20,25,16,TL6785033176,P6200031,P6200032,1,40,Galium aparine,
+2021-06-20,25,16,TL6785033176,P6200031,P6200032,1,40,Mercurialis perennis,
+2021-06-20,25,16,TL6785033176,P6200031,P6200032,1,40,Glechoma hederacea,
+2021-06-20,25,16,TL6785033176,P6200031,P6200032,1,40,Kindbergia praelonga,
+2021-06-20,25,16,TL6785033176,P6200031,P6200032,1,40,Brachythecium rutabulum,
+2021-06-20,25,16,TL6785033176,P6200031,P6200032,1,40,Quercus robur, - canopy
+2021-06-20,22,17,TL6781433173,P6200033,P6200034,2,80,Urtica dioica,
+2021-06-20,22,17,TL6781433173,P6200033,P6200034,2,80,Galium aparine,
+2021-06-20,22,17,TL6781433173,P6200033,P6200034,2,80,Mercurialis perennis,
+2021-06-20,22,17,TL6781433173,P6200033,P6200034,2,80,Glechoma hederacea,
+2021-06-20,22,17,TL6781433173,P6200033,P6200034,2,80,Silene dioica,
+2021-06-20,22,17,TL6781433173,P6200033,P6200034,2,80,Sambucus nigra,
+2021-06-20,22,17,TL6781433173,P6200033,P6200034,2,80,Myosotis sylvatica,
+2021-06-20,22,17,TL6781433173,P6200033,P6200034,2,80,Circaea lutetiana,
+2021-06-20,22,17,TL6781433173,P6200033,P6200034,2,80,Acer campestre, - canopy
+2021-06-20,37,18,TL6782033205,P6200035,P6200036,1,95,Urtica dioica,from photo as forgot to write it down
+2021-06-20,37,18,TL6782033205,P6200035,P6200036,1,95,Mercurialis perennis,from photo as forgot to write it down
+2021-06-20,37,18,TL6782033205,P6200035,P6200036,1,95,Galium aparine,from photo as forgot to write it down
+2021-06-20,37,18,TL6782033205,P6200035,P6200036,1,95,Silene dioica,from photo as forgot to write it down
+2021-06-20,37,18,TL6782033205,P6200035,P6200036,1,95,Cirsium vulgare,from photo as forgot to write it down
+2021-06-20,37,18,TL6782033205,P6200035,P6200036,1,95,Glechoma hederacea,from photo as forgot to write it down
+2021-06-20,37,18,TL6782033205,P6200035,P6200036,1,95,Poa trivialis,from photo as forgot to write it down
+2021-06-20,37,18,TL6782033205,P6200035,P6200036,1,95,Ulmus procera,from photo as forgot to write it down - canopy
+2021-06-20,4,19,TL6781733141,P6200037,P6200038,4,0,Eupatorium cannabinum,"Average, edge of beaver ponded area, dammed ditch, point may be further from edge of ditch than last time."
+2021-06-20,4,19,TL6781733141,P6200037,P6200038,4,0,Carex acutiformis,"Average, edge of beaver ponded area, dammed ditch, point may be further from edge of ditch than last time."
+2021-06-20,4,19,TL6781733141,P6200037,P6200038,4,0,Galium aparine,"Average, edge of beaver ponded area, dammed ditch, point may be further from edge of ditch than last time."
+2021-06-20,4,19,TL6781733141,P6200037,P6200038,4,0,Silene dioica,"Average, edge of beaver ponded area, dammed ditch, point may be further from edge of ditch than last time."
+2021-06-20,4,19,TL6781733141,P6200037,P6200038,4,0,Filipendula ulmaria,"Average, edge of beaver ponded area, dammed ditch, point may be further from edge of ditch than last time."
+2021-06-20,4,19,TL6781733141,P6200037,P6200038,4,0,Urtica dioica,"Average, edge of beaver ponded area, dammed ditch, point may be further from edge of ditch than last time."
+2021-06-20,4,19,TL6781733141,P6200037,P6200038,4,0,Calystegia sepium,"Average, edge of beaver ponded area, dammed ditch, point may be further from edge of ditch than last time."
+2021-06-20,4,19,TL6781733141,P6200037,P6200038,4,0,Carduus crispus,"Average, edge of beaver ponded area, dammed ditch, point may be further from edge of ditch than last time."
+2021-06-20,4,19,TL6781733141,P6200037,P6200038,4,0,Scrophularia auriculata,"Average, edge of beaver ponded area, dammed ditch, point may be further from edge of ditch than last time."
+2021-06-20,4,19,TL6781733141,P6200037,P6200038,4,0,Veronica beccabunga,"Average, edge of beaver ponded area, dammed ditch, point may be further from edge of ditch than last time."
+2021-06-20,4,19,TL6781733141,P6200037,P6200038,4,0,Nasturtium officinale,"Average, edge of beaver ponded area, dammed ditch, point may be further from edge of ditch than last time."
+2021-06-20,4,19,TL6781733141,P6200037,P6200038,4,0,Mentha aquatica,"Average, edge of beaver ponded area, dammed ditch, point may be further from edge of ditch than last time."
+2021-06-20,21,20,TL6779033174,P6200039,P6200040,2,99,Galium aparine,
+2021-06-20,21,20,TL6779033174,P6200039,P6200040,2,99,Rubus fruticosus,
+2021-06-20,21,20,TL6779033174,P6200039,P6200040,2,99,Glechoma hederacea,
+2021-06-20,21,20,TL6779033174,P6200039,P6200040,2,99,Stachys sylvatica,
+2021-06-20,21,20,TL6779033174,P6200039,P6200040,2,99,Carduus crispus,
+2021-06-20,21,20,TL6779033174,P6200039,P6200040,2,99,Mercurialis perennis,
+2021-06-20,21,20,TL6779033174,P6200039,P6200040,2,99,Eupatorium cannabinum,
+2021-06-20,21,20,TL6779033174,P6200039,P6200040,2,99,Ranunculus repens,
+2021-06-20,21,20,TL6779033174,P6200039,P6200040,2,99,Myosotis sylvatica,
+2021-06-20,21,20,TL6779033174,P6200039,P6200040,2,99,Tilia europaea, - canopy
+2021-06-20,21,20,TL6779033174,P6200039,P6200040,2,99,Sambucus nigra,
+2021-06-20,21,20,TL6779033174,P6200039,P6200040,2,99,Angelica sylvestris,
+2021-06-20,21,20,TL6779033174,P6200039,P6200040,2,99,Carex sylvatica,
+2021-06-20,21,20,TL6779033174,P6200039,P6200040,2,99,Poa trivialis,
+2021-06-20,21,20,TL6779033174,P6200039,P6200040,2,99,Fraxinus excelsior, - canopy
+2021-06-20,36,21,TL6778833206,P6200041,P6200042,1,65,Urtica dioica,next to cleared area under powerlines
+2021-06-20,36,21,TL6778833206,P6200041,P6200042,1,65,Glechoma hederacea,next to cleared area under powerlines
+2021-06-20,36,21,TL6778833206,P6200041,P6200042,1,65,Mercurialis perennis,next to cleared area under powerlines
+2021-06-20,36,21,TL6778833206,P6200041,P6200042,1,65,Sambucus nigra,next to cleared area under powerlines
+2021-06-20,36,21,TL6778833206,P6200041,P6200042,1,65,Galium aparine,next to cleared area under powerlines
+2021-06-20,36,21,TL6778833206,P6200041,P6200042,1,65,Brachythecium rutabulum,next to cleared area under powerlines
+2021-06-20,53,22,TL6775933234,P6200043,P6200044,1,98,Urtica dioica,
+2021-06-20,53,22,TL6775933234,P6200043,P6200044,1,98,Adoxa moschatellina,
+2021-06-20,53,22,TL6775933234,P6200043,P6200044,1,98,Silene dioica,
+2021-06-20,53,22,TL6775933234,P6200043,P6200044,1,98,Glechoma hederacea,
+2021-06-20,53,22,TL6775933234,P6200043,P6200044,1,98,Sambucus nigra, - canopy
+2021-06-20,53,22,TL6775933234,P6200043,P6200044,1,98,Acer campestre, - canopy
+2021-06-20,53,22,TL6775933234,P6200043,P6200044,1,98,Galium aparine,
+2021-06-20,53,22,TL6775933234,P6200043,P6200044,1,98,Populus alba, - canopy
+2021-06-20,51,23,TL6772833234,P6200045,P6200046,4,5,Angelica sylvestris,on edge of beaver ponded area
+2021-06-20,51,23,TL6772833234,P6200045,P6200046,4,5,Carduus crispus,on edge of beaver ponded area
+2021-06-20,51,23,TL6772833234,P6200045,P6200046,4,5,Myosotis sylvatica,on edge of beaver ponded area
+2021-06-20,51,23,TL6772833234,P6200045,P6200046,4,5,Galium aparine,on edge of beaver ponded area
+2021-06-20,51,23,TL6772833234,P6200045,P6200046,4,5,Urtica dioica,on edge of beaver ponded area
+2021-06-20,51,23,TL6772833234,P6200045,P6200046,4,5,Rumex obtusifolius,on edge of beaver ponded area
+2021-06-20,51,23,TL6772833234,P6200045,P6200046,4,5,Rumex sanguineus,on edge of beaver ponded area
+2021-06-20,51,23,TL6772833234,P6200045,P6200046,4,5,Silene dioica,on edge of beaver ponded area
+2021-06-20,51,23,TL6772833234,P6200045,P6200046,4,5,Stachys sylvatica,on edge of beaver ponded area
+2021-06-20,51,23,TL6772833234,P6200045,P6200046,4,5,Ranunculus repens,on edge of beaver ponded area
+2021-06-20,51,23,TL6772833234,P6200045,P6200046,4,5,Mentha aquatica,on edge of beaver ponded area
+2021-06-20,51,23,TL6772833234,P6200045,P6200046,4,5,Mercurialis perennis,on edge of beaver ponded area
+2021-06-20,51,23,TL6772833234,P6200045,P6200046,4,5,Holcus lanatus,on edge of beaver ponded area
+2021-06-20,1,24,TL6772833265,P6200047,P6200048,2,25,Cirsium palustre,On edge of bat willow plantation
+2021-06-20,1,24,TL6772833265,P6200047,P6200048,2,25,Rumex sanguineus,On edge of bat willow plantation
+2021-06-20,1,24,TL6772833265,P6200047,P6200048,2,25,Galium aparine,On edge of bat willow plantation
+2021-06-20,1,24,TL6772833265,P6200047,P6200048,2,25,Holcus lanatus,On edge of bat willow plantation
+2021-06-20,1,24,TL6772833265,P6200047,P6200048,2,25,Angelica sylvestris,On edge of bat willow plantation
+2021-06-20,1,24,TL6772833265,P6200047,P6200048,2,25,Urtica dioica,On edge of bat willow plantation
+2021-06-20,1,24,TL6772833265,P6200047,P6200048,2,25,Silene dioica,On edge of bat willow plantation
+2021-06-20,1,24,TL6772833265,P6200047,P6200048,2,25,Poa trivialis,On edge of bat willow plantation
+2021-06-20,1,24,TL6772833265,P6200047,P6200048,2,25,Ranunculus repens,On edge of bat willow plantation
+2021-06-20,1,24,TL6772833265,P6200047,P6200048,2,25,Mercurialis perennis,On edge of bat willow plantation
+2021-06-20,1,24,TL6772833265,P6200047,P6200048,2,25,Dactylis glomerata,On edge of bat willow plantation
+2021-06-20,16,25,TL6769833294,P6200049,P6200050,2,15,Carex acutiformis,
+2021-06-20,16,25,TL6769833294,P6200049,P6200050,2,15,Scrophularia auriculata,
+2021-06-20,16,25,TL6769833294,P6200049,P6200050,2,15,Symphytum x uplandicum,
+2021-06-20,16,25,TL6769833294,P6200049,P6200050,2,15,Poa trivialis,
+2021-06-20,16,25,TL6769833294,P6200049,P6200050,2,15,Carduus crispus,
+2021-06-20,16,25,TL6769833294,P6200049,P6200050,2,15,Arrhenatherum elatius,
+2021-06-20,16,25,TL6769833294,P6200049,P6200050,2,15,Cirsium palustre,
+2021-06-20,16,25,TL6769833294,P6200049,P6200050,2,15,Mentha aquatica,
+2021-06-20,16,25,TL6769833294,P6200049,P6200050,2,15,Pulicaria dysenterica,
+2021-06-20,16,25,TL6769833294,P6200049,P6200050,2,15,Holcus lanatus,
+2021-06-20,16,25,TL6769833294,P6200049,P6200050,2,15,Filipendula ulmaria,
+2021-06-20,16,25,TL6769833294,P6200049,P6200050,2,15,Angelica sylvestris,
+2021-06-20,16,25,TL6769833294,P6200049,P6200050,2,15,Galium aparine,
+2021-06-20,16,25,TL6769833294,P6200049,P6200050,2,15,Ranunculus repens,
+2021-06-20,16,25,TL6769833294,P6200049,P6200050,2,15,Myosotis sylvatica,
+2021-06-20,16,25,TL6769833294,P6200049,P6200050,2,15,Vicia cracca,
+2021-06-20,16,25,TL6769833294,P6200049,P6200050,2,15,Hypericum tetrapterum,
+2021-06-20,16,25,TL6769833294,P6200049,P6200050,2,15,Rubus fruticosus,
+2021-06-20,16,25,TL6769833294,P6200049,P6200050,2,15,Rumex sanguineus,
+2021-06-20,16,25,TL6769833294,P6200049,P6200050,2,15,Primula elatior,
+2021-06-20,62,26,TL6766633264,P6200051,P6200052,1,2,Rubus fruticosus,nr perimeter fence top of bank
+2021-06-20,62,26,TL6766633264,P6200051,P6200052,1,2,Galium aparine,nr perimeter fence top of bank
+2021-06-20,62,26,TL6766633264,P6200051,P6200052,1,2,Urtica dioica,nr perimeter fence top of bank
+2021-06-20,62,26,TL6766633264,P6200051,P6200052,1,2,Glechoma hederacea,nr perimeter fence top of bank
+2021-06-20,62,26,TL6766633264,P6200051,P6200052,1,2,Holcus lanatus,nr perimeter fence top of bank
+2021-06-20,62,26,TL6766633264,P6200051,P6200052,1,2,Arrhenatherum elatius,nr perimeter fence top of bank
+2021-06-20,62,26,TL6766633264,P6200051,P6200052,1,2,Rumex sanguineus,nr perimeter fence top of bank
+2021-06-20,62,26,TL6766633264,P6200051,P6200052,1,2,Jacobaea vulgaris,nr perimeter fence top of bank
+2021-06-20,62,26,TL6766633264,P6200051,P6200052,1,2,Rumex obtusifolius,nr perimeter fence top of bank
+2021-06-20,62,26,TL6766633264,P6200051,P6200052,1,2,Carduus crispus,nr perimeter fence top of bank
+2021-06-20,62,26,TL6766633264,P6200051,P6200052,1,2,Poa trivialis,nr perimeter fence top of bank
+2021-06-20,63,27,TL6769933264,P6200053,P6200054,1,15,Filipendula ulmaria,
+2021-06-20,63,27,TL6769933264,P6200053,P6200054,1,15,Arrhenatherum elatius,
+2021-06-20,63,27,TL6769933264,P6200053,P6200054,1,15,Alopecurus pratensis,
+2021-06-20,63,27,TL6769933264,P6200053,P6200054,1,15,Dactylis glomerata,
+2021-06-20,63,27,TL6769933264,P6200053,P6200054,1,15,Galium aparine,
+2021-06-20,63,27,TL6769933264,P6200053,P6200054,1,15,Carex acutiformis,
+2021-06-20,63,27,TL6769933264,P6200053,P6200054,1,15,Glechoma hederacea,
+2021-06-20,63,27,TL6769933264,P6200053,P6200054,1,15,Angelica sylvestris,
+2021-06-20,63,27,TL6769933264,P6200053,P6200054,1,15,Poa trivialis,
+2021-06-20,39,28,TL6775933203,P6200055,P6200056,1,90,Silene dioica,
+2021-06-20,39,28,TL6775933203,P6200055,P6200056,1,90,Glechoma hederacea,
+2021-06-20,39,28,TL6775933203,P6200055,P6200056,1,90,Mercurialis perennis,
+2021-06-20,39,28,TL6775933203,P6200055,P6200056,1,90,Urtica dioica,
+2021-06-20,39,28,TL6775933203,P6200055,P6200056,1,90,Salix alba, - canopy
+2021-06-20,39,28,TL6775933203,P6200055,P6200056,1,90,Myosotis sylvatica,
+2021-06-20,39,28,TL6775933203,P6200055,P6200056,1,90,Kindbergia praelonga,
+2021-06-20,39,28,TL6775933203,P6200055,P6200056,1,90,Brachythecium rutabulum,
+2021-06-21,45,1,TL6770133235,P6210057,P6210058,3,55,Urtica dioica,average includes bank-channel.  Stream now has beaver dams and water >5cm deep
+2021-06-21,45,1,TL6770133235,P6210057,P6210058,3,55,Mercurialis perennis,average includes bank-channel.  Stream now has beaver dams and water >5cm deep
+2021-06-21,45,1,TL6770133235,P6210057,P6210058,3,55,Galium aparine,average includes bank-channel.  Stream now has beaver dams and water >5cm deep
+2021-06-21,45,1,TL6770133235,P6210057,P6210058,3,55,Tammus communis,average includes bank-channel.  Stream now has beaver dams and water >5cm deep
+2021-06-21,45,1,TL6770133235,P6210057,P6210058,3,55,Mentha aquatica,average includes bank-channel.  Stream now has beaver dams and water >5cm deep
+2021-06-21,45,1,TL6770133235,P6210057,P6210058,3,55,Glechoma hederacea,average includes bank-channel.  Stream now has beaver dams and water >5cm deep
+2021-06-21,45,1,TL6770133235,P6210057,P6210058,3,55,Carduus crispus,average includes bank-channel.  Stream now has beaver dams and water >5cm deep
+2021-06-21,45,1,TL6770133235,P6210057,P6210058,3,55,Sambucus nigra,average includes bank-channel.  Stream now has beaver dams and water >5cm deep - canopy
+2021-06-21,33,2,TL6769833201,P6210059,P6210060,1,55,Urtica dioica,on hedge near fence
+2021-06-21,33,2,TL6769833201,P6210059,P6210060,1,55,Galium aparine,on hedge near fence
+2021-06-21,33,2,TL6769833201,P6210059,P6210060,1,55,Carduus crispus,on hedge near fence
+2021-06-21,33,2,TL6769833201,P6210059,P6210060,1,55,Anisantha sterilis,on hedge near fence
+2021-06-21,33,2,TL6769833201,P6210059,P6210060,1,55,Dactylis glomerata,on hedge near fence
+2021-06-21,33,2,TL6769833201,P6210059,P6210060,1,55,Mercurialis perennis,on hedge near fence
+2021-06-21,33,2,TL6769833201,P6210059,P6210060,1,55,Silene dioica,on hedge near fence
+2021-06-21,33,2,TL6769833201,P6210059,P6210060,1,55,Myosotis arvensis,on hedge near fence
+2021-06-21,33,2,TL6769833201,P6210059,P6210060,1,55,Glechoma hederacea,on hedge near fence
+2021-06-21,33,2,TL6769833201,P6210059,P6210060,1,55,Sambucus nigra,on hedge near fence - canopy
+2021-06-21,33,2,TL6769833201,P6210059,P6210060,1,55,Crataegus monogyna,on hedge near fence - canopy
+2021-06-21,33,2,TL6769833201,P6210059,P6210060,1,55,Holcus lanatus,on hedge near fence
+2021-06-21,33,2,TL6769833201,P6210059,P6210060,1,55,Arrhenatherum elatius,on hedge near fence
+2021-06-21,33,2,TL6769833201,P6210059,P6210060,1,55,Poa trivialis,on hedge near fence
+2021-06-21,38,3,TL6773033201,P6210061,P6210062,1,85,Mercurialis perennis,
+2021-06-21,38,3,TL6773033201,P6210061,P6210062,1,85,Galium aparine,
+2021-06-21,38,3,TL6773033201,P6210061,P6210062,1,85,Poa trivialis,
+2021-06-21,38,3,TL6773033201,P6210061,P6210062,1,85,Tilia europaea,
+2021-06-21,38,3,TL6773033201,P6210061,P6210062,1,85,Urtica dioica,
+2021-06-21,38,3,TL6773033201,P6210061,P6210062,1,85,Fraxinus excelsior, - canopy
+2021-06-21,38,3,TL6773033201,P6210061,P6210062,1,85,Ulmus procera,
+2021-06-21,55,4,TL6808833023,P6200063,P6200064,1,0,Rumex obtusifolius,on arable reversion nearer to fences than has been on previous surveys
+2021-06-21,55,4,TL6808833023,P6200063,P6200064,1,0,Arrhenatherum elatius,on arable reversion nearer to fences than has been on previous surveys
+2021-06-21,55,4,TL6808833023,P6200063,P6200064,1,0,Holcus lanatus,on arable reversion nearer to fences than has been on previous surveys
+2021-06-21,55,4,TL6808833023,P6200063,P6200064,1,0,Poa trivialis,on arable reversion nearer to fences than has been on previous surveys
+2021-06-21,55,4,TL6808833023,P6200063,P6200064,1,0,Urtica dioica,on arable reversion nearer to fences than has been on previous surveys
+2021-06-21,55,4,TL6808833023,P6200063,P6200064,1,0,Symphytum x uplandicum,on arable reversion nearer to fences than has been on previous surveys
+2021-06-21,55,4,TL6808833023,P6200063,P6200064,1,0,Jacobaea vulgaris,on arable reversion nearer to fences than has been on previous surveys
+2021-06-21,55,4,TL6808833023,P6200063,P6200064,1,0,Papaver rhoes,on arable reversion nearer to fences than has been on previous surveys
+2021-06-21,55,4,TL6808833023,P6200063,P6200064,1,0,Galium aparine,on arable reversion nearer to fences than has been on previous surveys
+2021-06-21,55,4,TL6808833023,P6200063,P6200064,1,0,Carduus crispus,on arable reversion nearer to fences than has been on previous surveys
+2021-06-21,55,4,TL6808833023,P6200063,P6200064,1,0,Sonchus asper,on arable reversion nearer to fences than has been on previous surveys
+2021-06-21,55,4,TL6808833023,P6200063,P6200064,1,0,Potentilla reptans,on arable reversion nearer to fences than has been on previous surveys
+2021-06-21,55,4,TL6808833023,P6200063,P6200064,1,0,Anthriscus sylvestris,on arable reversion nearer to fences than has been on previous surveys
+2021-06-21,55,4,TL6808833023,P6200063,P6200064,1,0,Anisantha sterilis,on arable reversion nearer to fences than has been on previous surveys
+2021-06-21,55,4,TL6808833023,P6200063,P6200064,1,0,Ranunculus repens,on arable reversion nearer to fences than has been on previous surveys
+2021-06-21,55,4,TL6808833023,P6200063,P6200064,1,0,Stachys sylvatica,on arable reversion nearer to fences than has been on previous surveys
+2021-06-21,55,4,TL6808833023,P6200063,P6200064,1,0,Bromus commutatus,on arable reversion nearer to fences than has been on previous surveys
+2021-06-21,55,4,TL6808833023,P6200063,P6200064,1,0,Schedonorus arundinaceus,on arable reversion nearer to fences than has been on previous surveys
+2021-06-21,55,4,TL6808833023,P6200063,P6200064,1,0,Geranium dissectum,on arable reversion nearer to fences than has been on previous surveys
+2021-06-21,55,4,TL6808833023,P6200063,P6200064,1,0,Lolium perenne,on arable reversion nearer to fences than has been on previous surveys
+2021-06-21,55,4,TL6808833023,P6200063,P6200064,1,0,Festuca rubra,on arable reversion nearer to fences than has been on previous surveys
+2021-06-21,28,5,TL6793133054,P6210065,P6210066,5,5,Juncus effusus,"nr pile of logs and beaver canals, water cress and water figwort more abundant and J effusus more vigorous than in previous surveys"
+2021-06-21,28,5,TL6793133054,P6210065,P6210066,5,5,Juncus inflexus,"nr pile of logs and beaver canals, water cress and water figwort more abundant and J effusus more vigorous than in previous surveys"
+2021-06-21,28,5,TL6793133054,P6210065,P6210066,5,5,Carex pendula,"nr pile of logs and beaver canals, water cress and water figwort more abundant and J effusus more vigorous than in previous surveys"
+2021-06-21,28,5,TL6793133054,P6210065,P6210066,5,5,Scrophularia auriculata,"nr pile of logs and beaver canals, water cress and water figwort more abundant and J effusus more vigorous than in previous surveys"
+2021-06-21,28,5,TL6793133054,P6210065,P6210066,5,5,Mentha aquatica,"nr pile of logs and beaver canals, water cress and water figwort more abundant and J effusus more vigorous than in previous surveys"
+2021-06-21,28,5,TL6793133054,P6210065,P6210066,5,5,Nasturtium officinale,"nr pile of logs and beaver canals, water cress and water figwort more abundant and J effusus more vigorous than in previous surveys"
+2021-06-21,28,5,TL6793133054,P6210065,P6210066,5,5,Silene dioica,"nr pile of logs and beaver canals, water cress and water figwort more abundant and J effusus more vigorous than in previous surveys"
+2021-06-21,28,5,TL6793133054,P6210065,P6210066,5,5,Poa trivialis,"nr pile of logs and beaver canals, water cress and water figwort more abundant and J effusus more vigorous than in previous surveys"
+2021-06-21,28,5,TL6793133054,P6210065,P6210066,5,5,Solanum dulcamara,"nr pile of logs and beaver canals, water cress and water figwort more abundant and J effusus more vigorous than in previous surveys"
+2021-06-21,28,5,TL6793133054,P6210065,P6210066,5,5,Cirsium palustre,"nr pile of logs and beaver canals, water cress and water figwort more abundant and J effusus more vigorous than in previous surveys"
+2021-06-21,28,5,TL6793133054,P6210065,P6210066,5,5,Mentha aquatica,"nr pile of logs and beaver canals, water cress and water figwort more abundant and J effusus more vigorous than in previous surveys"
+2021-06-21,28,5,TL6793133054,P6210065,P6210066,5,5,Rubus fruticosus,"nr pile of logs and beaver canals, water cress and water figwort more abundant and J effusus more vigorous than in previous surveys"
+2021-06-21,28,5,TL6793133054,P6210065,P6210066,5,5,Filipendula ulmaria,"nr pile of logs and beaver canals, water cress and water figwort more abundant and J effusus more vigorous than in previous surveys"
+2021-06-21,11,6,TL6793633026,P6210067,P6210068,2,60,Urtica dioica,
+2021-06-21,11,6,TL6793633026,P6210067,P6210068,2,60,Humulus lupulus,
+2021-06-21,11,6,TL6793633026,P6210067,P6210068,2,60,Salix aurita,
+2021-06-21,11,6,TL6793633026,P6210067,P6210068,2,60,Calystegia sepium,
+2021-06-21,11,6,TL6793633026,P6210067,P6210068,2,60,Galium aparine,
+2021-06-21,11,6,TL6793633026,P6210067,P6210068,2,60,Rubus fruticosus,
+2021-06-21,11,6,TL6793633026,P6210067,P6210068,2,60,Glechoma hederacea,
+2021-06-21,11,6,TL6793633026,P6210067,P6210068,2,60,Salix alba, - canopy
+2021-06-21,11,6,TL6793633026,P6210067,P6210068,2,60,Carex pendula,
+2021-06-21,11,6,TL6793633026,P6210067,P6210068,2,60,Stachys sylvatica,
+2021-06-21,11,6,TL6793633026,P6210067,P6210068,2,60,Angelica sylvestris,
+2021-06-21,11,6,TL6793633026,P6210067,P6210068,2,60,Ranunculus repens,
+2021-06-21,11,6,TL6793633026,P6210067,P6210068,2,60,Poa trivialis,
+2021-06-21,11,6,TL6793633026,P6210067,P6210068,2,60,Symphytum x uplandicum,
+2021-06-21,61,7,TL6793832995,P6210069,P6210070,1,0,Anisantha sterilis,on arable reversion 
+2021-06-21,61,7,TL6793832995,P6210069,P6210070,1,0,Vulpia myosuroides,on arable reversion 
+2021-06-21,61,7,TL6793832995,P6210069,P6210070,1,0,Urtica dioica,on arable reversion 
+2021-06-21,61,7,TL6793832995,P6210069,P6210070,1,0,Cirsium vulgare,on arable reversion 
+2021-06-21,61,7,TL6793832995,P6210069,P6210070,1,0,Carduus crispus,on arable reversion 
+2021-06-21,61,7,TL6793832995,P6210069,P6210070,1,0,Arrhenatherum elatius,on arable reversion 
+2021-06-21,61,7,TL6793832995,P6210069,P6210070,1,0,Holcus lanatus,on arable reversion 
+2021-06-21,61,7,TL6793832995,P6210069,P6210070,1,0,Taraxacum officinale,on arable reversion 
+2021-06-21,61,7,TL6793832995,P6210069,P6210070,1,0,Sonchus asper,on arable reversion 
+2021-06-21,61,7,TL6793832995,P6210069,P6210070,1,0,Geranium dissectum,on arable reversion 
+2021-06-21,61,7,TL6793832995,P6210069,P6210070,1,0,Bromus commutatus,on arable reversion 
+2021-06-21,61,7,TL6793832995,P6210069,P6210070,1,0,Epilobium sp,on arable reversion 
+2021-06-21,61,7,TL6793832995,P6210069,P6210070,1,0,Jacobaea vulgaris,on arable reversion 
+2021-06-21,61,7,TL6793832995,P6210069,P6210070,1,0,Poa trivialis,on arable reversion 
+2021-06-21,61,7,TL6793832995,P6210069,P6210070,1,0,Sisymbrium officinale,on arable reversion 
+2021-06-21,61,7,TL6793832995,P6210069,P6210070,1,0,Galium aparine,on arable reversion 
+2021-06-21,61,7,TL6793832995,P6210069,P6210070,1,0,Matricularia matriculoides,on arable reversion 
+2021-06-21,60,8,TL6790932994,P6210071,P6210072,1,0,Schedonorus arundinaceus,arable reversion
+2021-06-21,60,8,TL6790932994,P6210071,P6210072,1,0,Leucanthemum vulgare,arable reversion
+2021-06-21,60,8,TL6790932994,P6210071,P6210072,1,0,Vicia tetrasperma,arable reversion
+2021-06-21,60,8,TL6790932994,P6210071,P6210072,1,0,Crataegus monogyna,arable reversion
+2021-06-21,60,8,TL6790932994,P6210071,P6210072,1,0,Holcus lanatus,arable reversion
+2021-06-21,60,8,TL6790932994,P6210071,P6210072,1,0,Festuca rubra,arable reversion
+2021-06-21,60,8,TL6790932994,P6210071,P6210072,1,0,Dactylis glomerata,arable reversion
+2021-06-21,60,8,TL6790932994,P6210071,P6210072,1,0,Arrhenatherum elatius,arable reversion
+2021-06-21,60,8,TL6790932994,P6210071,P6210072,1,0,Bromus commutatus,arable reversion
+2021-06-21,60,8,TL6790932994,P6210071,P6210072,1,0,Agrostis capillaris,arable reversion
+2021-06-21,60,8,TL6790932994,P6210071,P6210072,1,0,Geranium dissectum,arable reversion
+2021-06-21,60,8,TL6790932994,P6210071,P6210072,1,0,Plantago major,arable reversion
+2021-06-21,60,8,TL6790932994,P6210071,P6210072,1,0,Acer campestre,arable reversion
+2021-06-21,60,8,TL6790932994,P6210071,P6210072,1,0,Ranunculus repens,arable reversion
+2021-06-21,60,8,TL6790932994,P6210071,P6210072,1,0,Sonchus asper,arable reversion
+2021-06-21,60,8,TL6790932994,P6210071,P6210072,1,0,Hypochaeris radicata,arable reversion
+2021-06-21,60,8,TL6790932994,P6210071,P6210072,1,0,Quercus robur,arable reversion
+2021-06-21,60,8,TL6790932994,P6210071,P6210072,1,0,Jacobaea vulgaris,arable reversion
+2021-06-21,60,8,TL6790932994,P6210071,P6210072,1,0,Cirsium arvense,arable reversion
+2021-06-21,10,9,TL6791033024,P6210073,P6210074,2,15,Rubus fruticosus,
+2021-06-21,10,9,TL6791033024,P6210073,P6210074,2,15,Solanum dulcamara,
+2021-06-21,10,9,TL6791033024,P6210073,P6210074,2,15,Urtica dioica,
+2021-06-21,10,9,TL6791033024,P6210073,P6210074,2,15,Salix cinerea,
+2021-06-21,10,9,TL6791033024,P6210073,P6210074,2,15,Calystegia sepium,
+2021-06-21,10,9,TL6791033024,P6210073,P6210074,2,15,Juncus inflexus,
+2021-06-21,10,9,TL6791033024,P6210073,P6210074,2,15,Carex pendula,
+2021-06-21,10,9,TL6791033024,P6210073,P6210074,2,15,Filipendula ulmaria,
+2021-06-21,10,9,TL6791033024,P6210073,P6210074,2,15,Equisetum arvense,
+2021-06-21,10,9,TL6791033024,P6210073,P6210074,2,15,Carduus crispus,
+2021-06-21,10,9,TL6791033024,P6210073,P6210074,2,15,Galium aparine,
+2021-06-21,41,11,TL6790833082,P6210075,P6210076,3.5,10,Urtica dioica,average by ditch and near beaver dam
+2021-06-21,41,11,TL6790833082,P6210075,P6210076,3.5,10,Silene dioica,average by ditch and near beaver dam
+2021-06-21,41,11,TL6790833082,P6210075,P6210076,3.5,10,Sambucus nigra,average by ditch and near beaver dam
+2021-06-21,41,11,TL6790833082,P6210075,P6210076,3.5,10,Galium aparine,average by ditch and near beaver dam
+2021-06-21,41,11,TL6790833082,P6210075,P6210076,3.5,10,Solanum dulcamara,average by ditch and near beaver dam
+2021-06-21,41,11,TL6790833082,P6210075,P6210076,3.5,10,Poa trivialis,average by ditch and near beaver dam
+2021-06-21,41,11,TL6790833082,P6210075,P6210076,3.5,10,Euonymus europaeus,average by ditch and near beaver dam
+2021-06-21,41,11,TL6790833082,P6210075,P6210076,3.5,10,Myosotis sylvatica,average by ditch and near beaver dam
+2021-06-21,41,11,TL6790833082,P6210075,P6210076,3.5,10,Mercurialis perennis,average by ditch and near beaver dam
+2021-06-21,27,17,TL6790933053,P6210077,P6210078,2,75,Glechoma hederacea, - bare ground and beaver feeding signs
+2021-06-21,27,17,TL6790933053,P6210077,P6210078,2,75,Urtica dioica,
+2021-06-21,27,17,TL6790933053,P6210077,P6210078,2,75,Poa trivialis,
+2021-06-21,27,17,TL6790933053,P6210077,P6210078,2,75,Adoxa moschatellina,
+2021-06-21,27,17,TL6790933053,P6210077,P6210078,2,75,Silene dioica,
+2021-06-21,27,17,TL6790933053,P6210077,P6210078,2,75,Galium aparine,
+2021-06-21,27,17,TL6790933053,P6210077,P6210078,2,75,Cardamine flexuosa,
+2021-06-21,27,17,TL6790933053,P6210077,P6210078,2,75,Crataegus monogyna, - canopy
+2021-06-21,27,17,TL6790933053,P6210077,P6210078,2,75,Brachythecium rutabulum,
+2021-06-21,27,17,TL6790933053,P6210077,P6210078,2,75,Fissidens taxifolius var taxifolius,
+2021-06-21,30,13,TL6787933054,P6210079,P6210080,2,2,Rubus fruticosus,arable reversion
+2021-06-21,30,13,TL6787933054,P6210079,P6210080,2,2,Galium aparine,arable reversion
+2021-06-21,30,13,TL6787933054,P6210079,P6210080,2,2,Epilobium hirsutum,arable reversion
+2021-06-21,30,13,TL6787933054,P6210079,P6210080,2,2,Heracleum sphondylium,arable reversion
+2021-06-21,30,13,TL6787933054,P6210079,P6210080,2,2,Urtica dioica,arable reversion
+2021-06-21,30,13,TL6787933054,P6210079,P6210080,2,2,Solanum dulcamara,arable reversion
+2021-06-21,30,13,TL6787933054,P6210079,P6210080,2,2,Silene dioica,arable reversion
+2021-06-21,46,14,TL6787533090,P6210081,P6210082,2,55,Urtica dioica,
+2021-06-21,46,14,TL6787533090,P6210081,P6210082,2,55,Galium aparine,
+2021-06-21,46,14,TL6787533090,P6210081,P6210082,2,55,Glechoma hederacea,
+2021-06-21,46,14,TL6787533090,P6210081,P6210082,2,55,Stachys sylvatica,
+2021-06-21,46,14,TL6787533090,P6210081,P6210082,2,55,Poa trivialis,
+2021-06-21,46,14,TL6787533090,P6210081,P6210082,2,55,Myosotis sylvatica,
+2021-06-21,46,14,TL6787533090,P6210081,P6210082,2,55,Fraxinus excelsior, - canopy
+2021-06-21,46,14,TL6787533090,P6210081,P6210082,2,55,Angelica sylvestris,
+2021-06-21,58,15,TL6784833119,P6210083,P6210084,3,65,Carex acutiformis,
+2021-06-21,58,15,TL6784833119,P6210083,P6210084,3,65,Solanum dulcamara,
+2021-06-21,58,15,TL6784833119,P6210083,P6210084,3,65,Galium aparine,
+2021-06-21,58,15,TL6784833119,P6210083,P6210084,3,65,Epilobium hirsutum,
+2021-06-21,58,15,TL6784833119,P6210083,P6210084,3,65,Rubus fruticosus,
+2021-06-21,58,15,TL6784833119,P6210083,P6210084,3,65,Myosotis sylvatica,
+2021-06-21,58,15,TL6784833119,P6210083,P6210084,3,65,Eupatorium cannabinum,
+2021-06-21,58,15,TL6784833119,P6210083,P6210084,3,65,Calystegia sepium,
+2021-06-21,44,16,TL6784833083,P6210085,P6210086,1,75,Carex pendula,adjacent to young elm grove and open area
+2021-06-21,44,16,TL6784833083,P6210085,P6210086,1,75,Urtica dioica,adjacent to young elm grove and open area
+2021-06-21,44,16,TL6784833083,P6210085,P6210086,1,75,Galium aparine,adjacent to young elm grove and open area
+2021-06-21,44,16,TL6784833083,P6210085,P6210086,1,75,Silene dioica,adjacent to young elm grove and open area
+2021-06-21,44,16,TL6784833083,P6210085,P6210086,1,75,Mercurialis perennis,adjacent to young elm grove and open area
+2021-06-21,44,16,TL6784833083,P6210085,P6210086,1,75,Ulmus procera,adjacent to young elm grove and open area - canopy
+2021-06-21,44,16,TL6784833083,P6210085,P6210086,1,75,Glechoma hederacea,adjacent to young elm grove and open area
+2021-06-21,6,10,TL6775933148,P6210087,P6210088,1,15,Urtica dioica,taken next day
+2021-06-21,6,10,TL6775933148,P6210087,P6210088,1,15,Galium aparine,taken next day
+2021-06-21,6,10,TL6775933148,P6210087,P6210088,1,15,Rumex obtusifolius,taken next day
+2021-06-21,6,10,TL6775933148,P6210087,P6210088,1,15,Arrhenatherum elatius,taken next day
+2021-06-21,6,10,TL6775933148,P6210087,P6210088,1,15,Poa trivialis,taken next day
+2021-06-21,6,10,TL6775933148,P6210087,P6210088,1,15,Bromus commutatus,taken next day
+2021-06-21,6,10,TL6775933148,P6210087,P6210088,1,15,Carduus crispus,taken next day
+2021-06-21,6,10,TL6775933148,P6210087,P6210088,1,15,Jacobaea vulgaris,taken next day
+2021-06-21,6,10,TL6775933148,P6210087,P6210088,1,15,Holcus lanatus,taken next day
+2021-06-21,6,10,TL6775933148,P6210087,P6210088,1,15,Dactylis glomerata,taken next day
+2021-06-21,6,10,TL6775933148,P6210087,P6210088,1,15,Crataegus monogyna,taken next day - canopy
+2021-06-21,6,10,TL6775933148,P6210087,P6210088,1,15,Anisantha sterilis,taken next day
+2021-06-21,6,10,TL6775933148,P6210087,P6210088,1,15,Cerastium fontanum,taken next day
+2021-06-21,6,10,TL6775933148,P6210087,P6210088,1,15,Viola arvensis,taken next day
+2021-06-21,23,17,TL6772933157,P6210089,P6210090,1,25,Arrhenatherum elatius,
+2021-06-21,23,17,TL6772933157,P6210089,P6210090,1,25,Galium aparine,
+2021-06-21,23,17,TL6772933157,P6210089,P6210090,1,25,Sambucus nigra, - canopy
+2021-06-21,23,17,TL6772933157,P6210089,P6210090,1,25,Dactylis glomerata,
+2021-06-21,23,17,TL6772933157,P6210089,P6210090,1,25,Urtica dioica,
+2021-06-21,23,17,TL6772933157,P6210089,P6210090,1,25,Glechoma hederacea,
+2021-06-21,23,17,TL6772933157,P6210089,P6210090,1,25,Arctium minus,
+2021-06-21,23,17,TL6772933157,P6210089,P6210090,1,25,Ulmus procera,
+2021-06-21,23,17,TL6772933157,P6210089,P6210090,1,25,Bromus commutatus,
+2021-06-21,23,17,TL6772933157,P6210089,P6210090,1,25,Rumex obtusifolius,
+2021-06-21,23,17,TL6772933157,P6210089,P6210090,1,25,Sisymbrium officinale,
+2021-06-21,23,17,TL6772933157,P6210089,P6210090,1,25,Holcus lanatus,
+2021-06-21,23,17,TL6772933157,P6210089,P6210090,1,25,Lapsana communis,
+2021-06-21,23,17,TL6772933157,P6210089,P6210090,1,25,Tripleurospermum inodoratum,
+2021-06-21,23,17,TL6772933157,P6210089,P6210090,1,25,Anisantha sterilis,
+2021-06-21,24,18,TL6776033176,P6210091,P6210092,1,45,Rubus fruticosus,
+2021-06-21,24,18,TL6776033176,P6210091,P6210092,1,45,Urtica dioica,
+2021-06-21,24,18,TL6776033176,P6210091,P6210092,1,45,Carduus crispus,
+2021-06-21,24,18,TL6776033176,P6210091,P6210092,1,45,Galium aparine,
+2021-06-21,24,18,TL6776033176,P6210091,P6210092,1,45,Prunus spinosa, - canopy
+2021-06-21,24,18,TL6776033176,P6210091,P6210092,1,45,Galium aparine,
+2021-06-21,24,18,TL6776033176,P6210091,P6210092,1,45,Rumex sanguineus,
+2021-06-21,24,18,TL6776033176,P6210091,P6210092,1,45,Cirsium vulgare,
+2021-06-21,24,18,TL6776033176,P6210091,P6210092,1,45,Silene dioica,
+2021-06-21,24,18,TL6776033176,P6210091,P6210092,1,45,Poa trivialis,
+2021-06-21,24,18,TL6776033176,P6210091,P6210092,1,45,Myosotis sylvatica,
+2021-06-21,24,18,TL6776033176,P6210091,P6210092,1,45,Ulmus procera,
+2021-06-21,24,18,TL6776033176,P6210091,P6210092,1,45,Glechoma hederacea,
+2021-06-21,24,18,TL6776033176,P6210091,P6210092,1,45,Mercurialis perennis,
+2021-06-21,24,18,TL6776033176,P6210091,P6210092,1,45,Kindbergia praelonga,
+2021-06-21,3,19,TL6778833144,P6210093,P6210094,1,20,Rubus fruticosus,"edge of an open area, and near to Ash dieback"
+2021-06-21,3,19,TL6778833144,P6210093,P6210094,1,20,Galium aparine,"edge of an open area, and near to Ash dieback"
+2021-06-21,3,19,TL6778833144,P6210093,P6210094,1,20,Stachys sylvatica,"edge of an open area, and near to Ash dieback"
+2021-06-21,3,19,TL6778833144,P6210093,P6210094,1,20,Urtica dioica,"edge of an open area, and near to Ash dieback"
+2021-06-21,3,19,TL6778833144,P6210093,P6210094,1,20,Heracleum sphondylium,"edge of an open area, and near to Ash dieback"
+2021-06-21,3,19,TL6778833144,P6210093,P6210094,1,20,Carduus crispus,"edge of an open area, and near to Ash dieback"
+2021-06-21,3,19,TL6778833144,P6210093,P6210094,1,20,Holcus mollis,"edge of an open area, and near to Ash dieback"
+2021-06-21,3,19,TL6778833144,P6210093,P6210094,1,20,Poa trivialis,"edge of an open area, and near to Ash dieback"
+2021-06-21,3,19,TL6778833144,P6210093,P6210094,1,20,Silene dioica,"edge of an open area, and near to Ash dieback"
+2021-06-21,3,19,TL6778833144,P6210093,P6210094,1,20,Corylus avellana,"edge of an open area, and near to Ash dieback"
+2021-06-21,3,19,TL6778833144,P6210093,P6210094,1,20,Epilobium hirsutum,"edge of an open area, and near to Ash dieback"
+2021-06-21,3,19,TL6778833144,P6210093,P6210094,1,20,Mercurialis perennis,"edge of an open area, and near to Ash dieback"
+2021-06-21,3,19,TL6778833144,P6210093,P6210094,1,20,Juncus inflexus,"edge of an open area, and near to Ash dieback"
+2021-06-21,54,20,TL6781833113,P6210098,P6210099,1,0,Rubus fruticosus,
+2021-06-21,54,20,TL6781833113,P6210098,P6210099,1,0,Urtica dioica,
+2021-06-21,54,20,TL6781833113,P6210098,P6210099,1,0,Galium aparine,
+2021-06-21,54,20,TL6781833113,P6210098,P6210099,1,0,Silene dioica,
+2021-06-21,54,20,TL6781833113,P6210098,P6210099,1,0,Mercurialis perennis,
+2021-06-21,54,20,TL6781833113,P6210098,P6210099,1,0,Myosotis sylvatica,
+2021-06-21,54,20,TL6781833113,P6210098,P6210099,1,0,Galium aparine,
+2021-06-21,54,20,TL6781833113,P6210098,P6210099,1,0,Hypericum perforatum,
+2021-06-21,54,20,TL6781833113,P6210098,P6210099,1,0,Poa trivialis,
+2021-06-21,54,20,TL6781833113,P6210098,P6210099,1,0,Glechoma hederacea,
+2022-06-24,49,1,TL6796833089,P6240001,P6240002,3,80,Veronica beccabunga,"Averaged, range 1-5 due to beaver canal entering sample pointmainly Tilia cordata and Populus x"
+2022-06-24,49,1,TL6796833089,P6240001,P6240002,3,80,Glechoma hederacea,"Averaged, range 1-5 due to beaver canal entering sample pointmainly Tilia cordata and Populus x"
+2022-06-24,49,1,TL6796833089,P6240001,P6240002,3,80,Sambucus nigra,"Averaged, range 1-5 due to beaver canal entering sample pointmainly Tilia cordata and Populus x"
+2022-06-24,49,1,TL6796833089,P6240001,P6240002,3,80,Urtica dioica,"Averaged, range 1-5 due to beaver canal entering sample pointmainly Tilia cordata and Populus x"
+2022-06-24,49,1,TL6796833089,P6240001,P6240002,3,80,Galium aparine,"Averaged, range 1-5 due to beaver canal entering sample pointmainly Tilia cordata and Populus x"
+2022-06-24,49,1,TL6796833089,P6240001,P6240002,3,80,Poa trivialis,"Averaged, range 1-5 due to beaver canal entering sample pointmainly Tilia cordata and Populus x"
+2022-06-24,49,1,TL6796833089,P6240001,P6240002,3,80,Rorippa nasturtium-aquaticum,"Averaged, range 1-5 due to beaver canal entering sample pointmainly Tilia cordata and Populus x"
+2022-06-24,49,1,TL6796833089,P6240001,P6240002,3,80,Alliaria petiolata,"Averaged, range 1-5 due to beaver canal entering sample pointmainly Tilia cordata and Populus x"
+2022-06-24,49,1,TL6796833089,P6240001,P6240002,3,80,Circaea lutetiana,"Averaged, range 1-5 due to beaver canal entering sample pointmainly Tilia cordata and Populus x"
+2022-06-24,49,1,TL6796833089,P6240001,P6240002,3,80,Adoxa moschatellina,"Averaged, range 1-5 due to beaver canal entering sample pointmainly Tilia cordata and Populus x"
+2022-06-24,49,1,TL6796833089,P6240001,P6240002,3,80,Populus x canadensis,"Averaged, range 1-5 due to beaver canal entering sample pointmainly Tilia cordata and Populus x - sucker"
+2022-06-24,49,1,TL6796833089,P6240001,P6240002,3,80,Carex sp,"Averaged, range 1-5 due to beaver canal entering sample pointmainly Tilia cordata and Populus x - seedling"
+2022-06-24,49,1,TL6796833089,P6240001,P6240002,3,80,Anthriscus sylvestris,"Averaged, range 1-5 due to beaver canal entering sample pointmainly Tilia cordata and Populus x"
+2022-06-24,49,1,TL6796833089,P6240001,P6240002,3,80,Silene dioica,"Averaged, range 1-5 due to beaver canal entering sample pointmainly Tilia cordata and Populus x"
+2022-06-24,49,1,TL6796833089,P6240001,P6240002,3,80,Arum maculatum,"Averaged, range 1-5 due to beaver canal entering sample pointmainly Tilia cordata and Populus x"
+2022-06-24,50,2,TL6799833084,P6240003,P6240004,1,50,Angelica sylvestris,"mainly Crataegus monogyna, Sambucus nigra and Populus x canadensis"
+2022-06-24,50,2,TL6799833084,P6240003,P6240004,1,50,Circaea lutetiana,"mainly Crataegus monogyna, Sambucus nigra and Populus x canadensis"
+2022-06-24,50,2,TL6799833084,P6240003,P6240004,1,50,Glechoma hederacea,"mainly Crataegus monogyna, Sambucus nigra and Populus x canadensis"
+2022-06-24,50,2,TL6799833084,P6240003,P6240004,1,50,Geranium robertianum,"mainly Crataegus monogyna, Sambucus nigra and Populus x canadensis"
+2022-06-24,50,2,TL6799833084,P6240003,P6240004,1,50,Carduus crispus,"mainly Crataegus monogyna, Sambucus nigra and Populus x canadensis"
+2022-06-24,50,2,TL6799833084,P6240003,P6240004,1,50,Mercurialis perennis,"mainly Crataegus monogyna, Sambucus nigra and Populus x canadensis"
+2022-06-24,50,2,TL6799833084,P6240003,P6240004,1,50,Galium aparine,"mainly Crataegus monogyna, Sambucus nigra and Populus x canadensis"
+2022-06-24,50,2,TL6799833084,P6240003,P6240004,1,50,Rubus fruticosus agg,"mainly Crataegus monogyna, Sambucus nigra and Populus x canadensis"
+2022-06-24,50,2,TL6799833084,P6240003,P6240004,1,50,Sambucus nigra,"mainly Crataegus monogyna, Sambucus nigra and Populus x canadensis"
+2022-06-24,50,2,TL6799833084,P6240003,P6240004,1,50,Scrophularia auriculata,"mainly Crataegus monogyna, Sambucus nigra and Populus x canadensis"
+2022-06-24,50,2,TL6799833084,P6240003,P6240004,1,50,Silene dioica,"mainly Crataegus monogyna, Sambucus nigra and Populus x canadensis"
+2022-06-24,50,2,TL6799833084,P6240003,P6240004,1,50,Bromopsis ramosa,"mainly Crataegus monogyna, Sambucus nigra and Populus x canadensis"
+2022-06-24,50,2,TL6799833084,P6240003,P6240004,1,50,Urtica dioica,"mainly Crataegus monogyna, Sambucus nigra and Populus x canadensis"
+2022-06-24,50,2,TL6799833084,P6240003,P6240004,1,50,Stachys sylvatica,"mainly Crataegus monogyna, Sambucus nigra and Populus x canadensis"
+2022-06-24,50,2,TL6799833084,P6240003,P6240004,1,50,Sambucus nigra,"mainly Crataegus monogyna, Sambucus nigra and Populus x canadensis"
+2022-06-24,47,3,TL6802833084,P6240005,P6240006,1,60,Angelica sylvestris,slightly up the bank from small seepagemainly Crataegus monogyna
+2022-06-24,47,3,TL6802833084,P6240005,P6240006,1,60,Urtica dioica,slightly up the bank from small seepagemainly Crataegus monogyna
+2022-06-24,47,3,TL6802833084,P6240005,P6240006,1,60,Galium aparine,slightly up the bank from small seepagemainly Crataegus monogyna
+2022-06-24,47,3,TL6802833084,P6240005,P6240006,1,60,Glechoma hederacea,slightly up the bank from small seepagemainly Crataegus monogyna
+2022-06-24,47,3,TL6802833084,P6240005,P6240006,1,60,Mercurialis perennis,slightly up the bank from small seepagemainly Crataegus monogyna
+2022-06-24,47,3,TL6802833084,P6240005,P6240006,1,60,Sambucus nigra,slightly up the bank from small seepagemainly Crataegus monogyna
+2022-06-24,47,3,TL6802833084,P6240005,P6240006,1,60,Poa trivialis,slightly up the bank from small seepagemainly Crataegus monogyna
+2022-06-24,47,3,TL6802833084,P6240005,P6240006,1,60,Solanum dulcamara,slightly up the bank from small seepagemainly Crataegus monogyna
+2022-06-24,47,3,TL6802833084,P6240005,P6240006,1,60,Silene dioica,slightly up the bank from small seepagemainly Crataegus monogyna
+2022-06-24,47,3,TL6802833084,P6240005,P6240006,1,60,Myosotis arvensis,slightly up the bank from small seepagemainly Crataegus monogyna
+2022-06-24,47,3,TL6802833084,P6240005,P6240006,1,60,Ulmus procera,slightly up the bank from small seepagemainly Crataegus monogyna - young tree pole stage
+2022-06-24,31,4,TL6802933055,P6240007,P6240008,5,5,Carex pendula,beside the now widened stream
+2022-06-24,31,4,TL6802933055,P6240007,P6240008,5,5,Juncus effusus,beside the now widened stream
+2022-06-24,31,4,TL6802933055,P6240007,P6240008,5,5,Glyceria notata,beside the now widened stream
+2022-06-24,31,4,TL6802933055,P6240007,P6240008,5,5,Carex otrubae,beside the now widened stream
+2022-06-24,31,4,TL6802933055,P6240007,P6240008,5,5,Mentha aquatica,beside the now widened stream
+2022-06-24,31,4,TL6802933055,P6240007,P6240008,5,5,Rorippa nasturtium-aquaticum,beside the now widened stream
+2022-06-24,31,4,TL6802933055,P6240007,P6240008,5,5,Juncus inflexus,beside the now widened stream
+2022-06-24,31,4,TL6802933055,P6240007,P6240008,5,5,Filipendula ulmaria,beside the now widened stream
+2022-06-25,34,5,TL6796733058,P6250011,P6250012,5,10,Veronica beccabunga,"Canopy comprises Salix alba var. caerulea, Salix cinerea subsp cinerea and Coryllus avellana"
+2022-06-25,34,5,TL6796733058,P6250011,P6250012,5,10,Carex pendula,"Canopy comprises Salix alba var. caerulea, Salix cinerea subsp cinerea and Coryllus avellana"
+2022-06-25,34,5,TL6796733058,P6250011,P6250012,5,10,Rubus fruticosus agg.,"Canopy comprises Salix alba var. caerulea, Salix cinerea subsp cinerea and Coryllus avellana - Mentha aquatica, Iris pseudacorus and Scophularia auriculata just outside quadrat this time"
+2022-06-25,35,6,TL6799933054,P6250013,P6250014,4,90,Geranium robertianum,Averaged as by stream so range is 2-5Mainly Salix cinerea
+2022-06-25,35,6,TL6799933054,P6250013,P6250014,4,90,Carex pendula,Averaged as by stream so range is 2-5Mainly Salix cinerea
+2022-06-25,35,6,TL6799933054,P6250013,P6250014,4,90,Rubus fruticosus agg.,Averaged as by stream so range is 2-5Mainly Salix cinerea
+2022-06-25,35,6,TL6799933054,P6250013,P6250014,4,90,Mercurialis perennis,Averaged as by stream so range is 2-5Mainly Salix cinerea
+2022-06-25,35,6,TL6799933054,P6250013,P6250014,4,90,Geum urbanum,Averaged as by stream so range is 2-5Mainly Salix cinerea
+2022-06-25,35,6,TL6799933054,P6250013,P6250014,4,90,Urtica dioica,Averaged as by stream so range is 2-5Mainly Salix cinerea
+2022-06-25,35,6,TL6799933054,P6250013,P6250014,4,90,Bromopsis ramosa,Averaged as by stream so range is 2-5Mainly Salix cinerea
+2022-06-25,35,6,TL6799933054,P6250013,P6250014,4,90,Silene dioica,Averaged as by stream so range is 2-5Mainly Salix cinerea
+2022-06-25,35,6,TL6799933054,P6250013,P6250014,4,90,Myosotis arvensis,Averaged as by stream so range is 2-5Mainly Salix cinerea
+2022-06-25,35,6,TL6799933054,P6250013,P6250014,4,90,Poa trivialis,Averaged as by stream so range is 2-5Mainly Salix cinerea
+2022-06-25,35,6,TL6799933054,P6250013,P6250014,4,90,Salix cinerea,Averaged as by stream so range is 2-5Mainly Salix cinerea
+2022-06-25,35,6,TL6799933054,P6250013,P6250014,4,90,Galium aparine,Averaged as by stream so range is 2-5Mainly Salix cinerea
+2022-06-25,32,7,TL6805833055,P6250015,P6250016,2,85,Urtica dioica,Mainly Salix alba var. caerulea
+2022-06-25,32,7,TL6805833055,P6250015,P6250016,2,85,Galium aparine,Mainly Salix alba var. caerulea
+2022-06-25,32,7,TL6805833055,P6250015,P6250016,2,85,Stachys sylvatica,Mainly Salix alba var. caerulea
+2022-06-25,32,7,TL6805833055,P6250015,P6250016,2,85,Bromopsis ramosa,Mainly Salix alba var. caerulea
+2022-06-25,32,7,TL6805833055,P6250015,P6250016,2,85,Silene dioica,Mainly Salix alba var. caerulea
+2022-06-25,32,7,TL6805833055,P6250015,P6250016,2,85,Mercurialis perennis,Mainly Salix alba var. caerulea
+2022-06-25,32,7,TL6805833055,P6250015,P6250016,2,85,Glechoma hederacea,Mainly Salix alba var. caerulea
+2022-06-25,32,7,TL6805833055,P6250015,P6250016,2,85,Poa trivialis,Mainly Salix alba var. caerulea
+2022-06-25,32,7,TL6805833055,P6250015,P6250016,2,85,Holcus lanatus,Mainly Salix alba var. caerulea
+2022-06-25,32,7,TL6805833055,P6250015,P6250016,2,85,Myosotis sylvatica,Mainly Salix alba var. caerulea
+2022-06-25,32,7,TL6805833055,P6250015,P6250016,2,85,Primula vulgaris,Mainly Salix alba var. caerulea
+2022-06-25,32,7,TL6805833055,P6250015,P6250016,2,85,Ulmus procera agg.,Mainly Salix alba var. caerulea - Seedling
+2022-06-25,5,8,TL6808833054,P6250017,P6250018,4,35,Ranunculus repens,Mainly Salix alba var. caerulea
+2022-06-25,5,8,TL6808833054,P6250017,P6250018,4,35,Stachys sylvatica,Mainly Salix alba var. caerulea
+2022-06-25,5,8,TL6808833054,P6250017,P6250018,4,35,Scrophularia auriculata,Mainly Salix alba var. caerulea
+2022-06-25,5,8,TL6808833054,P6250017,P6250018,4,35,Urtica dioica,Mainly Salix alba var. caerulea
+2022-06-25,5,8,TL6808833054,P6250017,P6250018,4,35,Rumex sanguineus,Mainly Salix alba var. caerulea
+2022-06-25,5,8,TL6808833054,P6250017,P6250018,4,35,Myosotis sylvatica,Mainly Salix alba var. caerulea
+2022-06-25,5,8,TL6808833054,P6250017,P6250018,4,35,Glechoma hederacea,Mainly Salix alba var. caerulea
+2022-06-25,5,8,TL6808833054,P6250017,P6250018,4,35,Poa trivialis,Mainly Salix alba var. caerulea
+2022-06-25,55,9,TL6808933024,P6250019,P6250020,1,0,Cirsium arvense,
+2022-06-25,55,9,TL6808933024,P6250019,P6250020,1,0,Rumex obtusifolius,
+2022-06-25,55,9,TL6808933024,P6250019,P6250020,1,0,Dactylis glomerata,
+2022-06-25,55,9,TL6808933024,P6250019,P6250020,1,0,Arrhenatherum elatius,
+2022-06-25,55,9,TL6808933024,P6250019,P6250020,1,0,Urtica dioica,
+2022-06-25,55,9,TL6808933024,P6250019,P6250020,1,0,Lolium perenne,
+2022-06-25,55,9,TL6808933024,P6250019,P6250020,1,0,Sonchus asper,
+2022-06-25,55,9,TL6808933024,P6250019,P6250020,1,0,Anisantha sterilis,
+2022-06-25,55,9,TL6808933024,P6250019,P6250020,1,0,Galium aparine,
+2022-06-25,55,9,TL6808933024,P6250019,P6250020,1,0,Symphytum x uplandicum,
+2022-06-25,55,9,TL6808933024,P6250019,P6250020,1,0,Ranunculus repens,
+2022-06-25,55,9,TL6808933024,P6250019,P6250020,1,0,Poa trivialis,
+2022-06-25,57,10,TL6794033114,P6250021,P6250022,1,85,Mercurialis perennis,
+2022-06-25,57,10,TL6794033114,P6250021,P6250022,1,85,Sambucus nigra,
+2022-06-25,57,10,TL6794033114,P6250021,P6250022,1,85,Urtica dioica,
+2022-06-25,42,11,TL6793733090,P6250023,P6250024,4,35,Veronica beccabunga,"Point should be in the pond but not accessible due to water levels and soft mud.Averaged as on the edge of main pond, range 3-5Ash death near lodge and main beaver pond"
+2022-06-25,42,11,TL6793733090,P6250023,P6250024,4,35,Mentha aquatica,"Point should be in the pond but not accessible due to water levels and soft mud.Averaged as on the edge of main pond, range 3-5Ash death near lodge and main beaver pond"
+2022-06-25,42,11,TL6793733090,P6250023,P6250024,4,35,Scrophularia auriculata,"Point should be in the pond but not accessible due to water levels and soft mud.Averaged as on the edge of main pond, range 3-5Ash death near lodge and main beaver pond"
+2022-06-25,42,11,TL6793733090,P6250023,P6250024,4,35,Nasturtium officinale,"Point should be in the pond but not accessible due to water levels and soft mud.Averaged as on the edge of main pond, range 3-5Ash death near lodge and main beaver pond"
+2022-06-25,41,12,TL6790733085,P6250025,P6250026,2,50,Epilobium hirsutum,
+2022-06-25,41,12,TL6790733085,P6250025,P6250026,2,50,Urtica dioica,
+2022-06-25,41,12,TL6790733085,P6250025,P6250026,2,50,Poa trivialis,
+2022-06-25,41,12,TL6790733085,P6250025,P6250026,2,50,Solanum dulcamara,
+2022-06-25,41,12,TL6790733085,P6250025,P6250026,2,50,Cardamine flexuosa,
+2022-06-25,41,12,TL6790733085,P6250025,P6250026,2,50,Mercurialis perennis,
+2022-06-25,41,12,TL6790733085,P6250025,P6250026,2,50,Glechoma hederacea,
+2022-06-25,41,12,TL6790733085,P6250025,P6250026,2,50,Myosotis sylvatica,
+2022-06-25,41,12,TL6790733085,P6250025,P6250026,2,50,Silene dioica,
+2022-06-25,41,12,TL6790733085,P6250025,P6250026,2,50,Rumex sanguineus,
+2022-06-25,41,12,TL6790733085,P6250025,P6250026,2,50,Crataegus monogyna,
+2022-06-25,41,12,TL6790733085,P6250025,P6250026,2,50,Tilia x europaea,
+2022-06-25,41,12,TL6790733085,P6250025,P6250026,2,50,Adoxa moschatellina,
+2022-06-25,27,13,TL6791033053,P6250027,P6250028,2,60,Carex pendula,
+2022-06-25,27,13,TL6791033053,P6250027,P6250028,2,60,Glechoma hederacea,
+2022-06-25,27,13,TL6791033053,P6250027,P6250028,2,60,Urtica dioica,
+2022-06-25,27,13,TL6791033053,P6250027,P6250028,2,60,Poa trivialis,
+2022-06-25,27,13,TL6791033053,P6250027,P6250028,2,60,Mercurialis perennis,
+2022-06-25,27,13,TL6791033053,P6250027,P6250028,2,60,Cirsium palustre,
+2022-06-25,27,13,TL6791033053,P6250027,P6250028,2,60,Ranunculus repens,
+2022-06-25,27,13,TL6791033053,P6250027,P6250028,2,60,Angelica sylvestris,
+2022-06-25,27,13,TL6791033053,P6250027,P6250028,2,60,Sambucus nigra,
+2022-06-25,27,13,TL6791033053,P6250027,P6250028,2,60,Solanum dulcamara,
+2022-06-25,27,13,TL6791033053,P6250027,P6250028,2,60,Myosotis sp,
+2022-06-25,27,13,TL6791033053,P6250027,P6250028,2,60,Rubus caesius,
+2022-06-25,27,13,TL6791033053,P6250027,P6250028,2,60,Cornus sanguinea,
+2022-06-25,27,13,TL6791033053,P6250027,P6250028,2,60,Fagus sylvatica,
+2022-06-25,27,13,TL6791033053,P6250027,P6250028,2,60,Silene dioica,
+2022-06-25,27,13,TL6791033053,P6250027,P6250028,2,60,Galium aparine,
+2022-06-25,27,13,TL6791033053,P6250027,P6250028,2,60,Mentha aquatica,
+2022-06-25,27,13,TL6791033053,P6250027,P6250028,2,60,Cardamine flexuosa,
+2022-06-25,10,14,TL6791033025,P6250029,P6250030,2,35,Rubus fruticosus agg.,Salix alba var. caerulea
+2022-06-25,10,14,TL6791033025,P6250029,P6250030,2,35,Holcus lanatus,Salix alba var. caerulea
+2022-06-25,10,14,TL6791033025,P6250029,P6250030,2,35,Calystegia sepium,Salix alba var. caerulea
+2022-06-25,10,14,TL6791033025,P6250029,P6250030,2,35,Urtica dioica,Salix alba var. caerulea
+2022-06-25,10,14,TL6791033025,P6250029,P6250030,2,35,Equisetum arvense,Salix alba var. caerulea
+2022-06-25,10,14,TL6791033025,P6250029,P6250030,2,35,Stachys sylvatica,Salix alba var. caerulea
+2022-06-25,10,14,TL6791033025,P6250029,P6250030,2,35,Poa trivialis,Salix alba var. caerulea
+2022-06-25,10,14,TL6791033025,P6250029,P6250030,2,35,Glechoma hederacea,Salix alba var. caerulea
+2022-06-25,10,14,TL6791033025,P6250029,P6250030,2,35,Galium aparine,Salix alba var. caerulea
+2022-06-25,10,14,TL6791033025,P6250029,P6250030,2,35,Salix cinerea,Salix alba var. caerulea
+2022-06-25,10,14,TL6791033025,P6250029,P6250030,2,35,Cardamine flexuosa,Salix alba var. caerulea
+2022-06-25,10,14,TL6791033025,P6250029,P6250030,2,35,Carex pendula,Salix alba var. caerulea
+2022-06-25,10,14,TL6791033025,P6250029,P6250030,2,35,Carex otrubae,Salix alba var. caerulea
+2022-06-25,10,14,TL6791033025,P6250029,P6250030,2,35,Scrophularia auriculata,Salix alba var. caerulea
+2022-06-25,10,14,TL6791033025,P6250029,P6250030,2,35,Epilobium hirsutum,Salix alba var. caerulea
+2022-06-25,10,14,TL6791033025,P6250029,P6250030,2,35,Rumex sanguineus,Salix alba var. caerulea
+2022-06-25,60,15,TL6791032994,P6250031,P6250032,1,0,Holcus lanatus,
+2022-06-25,60,15,TL6791032994,P6250031,P6250032,1,0,Schedonorus arundinaceus,
+2022-06-25,60,15,TL6791032994,P6250031,P6250032,1,0,Cirsium arvense,
+2022-06-25,60,15,TL6791032994,P6250031,P6250032,1,0,Leucanthemum vulgare,
+2022-06-25,60,15,TL6791032994,P6250031,P6250032,1,0,Ranunculus repens,
+2022-06-25,60,15,TL6791032994,P6250031,P6250032,1,0,Rumex sanguineus,
+2022-06-25,60,15,TL6791032994,P6250031,P6250032,1,0,Jacobaea vulgaris,
+2022-06-25,60,15,TL6791032994,P6250031,P6250032,1,0,Quercus robur, - Seedling
+2022-06-25,60,15,TL6791032994,P6250031,P6250032,1,0,Festuca rubra,
+2022-06-25,60,15,TL6791032994,P6250031,P6250032,1,0,Ervila tetrasperma,
+2022-06-25,60,15,TL6791032994,P6250031,P6250032,1,0,Sambucus nigra,
+2022-06-25,60,15,TL6791032994,P6250031,P6250032,1,0,Dactylis glomerata,
+2022-06-25,60,15,TL6791032994,P6250031,P6250032,1,0,Erigeron canadensis,
+2022-06-25,61,16,TL6793932995,P6250033,P6250034,1,0,Cirsium arvense,
+2022-06-25,61,16,TL6793932995,P6250033,P6250034,1,0,Holcus lanatus,
+2022-06-25,61,16,TL6793932995,P6250033,P6250034,1,0,Poa trivialis,
+2022-06-25,61,16,TL6793932995,P6250033,P6250034,1,0,Arrhenatherum elatius,
+2022-06-25,61,16,TL6793932995,P6250033,P6250034,1,0,Urtica dioica,
+2022-06-25,61,16,TL6793932995,P6250033,P6250034,1,0,Cirsium vulgare,
+2022-06-25,61,16,TL6793932995,P6250033,P6250034,1,0,Anisantha sterilis,
+2022-06-25,61,16,TL6793932995,P6250033,P6250034,1,0,Galium aparine,
+2022-06-25,61,16,TL6793932995,P6250033,P6250034,1,0,Bromus sp,
+2022-06-25,11,17,TL6793833024,P6250035,P6250036,1,70,Symphytum x uplandicum,Mainly Salix alba var. caerulea and Salix cinerea
+2022-06-25,11,17,TL6793833024,P6250035,P6250036,1,70,Urtica dioica,Mainly Salix alba var. caerulea and Salix cinerea
+2022-06-25,11,17,TL6793833024,P6250035,P6250036,1,70,Carex pendula,Mainly Salix alba var. caerulea and Salix cinerea
+2022-06-25,11,17,TL6793833024,P6250035,P6250036,1,70,Poa trivialis,Mainly Salix alba var. caerulea and Salix cinerea
+2022-06-25,11,17,TL6793833024,P6250035,P6250036,1,70,Ranunculus repens,Mainly Salix alba var. caerulea and Salix cinerea
+2022-06-25,11,17,TL6793833024,P6250035,P6250036,1,70,Rubus fruticosus agg.,Mainly Salix alba var. caerulea and Salix cinerea
+2022-06-25,11,17,TL6793833024,P6250035,P6250036,1,70,Glechoma hederacea,Mainly Salix alba var. caerulea and Salix cinerea
+2022-06-25,11,17,TL6793833024,P6250035,P6250036,1,70,Lapsana communis,Mainly Salix alba var. caerulea and Salix cinerea
+2022-06-25,11,17,TL6793833024,P6250035,P6250036,1,70,Mentha aquatica,Mainly Salix alba var. caerulea and Salix cinerea
+2022-06-25,11,17,TL6793833024,P6250035,P6250036,1,70,Scrophularia auriculata,Mainly Salix alba var. caerulea and Salix cinerea
+2022-06-25,11,17,TL6793833024,P6250035,P6250036,1,70,Angelica sylvestris,Mainly Salix alba var. caerulea and Salix cinerea
+2022-06-25,11,17,TL6793833024,P6250035,P6250036,1,70,Stachys sylvatica,Mainly Salix alba var. caerulea and Salix cinerea
+2022-06-25,11,17,TL6793833024,P6250035,P6250036,1,70,Solanum dulcamara,Mainly Salix alba var. caerulea and Salix cinerea
+2022-06-25,28,18,TL6793933054,P6250037,P6250038,3,85,Urtica dioica,Mainly Salix alba var. caerulea and Salix cinerea
+2022-06-25,28,18,TL6793933054,P6250037,P6250038,3,85,Mentha aquatica,Mainly Salix alba var. caerulea and Salix cinerea
+2022-06-25,28,18,TL6793933054,P6250037,P6250038,3,85,Solanum dulcamara,Mainly Salix alba var. caerulea and Salix cinerea
+2022-06-25,28,18,TL6793933054,P6250037,P6250038,3,85,Carex pendula,Mainly Salix alba var. caerulea and Salix cinerea
+2022-06-25,28,18,TL6793933054,P6250037,P6250038,3,85,Cardamine flexuosa,Mainly Salix alba var. caerulea and Salix cinerea
+2022-06-25,28,18,TL6793933054,P6250037,P6250038,3,85,Nasturtium officinale,Mainly Salix alba var. caerulea and Salix cinerea
+2022-06-25,28,18,TL6793933054,P6250037,P6250038,3,85,Cirsium palustre,Mainly Salix alba var. caerulea and Salix cinerea
+2022-06-25,28,18,TL6793933054,P6250037,P6250038,3,85,Glechoma hederacea,Mainly Salix alba var. caerulea and Salix cinerea
+2022-06-25,28,18,TL6793933054,P6250037,P6250038,3,85,Angelica sylvestris,Mainly Salix alba var. caerulea and Salix cinerea
+2022-06-25,28,18,TL6793933054,P6250037,P6250038,3,85,Stachys sylvatica,Mainly Salix alba var. caerulea and Salix cinerea
+2022-06-25,28,18,TL6793933054,P6250037,P6250038,3,85,Silene dioica,Mainly Salix alba var. caerulea and Salix cinerea
+2022-06-25,28,18,TL6793933054,P6250037,P6250038,3,85,Salix cinerea,Mainly Salix alba var. caerulea and Salix cinerea
+2022-06-25,56,19,TL6791233119,P6250039,P6250040,1,85,Mercurialis perennis,"Populus tremula, Acer campestre and Fraxinus excelsior"
+2022-06-25,56,19,TL6791233119,P6250039,P6250040,1,85,Urtica dioica,"Populus tremula, Acer campestre and Fraxinus excelsior"
+2022-06-25,56,19,TL6791233119,P6250039,P6250040,1,85,Sambucus nigra,"Populus tremula, Acer campestre and Fraxinus excelsior - Seedling"
+2022-06-25,56,19,TL6791233119,P6250039,P6250040,1,85,Glechoma hederacea,"Populus tremula, Acer campestre and Fraxinus excelsior"
+2022-06-25,56,19,TL6791233119,P6250039,P6250040,1,85,Crataegus monogyna,"Populus tremula, Acer campestre and Fraxinus excelsior - Seedling"
+2022-06-25,56,19,TL6791233119,P6250039,P6250040,1,85,Populus tremula,"Populus tremula, Acer campestre and Fraxinus excelsior - Sapling"
+2022-06-25,7,20,TL6790933144,P6250041,P6250042,1,80,Urtica dioica,
+2022-06-25,7,20,TL6790933144,P6250041,P6250042,1,80,Glechoma hederacea,
+2022-06-25,7,20,TL6790933144,P6250041,P6250042,1,80,Silene dioica,
+2022-06-25,7,20,TL6790933144,P6250041,P6250042,1,80,Mercurialis perennis,
+2022-06-25,7,20,TL6790933144,P6250041,P6250042,1,80,Quercus robur, - Young tree possibly planted
+2022-06-25,9,21,TL679803315,P6250043,P6250044,1,95,Urtica dioica,Is this correct?Mainly Acer campestre
+2022-06-25,9,21,TL679803315,P6250043,P6250044,1,95,Galium aparine,Is this correct?Mainly Acer campestre
+2022-06-25,9,21,TL679803315,P6250043,P6250044,1,95,Glechoma hederacea,Is this correct?Mainly Acer campestre
+2022-06-25,9,21,TL679803315,P6250043,P6250044,1,95,Mercurialis perennis,Is this correct?Mainly Acer campestre
+2022-06-25,9,21,TL679803315,P6250043,P6250044,1,95,Ulmus procera agg.,Is this correct?Mainly Acer campestre
+2022-06-25,9,21,TL679803315,P6250043,P6250044,1,95,Myosotis sylvatica,Is this correct?Mainly Acer campestre
+2022-06-25,59,22,TL6787833142,P6250045,P6250046,4,0,Mentha aquatica,Ash death 
+2022-06-25,59,22,TL6787833142,P6250045,P6250046,4,0,Veronica beccabunga,Ash death 
+2022-06-25,59,22,TL6787833142,P6250045,P6250046,4,0,Berula erecta,Ash death 
+2022-06-25,59,22,TL6787833142,P6250045,P6250046,4,0,Holcus lanatus,Ash death 
+2022-06-25,59,22,TL6787833142,P6250045,P6250046,4,0,Carex pendula,Ash death 
+2022-06-25,59,22,TL6787833142,P6250045,P6250046,4,0,Carduus crispus,Ash death 
+2022-06-25,59,22,TL6787833142,P6250045,P6250046,4,0,Urtica dioica,Ash death 
+2022-06-25,59,22,TL6787833142,P6250045,P6250046,4,0,Symphytum x uplandicum,Ash death 
+2022-06-25,59,22,TL6787833142,P6250045,P6250046,4,0,Ranunculus repens,Ash death 
+2022-06-25,59,22,TL6787833142,P6250045,P6250046,4,0,Glechoma hederacea,Ash death 
+2022-06-25,59,22,TL6787833142,P6250045,P6250046,4,0,Agrostis stolonifera,Ash death 
+2022-06-25,59,22,TL6787833142,P6250045,P6250046,4,0,Solanum dulcamara,Ash death 
+2022-06-25,8,23,TL6784933142,P6250047,P6250048,2,85,Urtica dioica,Fraxinus excelsior and Acer campestre
+2022-06-25,8,23,TL6784933142,P6250047,P6250048,2,85,Galium aparine,Fraxinus excelsior and Acer campestre
+2022-06-25,8,23,TL6784933142,P6250047,P6250048,2,85,Silene dioica,Fraxinus excelsior and Acer campestre
+2022-06-25,8,23,TL6784933142,P6250047,P6250048,2,85,Eupatorium cannabinum,Fraxinus excelsior and Acer campestre
+2022-06-25,8,23,TL6784933142,P6250047,P6250048,2,85,Poa trivialis,Fraxinus excelsior and Acer campestre
+2022-06-25,8,23,TL6784933142,P6250047,P6250048,2,85,Glechoma hederacea,Fraxinus excelsior and Acer campestre
+2022-06-25,8,23,TL6784933142,P6250047,P6250048,2,85,Ranunculus repens,Fraxinus excelsior and Acer campestre
+2022-06-25,8,23,TL6784933142,P6250047,P6250048,2,85,Mentha aquatica,Fraxinus excelsior and Acer campestre
+2022-06-25,8,23,TL6784933142,P6250047,P6250048,2,85,Myosotis sylvatica,Fraxinus excelsior and Acer campestre
+2022-06-25,8,23,TL6784933142,P6250047,P6250048,2,85,Carex acutiformis,Fraxinus excelsior and Acer campestre
+2022-06-25,8,23,TL6784933142,P6250047,P6250048,2,85,Urtica spp. galeopsifolia,Fraxinus excelsior and Acer campestre
+2022-06-25,8,23,TL6784933142,P6250047,P6250048,2,85,Brachypodium sylvaticum,Fraxinus excelsior and Acer campestre
+2022-06-25,8,23,TL6784933142,P6250047,P6250048,2,85,Filipendula ulmaria,Fraxinus excelsior and Acer campestre
+2022-06-25,8,23,TL6784933142,P6250047,P6250048,2,85,Mercurialis perennis,Fraxinus excelsior and Acer campestre
+2022-06-25,8,23,TL6784933142,P6250047,P6250048,2,85,Carex pendula,Fraxinus excelsior and Acer campestre
+2022-06-25,25,24,TL6784833174,P6250049,P6250050,1,85,Urtica dioica,Mainly Sambucus nigra and Ulmus procera
+2022-06-25,25,24,TL6784833174,P6250049,P6250050,1,85,Galium aparine,Mainly Sambucus nigra and Ulmus procera
+2022-06-25,25,24,TL6784833174,P6250049,P6250050,1,85,Mercurialis perennis,Mainly Sambucus nigra and Ulmus procera
+2022-06-25,25,24,TL6784833174,P6250049,P6250050,1,85,Glechoma hederacea,Mainly Sambucus nigra and Ulmus procera
+2022-06-25,25,24,TL6784833174,P6250049,P6250050,1,85,Sambucus nigra,Mainly Sambucus nigra and Ulmus procera
+2022-06-25,25,24,TL6784833174,P6250049,P6250050,1,85,Ulmus procera agg.,Mainly Sambucus nigra and Ulmus procera - Young tree
+2022-06-25,22,25,TL6781933174,P6250051,P6250052,2,35,Urtica spp. galeopsifolia,Mainly Acer campestre and Ulmus procera
+2022-06-25,22,25,TL6781933174,P6250051,P6250052,2,35,Silene dioica,Mainly Acer campestre and Ulmus procera
+2022-06-25,22,25,TL6781933174,P6250051,P6250052,2,35,Mercurialis perennis,Mainly Acer campestre and Ulmus procera
+2022-06-25,22,25,TL6781933174,P6250051,P6250052,2,35,Myosotis sylvatica,Mainly Acer campestre and Ulmus procera
+2022-06-25,22,25,TL6781933174,P6250051,P6250052,2,35,Glechoma hederacea,Mainly Acer campestre and Ulmus procera
+2022-06-25,22,25,TL6781933174,P6250051,P6250052,2,35,Ulmus procera agg.,Mainly Acer campestre and Ulmus procera
+2022-06-25,22,25,TL6781933174,P6250051,P6250052,2,35,Poa trivialis,Mainly Acer campestre and Ulmus procera
+2022-06-25,22,25,TL6781933174,P6250051,P6250052,2,35,Brachypodium sylvaticum,Mainly Acer campestre and Ulmus procera
+2022-06-25,37,26,TL6782033205,P6250053,P6250054,1,95,Urtica dioica,Up dry bank near fenceMainly Acer campestre coppice stool
+2022-06-25,37,26,TL6782033205,P6250053,P6250054,1,95,Glechoma hederacea,Up dry bank near fenceMainly Acer campestre coppice stool
+2022-06-25,37,26,TL6782033205,P6250053,P6250054,1,95,Galium aparine,Up dry bank near fenceMainly Acer campestre coppice stool
+2022-06-25,37,26,TL6782033205,P6250053,P6250054,1,95,Myosotis sylvatica,Up dry bank near fenceMainly Acer campestre coppice stool
+2022-06-25,37,26,TL6782033205,P6250053,P6250054,1,95,Ulmus procera agg.,Up dry bank near fenceMainly Acer campestre coppice stool - Suckers/saplings
+2022-06-25,37,26,TL6782033205,P6250053,P6250054,1,95,Acer campestre,Up dry bank near fenceMainly Acer campestre coppice stool - Part of large coppice stool within the quadrat
+2022-06-25,37,26,TL6782033205,P6250053,P6250054,1,95,Poa trivialis,Up dry bank near fenceMainly Acer campestre coppice stool
+2022-06-25,37,26,TL6782033205,P6250053,P6250054,1,95,Silene dioica,Up dry bank near fenceMainly Acer campestre coppice stool
+2022-06-25,36,27,TL6778933205,P6250055,P6250056,1,95,Urtica dioica,Upper canopy is Quercus and mid storery is Sambucus nigra
+2022-06-25,36,27,TL6778933205,P6250055,P6250056,1,95,Mercurialis perennis,Upper canopy is Quercus and mid storery is Sambucus nigra
+2022-06-25,36,27,TL6778933205,P6250055,P6250056,1,95,Galium aparine,Upper canopy is Quercus and mid storery is Sambucus nigra
+2022-06-25,36,27,TL6778933205,P6250055,P6250056,1,95,Silene dioica,Upper canopy is Quercus and mid storery is Sambucus nigra
+2022-06-25,36,27,TL6778933205,P6250055,P6250056,1,95,Myosotis sylvatica,Upper canopy is Quercus and mid storery is Sambucus nigra
+2022-06-25,36,27,TL6778933205,P6250055,P6250056,1,95,Poa trivialis,Upper canopy is Quercus and mid storery is Sambucus nigra
+2022-06-25,36,27,TL6778933205,P6250055,P6250056,1,95,Sambucus nigra,Upper canopy is Quercus and mid storery is Sambucus nigra
+2022-06-25,21,28,TL6778933173,P6250057,P6250058,1,65,Carex sylvatica,Fraxinus excelsior and Tilia x europaea
+2022-06-25,21,28,TL6778933173,P6250057,P6250058,1,65,Eupatorium cannabinum,Fraxinus excelsior and Tilia x europaea
+2022-06-25,21,28,TL6778933173,P6250057,P6250058,1,65,Poa trivialis,Fraxinus excelsior and Tilia x europaea
+2022-06-25,21,28,TL6778933173,P6250057,P6250058,1,65,Myosotis sylvatica,Fraxinus excelsior and Tilia x europaea
+2022-06-25,21,28,TL6778933173,P6250057,P6250058,1,65,Silene dioica,Fraxinus excelsior and Tilia x europaea
+2022-06-25,21,28,TL6778933173,P6250057,P6250058,1,65,Glechoma hederacea,Fraxinus excelsior and Tilia x europaea
+2022-06-25,21,28,TL6778933173,P6250057,P6250058,1,65,Galium aparine,Fraxinus excelsior and Tilia x europaea
+2022-06-25,21,28,TL6778933173,P6250057,P6250058,1,65,Rubus caesius,Fraxinus excelsior and Tilia x europaea
+2022-06-25,21,28,TL6778933173,P6250057,P6250058,1,65,Mercurialis perennis,Fraxinus excelsior and Tilia x europaea
+2022-06-25,21,28,TL6778933173,P6250057,P6250058,1,65,Ranunculus repens,Fraxinus excelsior and Tilia x europaea
+2022-06-25,21,28,TL6778933173,P6250057,P6250058,1,65,Carduus crispus,Fraxinus excelsior and Tilia x europaea
+2022-06-25,21,28,TL6778933173,P6250057,P6250058,1,65,Holcus lanatus,Fraxinus excelsior and Tilia x europaea
+2022-06-25,21,28,TL6778933173,P6250057,P6250058,1,65,Fraxinus excelsior,Fraxinus excelsior and Tilia x europaea
+2022-06-25,21,28,TL6778933173,P6250057,P6250058,1,65,Rubus caesius,Fraxinus excelsior and Tilia x europaea
+2022-06-25,21,28,TL6778933173,P6250057,P6250058,1,65,Stachys sylvatica,Fraxinus excelsior and Tilia x europaea
+2022-06-25,6,29,TL6776133144,P6250059,P6250060,1,1,Urtica dioica,Crataegus monogyna hedge
+2022-06-25,6,29,TL6776133144,P6250059,P6250060,1,1,Rumex obtusifolius,Crataegus monogyna hedge
+2022-06-25,6,29,TL6776133144,P6250059,P6250060,1,1,Holcus lanatus,Crataegus monogyna hedge
+2022-06-25,6,29,TL6776133144,P6250059,P6250060,1,1,Dactylis glomerata,Crataegus monogyna hedge
+2022-06-25,6,29,TL6776133144,P6250059,P6250060,1,1,Poa trivialis,Crataegus monogyna hedge
+2022-06-25,6,29,TL6776133144,P6250059,P6250060,1,1,Galium aparine,Crataegus monogyna hedge
+2022-06-25,6,29,TL6776133144,P6250059,P6250060,1,1,Anisantha sterilis,Crataegus monogyna hedge
+2022-06-25,6,29,TL6776133144,P6250059,P6250060,1,1,Crataegus monogyna,Crataegus monogyna hedge
+2022-06-25,6,29,TL6776133144,P6250059,P6250060,1,1,Quercus robur,Crataegus monogyna hedge
+2022-06-25,6,29,TL6776133144,P6250059,P6250060,1,1,Arrhenatherum elatius,Crataegus monogyna hedge
+2022-06-25,3,30,TL6779033143,P6250061,P6250063,1,20,Rubus fruticosus agg.,Also P6250062Mainly Populus x canadensis
+2022-06-25,3,30,TL6779033143,P6250061,P6250063,1,20,Galium aparine,Also P6250062Mainly Populus x canadensis
+2022-06-25,3,30,TL6779033143,P6250061,P6250063,1,20,Glechoma hederacea,Also P6250062Mainly Populus x canadensis
+2022-06-25,3,30,TL6779033143,P6250061,P6250063,1,20,Acer campestre,Also P6250062Mainly Populus x canadensis - Sapling
+2022-06-25,3,30,TL6779033143,P6250061,P6250063,1,20,Arrhenatherum elatius,Also P6250062Mainly Populus x canadensis
+2022-06-25,3,30,TL6779033143,P6250061,P6250063,1,20,Carduus crispus,Also P6250062Mainly Populus x canadensis
+2022-06-25,3,30,TL6779033143,P6250061,P6250063,1,20,Ulmus procera agg.,Also P6250062Mainly Populus x canadensis - Sapling
+2022-06-25,4,31,TL678183144,P6250064,P6250065,5,0,Carex acutiformis,On central ditch
+2022-06-25,4,31,TL678183144,P6250064,P6250065,5,0,Nasturtium officinale,On central ditch
+2022-06-25,4,31,TL678183144,P6250064,P6250065,5,0,Mentha aquatica,On central ditch
+2022-06-25,4,31,TL678183144,P6250064,P6250065,5,0,Solanum dulcamara,On central ditch
+2022-06-25,4,31,TL678183144,P6250064,P6250065,5,0,Calystegia sepium,On central ditch
+2022-06-25,4,31,TL678183144,P6250064,P6250065,5,0,Eupatorium cannabinum,On central ditch
+2022-06-25,4,31,TL678183144,P6250064,P6250065,5,0,Veronica beccabunga,On central ditch
+2022-06-25,4,31,TL678183144,P6250064,P6250065,5,0,Carduus crispus,On central ditch
+2022-06-25,4,31,TL678183144,P6250064,P6250065,5,0,Filipendula ulmaria,On central ditch
+2022-06-25,4,31,TL678183144,P6250064,P6250065,5,0,Berula erecta,On central ditch
+2022-06-26,24,32,TL6776233170,P6260066,P6260067,1,75,Rubus fruticosus,"Near electric line,  thick brambles so sample point slightly offUpper canopy Fraxinus excelsior and Populus x canadensis, with Prunus spinosa and Ulmus procera in mid storey"
+2022-06-26,24,32,TL6776233170,P6260066,P6260067,1,75,Urtica dioica,"Near electric line,  thick brambles so sample point slightly offUpper canopy Fraxinus excelsior and Populus x canadensis, with Prunus spinosa and Ulmus procera in mid storey"
+2022-06-26,24,32,TL6776233170,P6260066,P6260067,1,75,Mercurialis perennis,"Near electric line,  thick brambles so sample point slightly offUpper canopy Fraxinus excelsior and Populus x canadensis, with Prunus spinosa and Ulmus procera in mid storey"
+2022-06-26,24,32,TL6776233170,P6260066,P6260067,1,75,Galium aparine,"Near electric line,  thick brambles so sample point slightly offUpper canopy Fraxinus excelsior and Populus x canadensis, with Prunus spinosa and Ulmus procera in mid storey"
+2022-06-26,24,32,TL6776233170,P6260066,P6260067,1,75,Poa trivialis,"Near electric line,  thick brambles so sample point slightly offUpper canopy Fraxinus excelsior and Populus x canadensis, with Prunus spinosa and Ulmus procera in mid storey"
+2022-06-26,39,33,TL6776033204,P6260068,P6260069,2,90,Mercurialis perennis,Mainly Tilia x europaea and Salix alba var. caerulea
+2022-06-26,39,33,TL6776033204,P6260068,P6260069,2,90,Myosotis sylvatica,Mainly Tilia x europaea and Salix alba var. caerulea
+2022-06-26,39,33,TL6776033204,P6260068,P6260069,2,90,Urtica dioica,Mainly Tilia x europaea and Salix alba var. caerulea
+2022-06-26,39,33,TL6776033204,P6260068,P6260069,2,90,Galium aparine,Mainly Tilia x europaea and Salix alba var. caerulea
+2022-06-26,39,33,TL6776033204,P6260068,P6260069,2,90,Glechoma hederacea,Mainly Tilia x europaea and Salix alba var. caerulea
+2022-06-26,39,33,TL6776033204,P6260068,P6260069,2,90,Ulmus procera agg.,Mainly Tilia x europaea and Salix alba var. caerulea - Seedling
+2022-06-26,39,33,TL6776033204,P6260068,P6260069,2,90,Silene dioica,Mainly Tilia x europaea and Salix alba var. caerulea
+2022-06-26,39,33,TL6776033204,P6260068,P6260069,2,90,Poa trivialis,Mainly Tilia x europaea and Salix alba var. caerulea
+2022-06-26,39,33,TL6776033204,P6260068,P6260069,2,90,Adoxa moschatellina,Mainly Tilia x europaea and Salix alba var. caerulea
+2022-06-26,53,34,TL6775933233,P6260070,P6260071,1,85,Urtica dioica,Mainly Populus alba
+2022-06-26,53,34,TL6775933233,P6260070,P6260071,1,85,Glechoma hederacea,Mainly Populus alba
+2022-06-26,53,34,TL6775933233,P6260070,P6260071,1,85,Sambucus nigra,Mainly Populus alba
+2022-06-26,53,34,TL6775933233,P6260070,P6260071,1,85,Arum maculatum,Mainly Populus alba
+2022-06-26,53,34,TL6775933233,P6260070,P6260071,1,85,Silene dioica,Mainly Populus alba
+2022-06-26,53,34,TL6775933233,P6260070,P6260071,1,85,Populus alba,Mainly Populus alba
+2022-06-26,53,34,TL6775933233,P6260070,P6260071,1,85,Adoxa moschatellina,Mainly Populus alba
+2022-06-26,51,35,TL6773033234,P6260072,P6260073,2,2,Silene dioica,By dry stream bed and beaver dam
+2022-06-26,51,35,TL6773033234,P6260072,P6260073,2,2,Angelica sylvestris,By dry stream bed and beaver dam
+2022-06-26,51,35,TL6773033234,P6260072,P6260073,2,2,Urtica dioica,By dry stream bed and beaver dam
+2022-06-26,51,35,TL6773033234,P6260072,P6260073,2,2,Mentha aquatica,By dry stream bed and beaver dam
+2022-06-26,51,35,TL6773033234,P6260072,P6260073,2,2,Carex otrubae,By dry stream bed and beaver dam
+2022-06-26,51,35,TL6773033234,P6260072,P6260073,2,2,Myosotis sylvatica,By dry stream bed and beaver dam
+2022-06-26,51,35,TL6773033234,P6260072,P6260073,2,2,Carduus crispus,By dry stream bed and beaver dam
+2022-06-26,51,35,TL6773033234,P6260072,P6260073,2,2,Galium aparine,By dry stream bed and beaver dam
+2022-06-26,51,35,TL6773033234,P6260072,P6260073,2,2,Rubus fruticosus agg.,By dry stream bed and beaver dam
+2022-06-26,51,35,TL6773033234,P6260072,P6260073,2,2,Sambucus nigra,By dry stream bed and beaver dam
+2022-06-26,51,35,TL6773033234,P6260072,P6260073,2,2,Carex pendula,By dry stream bed and beaver dam
+2022-06-26,51,35,TL6773033234,P6260072,P6260073,2,2,Glechoma hederacea,By dry stream bed and beaver dam
+2022-06-26,51,35,TL6773033234,P6260072,P6260073,2,2,Solanum dulcamara,By dry stream bed and beaver dam
+2022-06-26,51,35,TL6773033234,P6260072,P6260073,2,2,Rumex sanguineus,By dry stream bed and beaver dam
+2022-06-26,51,35,TL6773033234,P6260072,P6260073,2,2,Caltha palustris,By dry stream bed and beaver dam
+2022-06-26,51,35,TL6773033234,P6260072,P6260073,2,2,Adoxa moschatellina,By dry stream bed and beaver dam
+2022-06-26,51,35,TL6773033234,P6260072,P6260073,2,2,Mercurialis perennis,By dry stream bed and beaver dam
+2022-06-26,51,35,TL6773033234,P6260072,P6260073,2,2,Stachys sylvatica,By dry stream bed and beaver dam
+2022-06-26,51,35,TL6773033234,P6260072,P6260073,2,2,Holcus lanatus,By dry stream bed and beaver dam
+2022-06-26,51,35,TL6773033234,P6260072,P6260073,2,2,Poa trivialis,By dry stream bed and beaver dam
+2022-06-26,1,36,TL6772933263,P6260074,P6260075,1,95,Mercurialis perennis,Alnus cordata
+2022-06-26,1,36,TL6772933263,P6260074,P6260075,1,95,Galium aparine,Alnus cordata
+2022-06-26,1,36,TL6772933263,P6260074,P6260075,1,95,Holcus lanatus,Alnus cordata
+2022-06-26,1,36,TL6772933263,P6260074,P6260075,1,95,Glechoma hederacea,Alnus cordata
+2022-06-26,1,36,TL6772933263,P6260074,P6260075,1,95,Filipendula ulmaria,Alnus cordata
+2022-06-26,1,36,TL6772933263,P6260074,P6260075,1,95,Dactylis glomerata,Alnus cordata
+2022-06-26,1,36,TL6772933263,P6260074,P6260075,1,95,Arrhenatherum elatius,Alnus cordata
+2022-06-26,1,36,TL6772933263,P6260074,P6260075,1,95,Angelica sylvestris,Alnus cordata
+2022-06-26,1,36,TL6772933263,P6260074,P6260075,1,95,Poa trivialis,Alnus cordata
+2022-06-26,1,36,TL6772933263,P6260074,P6260075,1,95,Carduus crispus,Alnus cordata
+2022-06-26,63,37,TL6769833263,P6260076,P6260077,2,40,Holcus lanatus,Not written down!Salix alba var. caerulea
+2022-06-26,63,37,TL6769833263,P6260076,P6260077,2,40,Dactylis glomerata,Not written down!Salix alba var. caerulea
+2022-06-26,63,37,TL6769833263,P6260076,P6260077,2,40,Filipendula ulmaria,Not written down!Salix alba var. caerulea
+2022-06-26,63,37,TL6769833263,P6260076,P6260077,2,40,Galium aparine,Not written down!Salix alba var. caerulea
+2022-06-26,63,37,TL6769833263,P6260076,P6260077,2,40,Mentha aquatica,Not written down!Salix alba var. caerulea
+2022-06-26,63,37,TL6769833263,P6260076,P6260077,2,40,Angelica sylvestris,Not written down!Salix alba var. caerulea
+2022-06-26,63,37,TL6769833263,P6260076,P6260077,2,40,Carex acutiformis,Not written down!Salix alba var. caerulea
+2022-06-26,63,37,TL6769833263,P6260076,P6260077,2,40,Rumex sanguineus,Not written down!Salix alba var. caerulea
+2022-06-26,63,37,TL6769833263,P6260076,P6260077,2,40,Arrhenatherum elatius,Not written down!Salix alba var. caerulea
+2022-06-26,16,33,TL6769733294,P6260078,P6260079,2,15,Carduus crispus,By fence
+2022-06-26,16,33,TL6769733294,P6260078,P6260079,2,15,Cirsium palustre,By fence
+2022-06-26,16,33,TL6769733294,P6260078,P6260079,2,15,Holcus lanatus,By fence
+2022-06-26,16,33,TL6769733294,P6260078,P6260079,2,15,Arrhenatherum elatius,By fence
+2022-06-26,16,33,TL6769733294,P6260078,P6260079,2,15,Angelica sylvestris,By fence
+2022-06-26,16,33,TL6769733294,P6260078,P6260079,2,15,Stachys sylvatica,By fence
+2022-06-26,16,33,TL6769733294,P6260078,P6260079,2,15,Scrophularia auriculata,By fence
+2022-06-26,16,33,TL6769733294,P6260078,P6260079,2,15,Poa trivialis,By fence
+2022-06-26,16,33,TL6769733294,P6260078,P6260079,2,15,Symphytum x uplandicum,By fence
+2022-06-26,16,33,TL6769733294,P6260078,P6260079,2,15,Carex acutiformis,By fence
+2022-06-26,16,33,TL6769733294,P6260078,P6260079,2,15,Hypericum tetrapterum,By fence
+2022-06-26,16,33,TL6769733294,P6260078,P6260079,2,15,Pulicaria dysenterica,By fence
+2022-06-26,16,33,TL6769733294,P6260078,P6260079,2,15,Mentha aquatica,By fence
+2022-06-26,16,33,TL6769733294,P6260078,P6260079,2,15,Urtica dioica,By fence
+2022-06-26,16,33,TL6769733294,P6260078,P6260079,2,15,Lotus pedunculatus,By fence
+2022-06-26,16,33,TL6769733294,P6260078,P6260079,2,15,Filipendula ulmaria,By fence
+2022-06-26,16,33,TL6769733294,P6260078,P6260079,2,15,Vicia cracca,By fence
+2022-06-26,62,39,TL6766833265,P6260080,P6260081,1,0,Rubus fruticosus agg.,
+2022-06-26,62,39,TL6766833265,P6260080,P6260081,1,0,Urtica dioica,
+2022-06-26,62,39,TL6766833265,P6260080,P6260081,1,0,Holcus lanatus,
+2022-06-26,62,39,TL6766833265,P6260080,P6260081,1,0,Rumex obtusifolius,
+2022-06-26,62,39,TL6766833265,P6260080,P6260081,1,0,Cirsium arvense,
+2022-06-26,62,39,TL6766833265,P6260080,P6260081,1,0,Glechoma hederacea,
+2022-06-26,62,39,TL6766833265,P6260080,P6260081,1,0,Mercurialis perennis,
+2022-06-26,62,39,TL6766833265,P6260080,P6260081,1,0,Dactylis glomerata,
+2022-06-26,62,39,TL6766833265,P6260080,P6260081,1,0,Sambucus nigra,
+2022-06-26,62,39,TL6766833265,P6260080,P6260081,1,0,Galium aparine,
+2022-06-26,62,39,TL6766833265,P6260080,P6260081,1,0,Agrostis capillaris,
+2022-06-26,45,40,TL6769933235,P6260082,P6260083,2,75,Urtica dioica,"Average, range was 1-4Sambucus nigra, Prunus spinosa, Crataegus monogyna, Alnus cordata"
+2022-06-26,45,40,TL6769933235,P6260082,P6260083,2,75,Mercurialis perennis,"Average, range was 1-4Sambucus nigra, Prunus spinosa, Crataegus monogyna, Alnus cordata"
+2022-06-26,45,40,TL6769933235,P6260082,P6260083,2,75,Galium aparine,"Average, range was 1-4Sambucus nigra, Prunus spinosa, Crataegus monogyna, Alnus cordata"
+2022-06-26,45,40,TL6769933235,P6260082,P6260083,2,75,Sambucus nigra,"Average, range was 1-4Sambucus nigra, Prunus spinosa, Crataegus monogyna, Alnus cordata"
+2022-06-26,45,40,TL6769933235,P6260082,P6260083,2,75,Glechoma hederacea,"Average, range was 1-4Sambucus nigra, Prunus spinosa, Crataegus monogyna, Alnus cordata"
+2022-06-26,33,41,TL6770233205,P6260084,P6260085,1,25,Urtica dioica,Near fence and hedge Crataegus monogyna and Quercus robur
+2022-06-26,33,41,TL6770233205,P6260084,P6260085,1,25,Holcus lanatus,Near fence and hedge Crataegus monogyna and Quercus robur
+2022-06-26,33,41,TL6770233205,P6260084,P6260085,1,25,Poa trivialis,Near fence and hedge Crataegus monogyna and Quercus robur
+2022-06-26,33,41,TL6770233205,P6260084,P6260085,1,25,Galium aparine,Near fence and hedge Crataegus monogyna and Quercus robur
+2022-06-26,33,41,TL6770233205,P6260084,P6260085,1,25,Rumex obtusifolius,Near fence and hedge Crataegus monogyna and Quercus robur
+2022-06-26,33,41,TL6770233205,P6260084,P6260085,1,25,Dactylis glomerata,Near fence and hedge Crataegus monogyna and Quercus robur
+2022-06-26,33,41,TL6770233205,P6260084,P6260085,1,25,Glechoma hederacea,Near fence and hedge Crataegus monogyna and Quercus robur
+2022-06-26,33,41,TL6770233205,P6260084,P6260085,1,25,Anisantha sterilis,Near fence and hedge Crataegus monogyna and Quercus robur
+2022-06-26,33,41,TL6770233205,P6260084,P6260085,1,25,Carduus crispus,Near fence and hedge Crataegus monogyna and Quercus robur
+2022-06-26,33,41,TL6770233205,P6260084,P6260085,1,25,Mercurialis perennis,Near fence and hedge Crataegus monogyna and Quercus robur
+2022-06-26,33,41,TL6770233205,P6260084,P6260085,1,25,Sambucus nigra,Near fence and hedge Crataegus monogyna and Quercus robur
+2022-06-26,33,41,TL6770233205,P6260084,P6260085,1,25,Crataegus monogyna,Near fence and hedge Crataegus monogyna and Quercus robur
+2022-06-26,38,42,TL6772933203,P6260086,P6260087,1,25,Mercurialis perennis,"Acer campestre, Tilia x europaea"
+2022-06-26,38,42,TL6772933203,P6260086,P6260087,1,25,Urtica dioica,"Acer campestre, Tilia x europaea"
+2022-06-26,38,42,TL6772933203,P6260086,P6260087,1,25,Glechoma hederacea,"Acer campestre, Tilia x europaea"
+2022-06-26,38,42,TL6772933203,P6260086,P6260087,1,25,Fagus sylvatica,"Acer campestre, Tilia x europaea - Sapling"
+2022-06-26,38,42,TL6772933203,P6260086,P6260087,1,25,Acer campestre,"Acer campestre, Tilia x europaea - Pole stage"
+2022-06-26,23,43,TL6773133174,P6260088,P6260089,1,35,Galium aparine,"Between fence and hedgeCrataegus monogyna, Ulmus procera, Sambucus nigra"
+2022-06-26,23,43,TL6773133174,P6260088,P6260089,1,35,Urtica dioica,"Between fence and hedgeCrataegus monogyna, Ulmus procera, Sambucus nigra"
+2022-06-26,23,43,TL6773133174,P6260088,P6260089,1,35,Arrhenatherum elatius,"Between fence and hedgeCrataegus monogyna, Ulmus procera, Sambucus nigra"
+2022-06-26,23,43,TL6773133174,P6260088,P6260089,1,35,Rumex sanguineus,"Between fence and hedgeCrataegus monogyna, Ulmus procera, Sambucus nigra"
+2022-06-26,23,43,TL6773133174,P6260088,P6260089,1,35,Holcus lanatus,"Between fence and hedgeCrataegus monogyna, Ulmus procera, Sambucus nigra"
+2022-06-26,23,43,TL6773133174,P6260088,P6260089,1,35,Rumex obtusifolius,"Between fence and hedgeCrataegus monogyna, Ulmus procera, Sambucus nigra"
+2022-06-26,23,43,TL6773133174,P6260088,P6260089,1,35,Glechoma hederacea,"Between fence and hedgeCrataegus monogyna, Ulmus procera, Sambucus nigra"
+2022-06-26,23,43,TL6773133174,P6260088,P6260089,1,35,Arctium minus,"Between fence and hedgeCrataegus monogyna, Ulmus procera, Sambucus nigra"
+2022-06-26,23,43,TL6773133174,P6260088,P6260089,1,35,Sambucus nigra,"Between fence and hedgeCrataegus monogyna, Ulmus procera, Sambucus nigra"
+2022-06-26,23,43,TL6773133174,P6260088,P6260089,1,35,Ulmus procera agg.,"Between fence and hedgeCrataegus monogyna, Ulmus procera, Sambucus nigra"
+2022-06-26,23,43,TL6773133174,P6260088,P6260089,1,35,Crataegus monogyna,"Between fence and hedgeCrataegus monogyna, Ulmus procera, Sambucus nigra"
+2022-06-26,23,43,TL6773133174,P6260088,P6260089,1,35,Dactylis glomerata,"Between fence and hedgeCrataegus monogyna, Ulmus procera, Sambucus nigra"
+2022-06-26,54,44,TL6782323116,P6260090,P6260091,1,5,Rubus fruticosus,Slightly off due to bramblesTilia x europaea
+2022-06-26,54,44,TL6782323116,P6260090,P6260091,1,5,Rosa canina agg.,Slightly off due to bramblesTilia x europaea
+2022-06-26,54,44,TL6782323116,P6260090,P6260091,1,5,Glechoma hederacea,Slightly off due to bramblesTilia x europaea
+2022-06-26,54,44,TL6782323116,P6260090,P6260091,1,5,Mercurialis perennis,Slightly off due to bramblesTilia x europaea
+2022-06-26,54,44,TL6782323116,P6260090,P6260091,1,5,Acer platanoides,Slightly off due to bramblesTilia x europaea
+2022-06-26,54,44,TL6782323116,P6260090,P6260091,1,5,Urtica dioica,Slightly off due to bramblesTilia x europaea
+2022-06-26,54,44,TL6782323116,P6260090,P6260091,1,5,Galium aparine,Slightly off due to bramblesTilia x europaea
+2022-06-26,46,45,TL6787933083,P6260092,P6260093,2,45,Galium aparine,
+2022-06-26,46,45,TL6787933083,P6260092,P6260093,2,45,Poa trivialis,
+2022-06-26,46,45,TL6787933083,P6260092,P6260093,2,45,Rubus caesius,
+2022-06-26,46,45,TL6787933083,P6260092,P6260093,2,45,Mercurialis perennis,
+2022-06-26,46,45,TL6787933083,P6260092,P6260093,2,45,Stachys sylvatica,
+2022-06-26,46,45,TL6787933083,P6260092,P6260093,2,45,Silene dioica,
+2022-06-26,46,45,TL6787933083,P6260092,P6260093,2,45,Glechoma hederacea,
+2022-06-26,46,45,TL6787933083,P6260092,P6260093,2,45,Myosotis sylvatica,
+2022-06-26,46,45,TL6787933083,P6260092,P6260093,2,45,Angelica sylvestris,
+2022-06-26,30,46,TL6787933053,P6260094,P6260095,1,95,Urtica dioica,"Quercus forms high canopy with Sambucus nigra, Acer campestre in mid storey"
+2022-06-26,30,46,TL6787933053,P6260094,P6260095,1,95,Glechoma hederacea,"Quercus forms high canopy with Sambucus nigra, Acer campestre in mid storey"
+2022-06-26,30,46,TL6787933053,P6260094,P6260095,1,95,Acer campestre,"Quercus forms high canopy with Sambucus nigra, Acer campestre in mid storey - Young tree"
+2022-06-26,30,46,TL6787933053,P6260094,P6260095,1,95,Sambucus nigra,"Quercus forms high canopy with Sambucus nigra, Acer campestre in mid storey"
+2022-06-26,30,46,TL6787933053,P6260094,P6260095,1,95,Silene dioica,"Quercus forms high canopy with Sambucus nigra, Acer campestre in mid storey"
+2022-06-26,30,46,TL6787933053,P6260094,P6260095,1,95,Myosotis sylvatica,"Quercus forms high canopy with Sambucus nigra, Acer campestre in mid storey"
+2022-06-26,30,46,TL6787933053,P6260094,P6260095,1,95,Rubus fruticosus agg.,"Quercus forms high canopy with Sambucus nigra, Acer campestre in mid storey"
+2022-06-26,44,47,TL6784933085,P6260096,P6260097,1,90,Urtica dioica,"High canopy Populus x canadensis, mid storey is Sambucus nigra"
+2022-06-26,44,47,TL6784933085,P6260096,P6260097,1,90,Glechoma hederacea,"High canopy Populus x canadensis, mid storey is Sambucus nigra"
+2022-06-26,44,47,TL6784933085,P6260096,P6260097,1,90,Galium aparine,"High canopy Populus x canadensis, mid storey is Sambucus nigra"
+2022-06-26,44,47,TL6784933085,P6260096,P6260097,1,90,Mercurialis perennis,"High canopy Populus x canadensis, mid storey is Sambucus nigra"
+2022-06-26,44,47,TL6784933085,P6260096,P6260097,1,90,Crataegus monogyna,"High canopy Populus x canadensis, mid storey is Sambucus nigra"
+2022-06-26,44,47,TL6784933085,P6260096,P6260097,1,90,Silene dioica,"High canopy Populus x canadensis, mid storey is Sambucus nigra"
+2022-06-26,44,47,TL6784933085,P6260096,P6260097,1,90,Sambucus nigra,"High canopy Populus x canadensis, mid storey is Sambucus nigra"
+2022-06-26,44,47,TL6784933085,P6260096,P6260097,1,90,Poa trivialis,"High canopy Populus x canadensis, mid storey is Sambucus nigra"
+2022-06-26,58,49,TL6784933113,P6260098,P6260099,5,0,Carex acutiformis,
+2022-06-26,58,49,TL6784933113,P6260098,P6260099,5,0,Solanum dulcamara,
+2022-06-26,58,49,TL6784933113,P6260098,P6260099,5,0,Calystegia sepium,
+2022-06-26,58,49,TL6784933113,P6260098,P6260099,5,0,Mentha aquatica,
+2023-06-22,49,1,TL6796933086,P6220001,P6220002,4,60,Veronica beccabunga,"averaged, range 3-5, near edge of beaver pond.  80% standing waterCanopy mainly Tilia sp and Populus x canadensis"
+2023-06-22,49,1,TL6796933086,P6220001,P6220002,4,60,Glechoma hederacea,"averaged, range 3-5, near edge of beaver pond.  80% standing waterCanopy mainly Tilia sp and Populus x canadensis"
+2023-06-22,49,1,TL6796933086,P6220001,P6220002,4,60,Sambucus nigra,"averaged, range 3-5, near edge of beaver pond.  80% standing waterCanopy mainly Tilia sp and Populus x canadensis"
+2023-06-22,49,1,TL6796933086,P6220001,P6220002,4,60,Urtica dioica,"averaged, range 3-5, near edge of beaver pond.  80% standing waterCanopy mainly Tilia sp and Populus x canadensis"
+2023-06-22,49,1,TL6796933086,P6220001,P6220002,4,60,Galium aparine,"averaged, range 3-5, near edge of beaver pond.  80% standing waterCanopy mainly Tilia sp and Populus x canadensis"
+2023-06-22,49,1,TL6796933086,P6220001,P6220002,4,60,Poa trivialis,"averaged, range 3-5, near edge of beaver pond.  80% standing waterCanopy mainly Tilia sp and Populus x canadensis"
+2023-06-22,49,1,TL6796933086,P6220001,P6220002,4,60,Cardamine flexuosa,"averaged, range 3-5, near edge of beaver pond.  80% standing waterCanopy mainly Tilia sp and Populus x canadensis"
+2023-06-22,49,1,TL6796933086,P6220001,P6220002,4,60,Mentha aquatica,"averaged, range 3-5, near edge of beaver pond.  80% standing waterCanopy mainly Tilia sp and Populus x canadensis"
+2023-06-22,49,1,TL6796933086,P6220001,P6220002,4,60,Circaea lutetiana,"averaged, range 3-5, near edge of beaver pond.  80% standing waterCanopy mainly Tilia sp and Populus x canadensis"
+2023-06-22,49,1,TL6796933086,P6220001,P6220002,4,60,Sparganium erectum,"averaged, range 3-5, near edge of beaver pond.  80% standing waterCanopy mainly Tilia sp and Populus x canadensis"
+2023-06-22,49,1,TL6796933086,P6220001,P6220002,4,60,Populus x canadensis,"averaged, range 3-5, near edge of beaver pond.  80% standing waterCanopy mainly Tilia sp and Populus x canadensis - sucker"
+2023-06-22,49,1,TL6796933086,P6220001,P6220002,4,60,Symphytum x uplandicum,"averaged, range 3-5, near edge of beaver pond.  80% standing waterCanopy mainly Tilia sp and Populus x canadensis"
+2023-06-22,49,1,TL6796933086,P6220001,P6220002,4,60,Silene dioica,"averaged, range 3-5, near edge of beaver pond.  80% standing waterCanopy mainly Tilia sp and Populus x canadensis"
+2023-06-22,49,1,TL6796933086,P6220001,P6220002,4,60,Epilobium hirsutum,"averaged, range 3-5, near edge of beaver pond.  80% standing waterCanopy mainly Tilia sp and Populus x canadensis"
+2023-06-22,49,1,TL6796933086,P6220001,P6220002,4,60,Solanum dulcamara,"averaged, range 3-5, near edge of beaver pond.  80% standing waterCanopy mainly Tilia sp and Populus x canadensis"
+2023-06-22,50,2,TL6799833085,P6220003,P6220004,1,75,Urtica dioica,Populus x canadensis
+2023-06-22,50,2,TL6799833085,P6220003,P6220004,1,75,Carduus crispus,Populus x canadensis
+2023-06-22,50,2,TL6799833085,P6220003,P6220004,1,75,Galium aparine,Populus x canadensis
+2023-06-22,50,2,TL6799833085,P6220003,P6220004,1,75,Glechoma hederacea,Populus x canadensis
+2023-06-22,50,2,TL6799833085,P6220003,P6220004,1,75,Geranium robertianum,Populus x canadensis
+2023-06-22,50,2,TL6799833085,P6220003,P6220004,1,75,Sambucus nigra,Populus x canadensis
+2023-06-22,50,2,TL6799833085,P6220003,P6220004,1,75,Arrhenatherum elatius,Populus x canadensis
+2023-06-22,50,2,TL6799833085,P6220003,P6220004,1,75,Circaea lutetiana,Populus x canadensis
+2023-06-22,50,2,TL6799833085,P6220003,P6220004,1,75,Angelica sylvestris,Populus x canadensis
+2023-06-22,50,2,TL6799833085,P6220003,P6220004,1,75,Holcus lanatus,Populus x canadensis
+2023-06-22,50,2,TL6799833085,P6220003,P6220004,1,75,Bromopsis ramosus,Populus x canadensis
+2023-06-22,50,2,TL6799833085,P6220003,P6220004,1,75,Brachypodium sylvaticum,Populus x canadensis
+2023-06-22,50,2,TL6799833085,P6220003,P6220004,1,75,Poa trivialis,Populus x canadensis
+2023-06-22,50,2,TL6799833085,P6220003,P6220004,1,75,Myosotis sylvatica,Populus x canadensis
+2023-06-22,50,2,TL6799833085,P6220003,P6220004,1,75,Crataegus monogyna,Populus x canadensis
+2023-06-22,50,2,TL6799833085,P6220003,P6220004,1,75,Populus x canadensis,Populus x canadensis
+2023-06-22,50,2,TL6799833085,P6220003,P6220004,1,75,Mercurialis perennis,Populus x canadensis
+2023-06-22,50,2,TL6799833085,P6220003,P6220004,1,75,Rubus caesius,Populus x canadensis
+2023-06-22,47,3,TL6802833085,P6220005,P6220006,2,5,Urtica dioica,"Fallen tree, over small stream, cover of standing water 5%Sambucus nigra and Ulmus procera"
+2023-06-22,47,3,TL6802833085,P6220005,P6220006,2,5,Carex pendula,"Fallen tree, over small stream, cover of standing water 5%Sambucus nigra and Ulmus procera"
+2023-06-22,47,3,TL6802833085,P6220005,P6220006,2,5,Solanum dulcamara,"Fallen tree, over small stream, cover of standing water 5%Sambucus nigra and Ulmus procera"
+2023-06-22,47,3,TL6802833085,P6220005,P6220006,2,5,Galium aparine,"Fallen tree, over small stream, cover of standing water 5%Sambucus nigra and Ulmus procera"
+2023-06-22,47,3,TL6802833085,P6220005,P6220006,2,5,Rubus fruticosus agg,"Fallen tree, over small stream, cover of standing water 5%Sambucus nigra and Ulmus procera"
+2023-06-22,47,3,TL6802833085,P6220005,P6220006,2,5,Tamus communis,"Fallen tree, over small stream, cover of standing water 5%Sambucus nigra and Ulmus procera"
+2023-06-22,47,3,TL6802833085,P6220005,P6220006,2,5,Myosotis sylvatica,"Fallen tree, over small stream, cover of standing water 5%Sambucus nigra and Ulmus procera"
+2023-06-22,47,3,TL6802833085,P6220005,P6220006,2,5,Silene dioica,"Fallen tree, over small stream, cover of standing water 5%Sambucus nigra and Ulmus procera"
+2023-06-22,47,3,TL6802833085,P6220005,P6220006,2,5,Mercurialis perennis,"Fallen tree, over small stream, cover of standing water 5%Sambucus nigra and Ulmus procera"
+2023-06-22,47,3,TL6802833085,P6220005,P6220006,2,5,Poa trivialis,"Fallen tree, over small stream, cover of standing water 5%Sambucus nigra and Ulmus procera"
+2023-06-22,47,3,TL6802833085,P6220005,P6220006,2,5,Angelica sylvestris,"Fallen tree, over small stream, cover of standing water 5%Sambucus nigra and Ulmus procera"
+2023-06-22,47,3,TL6802833085,P6220005,P6220006,2,5,Sonchus arvensis,"Fallen tree, over small stream, cover of standing water 5%Sambucus nigra and Ulmus procera"
+2023-06-22,47,3,TL6802833085,P6220005,P6220006,2,5,Carduus crispus,"Fallen tree, over small stream, cover of standing water 5%Sambucus nigra and Ulmus procera"
+2023-06-22,47,3,TL6802833085,P6220005,P6220006,2,5,Adoxa moschatellina,"Fallen tree, over small stream, cover of standing water 5%Sambucus nigra and Ulmus procera"
+2023-06-22,47,3,TL6802833085,P6220005,P6220006,2,5,Ranunculus repens,"Fallen tree, over small stream, cover of standing water 5%Sambucus nigra and Ulmus procera"
+2023-06-23,32,4,TL6806033055,P6230007,P6230008,2,70,Urtica dioica,Standing water 0%Ulmus procera and Prunus spinosa
+2023-06-23,32,4,TL6806033055,P6230007,P6230008,2,70,Poa trivialis,Standing water 0%Ulmus procera and Prunus spinosa
+2023-06-23,32,4,TL6806033055,P6230007,P6230008,2,70,Bromopsis ramosus,Standing water 0%Ulmus procera and Prunus spinosa
+2023-06-23,32,4,TL6806033055,P6230007,P6230008,2,70,Galium aparine,Standing water 0%Ulmus procera and Prunus spinosa
+2023-06-23,32,4,TL6806033055,P6230007,P6230008,2,70,Silene dioica,Standing water 0%Ulmus procera and Prunus spinosa
+2023-06-23,32,4,TL6806033055,P6230007,P6230008,2,70,Glechoma hederacea,Standing water 0%Ulmus procera and Prunus spinosa
+2023-06-23,32,4,TL6806033055,P6230007,P6230008,2,70,Brachypodium sylvaticum,Standing water 0%Ulmus procera and Prunus spinosa
+2023-06-23,32,4,TL6806033055,P6230007,P6230008,2,70,Myosotis sylvatica,Standing water 0%Ulmus procera and Prunus spinosa
+2023-06-23,32,4,TL6806033055,P6230007,P6230008,2,70,Euonymus europaeus,Standing water 0%Ulmus procera and Prunus spinosa
+2023-06-23,32,4,TL6806033055,P6230007,P6230008,2,70,Carduus crispus,Standing water 0%Ulmus procera and Prunus spinosa
+2023-06-23,32,4,TL6806033055,P6230007,P6230008,2,70,Mercurialis perennis,Standing water 0%Ulmus procera and Prunus spinosa
+2023-06-23,32,4,TL6806033055,P6230007,P6230008,2,70,Prunus spinosa,Standing water 0%Ulmus procera and Prunus spinosa
+2023-06-23,5,5,TL6808933054,P6230009,P6230010,2,15,Glyceria sp,Standing water 0%Salix cinerea - check specimen
+2023-06-23,5,5,TL6808933054,P6230009,P6230010,2,15,Ranunculus repens,Standing water 0%Salix cinerea
+2023-06-23,5,5,TL6808933054,P6230009,P6230010,2,15,Urtica dioica,Standing water 0%Salix cinerea
+2023-06-23,5,5,TL6808933054,P6230009,P6230010,2,15,Poa trivialis,Standing water 0%Salix cinerea
+2023-06-23,5,5,TL6808933054,P6230009,P6230010,2,15,Holcus lanatus,Standing water 0%Salix cinerea
+2023-06-23,5,5,TL6808933054,P6230009,P6230010,2,15,Scrophularia auriculata,Standing water 0%Salix cinerea
+2023-06-23,5,5,TL6808933054,P6230009,P6230010,2,15,Myosotis sylvatica,Standing water 0%Salix cinerea
+2023-06-23,5,5,TL6808933054,P6230009,P6230010,2,15,Glechoma hederacea,Standing water 0%Salix cinerea
+2023-06-23,5,5,TL6808933054,P6230009,P6230010,2,15,Rumex sanguineus,Standing water 0%Salix cinerea
+2023-06-23,5,5,TL6808933054,P6230009,P6230010,2,15,Juncus effusus,Standing water 0%Salix cinerea
+2023-06-23,5,5,TL6808933054,P6230009,P6230010,2,15,Galium aparine,Standing water 0%Salix cinerea
+2023-06-23,5,5,TL6808933054,P6230009,P6230010,2,15,Adoxa moschatellina,Standing water 0%Salix cinerea
+2023-06-23,5,5,TL6808933054,P6230009,P6230010,2,15,Silene dioica,Standing water 0%Salix cinerea
+2023-06-23,55,6,TL6808933025,P6230011,P6230012,1,0,Cirsium arvense,Standing water 0%
+2023-06-23,55,6,TL6808933025,P6230011,P6230012,1,0,Arrhenatherum elatius,Standing water 0%
+2023-06-23,55,6,TL6808933025,P6230011,P6230012,1,0,Holcus lanatus,Standing water 0%
+2023-06-23,55,6,TL6808933025,P6230011,P6230012,1,0,Geranium dissectum,Standing water 0%
+2023-06-23,55,6,TL6808933025,P6230011,P6230012,1,0,Ranunculus repens,Standing water 0%
+2023-06-23,55,6,TL6808933025,P6230011,P6230012,1,0,Potentilla reptans,Standing water 0%
+2023-06-23,55,6,TL6808933025,P6230011,P6230012,1,0,Taraxacum officinalis agg.,Standing water 0%
+2023-06-23,55,6,TL6808933025,P6230011,P6230012,1,0,Urtica dioica,Standing water 0%
+2023-06-23,55,6,TL6808933025,P6230011,P6230012,1,0,Rumex sanguineus,Standing water 0%
+2023-06-23,55,6,TL6808933025,P6230011,P6230012,1,0,Galium aparine,Standing water 0%
+2023-06-23,55,6,TL6808933025,P6230011,P6230012,1,0,Jacobaea vulgaris,Standing water 0%
+2023-06-23,55,6,TL6808933025,P6230011,P6230012,1,0,Rumex obtusifolius,Standing water 0%
+2023-06-23,55,6,TL6808933025,P6230011,P6230012,1,0,Sonchus arvensis,Standing water 0%
+2023-06-23,55,6,TL6808933025,P6230011,P6230012,1,0,Ballota nigra,Standing water 0%
+2023-06-23,55,6,TL6808933025,P6230011,P6230012,1,0,Epilobium hirsutum,Standing water 0%
+2023-06-23,31,7,TL6802933054,P6230013,P6230014,5,1,Carex pendula,"Standing water 100%, with filamentous algae"
+2023-06-23,31,7,TL6802933054,P6230013,P6230014,5,1,Juncus effusus,"Standing water 100%, with filamentous algae"
+2023-06-23,31,7,TL6802933054,P6230013,P6230014,5,1,Filapendula ulmaria,"Standing water 100%, with filamentous algae"
+2023-06-23,31,7,TL6802933054,P6230013,P6230014,5,1,Cardamine flexuosa,"Standing water 100%, with filamentous algae"
+2023-06-23,31,7,TL6802933054,P6230013,P6230014,5,1,Mentha aquatica,"Standing water 100%, with filamentous algae"
+2023-06-23,31,7,TL6802933054,P6230013,P6230014,5,1,Epilobium hirsutum,"Standing water 100%, with filamentous algae"
+2023-06-23,35,8,TL6800033054,P6230015,P6230016,3,85,Glechoma hederacea,"averaged, range 2-5, near ditch, standing water 10%Populus x canadensis"
+2023-06-23,35,8,TL6800033054,P6230015,P6230016,3,85,Geranium robertianum,"averaged, range 2-5, near ditch, standing water 10%Populus x canadensis"
+2023-06-23,35,8,TL6800033054,P6230015,P6230016,3,85,Mercurialis perennis,"averaged, range 2-5, near ditch, standing water 10%Populus x canadensis"
+2023-06-23,35,8,TL6800033054,P6230015,P6230016,3,85,Urtica dioica,"averaged, range 2-5, near ditch, standing water 10%Populus x canadensis"
+2023-06-23,35,8,TL6800033054,P6230015,P6230016,3,85,Bromopsis ramosus,"averaged, range 2-5, near ditch, standing water 10%Populus x canadensis"
+2023-06-23,35,8,TL6800033054,P6230015,P6230016,3,85,Brachypodium sylvaticum,"averaged, range 2-5, near ditch, standing water 10%Populus x canadensis"
+2023-06-23,35,8,TL6800033054,P6230015,P6230016,3,85,Geum urbanum,"averaged, range 2-5, near ditch, standing water 10%Populus x canadensis"
+2023-06-23,35,8,TL6800033054,P6230015,P6230016,3,85,Carex pendula,"averaged, range 2-5, near ditch, standing water 10%Populus x canadensis"
+2023-06-23,35,8,TL6800033054,P6230015,P6230016,3,85,Angelica sylvestris,"averaged, range 2-5, near ditch, standing water 10%Populus x canadensis"
+2023-06-23,35,8,TL6800033054,P6230015,P6230016,3,85,Galium aparine,"averaged, range 2-5, near ditch, standing water 10%Populus x canadensis"
+2023-06-23,35,8,TL6800033054,P6230015,P6230016,3,85,Epilobium hirsutum,"averaged, range 2-5, near ditch, standing water 10%Populus x canadensis"
+2023-06-23,35,8,TL6800033054,P6230015,P6230016,3,85,Salix aurita,"averaged, range 2-5, near ditch, standing water 10%Populus x canadensis"
+2023-06-23,35,8,TL6800033054,P6230015,P6230016,3,85,Primula elatior,"averaged, range 2-5, near ditch, standing water 10%Populus x canadensis"
+2023-06-23,42,11,TL6793533087,P6230017,P6230018,5,0,Glechoma hederacea,"Standing water 90%, near lodge"
+2023-06-23,42,11,TL6793533087,P6230017,P6230018,5,0,Cardamine flexuosa,"Standing water 90%, near lodge"
+2023-06-23,42,11,TL6793533087,P6230017,P6230018,5,0,Solanum dulcamara,"Standing water 90%, near lodge"
+2023-06-23,42,11,TL6793533087,P6230017,P6230018,5,0,Sparganium erectum,"Standing water 90%, near lodge"
+2023-06-23,42,11,TL6793533087,P6230017,P6230018,5,0,Mentha aquatica,"Standing water 90%, near lodge"
+2023-06-23,42,11,TL6793533087,P6230017,P6230018,5,0,Apium nodiflorum,"Standing water 90%, near lodge"
+2023-06-23,42,11,TL6793533087,P6230017,P6230018,5,0,Carduus crispus,"Standing water 90%, near lodge"
+2023-06-23,42,11,TL6793533087,P6230017,P6230018,5,0,Urtica dioica,"Standing water 90%, near lodge"
+2023-06-23,42,11,TL6793533087,P6230017,P6230018,5,0,Galium aparine,"Standing water 90%, near lodge"
+2023-06-23,57,12,TL6794033112,P6230019,P6230020,1,90,Mercurialis perennis,Standing water 0%Tilia x europaea
+2023-06-23,57,12,TL6794033112,P6230019,P6230020,1,90,Galium aparine,Standing water 0%Tilia x europaea
+2023-06-23,57,12,TL6794033112,P6230019,P6230020,1,90,Sambucus nigra,Standing water 0%Tilia x europaea
+2023-06-23,57,12,TL6794033112,P6230019,P6230020,1,90,Urtica dioica,Standing water 0%Tilia x europaea
+2023-06-23,56,13,TL6790933113,P6230021,P6230022,2,95,Mercurialis perennis,"Standing water 0%Tilia x europaea, Acer campestre"
+2023-06-23,56,13,TL6790933113,P6230021,P6230022,2,95,Tilia x europaea,"Standing water 0%Tilia x europaea, Acer campestre"
+2023-06-23,56,13,TL6790933113,P6230021,P6230022,2,95,Acer campestre,"Standing water 0%Tilia x europaea, Acer campestre"
+2023-06-23,56,13,TL6790933113,P6230021,P6230022,2,95,Glechoma hederacea,"Standing water 0%Tilia x europaea, Acer campestre"
+2023-06-23,56,13,TL6790933113,P6230021,P6230022,2,95,Galium aparine,"Standing water 0%Tilia x europaea, Acer campestre"
+2023-06-23,56,13,TL6790933113,P6230021,P6230022,2,95,Rubus caesius,"Standing water 0%Tilia x europaea, Acer campestre"
+2023-06-23,7,14,TL6790633146,P6230023,P6230024,1,85,Urtica dioica,"Standing water 0%Quercus, Acer campestre"
+2023-06-23,7,14,TL6790633146,P6230023,P6230024,1,85,Mercurialis perennis,"Standing water 0%Quercus, Acer campestre"
+2023-06-23,7,14,TL6790633146,P6230023,P6230024,1,85,Glechoma hederacea,"Standing water 0%Quercus, Acer campestre"
+2023-06-23,7,14,TL6790633146,P6230023,P6230024,1,85,Quercus sp,"Standing water 0%Quercus, Acer campestre - standard"
+2023-06-23,7,14,TL6790633146,P6230023,P6230024,1,85,Ulmus procera,"Standing water 0%Quercus, Acer campestre - pole stage"
+2023-06-23,7,14,TL6790633146,P6230023,P6230024,1,85,Acer campestre,"Standing water 0%Quercus, Acer campestre - standard"
+2023-06-23,9,15,TL6788033143,P6230025,P6230026,1,90,Mercurialis perennis,"Standing water 0%Tilia species, Acer campestre"
+2023-06-23,9,15,TL6788033143,P6230025,P6230026,1,90,Urtica dioica,"Standing water 0%Tilia species, Acer campestre"
+2023-06-23,9,15,TL6788033143,P6230025,P6230026,1,90,Galium aparine,"Standing water 0%Tilia species, Acer campestre"
+2023-06-23,9,15,TL6788033143,P6230025,P6230026,1,90,Glechoma hederacea,"Standing water 0%Tilia species, Acer campestre"
+2023-06-23,9,15,TL6788033143,P6230025,P6230026,1,90,Ulmus procera,"Standing water 0%Tilia species, Acer campestre - seedling"
+2023-06-23,8,16,TL6784833145,P6230027,P6230028,2,70,Eupatorium cannabinum,Standing water 0%Fraxinus excelsior
+2023-06-23,8,16,TL6784833145,P6230027,P6230028,2,70,Ranunculus repens,Standing water 0%Fraxinus excelsior
+2023-06-23,8,16,TL6784833145,P6230027,P6230028,2,70,Galium aparine,Standing water 0%Fraxinus excelsior
+2023-06-23,8,16,TL6784833145,P6230027,P6230028,2,70,Silene dioica,Standing water 0%Fraxinus excelsior
+2023-06-23,8,16,TL6784833145,P6230027,P6230028,2,70,Angelica sylvestris,Standing water 0%Fraxinus excelsior
+2023-06-23,8,16,TL6784833145,P6230027,P6230028,2,70,Glechoma hederacea,Standing water 0%Fraxinus excelsior
+2023-06-23,8,16,TL6784833145,P6230027,P6230028,2,70,Mentha aquatica,Standing water 0%Fraxinus excelsior
+2023-06-23,8,16,TL6784833145,P6230027,P6230028,2,70,Solanum dulcamara,Standing water 0%Fraxinus excelsior
+2023-06-23,8,16,TL6784833145,P6230027,P6230028,2,70,Urtica dioica,Standing water 0%Fraxinus excelsior
+2023-06-23,8,16,TL6784833145,P6230027,P6230028,2,70,Poa trivialis,Standing water 0%Fraxinus excelsior
+2023-06-23,25,17,TL6785033174,P6230029,P6230030,1,95,Mercurialis perennis,"Acer campestre, Sambucus nigra, Carpinus betulus"
+2023-06-23,25,17,TL6785033174,P6230029,P6230030,1,95,Urtica dioica,"Acer campestre, Sambucus nigra, Carpinus betulus"
+2023-06-23,25,17,TL6785033174,P6230029,P6230030,1,95,Arum maculatum,"Acer campestre, Sambucus nigra, Carpinus betulus"
+2023-06-23,25,17,TL6785033174,P6230029,P6230030,1,95,Glechoma hederacea,"Acer campestre, Sambucus nigra, Carpinus betulus"
+2023-06-23,25,17,TL6785033174,P6230029,P6230030,1,95,Galium aparine,"Acer campestre, Sambucus nigra, Carpinus betulus"
+2023-06-23,25,17,TL6785033174,P6230029,P6230030,1,95,Sambucus nigra,"Acer campestre, Sambucus nigra, Carpinus betulus"
+2023-06-23,25,17,TL6785033174,P6230029,P6230030,1,95,Carpinus betulus,"Acer campestre, Sambucus nigra, Carpinus betulus - sapling"
+2023-06-23,22,18,TL6781933174,P6230031,P6230032,2,60,Silene dioica,"Standing water 0%mainly Tilia species, Sambucus nigra"
+2023-06-23,22,18,TL6781933174,P6230031,P6230032,2,60,Stachys sylvatica,"Standing water 0%mainly Tilia species, Sambucus nigra"
+2023-06-23,22,18,TL6781933174,P6230031,P6230032,2,60,Mercurialis perennis,"Standing water 0%mainly Tilia species, Sambucus nigra"
+2023-06-23,22,18,TL6781933174,P6230031,P6230032,2,60,Myosotis sylvatica,"Standing water 0%mainly Tilia species, Sambucus nigra"
+2023-06-23,22,18,TL6781933174,P6230031,P6230032,2,60,Urtica dioica,"Standing water 0%mainly Tilia species, Sambucus nigra"
+2023-06-23,22,18,TL6781933174,P6230031,P6230032,2,60,Sambucus nigra,"Standing water 0%mainly Tilia species, Sambucus nigra"
+2023-06-23,22,18,TL6781933174,P6230031,P6230032,2,60,Circaea lutetiana,"Standing water 0%mainly Tilia species, Sambucus nigra"
+2023-06-23,22,18,TL6781933174,P6230031,P6230032,2,60,Poa trivialis,"Standing water 0%mainly Tilia species, Sambucus nigra"
+2023-06-23,22,18,TL6781933174,P6230031,P6230032,2,60,Tilia species,"Standing water 0%mainly Tilia species, Sambucus nigra - pole stage"
+2023-06-23,22,18,TL6781933174,P6230031,P6230032,2,60,Ulmus procera,"Standing water 0%mainly Tilia species, Sambucus nigra"
+2023-06-23,22,18,TL6781933174,P6230031,P6230032,2,60,Ranunculus repens,"Standing water 0%mainly Tilia species, Sambucus nigra"
+2023-06-23,4,19,TL6781933145,P6230033,P6230034,5,0,Mentha aquatica,Standing water 80%near central ditch
+2023-06-23,4,19,TL6781933145,P6230033,P6230034,5,0,Carex pendula,Standing water 80%near central ditch
+2023-06-23,4,19,TL6781933145,P6230033,P6230034,5,0,Solanum dulcamara,Standing water 80%near central ditch
+2023-06-23,4,19,TL6781933145,P6230033,P6230034,5,0,Calystegia sepium,Standing water 80%near central ditch
+2023-06-23,4,19,TL6781933145,P6230033,P6230034,5,0,Nasturtium officinale,Standing water 80%near central ditch
+2023-06-23,4,19,TL6781933145,P6230033,P6230034,5,0,Carex acutiformis,Standing water 80%near central ditch
+2023-06-23,4,19,TL6781933145,P6230033,P6230034,5,0,Ranunculus sceleratus,Standing water 80%near central ditch
+2023-06-24,34,20,TL6796833053,P6240007,P6240002,5,5%,Iris pseudacorus,Standing water 100%Felled Bat willow and Corylus avellana
+2023-06-24,34,20,TL6796833053,P6240007,P6240002,5,5%,Solanum dulcamara,Standing water 100%Felled Bat willow and Corylus avellana
+2023-06-24,34,20,TL6796833053,P6240007,P6240002,5,5%,Mentha aquatica,Standing water 100%Felled Bat willow and Corylus avellana
+2023-06-24,34,20,TL6796833053,P6240007,P6240002,5,5%,Carduus crispus,Standing water 100%Felled Bat willow and Corylus avellana
+2023-06-24,34,20,TL6796833053,P6240007,P6240002,5,5%,Carex pendula,Standing water 100%Felled Bat willow and Corylus avellana
+2023-06-24,34,20,TL6796833053,P6240007,P6240002,5,5%,Ranunculus repens,Standing water 100%Felled Bat willow and Corylus avellana
+2023-06-24,34,20,TL6796833053,P6240007,P6240002,5,5%,Urtica dioica,Standing water 100%Felled Bat willow and Corylus avellana
+2023-06-24,34,20,TL6796833053,P6240007,P6240002,5,5%,Rumex sanguineus,Standing water 100%Felled Bat willow and Corylus avellana
+2023-06-24,34,20,TL6796833053,P6240007,P6240002,5,5%,Veronica beccabunga,Standing water 100%Felled Bat willow and Corylus avellana
+2023-06-24,34,20,TL6796833053,P6240007,P6240002,5,5%,Holcus species,Standing water 100%Felled Bat willow and Corylus avellana
+2023-06-24,34,20,TL6796833053,P6240007,P6240002,5,5%,Juncus inflexus,Standing water 100%Felled Bat willow and Corylus avellana
+2023-06-24,34,20,TL6796833053,P6240007,P6240002,5,5%,Symphtyum x uplandicum,Standing water 100%Felled Bat willow and Corylus avellana
+2023-06-24,28,21,TL6793533955,P6240003,P6240004,5,5,Juncus effusus,"Standing water 80%, by the edge of wood pileBat willow"
+2023-06-24,28,21,TL6793533955,P6240003,P6240004,5,5,Apium nodiflorum,"Standing water 80%, by the edge of wood pileBat willow"
+2023-06-24,28,21,TL6793533955,P6240003,P6240004,5,5,Mentha aquatica,"Standing water 80%, by the edge of wood pileBat willow"
+2023-06-24,28,21,TL6793533955,P6240003,P6240004,5,5,Nasturtium officinale,"Standing water 80%, by the edge of wood pileBat willow"
+2023-06-24,28,21,TL6793533955,P6240003,P6240004,5,5,Solanum dulcamara,"Standing water 80%, by the edge of wood pileBat willow"
+2023-06-24,28,21,TL6793533955,P6240003,P6240004,5,5,Rubus fruticosus,"Standing water 80%, by the edge of wood pileBat willow"
+2023-06-24,28,21,TL6793533955,P6240003,P6240004,5,5,Juncus inflexus,"Standing water 80%, by the edge of wood pileBat willow"
+2023-06-24,28,21,TL6793533955,P6240003,P6240004,5,5,Filipendula ulmaria,"Standing water 80%, by the edge of wood pileBat willow"
+2023-06-24,28,21,TL6793533955,P6240003,P6240004,5,5,Carex species,"Standing water 80%, by the edge of wood pileBat willow - seedling"
+2023-06-24,28,21,TL6793533955,P6240003,P6240004,5,5,Cirsium palustre,"Standing water 80%, by the edge of wood pileBat willow"
+2023-06-24,28,21,TL6793533955,P6240003,P6240004,5,5,Epilobium hirsutum,"Standing water 80%, by the edge of wood pileBat willow"
+2023-06-24,28,21,TL6793533955,P6240003,P6240004,5,5,Sonchus arvensis,"Standing water 80%, by the edge of wood pileBat willow"
+2023-06-24,28,21,TL6793533955,P6240003,P6240004,5,5,Scrophularia auriculata,"Standing water 80%, by the edge of wood pileBat willow"
+2023-06-24,11,24,TL6793733029,P6240005,P6240006,5,50,Prunus spinosa,"Standing water 100%Prunus spinosa, leaning and partly dead"
+2023-06-24,11,24,TL6793733029,P6240005,P6240006,5,50,Solanum dulcamara,"Standing water 100%Prunus spinosa, leaning and partly dead"
+2023-06-24,11,24,TL6793733029,P6240005,P6240006,5,50,Calystegia sepium,"Standing water 100%Prunus spinosa, leaning and partly dead"
+2023-06-24,11,24,TL6793733029,P6240005,P6240006,5,50,Carex pendula,"Standing water 100%Prunus spinosa, leaning and partly dead"
+2023-06-24,11,24,TL6793733029,P6240005,P6240006,5,50,Mentha aquatica,"Standing water 100%Prunus spinosa, leaning and partly dead"
+2023-06-24,11,24,TL6793733029,P6240005,P6240006,5,50,Rumex sanguineus,"Standing water 100%Prunus spinosa, leaning and partly dead"
+2023-06-24,11,24,TL6793733029,P6240005,P6240006,5,50,Symphtyum x uplandicum,"Standing water 100%Prunus spinosa, leaning and partly dead"
+2023-06-24,11,24,TL6793733029,P6240005,P6240006,5,50,Rubus fruticosus agg.,"Standing water 100%Prunus spinosa, leaning and partly dead"
+2023-06-24,61,25,TL6793832994,P6240008,P6240009,1,0,Cirsium arvense,near pylon in ex arable edge
+2023-06-24,61,25,TL6793832994,P6240008,P6240009,1,0,Galium aparine,near pylon in ex arable edge
+2023-06-24,61,25,TL6793832994,P6240008,P6240009,1,0,Arrhenatherum elatius,near pylon in ex arable edge
+2023-06-24,61,25,TL6793832994,P6240008,P6240009,1,0,Urtica dioica,near pylon in ex arable edge
+2023-06-24,61,25,TL6793832994,P6240008,P6240009,1,0,Poa trivialis,near pylon in ex arable edge
+2023-06-24,61,25,TL6793832994,P6240008,P6240009,1,0,Achillea millefolium,near pylon in ex arable edge
+2023-06-24,61,25,TL6793832994,P6240008,P6240009,1,0,Tripleurospermum inodoratum,near pylon in ex arable edge
+2023-06-24,61,25,TL6793832994,P6240008,P6240009,1,0,Holcus lanatus,near pylon in ex arable edge
+2023-06-24,61,25,TL6793832994,P6240008,P6240009,1,0,Leucanthemum vulgare,near pylon in ex arable edge
+2023-06-24,61,25,TL6793832994,P6240008,P6240009,1,0,Prunus spinosa,near pylon in ex arable edge - seedling
+2023-06-24,61,25,TL6793832994,P6240008,P6240009,1,0,Acer campestre,near pylon in ex arable edge - seedling
+2023-06-24,61,25,TL6793832994,P6240008,P6240009,1,0,Crataegus monogyna ,near pylon in ex arable edge - seedling
+2023-06-24,61,25,TL6793832994,P6240008,P6240009,1,0,Bromus sterilis,near pylon in ex arable edge
+2023-06-24,61,25,TL6793832994,P6240008,P6240009,1,0,Epilobium hirsutum,near pylon in ex arable edge
+2023-06-24,61,25,TL6793832994,P6240008,P6240009,1,0,Geranium dissectum,near pylon in ex arable edge
+2023-06-24,61,25,TL6793832994,P6240008,P6240009,1,0,Bromus hordeaceus,near pylon in ex arable edge
+2023-06-24,61,25,TL6793832994,P6240008,P6240009,1,0,Epilobium sp,near pylon in ex arable edge
+2023-06-24,61,25,TL6793832994,P6240008,P6240009,1,0,Rosa sp,near pylon in ex arable edge
+2023-06-24,61,25,TL6793832994,P6240008,P6240009,1,0,Silene dioica,near pylon in ex arable edge
+2023-06-24,60,26,TL6791032994,P6240010,P6240011,1,0,Leucanthemum vulgare,Standing water 0% on field edge
+2023-06-24,60,26,TL6791032994,P6240010,P6240011,1,0,Schedonorus arundinaceus,Standing water 0% on field edge
+2023-06-24,60,26,TL6791032994,P6240010,P6240011,1,0,Rumex obtusifolius,Standing water 0% on field edge
+2023-06-24,60,26,TL6791032994,P6240010,P6240011,1,0,Holcus lanatus,Standing water 0% on field edge
+2023-06-24,60,26,TL6791032994,P6240010,P6240011,1,0,Vicia tetrasperma,Standing water 0% on field edge
+2023-06-24,60,26,TL6791032994,P6240010,P6240011,1,0,Agrostis capillaris,Standing water 0% on field edge
+2023-06-24,60,26,TL6791032994,P6240010,P6240011,1,0,Equisetum arvense,Standing water 0% on field edge
+2023-06-24,60,26,TL6791032994,P6240010,P6240011,1,0,Poa trivialis,Standing water 0% on field edge
+2023-06-24,60,26,TL6791032994,P6240010,P6240011,1,0,Rubus fruticosus agg.,Standing water 0% on field edge
+2023-06-24,60,26,TL6791032994,P6240010,P6240011,1,0,Jacobaea vulgaris,Standing water 0% on field edge
+2023-06-24,10,27,TL6790933026,P6240012,P6240013,2,10,Rubus fruticosus agg.,"Standing water 0%   Rosa canina, Prunus spinosa, Bat willow"
+2023-06-24,10,27,TL6790933026,P6240012,P6240013,2,10,Calystegia sepium,"Standing water 0%   Rosa canina, Prunus spinosa, Bat willow"
+2023-06-24,10,27,TL6790933026,P6240012,P6240013,2,10,Equisetum arvense,"Standing water 0%   Rosa canina, Prunus spinosa, Bat willow"
+2023-06-24,10,27,TL6790933026,P6240012,P6240013,2,10,Urtica dioica,"Standing water 0%   Rosa canina, Prunus spinosa, Bat willow"
+2023-06-24,10,27,TL6790933026,P6240012,P6240013,2,10,Solanum dulcamara,"Standing water 0%   Rosa canina, Prunus spinosa, Bat willow"
+2023-06-24,10,27,TL6790933026,P6240012,P6240013,2,10,Salix aurita,"Standing water 0%   Rosa canina, Prunus spinosa, Bat willow - sapling"
+2023-06-24,10,27,TL6790933026,P6240012,P6240013,2,10,Epilobium hirsutum,"Standing water 0%   Rosa canina, Prunus spinosa, Bat willow"
+2023-06-24,37,28,TL6782033208,P6240014,P6240015,1,90,Mercurialis perennis,"near fenced in pylon, up dry bankUlmus procera, Acer campestre"
+2023-06-24,37,28,TL6782033208,P6240014,P6240015,1,90,Urtica dioica,"near fenced in pylon, up dry bankUlmus procera, Acer campestre"
+2023-06-24,37,28,TL6782033208,P6240014,P6240015,1,90,Glechoma hederacea,"near fenced in pylon, up dry bankUlmus procera, Acer campestre"
+2023-06-24,37,28,TL6782033208,P6240014,P6240015,1,90,Ulmus procera,"near fenced in pylon, up dry bankUlmus procera, Acer campestre - seedling or sucker"
+2023-06-24,37,28,TL6782033208,P6240014,P6240015,1,90,Poa trivialis,"near fenced in pylon, up dry bankUlmus procera, Acer campestre"
+2023-06-24,36,29,TL6778833203,P6240016,P6240017,1,95,Mercurialis perennis,Standing water 0%Sambucus nigra
+2023-06-24,36,29,TL6778833203,P6240016,P6240017,1,95,Myosotis sylvatica,Standing water 0%Sambucus nigra
+2023-06-24,36,29,TL6778833203,P6240016,P6240017,1,95,Sambucus  nigra,Standing water 0%Sambucus nigra
+2023-06-24,36,29,TL6778833203,P6240016,P6240017,1,95,Galium aparine,Standing water 0%Sambucus nigra
+2023-06-24,36,29,TL6778833203,P6240016,P6240017,1,95,Glechoma hederacea,Standing water 0%Sambucus nigra
+2023-06-24,36,29,TL6778833203,P6240016,P6240017,1,95,Ulmus procera,Standing water 0%Sambucus nigra - sapling
+2023-06-24,36,29,TL6778833203,P6240016,P6240017,1,95,Sambucus  nigra,Standing water 0%Sambucus nigra
+2023-06-24,39,30,TL6776033204,P6240018,P6240019,2,70,Mercurialis perennis,"Edge of dried out beaver pond, 0% standing water at time of surveyFraxinus excelsior, Salix alba var. caerulea"
+2023-06-24,39,30,TL6776033204,P6240018,P6240019,2,70,Urtica dioica,"Edge of dried out beaver pond, 0% standing water at time of surveyFraxinus excelsior, Salix alba var. caerulea"
+2023-06-24,39,30,TL6776033204,P6240018,P6240019,2,70,Myosotis sylvatica,"Edge of dried out beaver pond, 0% standing water at time of surveyFraxinus excelsior, Salix alba var. caerulea"
+2023-06-24,39,30,TL6776033204,P6240018,P6240019,2,70,Glechoma hederacea,"Edge of dried out beaver pond, 0% standing water at time of surveyFraxinus excelsior, Salix alba var. caerulea"
+2023-06-24,39,30,TL6776033204,P6240018,P6240019,2,70,Galium aparine,"Edge of dried out beaver pond, 0% standing water at time of surveyFraxinus excelsior, Salix alba var. caerulea"
+2023-06-24,39,30,TL6776033204,P6240018,P6240019,2,70,Silene dioica,"Edge of dried out beaver pond, 0% standing water at time of surveyFraxinus excelsior, Salix alba var. caerulea"
+2023-06-24,39,30,TL6776033204,P6240018,P6240019,2,70,Poa trivialis,"Edge of dried out beaver pond, 0% standing water at time of surveyFraxinus excelsior, Salix alba var. caerulea"
+2023-06-24,39,30,TL6776033204,P6240018,P6240019,2,70,Carex pendula,"Edge of dried out beaver pond, 0% standing water at time of surveyFraxinus excelsior, Salix alba var. caerulea - seedling"
+2023-06-24,39,30,TL6776033204,P6240018,P6240019,2,70,Salix alba var. caerulea,"Edge of dried out beaver pond, 0% standing water at time of surveyFraxinus excelsior, Salix alba var. caerulea - standard tree"
+2023-06-24,39,30,TL6776033204,P6240018,P6240019,2,70,Fraxinus excelsior,"Edge of dried out beaver pond, 0% standing water at time of surveyFraxinus excelsior, Salix alba var. caerulea - young tree (beyond pole stage but not mature)"
+2023-06-24,53,31,TL6775933234,P6240020,P6240021,1,50,Sambucus  nigra,"Populus alba, Sambucus nigra"
+2023-06-24,53,31,TL6775933234,P6240020,P6240021,1,50,Populus alba,"Populus alba, Sambucus nigra - mature tree"
+2023-06-24,53,31,TL6775933234,P6240020,P6240021,1,50,Glechoma hederacea,"Populus alba, Sambucus nigra"
+2023-06-24,53,31,TL6775933234,P6240020,P6240021,1,50,Urtica dioica,"Populus alba, Sambucus nigra"
+2023-06-24,51,32,TL6772233233,P6240022,P6240023,2,2,Caltha palustris,"By ditch, lots of bare mud, no standing water at time of survey"
+2023-06-24,51,32,TL6772233233,P6240022,P6240023,2,2,Mentha aquatica,"By ditch, lots of bare mud, no standing water at time of survey"
+2023-06-24,51,32,TL6772233233,P6240022,P6240023,2,2,Calystegia sepium,"By ditch, lots of bare mud, no standing water at time of survey"
+2023-06-24,51,32,TL6772233233,P6240022,P6240023,2,2,Urtica dioica,"By ditch, lots of bare mud, no standing water at time of survey"
+2023-06-24,51,32,TL6772233233,P6240022,P6240023,2,2,Ranunculus repens,"By ditch, lots of bare mud, no standing water at time of survey"
+2023-06-24,51,32,TL6772233233,P6240022,P6240023,2,2,Rumex sanguineus,"By ditch, lots of bare mud, no standing water at time of survey"
+2023-06-24,51,32,TL6772233233,P6240022,P6240023,2,2,Poa trivialis,"By ditch, lots of bare mud, no standing water at time of survey"
+2023-06-24,1,33,TL6772933264,P6240024,P6240025,2,75,Mentha aquatica,Standing water 0%Salix alba var. caerulea
+2023-06-24,1,33,TL6772933264,P6240024,P6240025,2,75,Carduus crispus,Standing water 0%Salix alba var. caerulea
+2023-06-24,1,33,TL6772933264,P6240024,P6240025,2,75,Holcus lanatus,Standing water 0%Salix alba var. caerulea
+2023-06-24,1,33,TL6772933264,P6240024,P6240025,2,75,Arrhenatherum elatius,Standing water 0%Salix alba var. caerulea
+2023-06-24,1,33,TL6772933264,P6240024,P6240025,2,75,Carex acutiformis,Standing water 0%Salix alba var. caerulea
+2023-06-24,1,33,TL6772933264,P6240024,P6240025,2,75,Silene dioica,Standing water 0%Salix alba var. caerulea
+2023-06-24,1,33,TL6772933264,P6240024,P6240025,2,75,Rumex sanguineus,Standing water 0%Salix alba var. caerulea
+2023-06-24,1,33,TL6772933264,P6240024,P6240025,2,75,Lotus uliginosus,Standing water 0%Salix alba var. caerulea
+2023-06-24,1,33,TL6772933264,P6240024,P6240025,2,75,Filipendula ulmaria,Standing water 0%Salix alba var. caerulea
+2023-06-24,1,33,TL6772933264,P6240024,P6240025,2,75,Angelica sylvestris,Standing water 0%Salix alba var. caerulea
+2023-06-24,1,33,TL6772933264,P6240024,P6240025,2,75,Galium aparine,Standing water 0%Salix alba var. caerulea
+2023-06-24,1,33,TL6772933264,P6240024,P6240025,2,75,Rubus caesius,Standing water 0%Salix alba var. caerulea
+2023-06-24,1,33,TL6772933264,P6240024,P6240025,2,75,Primula elatior,Standing water 0%Salix alba var. caerulea - Seems to have become more frequent in this part of the enclosure
+2023-06-24,16,34,TL6769833295,P6240026,P6240027,2,70,Filipendula ulmaria,"Near fence, standing water 0%Salix alba var. caerulea"
+2023-06-24,16,34,TL6769833295,P6240026,P6240027,2,70,Symphtyum x uplandicum,"Near fence, standing water 0%Salix alba var. caerulea"
+2023-06-24,16,34,TL6769833295,P6240026,P6240027,2,70,Poa trivialis,"Near fence, standing water 0%Salix alba var. caerulea"
+2023-06-24,16,34,TL6769833295,P6240026,P6240027,2,70,Mentha aquatica,"Near fence, standing water 0%Salix alba var. caerulea"
+2023-06-24,16,34,TL6769833295,P6240026,P6240027,2,70,Carduus crispus,"Near fence, standing water 0%Salix alba var. caerulea"
+2023-06-24,16,34,TL6769833295,P6240026,P6240027,2,70,Arrhenatherum elatius,"Near fence, standing water 0%Salix alba var. caerulea"
+2023-06-24,16,34,TL6769833295,P6240026,P6240027,2,70,Holcus lanatus,"Near fence, standing water 0%Salix alba var. caerulea"
+2023-06-24,16,34,TL6769833295,P6240026,P6240027,2,70,Lotus uliginosus,"Near fence, standing water 0%Salix alba var. caerulea"
+2023-06-24,16,34,TL6769833295,P6240026,P6240027,2,70,Angelica sylvestris,"Near fence, standing water 0%Salix alba var. caerulea"
+2023-06-24,16,34,TL6769833295,P6240026,P6240027,2,70,Silene dioica,"Near fence, standing water 0%Salix alba var. caerulea"
+2023-06-24,16,34,TL6769833295,P6240026,P6240027,2,70,Carex acutiformis,"Near fence, standing water 0%Salix alba var. caerulea"
+2023-06-24,16,34,TL6769833295,P6240026,P6240027,2,70,Galium aparine,"Near fence, standing water 0%Salix alba var. caerulea"
+2023-06-24,16,34,TL6769833295,P6240026,P6240027,2,70,Scrophularia auriculata,"Near fence, standing water 0%Salix alba var. caerulea"
+2023-06-24,16,34,TL6769833295,P6240026,P6240027,2,70,Carex pendula,"Near fence, standing water 0%Salix alba var. caerulea"
+2023-06-24,16,34,TL6769833295,P6240026,P6240027,2,70,Hypericum tetrapterum,"Near fence, standing water 0%Salix alba var. caerulea"
+2023-06-24,16,34,TL6769833295,P6240026,P6240027,2,70,Stachys sylvatica,"Near fence, standing water 0%Salix alba var. caerulea"
+2023-06-24,16,34,TL6769833295,P6240026,P6240027,2,70,Ranunculus repens,"Near fence, standing water 0%Salix alba var. caerulea"
+2023-06-24,16,34,TL6769833295,P6240026,P6240027,2,70,Epilobium hirsutum,"Near fence, standing water 0%Salix alba var. caerulea"
+2023-06-24,16,34,TL6769833295,P6240026,P6240027,2,70,Primula elatior,"Near fence, standing water 0%Salix alba var. caerulea"
+2023-06-24,16,34,TL6769833295,P6240026,P6240027,2,70,Cirsium palustre,"Near fence, standing water 0%Salix alba var. caerulea"
+2023-06-24,16,34,TL6769833295,P6240026,P6240027,2,70,Rubus caesius,"Near fence, standing water 0%Salix alba var. caerulea"
+2023-06-24,16,34,TL6769833295,P6240026,P6240027,2,70,Viccia cracca,"Near fence, standing water 0%Salix alba var. caerulea"
+2023-06-24,16,34,TL6769833295,P6240026,P6240027,2,70,Pulicaria dysenterica,"Near fence, standing water 0%Salix alba var. caerulea"
+2023-06-24,63,35,TL6769933266,P6240028,P6240029,2,40,Poa trivialis,Standing water 0%Salix alba var. caerulea
+2023-06-24,63,35,TL6769933266,P6240028,P6240029,2,40,Primula elatior,Standing water 0%Salix alba var. caerulea
+2023-06-24,63,35,TL6769933266,P6240028,P6240029,2,40,Mentha aquatica,Standing water 0%Salix alba var. caerulea
+2023-06-24,63,35,TL6769933266,P6240028,P6240029,2,40,Alopecurus pratensis,Standing water 0%Salix alba var. caerulea
+2023-06-24,63,35,TL6769933266,P6240028,P6240029,2,40,Filipendula ulmaria,Standing water 0%Salix alba var. caerulea
+2023-06-24,63,35,TL6769933266,P6240028,P6240029,2,40,Arrhenatherum elatius,Standing water 0%Salix alba var. caerulea
+2023-06-24,63,35,TL6769933266,P6240028,P6240029,2,40,Geranium dissectum,Standing water 0%Salix alba var. caerulea
+2023-06-24,63,35,TL6769933266,P6240028,P6240029,2,40,Dactylis glomerata,Standing water 0%Salix alba var. caerulea
+2023-06-24,63,35,TL6769933266,P6240028,P6240029,2,40,Galium aparine,Standing water 0%Salix alba var. caerulea
+2023-06-24,63,35,TL6769933266,P6240028,P6240029,2,40,Carex acutiformis,Standing water 0%Salix alba var. caerulea
+2023-06-24,63,35,TL6769933266,P6240028,P6240029,2,40,Angelica sylvestris,Standing water 0%Salix alba var. caerulea
+2023-06-24,63,35,TL6769933266,P6240028,P6240029,2,40,Holcus lanatus,Standing water 0%Salix alba var. caerulea
+2023-06-24,45,36,TL6769833233,P6240030,P6240031,1,90,Urtica dioica,Sambucus nigra
+2023-06-24,45,36,TL6769833233,P6240030,P6240031,1,90,Mercurialis perennis,Sambucus nigra
+2023-06-24,45,36,TL6769833233,P6240030,P6240031,1,90,Glechoma hederacea,Sambucus nigra
+2023-06-24,45,36,TL6769833233,P6240030,P6240031,1,90,Galium aparine,Sambucus nigra
+2023-06-24,21,37,TL6778933174,P6240032,P6240033,2,95,Mercurialis perennis,Standing water 0%Tilia. x europaea
+2023-06-24,21,37,TL6778933174,P6240032,P6240033,2,95,Tilia. x europaea,Standing water 0%Tilia. x europaea - Tree
+2023-06-24,21,37,TL6778933174,P6240032,P6240033,2,95,Galium aparine,Standing water 0%Tilia. x europaea
+2023-06-24,21,37,TL6778933174,P6240032,P6240033,2,95,Urtica dioica,Standing water 0%Tilia. x europaea
+2023-06-24,21,37,TL6778933174,P6240032,P6240033,2,95,Silene dioica,Standing water 0%Tilia. x europaea
+2023-06-24,21,37,TL6778933174,P6240032,P6240033,2,95,Glechoma hederacea,Standing water 0%Tilia. x europaea
+2023-06-24,58,38,TL6784633111,P6240034,P6240035,3,0,Carex acutiformis,"Range 2-5, 50% standing water, some drawdown has already occurredFallen trees including Hybrid Poplar and dead Ash"
+2023-06-24,58,38,TL6784633111,P6240034,P6240035,3,0,Urtica dioica,"Range 2-5, 50% standing water, some drawdown has already occurredFallen trees including Hybrid Poplar and dead Ash"
+2023-06-24,58,38,TL6784633111,P6240034,P6240035,3,0,Solanum dulcamara,"Range 2-5, 50% standing water, some drawdown has already occurredFallen trees including Hybrid Poplar and dead Ash"
+2023-06-24,58,38,TL6784633111,P6240034,P6240035,3,0,Mentha aquatica,"Range 2-5, 50% standing water, some drawdown has already occurredFallen trees including Hybrid Poplar and dead Ash"
+2023-06-24,58,38,TL6784633111,P6240034,P6240035,3,0,Nasturtium officinale,"Range 2-5, 50% standing water, some drawdown has already occurredFallen trees including Hybrid Poplar and dead Ash - Recorded as Cardamine flexuosa, but this is unlikely due to standing water"
+2023-06-24,46,39,TL6788033085,P6240036,P6240037,2,40,Stachys sylvatica,"No standing water or bare ground, grassy open areaFraxinus excelsior and Tilia x.europaea "
+2023-06-24,46,39,TL6788033085,P6240036,P6240037,2,40,Glechoma hederacea,"No standing water or bare ground, grassy open areaFraxinus excelsior and Tilia x.europaea "
+2023-06-24,46,39,TL6788033085,P6240036,P6240037,2,40,Urtica dioica,"No standing water or bare ground, grassy open areaFraxinus excelsior and Tilia x.europaea  - And putative hybrid with fen nettle"
+2023-06-24,46,39,TL6788033085,P6240036,P6240037,2,40,Galium aparine,"No standing water or bare ground, grassy open areaFraxinus excelsior and Tilia x.europaea "
+2023-06-24,46,39,TL6788033085,P6240036,P6240037,2,40,Mercurialis perennis,"No standing water or bare ground, grassy open areaFraxinus excelsior and Tilia x.europaea "
+2023-06-24,46,39,TL6788033085,P6240036,P6240037,2,40,Filipendula ulmaria,"No standing water or bare ground, grassy open areaFraxinus excelsior and Tilia x.europaea "
+2023-06-24,46,39,TL6788033085,P6240036,P6240037,2,40,Ranunculus repens,"No standing water or bare ground, grassy open areaFraxinus excelsior and Tilia x.europaea "
+2023-06-24,46,39,TL6788033085,P6240036,P6240037,2,40,Poa trivialis,"No standing water or bare ground, grassy open areaFraxinus excelsior and Tilia x.europaea "
+2023-06-24,46,39,TL6788033085,P6240036,P6240037,2,40,Myosotis sylvatica,"No standing water or bare ground, grassy open areaFraxinus excelsior and Tilia x.europaea "
+2023-06-24,46,39,TL6788033085,P6240036,P6240037,2,40,Sparganium erectum,"No standing water or bare ground, grassy open areaFraxinus excelsior and Tilia x.europaea "
+2023-06-24,46,39,TL6788033085,P6240036,P6240037,2,40,Silene dioica,"No standing water or bare ground, grassy open areaFraxinus excelsior and Tilia x.europaea "
+2023-06-25,27,40,TL6791033054,P6250001,P6250002,3,65,Carex pendula,"includes a beaver canal, about 2% standing water in quadratSambucus nigra, Crataegus monogyna and Fraxinus excelsior"
+2023-06-25,27,40,TL6791033054,P6250001,P6250002,3,65,Cirsium palustre,"includes a beaver canal, about 2% standing water in quadratSambucus nigra, Crataegus monogyna and Fraxinus excelsior"
+2023-06-25,27,40,TL6791033054,P6250001,P6250002,3,65,Angelica sylvestris,"includes a beaver canal, about 2% standing water in quadratSambucus nigra, Crataegus monogyna and Fraxinus excelsior"
+2023-06-25,27,40,TL6791033054,P6250001,P6250002,3,65,Ranunculus repens,"includes a beaver canal, about 2% standing water in quadratSambucus nigra, Crataegus monogyna and Fraxinus excelsior"
+2023-06-25,27,40,TL6791033054,P6250001,P6250002,3,65,Epilobium hirsutum,"includes a beaver canal, about 2% standing water in quadratSambucus nigra, Crataegus monogyna and Fraxinus excelsior"
+2023-06-25,27,40,TL6791033054,P6250001,P6250002,3,65,Silene dioica,"includes a beaver canal, about 2% standing water in quadratSambucus nigra, Crataegus monogyna and Fraxinus excelsior"
+2023-06-25,27,40,TL6791033054,P6250001,P6250002,3,65,Rubus caesius,"includes a beaver canal, about 2% standing water in quadratSambucus nigra, Crataegus monogyna and Fraxinus excelsior"
+2023-06-25,27,40,TL6791033054,P6250001,P6250002,3,65,Urtica dioica,"includes a beaver canal, about 2% standing water in quadratSambucus nigra, Crataegus monogyna and Fraxinus excelsior - and putative hybrid"
+2023-06-25,27,40,TL6791033054,P6250001,P6250002,3,65,Rumex sanguineus,"includes a beaver canal, about 2% standing water in quadratSambucus nigra, Crataegus monogyna and Fraxinus excelsior"
+2023-06-25,27,40,TL6791033054,P6250001,P6250002,3,65,Galium aparine,"includes a beaver canal, about 2% standing water in quadratSambucus nigra, Crataegus monogyna and Fraxinus excelsior"
+2023-06-25,27,40,TL6791033054,P6250001,P6250002,3,65,Solanum dulcamara,"includes a beaver canal, about 2% standing water in quadratSambucus nigra, Crataegus monogyna and Fraxinus excelsior"
+2023-06-25,27,40,TL6791033054,P6250001,P6250002,3,65,Calystegia sepium,"includes a beaver canal, about 2% standing water in quadratSambucus nigra, Crataegus monogyna and Fraxinus excelsior"
+2023-06-25,27,40,TL6791033054,P6250001,P6250002,3,65,Poa trivialis,"includes a beaver canal, about 2% standing water in quadratSambucus nigra, Crataegus monogyna and Fraxinus excelsior"
+2023-06-25,27,40,TL6791033054,P6250001,P6250002,3,65,Equisetum arvense,"includes a beaver canal, about 2% standing water in quadratSambucus nigra, Crataegus monogyna and Fraxinus excelsior"
+2023-06-25,27,40,TL6791033054,P6250001,P6250002,3,65,Hypericum sp,"includes a beaver canal, about 2% standing water in quadratSambucus nigra, Crataegus monogyna and Fraxinus excelsior - check sample"
+2023-06-25,27,40,TL6791033054,P6250001,P6250002,3,65,Holcus lanatus,"includes a beaver canal, about 2% standing water in quadratSambucus nigra, Crataegus monogyna and Fraxinus excelsior"
+2023-06-25,27,40,TL6791033054,P6250001,P6250002,3,65,Stachys sylvatica,"includes a beaver canal, about 2% standing water in quadratSambucus nigra, Crataegus monogyna and Fraxinus excelsior"
+2023-06-25,27,40,TL6791033054,P6250001,P6250002,3,65,Crataegus monogyna,"includes a beaver canal, about 2% standing water in quadratSambucus nigra, Crataegus monogyna and Fraxinus excelsior"
+2023-06-25,27,40,TL6791033054,P6250001,P6250002,3,65,Scrophularia auriculata,"includes a beaver canal, about 2% standing water in quadratSambucus nigra, Crataegus monogyna and Fraxinus excelsior"
+2023-06-25,27,40,TL6791033054,P6250001,P6250002,3,65,Myosotis sylvatica,"includes a beaver canal, about 2% standing water in quadratSambucus nigra, Crataegus monogyna and Fraxinus excelsior"
+2023-06-25,41,41,TL6790933083,P6250003,P6250004,3,2,Symphytum x uplandicum,Sambucus nigra and dead Ash
+2023-06-25,41,41,TL6790933083,P6250003,P6250004,3,2,Carex pendula,Sambucus nigra and dead Ash
+2023-06-25,41,41,TL6790933083,P6250003,P6250004,3,2,Rumex sanguineus,Sambucus nigra and dead Ash
+2023-06-25,41,41,TL6790933083,P6250003,P6250004,3,2,Urtica dioica,Sambucus nigra and dead Ash
+2023-06-25,41,41,TL6790933083,P6250003,P6250004,3,2,Glechoma hederacea,Sambucus nigra and dead Ash
+2023-06-25,41,41,TL6790933083,P6250003,P6250004,3,2,Galium aparine,Sambucus nigra and dead Ash
+2023-06-25,41,41,TL6790933083,P6250003,P6250004,3,2,Myosotis sylvatica,Sambucus nigra and dead Ash
+2023-06-25,41,41,TL6790933083,P6250003,P6250004,3,2,Poa trivialis,Sambucus nigra and dead Ash
+2023-06-25,41,41,TL6790933083,P6250003,P6250004,3,2,Calystegia sepium,Sambucus nigra and dead Ash
+2023-06-25,41,41,TL6790933083,P6250003,P6250004,3,2,Silene dioica,Sambucus nigra and dead Ash
+2023-06-25,41,41,TL6790933083,P6250003,P6250004,3,2,Sambucus nigra,Sambucus nigra and dead Ash
+2023-06-25,41,41,TL6790933083,P6250003,P6250004,3,2,Solanum dulcamara,Sambucus nigra and dead Ash
+2023-06-25,41,41,TL6790933083,P6250003,P6250004,3,2,Sparganium erectum,Sambucus nigra and dead Ash
+2023-06-25,41,41,TL6790933083,P6250003,P6250004,3,2,Cardamine flexuosa,Sambucus nigra and dead Ash
+2023-06-25,41,41,TL6790933083,P6250003,P6250004,3,2,Mentha aquatica,Sambucus nigra and dead Ash
+2023-06-25,41,41,TL6790933083,P6250003,P6250004,3,2,Veronica beccabunga,Sambucus nigra and dead Ash
+2023-06-25,41,41,TL6790933083,P6250003,P6250004,3,2,Ranunculus repens,Sambucus nigra and dead Ash
+2023-06-25,41,41,TL6790933083,P6250003,P6250004,3,2,Ulmus procera,Sambucus nigra and dead Ash - seedling
+2023-06-25,41,41,TL6790933083,P6250003,P6250004,3,2,Juncus effusus,Sambucus nigra and dead Ash
+2023-06-25,59,42,TL6787933114,P6250005,P6250006,3,0,Eupatorium cannabinum,"Range 2-5, near the artificial lodge, takes in the edge of the central ditch, standing water 10%dead stems only"
+2023-06-25,59,42,TL6787933114,P6250005,P6250006,3,0,Sparganium erectum,"Range 2-5, near the artificial lodge, takes in the edge of the central ditch, standing water 10%dead stems only"
+2023-06-25,59,42,TL6787933114,P6250005,P6250006,3,0,Carex pendula,"Range 2-5, near the artificial lodge, takes in the edge of the central ditch, standing water 10%dead stems only"
+2023-06-25,59,42,TL6787933114,P6250005,P6250006,3,0,Apium nodiflorum,"Range 2-5, near the artificial lodge, takes in the edge of the central ditch, standing water 10%dead stems only"
+2023-06-25,59,42,TL6787933114,P6250005,P6250006,3,0,Mentha aquatica,"Range 2-5, near the artificial lodge, takes in the edge of the central ditch, standing water 10%dead stems only"
+2023-06-25,59,42,TL6787933114,P6250005,P6250006,3,0,Ranunculus repens,"Range 2-5, near the artificial lodge, takes in the edge of the central ditch, standing water 10%dead stems only"
+2023-06-25,59,42,TL6787933114,P6250005,P6250006,3,0,Filipendula ulmaria,"Range 2-5, near the artificial lodge, takes in the edge of the central ditch, standing water 10%dead stems only"
+2023-06-25,59,42,TL6787933114,P6250005,P6250006,3,0,Solanum dulcamara,"Range 2-5, near the artificial lodge, takes in the edge of the central ditch, standing water 10%dead stems only"
+2023-06-25,59,42,TL6787933114,P6250005,P6250006,3,0,Poa trivialis,"Range 2-5, near the artificial lodge, takes in the edge of the central ditch, standing water 10%dead stems only"
+2023-06-25,59,42,TL6787933114,P6250005,P6250006,3,0,Veronica beccabunga,"Range 2-5, near the artificial lodge, takes in the edge of the central ditch, standing water 10%dead stems only"
+2023-06-25,59,42,TL6787933114,P6250005,P6250006,3,0,Agrostis stolonifera,"Range 2-5, near the artificial lodge, takes in the edge of the central ditch, standing water 10%dead stems only - check sample"
+2023-06-25,59,42,TL6787933114,P6250005,P6250006,3,0,Angelica sylvestris,"Range 2-5, near the artificial lodge, takes in the edge of the central ditch, standing water 10%dead stems only"
+2023-06-25,44,43,TL6784833084,P6250007,P6250008,1,60,Urtica dioica,"Acer campestre, Ulmus procera, Sambucus nigra"
+2023-06-25,44,43,TL6784833084,P6250007,P6250008,1,60,Glechoma hederacea,"Acer campestre, Ulmus procera, Sambucus nigra"
+2023-06-25,44,43,TL6784833084,P6250007,P6250008,1,60,Mercurialis perennis,"Acer campestre, Ulmus procera, Sambucus nigra"
+2023-06-25,44,43,TL6784833084,P6250007,P6250008,1,60,Rubus fruticosus agg.,"Acer campestre, Ulmus procera, Sambucus nigra"
+2023-06-25,44,43,TL6784833084,P6250007,P6250008,1,60,Acer campestre,"Acer campestre, Ulmus procera, Sambucus nigra - small tree canopy and a sapling"
+2023-06-25,44,43,TL6784833084,P6250007,P6250008,1,60,Carex pendula,"Acer campestre, Ulmus procera, Sambucus nigra"
+2023-06-25,44,43,TL6784833084,P6250007,P6250008,1,60,Silene dioica,"Acer campestre, Ulmus procera, Sambucus nigra"
+2023-06-25,44,43,TL6784833084,P6250007,P6250008,1,60,Brachypodium sylvaticum,"Acer campestre, Ulmus procera, Sambucus nigra"
+2023-06-25,44,43,TL6784833084,P6250007,P6250008,1,60,Sambucus nigra,"Acer campestre, Ulmus procera, Sambucus nigra"
+2023-06-25,44,43,TL6784833084,P6250007,P6250008,1,60,Holcus lanatus,"Acer campestre, Ulmus procera, Sambucus nigra"
+2023-06-25,44,43,TL6784833084,P6250007,P6250008,1,60,Crataegus monogyna,"Acer campestre, Ulmus procera, Sambucus nigra - seedling"
+2023-06-25,54,44,TL6782133115,P6250009,P6250010,1,60,Rubus fruticosus agg.,"Bramble thicket, no standing water.  Dam almost reaches this point.Tila x.europaea, Sambucus nigra"
+2023-06-25,54,44,TL6782133115,P6250009,P6250010,1,60,Mercurialis perennis,"Bramble thicket, no standing water.  Dam almost reaches this point.Tila x.europaea, Sambucus nigra"
+2023-06-25,54,44,TL6782133115,P6250009,P6250010,1,60,Glechoma hederacea,"Bramble thicket, no standing water.  Dam almost reaches this point.Tila x.europaea, Sambucus nigra"
+2023-06-25,54,44,TL6782133115,P6250009,P6250010,1,60,Urtica dioica,"Bramble thicket, no standing water.  Dam almost reaches this point.Tila x.europaea, Sambucus nigra"
+2023-06-25,54,44,TL6782133115,P6250009,P6250010,1,60,Galium aparine,"Bramble thicket, no standing water.  Dam almost reaches this point.Tila x.europaea, Sambucus nigra"
+2023-06-25,54,44,TL6782133115,P6250009,P6250010,1,60,Silene dioica,"Bramble thicket, no standing water.  Dam almost reaches this point.Tila x.europaea, Sambucus nigra"
+2023-06-25,3,45,TL6778933143,P6250011,P6250012,1,60,Rubus fruticosus agg.,"Quercus sp., Hybrid Poplar"
+2023-06-25,3,45,TL6778933143,P6250011,P6250012,1,60,Urtica dioica,"Quercus sp., Hybrid Poplar"
+2023-06-25,3,45,TL6778933143,P6250011,P6250012,1,60,Galium aparine,"Quercus sp., Hybrid Poplar"
+2023-06-25,3,45,TL6778933143,P6250011,P6250012,1,60,Mercurialis perennis,"Quercus sp., Hybrid Poplar"
+2023-06-25,3,45,TL6778933143,P6250011,P6250012,1,60,Carduus crispus,"Quercus sp., Hybrid Poplar"
+2023-06-25,38,46,TL6772933206,P6250013,P6250014,1,45,Mercurialis perennis,"Fallen tree so could not get any closer to the pointTila x.europaea, Ulmus procera.  "
+2023-06-25,38,46,TL6772933206,P6250013,P6250014,1,45,Urtica dioica,"Fallen tree so could not get any closer to the pointTila x.europaea, Ulmus procera.  "
+2023-06-25,38,46,TL6772933206,P6250013,P6250014,1,45,Galium aparine,"Fallen tree so could not get any closer to the pointTila x.europaea, Ulmus procera.  "
+2023-06-25,38,46,TL6772933206,P6250013,P6250014,1,45,Circaea lutetiana,"Fallen tree so could not get any closer to the pointTila x.europaea, Ulmus procera.  "
+2023-06-25,33,47,TL6769933208,P6250015,P6250016,1,75,Urtica dioica,Crataegus monogyna
+2023-06-25,33,47,TL6769933208,P6250015,P6250016,1,75,Glechoma hederacea,Crataegus monogyna
+2023-06-25,33,47,TL6769933208,P6250015,P6250016,1,75,Poa trivialis,Crataegus monogyna
+2023-06-25,33,47,TL6769933208,P6250015,P6250016,1,75,Arrhenatherum elatius,Crataegus monogyna
+2023-06-25,33,47,TL6769933208,P6250015,P6250016,1,75,Sisymbrium officinale,Crataegus monogyna
+2023-06-25,33,47,TL6769933208,P6250015,P6250016,1,75,Lolium perenne,Crataegus monogyna
+2023-06-25,33,47,TL6769933208,P6250015,P6250016,1,75,Bromus sterilis,Crataegus monogyna
+2023-06-25,33,47,TL6769933208,P6250015,P6250016,1,75,Galium aparine,Crataegus monogyna
+2023-06-25,33,47,TL6769933208,P6250015,P6250016,1,75,Myosotis arvensis,Crataegus monogyna
+2023-06-25,33,47,TL6769933208,P6250015,P6250016,1,75,Cirsium vulgare,Crataegus monogyna
+2023-06-25,33,47,TL6769933208,P6250015,P6250016,1,75,Carduus crispus,Crataegus monogyna
+2023-06-25,33,47,TL6769933208,P6250015,P6250016,1,75,Crataegus monogyna,Crataegus monogyna - tree
+2023-06-25,33,47,TL6769933208,P6250015,P6250016,1,75,Sambucus nigra,Crataegus monogyna - shrub layer
+2023-06-25,33,47,TL6769933208,P6250015,P6250016,1,75,Mercurialis perennis,Crataegus monogyna
+2023-06-25,33,47,TL6769933208,P6250015,P6250016,1,75,Alliaria petiolata,Crataegus monogyna
+2023-06-25,33,47,TL6769933208,P6250015,P6250016,1,75,Ribes rubrum,Crataegus monogyna
+2023-06-25,33,47,TL6769933208,P6250015,P6250016,1,75,Rumex obtusifolius,Crataegus monogyna
+2023-06-25,33,47,TL6769933208,P6250015,P6250016,1,75,Holcus lanatus,Crataegus monogyna
+2023-06-25,62,48,TL6766733264,P6250017,P6250018,1,40,Rubus fruticosus agg.,"Salix alba var.caerulea (high), Sambucus nigra shrub layer (low)"
+2023-06-25,62,48,TL6766733264,P6250017,P6250018,1,40,Sambucus nigra,"Salix alba var.caerulea (high), Sambucus nigra shrub layer (low)"
+2023-06-25,62,48,TL6766733264,P6250017,P6250018,1,40,Urtica dioica,"Salix alba var.caerulea (high), Sambucus nigra shrub layer (low)"
+2023-06-25,62,48,TL6766733264,P6250017,P6250018,1,40,Arrhenatherum elatius,"Salix alba var.caerulea (high), Sambucus nigra shrub layer (low)"
+2023-06-25,62,48,TL6766733264,P6250017,P6250018,1,40,Holcus lanatus,"Salix alba var.caerulea (high), Sambucus nigra shrub layer (low)"
+2023-06-25,62,48,TL6766733264,P6250017,P6250018,1,40,Poa trivialis,"Salix alba var.caerulea (high), Sambucus nigra shrub layer (low)"
+2023-06-25,62,48,TL6766733264,P6250017,P6250018,1,40,Dactylis glomerata,"Salix alba var.caerulea (high), Sambucus nigra shrub layer (low)"
+2023-06-25,62,48,TL6766733264,P6250017,P6250018,1,40,Glechoma hederacea,"Salix alba var.caerulea (high), Sambucus nigra shrub layer (low)"
+2023-06-25,23,49,TL6772933177,P6250019,P6250020,1,35,Urtica dioica,Crataegus monogyna
+2023-06-25,23,49,TL6772933177,P6250019,P6250020,1,35,Holcus lanatus,Crataegus monogyna
+2023-06-25,23,49,TL6772933177,P6250019,P6250020,1,35,Arrhenatherum elatius,Crataegus monogyna
+2023-06-25,23,49,TL6772933177,P6250019,P6250020,1,35,Bromus hordeaceus,Crataegus monogyna
+2023-06-25,23,49,TL6772933177,P6250019,P6250020,1,35,Rumex obtusifolius,Crataegus monogyna
+2023-06-25,23,49,TL6772933177,P6250019,P6250020,1,35,Dactylis glomerata,Crataegus monogyna
+2023-06-25,23,49,TL6772933177,P6250019,P6250020,1,35,Galium aparine,Crataegus monogyna
+2023-06-25,23,49,TL6772933177,P6250019,P6250020,1,35,Ulmus procera,Crataegus monogyna - sucker/seedling
+2023-06-25,23,49,TL6772933177,P6250019,P6250020,1,35,Brassica napus,Crataegus monogyna
+2023-06-25,23,49,TL6772933177,P6250019,P6250020,1,35,Rumex conglomeratus,Crataegus monogyna - check sample
+2023-06-25,23,49,TL6772933177,P6250019,P6250020,1,35,Mercurialis perennis,Crataegus monogyna
+2023-06-25,24,50,TL6775933180,P6250021,P6250022,1,5,Rubus fruticosus agg.,Prunus spinosa nearly under power line
+2023-06-25,24,50,TL6775933180,P6250021,P6250022,1,5,Prunus spinosa,Prunus spinosa nearly under power line
+2023-06-25,24,50,TL6775933180,P6250021,P6250022,1,5,Urtica dioica,Prunus spinosa nearly under power line
+2023-06-25,24,50,TL6775933180,P6250021,P6250022,1,5,Mercurialis perennis,Prunus spinosa nearly under power line
+2023-06-25,24,50,TL6775933180,P6250021,P6250022,1,5,Glechoma hederacea,Prunus spinosa nearly under power line
+2023-06-25,24,50,TL6775933180,P6250021,P6250022,1,5,Galium aparine,Prunus spinosa nearly under power line
+2023-06-25,24,50,TL6775933180,P6250021,P6250022,1,5,Rosa canina agg.,Prunus spinosa nearly under power line
+2023-06-25,24,50,TL6775933180,P6250021,P6250022,1,5,Carex pendula,Prunus spinosa nearly under power line
+2023-06-25,24,50,TL6775933180,P6250021,P6250022,1,5,Myosotis sylvatica,Prunus spinosa nearly under power line
+2023-06-25,24,50,TL6775933180,P6250021,P6250022,1,5,Ulmus procera,Prunus spinosa nearly under power line
+2023-06-25,6,51,TL6776233145,P6250023,P6250024,1,50,Urtica dioica,Crataegus monogyna.  Sample point is by hedge and fence
+2023-06-25,6,51,TL6776233145,P6250023,P6250024,1,50,Dactylis glomerata,Crataegus monogyna.  Sample point is by hedge and fence
+2023-06-25,6,51,TL6776233145,P6250023,P6250024,1,50,Bromus sterilis,Crataegus monogyna.  Sample point is by hedge and fence
+2023-06-25,6,51,TL6776233145,P6250023,P6250024,1,50,Holcus lanatus,Crataegus monogyna.  Sample point is by hedge and fence
+2023-06-25,6,51,TL6776233145,P6250023,P6250024,1,50,Poa trivialis,Crataegus monogyna.  Sample point is by hedge and fence
+2023-06-25,6,51,TL6776233145,P6250023,P6250024,1,50,Crataegus monogyna,Crataegus monogyna.  Sample point is by hedge and fence - tree
+2023-06-25,6,51,TL6776233145,P6250023,P6250024,1,50,Bryonia dioica,Crataegus monogyna.  Sample point is by hedge and fence
+2023-06-25,6,51,TL6776233145,P6250023,P6250024,1,50,Rumex obtusifolius,Crataegus monogyna.  Sample point is by hedge and fence
+2023-06-25,30,52,TL6787933055,P6250025,P6250026,1,98,Urtica dioica,"Acer campestre, Sambucus nigra"
+2023-06-25,30,52,TL6787933055,P6250025,P6250026,1,98,Glechoma hederacea,"Acer campestre, Sambucus nigra"
+2023-06-25,30,52,TL6787933055,P6250025,P6250026,1,98,Galium aparine,"Acer campestre, Sambucus nigra"
+2023-06-25,30,52,TL6787933055,P6250025,P6250026,1,98,Acer campestre,"Acer campestre, Sambucus nigra"
+2023-06-25,30,52,TL6787933055,P6250025,P6250026,1,98,Sambucus nigra,"Acer campestre, Sambucus nigra"
+2023-06-25,30,52,TL6787933055,P6250025,P6250026,1,98,Rubus fruticosus agg.,"Acer campestre, Sambucus nigra"
+2023-06-25,30,52,TL6787933055,P6250025,P6250026,1,98,Silene dioica,"Acer campestre, Sambucus nigra"
