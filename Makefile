@@ -36,15 +36,16 @@ gitpod-before:  # Customize the terminal and install global project dependencies
 	-if id -u gitpod &>/dev/null; then sudo usermod -aG sudo gitpod; fi
 	sudo bash -c "echo 'server-user=gitpod' >> /etc/rstudio/rserver.conf"
 	sudo bash -c "echo 'auth-none=1' >> /etc/rstudio/rserver.conf"
-	# Ensure the pyenv is configured for the user.
-	echo 'eval "$$(pyenv init - --no-rehash)"' >> ~/.bashrc
-	-sudo chmod -R 777 ${PYENV_ROOT}
 	# For convenience open up the permissions on the TexLive directory
 	-sudo chmod -R 777 /usr/local/texlive
 	# Set the git merge strategy
 	-git config pull.rebase false
 	# Get Starship running
 	echo 'eval "$$(starship init bash)"' >> ~/.bashrc
+	# Ensure the pyenv is configured for the user.
+	echo '# The pyenv init has to be last for some reason.' >> ~/.bashrc
+	echo 'eval "$$(pyenv init - --no-rehash)"' >> ~/.bashrc
+	-sudo chmod -R 777 ${PYENV_ROOT}
 
 gitpod-init:  # Copy accross the pre-built .venv and the .R libraries.
 	cp -r /app/.venv .venv
