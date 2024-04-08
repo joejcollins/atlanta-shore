@@ -1,16 +1,17 @@
 """Schema for a sampling point."""
+
 from pydantic import BaseModel
+
+from python_src.models import geo_point
 
 
 class SamplePoint(BaseModel):
     """The sample points were laid out on a 30 metre grid.
 
-    Following the British National Grid. The eastings and northings are the coordinates
-    on the grid."""
+    These are the points where the observations are made so then have unique
+    identifiers and descriptions for convenience.
+    """
+
     id: int
+    geo_point: geo_point.GeoPoint
     description: str
-    eastings: int
-    northings: int
-    latitude: float
-    longitude: float
-    os_grid_ref: str
