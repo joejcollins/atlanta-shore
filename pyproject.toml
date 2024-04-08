@@ -20,7 +20,6 @@ classifiers = [
 dependencies = [
     "black",
     "debugpy",  # only required for debugging, not needed for production.
-    "flake8",
     "lxml",  # for parsing GPX files.
     "mkdocs",
     "mkdocs-material",  # theme for the documentation.
