@@ -72,7 +72,7 @@ report:  # Report the python version and pip list.
 		print(installed_packages[c('Package', 'LibPath')])"
 
 venv:  # Install the requirements for Python and R.
-	python -m venv .venv
+	python3 -m venv .venv
 	.venv/bin/python -m pip install --upgrade pip setuptools
 	.venv/bin/python -m pip install -r requirements.txt
 	Rscript "setup.R"
