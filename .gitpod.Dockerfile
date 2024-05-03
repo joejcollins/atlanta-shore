@@ -35,8 +35,8 @@ RUN apt-get --quiet update
 RUN sudo apt-get install --assume-yes python3.10-venv
 WORKDIR /app
 RUN mkdir -p /app/.R/library
-COPY pyproject.toml requirements.txt setup.R Makefile /app/
-# RUN make venv
+COPY pyproject.toml requirements.txt Makefile /app/
+RUN make venv
 
 # Add a few LaTeX packages that aren't already installed.
 ## User is rstudio because they are to be used in Rstudio.
