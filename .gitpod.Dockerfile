@@ -31,6 +31,8 @@ RUN sh -c "$(curl -fsSL https://starship.rs/install.sh)" -- --yes \
  && echo 'eval "$(starship init bash)"' >> ~/.bashrc
 
 # Build the Python virtual environment and R library so they are available for other users.
+RUN apt-get --quiet update
+RUN sudo apt-get install --assume-yes python3.10-venv
 WORKDIR /app
 RUN mkdir -p /app/.R/library
 COPY pyproject.toml requirements.txt setup.R Makefile /app/
