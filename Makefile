@@ -42,9 +42,6 @@ gitpod-before:  # Customize the terminal and install global project dependencies
 	-git config pull.rebase false
 	# Get Starship running.
 	echo 'eval "$$(starship init bash)"' >> ~/.bashrc
-	# Ensure the pyenv is configured for the user.
-	echo 'eval "$$(pyenv init - --no-rehash)"' >> ~/.bashrc
-	-sudo chmod -R 777 ${PYENV_ROOT}
 	# Remove the .bash_profile so the .bashrc gets sourced.
 	rm -f ~/.bash_profile
 
@@ -75,7 +72,6 @@ report:  # Report the python version and pip list.
 		print(installed_packages[c('Package', 'LibPath')])"
 
 venv:  # Install the requirements for Python and R.
-	-pyenv install --skip-existing
 	python -m venv .venv
 	.venv/bin/python -m pip install --upgrade pip setuptools
 	.venv/bin/python -m pip install -r requirements.txt
