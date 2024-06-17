@@ -3,7 +3,7 @@ waypoint,1
 grid_reference,SO4616896363
 wetness,1
 canopy,50
-species,Rubus fruticosus
+species,Rubus fruticosus agg.,
 ,Mercurialis perennis
 ,Sambucus nigra
 ,Hyacinthoides non-scripta
@@ -15,7 +15,7 @@ waypoint,2
 grid_reference,SO4616496390
 wetness,1
 canopy,10
-species,Rubus fruticosus
+species,Rubus fruticosus agg.,
 ,Geranium robertianum
 ,Glechoma hederacea
 ,Stellaria holostea
@@ -34,7 +34,7 @@ wetness,1
 canopy,40
 species,Stellaria holostea
 ,Corylus avellana
-,Rubus fruticosus
+,Rubus fruticosus agg.,
 ,Silene dioica
 ,Rumex sanguineus
 ,Rumex acetosa
