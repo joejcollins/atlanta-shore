@@ -151,7 +151,7 @@ grid_reference,TL6788033143,
 photo_up,P6230025,
 photo_down,P6230026,
 wetness,1,Standing water 0%
-canopy,90,"Tilia species, Acer campestre"
+canopy,90,"Tilia sp., Acer campestre"
 species,Mercurialis perennis,
 ,Urtica dioica,
 ,Galium aparine,
@@ -194,7 +194,7 @@ grid_reference,TL6781933174,
 photo_up,P6230031,
 photo_down,P6230032,
 wetness,2,Standing water 0%
-canopy,60,"mainly Tilia species, Sambucus nigra"
+canopy,60,"mainly Tilia sp., Sambucus nigra"
 species,Silene dioica,
 ,Stachys sylvatica,
 ,Mercurialis perennis,
@@ -203,7 +203,7 @@ species,Silene dioica,
 ,Sambucus nigra,
 ,Circaea lutetiana,
 ,Poa trivialis,
-,Tilia species,pole stage
+,Tilia sp.,pole stage
 ,Ulmus procera,
 ,Ranunculus repens,
 quadrat,4,
