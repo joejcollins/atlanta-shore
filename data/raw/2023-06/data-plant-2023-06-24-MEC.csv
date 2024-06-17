@@ -130,11 +130,11 @@ wetness,1,Standing water 0%
 canopy,95,Sambucus nigra
 species,Mercurialis perennis,
 ,Myosotis sylvatica,
-,Sambucus  nigra,
+,Sambucus nigra,
 ,Galium aparine,
 ,Glechoma hederacea,
 ,Ulmus procera,sapling
-,Sambucus  nigra,
+,Sambucus nigra,
 quadrat,39,
 waypoint,30,
 grid_reference,TL6776033204,
@@ -159,7 +159,7 @@ photo_up,P6240020,
 photo_down,P6240021,
 wetness,1,
 canopy,50,"Populus alba, Sambucus nigra"
-species,Sambucus  nigra,
+species,Sambucus nigra,
 ,Populus alba,mature tree
 ,Glechoma hederacea,
 ,Urtica dioica,
