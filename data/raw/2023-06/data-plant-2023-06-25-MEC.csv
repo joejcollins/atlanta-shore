@@ -49,7 +49,7 @@ species,S. x uplandicum,
 ,Mentha aquatica,
 ,Veronica beccabunga,
 ,Ranunculus repens,
-,Ulmus procera,seedling
+,Ulmus procera agg.,seedling
 ,Juncus effusus,
 quadrat,59,
 waypoint,42,
@@ -76,7 +76,7 @@ grid_reference,TL6784833084,
 photo_up,P6250007,
 photo_down,P6250008,
 wetness,1,
-canopy,60,"Acer campestre, Ulmus procera, Sambucus nigra"
+canopy,60,"Acer campestre, Ulmus procera agg., Sambucus nigra"
 species,Urtica dioica,
 ,Glechoma hederacea,
 ,Mercurialis perennis,
@@ -178,7 +178,7 @@ species,Urtica dioica,
 ,Rumex obtusifolius,
 ,Dactylis glomerata,
 ,Galium aparine,
-,Ulmus procera,sucker/seedling
+,Ulmus procera agg.,sucker/seedling
 ,Brassica napus,
 ,Rumex conglomeratus,check sample
 ,Mercurialis perennis,
@@ -198,7 +198,7 @@ species,Rubus fruticosus agg.,
 ,Rosa canina agg.,
 ,Carex pendula,
 ,Myosotis sylvatica,
-,Ulmus procera,
+,Ulmus procera agg.,
 quadrat,6,
 waypoint,51,
 grid_reference,TL6776233145,

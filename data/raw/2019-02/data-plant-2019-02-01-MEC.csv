@@ -110,7 +110,7 @@ species,Urtica dioica,
 ,Poa trivialis,Atypical form with blunt ligules?
 ,Fraxinus excelsior,
 ,Cornus sanguinea,
-,Ulmus procera,More likely Ulmus procera as U.minor sensu prefers acidic soils so changed to U.procera
+,Ulmus procera agg.,More likely Ulmus procera as U.minor sensu prefers acidic soils so changed to U.procera
 ,Kindbergia praelonga,
 ,Brachythecium rutabulum,
 quadrat,41,
@@ -186,7 +186,7 @@ species,Urtica dioica,
 ,Helosciadium nodiflorum,
 ,Poa trivialis,
 ,Sambucus nigra,
-,Ulmus procera,"Ulmus minor sensu is a tree of more acidic conditions, more likely Ulmus procera so changed to U.procera"
+,Ulmus procera agg.,"Ulmus minor sensu is a tree of more acidic conditions, more likely Ulmus procera so changed to U.procera"
 ,Solanum dulcamara,
 ,Kindbergia praelonga,
 ,Brachythecium rutabulum,
@@ -462,7 +462,7 @@ species,Carex pendula,
 ,Rubus fruticosus agg.,
 ,Urtica dioica,
 ,Mercurialis perennis,
-,Ulmus procera,
+,Ulmus procera agg.,
 ,Ficaria verna,
 ,Galium aparine,
 ,Sambucus nigra,

@@ -11,7 +11,7 @@ species,Urtica dioica,
 ,Mercurialis perennis,
 ,Cirsium arvense,
 ,Juncus effusus,
-,Ulmus procera,Changed from U.minor sensu as this species prefers acidic soil and original determination on twigs and dried leaves only.
+,Ulmus procera agg.,Changed from U.minor sensu as this species prefers acidic soil and original determination on twigs and dried leaves only.
 ,Ficaria verna,
 ,Glechoma hederacea,
 ,Holcus mollis,
@@ -110,7 +110,7 @@ species,Jacobaea vulgaris,
 ,Kindbergia praelonga,
 ,Brachythecium rutabulum,
 ,Fissidens taxifolius,
-,Ulmus procera,Changed from U.minor sensu as this species prefers acidic soil.
+,Ulmus procera agg.,Changed from U.minor sensu as this species prefers acidic soil.
 quadrat,33,
 waypoint,7,
 grid_reference,TL6769833216,

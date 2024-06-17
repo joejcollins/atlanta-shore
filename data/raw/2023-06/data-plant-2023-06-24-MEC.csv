@@ -115,11 +115,11 @@ grid_reference,TL6782033208,
 photo_up,P6240014,
 photo_down,P6240015,
 wetness,1,"near fenced in pylon, up dry bank"
-canopy,90,"Ulmus procera, Acer campestre"
+canopy,90,"Ulmus procera agg., Acer campestre"
 species,Mercurialis perennis,
 ,Urtica dioica,
 ,Glechoma hederacea,
-,Ulmus procera,seedling or sucker
+,Ulmus procera agg.,seedling or sucker
 ,Poa trivialis,
 quadrat,36,
 waypoint,29,
@@ -133,7 +133,7 @@ species,Mercurialis perennis,
 ,Sambucus nigra,
 ,Galium aparine,
 ,Glechoma hederacea,
-,Ulmus procera,sapling
+,Ulmus procera agg.,sapling
 ,Sambucus nigra,
 quadrat,39,
 waypoint,30,

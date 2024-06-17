@@ -143,7 +143,7 @@ species,Urtica dioica,
 ,Mercurialis perennis,
 ,Glechoma hederacea,
 ,Quercus sp.,standard
-,Ulmus procera,pole stage
+,Ulmus procera agg.,pole stage
 ,Acer campestre,standard
 quadrat,9,
 waypoint,15,
@@ -156,7 +156,7 @@ species,Mercurialis perennis,
 ,Urtica dioica,
 ,Galium aparine,
 ,Glechoma hederacea,
-,Ulmus procera,seedling
+,Ulmus procera agg.,seedling
 quadrat,8,
 waypoint,16,
 grid_reference,TL6784833145,
@@ -204,7 +204,7 @@ species,Silene dioica,
 ,Circaea lutetiana,
 ,Poa trivialis,
 ,Tilia sp.,pole stage
-,Ulmus procera,
+,Ulmus procera agg.,
 ,Ranunculus repens,
 quadrat,4,
 waypoint,19,
