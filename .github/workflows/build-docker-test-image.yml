@@ -1,36 +1,51 @@
-name: Build Docker test image and push to Dockerhub
+---
+name: Build Docker Image
 
 on:
   push:
+    branches: [ main ]
     paths:
+      - '.github/workflows/build-docker-image.yml'
+      - 'Dockerfile'
       - 'requirements.txt'
-      - '.gitpod.Dockerfile'
-      - '.github/workflows/build-docker-test-image.yml'
+      - 'setup.R'
 
 jobs:
   build-and-push:
     runs-on: ubuntu-latest
 
+    permissions:
+      contents: read
+      packages: write
+      attestations: write
+
     steps:
-    - name: Checkout the repo.
+    - name: Checkout the repo to depth of 2 so we can see what has changed (if needed).
       uses: actions/checkout@v4
+      with:
+        fetch-depth: 2
+        submodules: false
+        clean: true
 
-    - name: Set up Docker Buildx
-      uses: docker/setup-buildx-action@v3
-
-    - name: Login to Docker Hub
+    - name: Docker login
       uses: docker/login-action@v3
       with:
-        username: joejcollins
-        password: ${{ secrets.DOCKERHUB_TOKEN }}
+        registry: ghcr.io
+        username: ${{ github.actor }}
+        password: ${{ secrets.GITHUB_TOKEN }}
 
-    - name: Build and Push Docker Image
-      id: docker_build
+    - name: Set short git commit SHA
+      run: |
+        calculatedSha=$(git rev-parse --short ${{ github.sha }})
+        echo "COMMIT_SHORT_SHA=$calculatedSha" >> $GITHUB_ENV
+
+    - name: Build and Push Production Docker Image
       uses: docker/build-push-action@v5
       with:
         context: .
-        file: ./.gitpod.Dockerfile
+        file: ./Dockerfile
         push: true
         tags: |
-          joejcollins/atlanta-shore:latest
-          joejcollins/atlanta-shore:${{ github.sha }}
+          ghcr.io/joejcollins/atlanta-shore:latest
+          ghcr.io/joejcollins/atlanta-shore:${{ env.COMMIT_SHORT_SHA }}
+...

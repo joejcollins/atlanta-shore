@@ -13,17 +13,17 @@ jobs:
       options: --user root # needs to be root or the checkout fails.
     env:
       GITHUB_PAT: ${{ secrets.PAT_NO_PERMISSIONS }}
-    steps:
-      - name: Checkout the repo (ensuring the user is root ^^^ or it fails).
-        uses: actions/checkout@v4
-        with:
-          submodules: false
-          clean: true
-      - name: Create the virtual environment and run tests.
-        run: |
-          export GITPOD_REPO_ROOT="$(pwd)"
-          make gitpod-before
-          make gitpod-init
-          make report
-          make test
 
+    steps:
+    - uses: actions/checkout@v4
+      with:
+        submodules: false
+        clean: true
+
+    - name: Symlink the prebuilt assets and run tests.
+      run: |
+        ln -snf /app/.venv .venv
+        .venv/bin/python -m pip install --editable .
+        ln -snf /app/.R .R
+        make test
+...
