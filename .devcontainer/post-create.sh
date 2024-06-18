@@ -1,3 +1,2 @@
-# Create keys and run the playbook.
-make gitpod-before
-make gitpod-init
+# Make the virtual environment.
+make venv

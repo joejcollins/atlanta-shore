@@ -10,7 +10,7 @@ clean:  # Remove all build, test, coverage and Python artifacts.
 
 compile:  # Compile the requirements files using pip-tools.
 	rm -f requirements.*
-	.venv/bin/pip-compile --output-file=requirements.txt && echo "-e ." >> requirements.txt
+	.venv/bin/pip-compile --output-file=requirements.txt
 
 .PHONY: help
 help: # Show help for each of the makefile recipes.
@@ -58,8 +58,10 @@ gitpod-command:  # Ensure that the rserver is available.
 	sudo rserver
 	sudo pkill rserver
 
-lint:  # Lint the code with ruff, yamllint and ansible-lint.
-	.venv/bin/python -m ruff check .
+lint:  # Lint the code with ruff and sourcery.
+	.venv/bin/python -m ruff check ./python_src ./tests
+	.venv/bin/sourcery login --token $$SOURCERY_TOKEN
+	.venv/bin/sourcery review ./python_src ./tests --check --no-summary
 
 mypy:  # Type check the code with mypy.
 	.venv/bin/python -m mypy ./python_src ./tests
@@ -75,6 +77,8 @@ venv:  # Install the requirements for Python and R.
 	python3 -m venv .venv
 	.venv/bin/python -m pip install --upgrade pip setuptools
 	.venv/bin/python -m pip install -r requirements.txt
+	-.venv/bin/python -m pip install --editable .
+	mkdir --parents .R/library
 	Rscript "setup.R"
 
 test:  # Run the tests.
