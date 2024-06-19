@@ -13,6 +13,7 @@
                 "charliermarsh.ruff",
                 "eamodio.gitlens",
                 "james-yu.latex-workshop",
+                "mechatroner.rainbow-csv",
                 "ms-python.black-formatter",
                 "ms-python.mypy-type-checker",
                 "ms-python.python",

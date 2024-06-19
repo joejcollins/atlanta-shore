@@ -48,6 +48,7 @@
         "lubridate",
         "lxml",
         "magrittr",
+        "mechatroner",
         "mypy",
         "nolint",
         "northings",
