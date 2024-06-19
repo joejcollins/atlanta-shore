@@ -1,6 +1,6 @@
 """Confirm that the settings module is working as expected."""
 
-from python_src.settings import ATLANTA_SHORE
+from atlanta_shore.settings import ATLANTA_SHORE
 
 
 def test_settings() -> None:

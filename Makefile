@@ -83,4 +83,4 @@ venv:  # Install the requirements for Python and R.
 
 test:  # Run the tests (tests in Github Actions are run as 'root' so add .libPaths)
 	.venv/bin/python -m pytest ./tests/pytest
-	Rscript -e ".libPaths('.R/library'); devtools::test()"
+	Rscript -e ".libPaths('.R/library'); devtools::test(reporter = 'summary')"
