@@ -83,4 +83,4 @@ venv:  # Install the requirements for Python and R.
 
 test:  # Run the tests.
 	.venv/bin/python -m pytest ./tests/pytest
-	Rscript -e "devtools::test()"
+	Rscript -e ".libPaths('.R/library'); testthat::test_dir('tests')"
