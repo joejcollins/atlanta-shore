@@ -9,6 +9,7 @@
         "ms-python.isort",
         "ms-python.mypy-type-checker",
         "ms-python.python",
+        "ms-toolsai.jupyter",
         "RDebugger.r-debugger",
         "reditorsupport.r",
         "streetsidesoftware.code-spell-checker",

@@ -6,45 +6,18 @@
 #
 annotated-types==0.7.0
     # via pydantic
-anyio==4.4.0
-    # via
-    #   httpx
-    #   jupyter-server
-argon2-cffi==23.1.0
-    # via jupyter-server
-argon2-cffi-bindings==21.2.0
-    # via argon2-cffi
-arrow==1.3.0
-    # via isoduration
 asttokens==2.4.1
     # via stack-data
-async-lru==2.0.4
-    # via jupyterlab
-attrs==23.2.0
-    # via
-    #   jsonschema
-    #   referencing
 babel==2.15.0
-    # via
-    #   jupyterlab-server
-    #   mkdocs-material
-beautifulsoup4==4.12.3
-    # via nbconvert
+    # via mkdocs-material
 black==24.4.2
     # via atlanta_shore (pyproject.toml)
-bleach==6.1.0
-    # via nbconvert
 build==1.2.1
     # via pip-tools
 certifi==2024.6.2
-    # via
-    #   httpcore
-    #   httpx
-    #   requests
+    # via requests
 cffi==1.16.0
-    # via
-    #   argon2-cffi-bindings
-    #   rchitect
+    # via rchitect
 charset-normalizer==3.3.2
     # via requests
 click==8.1.7
@@ -58,122 +31,65 @@ comm==0.2.2
     # via
     #   ipykernel
     #   ipywidgets
+contourpy==1.2.1
+    # via matplotlib
+cycler==0.12.1
+    # via matplotlib
 debugpy==1.8.1
     # via
     #   atlanta_shore (pyproject.toml)
     #   ipykernel
 decorator==5.1.1
     # via ipython
-defusedxml==0.7.1
-    # via nbconvert
 exceptiongroup==1.2.1
     # via
-    #   anyio
     #   ipython
     #   pytest
 executing==2.0.1
     # via stack-data
-fastjsonschema==2.20.0
-    # via nbformat
-fqdn==1.5.1
-    # via jsonschema
+fonttools==4.53.0
+    # via matplotlib
 ghp-import==2.1.0
     # via mkdocs
-h11==0.14.0
-    # via httpcore
-httpcore==1.0.5
-    # via httpx
-httpx==0.27.0
-    # via jupyterlab
 idna==3.7
+    # via requests
+imageio==2.34.1
     # via
-    #   anyio
-    #   httpx
-    #   jsonschema
-    #   requests
+    #   atlanta_shore (pyproject.toml)
+    #   scikit-image
 iniconfig==2.0.0
     # via pytest
 ipykernel==6.29.4
-    # via
-    #   jupyter
-    #   jupyter-console
-    #   jupyterlab
-    #   qtconsole
+    # via atlanta_shore (pyproject.toml)
+ipympl==0.9.4
+    # via atlanta_shore (pyproject.toml)
 ipython==8.25.0
     # via
     #   ipykernel
+    #   ipympl
     #   ipywidgets
-    #   jupyter-console
+ipython-genutils==0.2.0
+    # via ipympl
 ipywidgets==8.1.3
-    # via jupyter
-isoduration==20.11.0
-    # via jsonschema
+    # via ipympl
 jedi==0.19.1
     # via ipython
 jinja2==3.1.4
     # via
-    #   jupyter-server
-    #   jupyterlab
-    #   jupyterlab-server
     #   mkdocs
     #   mkdocs-material
-    #   nbconvert
-json5==0.9.25
-    # via jupyterlab-server
-jsonpointer==3.0.0
-    # via jsonschema
-jsonschema[format-nongpl]==4.22.0
-    # via
-    #   jupyter-events
-    #   jupyterlab-server
-    #   nbformat
-jsonschema-specifications==2023.12.1
-    # via jsonschema
-jupyter==1.0.0
-    # via atlanta_shore (pyproject.toml)
 jupyter-client==8.6.2
-    # via
-    #   ipykernel
-    #   jupyter-console
-    #   jupyter-server
-    #   nbclient
-    #   qtconsole
-jupyter-console==6.6.3
-    # via jupyter
+    # via ipykernel
 jupyter-core==5.7.2
     # via
     #   ipykernel
     #   jupyter-client
-    #   jupyter-console
-    #   jupyter-server
-    #   jupyterlab
-    #   nbclient
-    #   nbconvert
-    #   nbformat
-    #   qtconsole
-jupyter-events==0.10.0
-    # via jupyter-server
-jupyter-lsp==2.2.5
-    # via jupyterlab
-jupyter-server==2.14.1
-    # via
-    #   jupyter-lsp
-    #   jupyterlab
-    #   jupyterlab-server
-    #   notebook
-    #   notebook-shim
-jupyter-server-terminals==0.5.3
-    # via jupyter-server
-jupyterlab==4.2.2
-    # via notebook
-jupyterlab-pygments==0.3.0
-    # via nbconvert
-jupyterlab-server==2.27.2
-    # via
-    #   jupyterlab
-    #   notebook
 jupyterlab-widgets==3.0.11
     # via ipywidgets
+kiwisolver==1.4.5
+    # via matplotlib
+lazy-loader==0.4
+    # via scikit-image
 lxml==5.2.2
     # via atlanta_shore (pyproject.toml)
 markdown==3.6
@@ -185,7 +101,10 @@ markupsafe==2.1.5
     # via
     #   jinja2
     #   mkdocs
-    #   nbconvert
+matplotlib==3.9.0
+    # via
+    #   atlanta_shore (pyproject.toml)
+    #   ipympl
 matplotlib-inline==0.1.7
     # via
     #   ipykernel
@@ -194,8 +113,6 @@ mergedeep==1.3.4
     # via
     #   mkdocs
     #   mkdocs-get-deps
-mistune==3.0.2
-    # via nbconvert
 mkdocs==1.6.0
     # via
     #   atlanta_shore (pyproject.toml)
@@ -212,51 +129,37 @@ mypy-extensions==1.0.0
     # via
     #   black
     #   mypy
-nbclient==0.10.0
-    # via nbconvert
-nbconvert==7.16.4
-    # via
-    #   jupyter
-    #   jupyter-server
-nbformat==5.10.4
-    # via
-    #   jupyter-server
-    #   nbclient
-    #   nbconvert
 nest-asyncio==1.6.0
     # via ipykernel
-notebook==7.2.1
-    # via jupyter
-notebook-shim==0.2.4
-    # via
-    #   jupyterlab
-    #   notebook
+networkx==3.3
+    # via scikit-image
 numpy==2.0.0
-    # via pandas
+    # via
+    #   contourpy
+    #   imageio
+    #   ipympl
+    #   matplotlib
+    #   pandas
+    #   scikit-image
+    #   scipy
+    #   tifffile
 osgridconverter==0.1.3
     # via atlanta_shore (pyproject.toml)
-overrides==7.7.0
-    # via jupyter-server
 packaging==24.1
     # via
     #   black
     #   build
     #   ipykernel
-    #   jupyter-server
-    #   jupyterlab
-    #   jupyterlab-server
+    #   lazy-loader
+    #   matplotlib
     #   mkdocs
-    #   nbconvert
     #   pytest
-    #   qtconsole
-    #   qtpy
     #   rchitect
+    #   scikit-image
 paginate==0.5.6
     # via mkdocs-material
 pandas==2.2.2
     # via atlanta_shore (pyproject.toml)
-pandocfilters==1.5.1
-    # via nbconvert
 parso==0.8.4
     # via jedi
 pathspec==0.12.1
@@ -265,6 +168,12 @@ pathspec==0.12.1
     #   mkdocs
 pexpect==4.9.0
     # via ipython
+pillow==10.3.0
+    # via
+    #   imageio
+    #   ipympl
+    #   matplotlib
+    #   scikit-image
 pip-tools==7.4.1
     # via atlanta_shore (pyproject.toml)
 platformdirs==4.2.2
@@ -274,19 +183,14 @@ platformdirs==4.2.2
     #   mkdocs-get-deps
 pluggy==1.5.0
     # via pytest
-prometheus-client==0.20.0
-    # via jupyter-server
 prompt-toolkit==3.0.47
     # via
     #   ipython
-    #   jupyter-console
     #   radian
 psutil==6.0.0
     # via ipykernel
 ptyprocess==0.7.0
-    # via
-    #   pexpect
-    #   terminado
+    # via pexpect
 pure-eval==0.2.2
     # via stack-data
 pycparser==2.22
@@ -298,13 +202,12 @@ pydantic-core==2.18.4
 pygments==2.18.0
     # via
     #   ipython
-    #   jupyter-console
     #   mkdocs-material
-    #   nbconvert
-    #   qtconsole
     #   radian
 pymdown-extensions==10.8.1
     # via mkdocs-material
+pyparsing==3.1.2
+    # via matplotlib
 pyproject-hooks==1.1.0
     # via
     #   build
@@ -313,17 +216,14 @@ pytest==8.2.2
     # via atlanta_shore (pyproject.toml)
 python-dateutil==2.9.0.post0
     # via
-    #   arrow
     #   ghp-import
     #   jupyter-client
+    #   matplotlib
     #   pandas
-python-json-logger==2.0.7
-    # via jupyter-events
 pytz==2024.1
     # via pandas
 pyyaml==6.0.1
     # via
-    #   jupyter-events
     #   mkdocs
     #   mkdocs-get-deps
     #   pymdown-extensions
@@ -334,70 +234,33 @@ pyzmq==26.0.3
     # via
     #   ipykernel
     #   jupyter-client
-    #   jupyter-console
-    #   jupyter-server
-    #   qtconsole
-qtconsole==5.5.2
-    # via jupyter
-qtpy==2.4.1
-    # via qtconsole
 radian==0.6.12
     # via atlanta_shore (pyproject.toml)
 rchitect==0.4.6
     # via radian
-referencing==0.35.1
-    # via
-    #   jsonschema
-    #   jsonschema-specifications
-    #   jupyter-events
 regex==2024.5.15
     # via mkdocs-material
 requests==2.32.3
-    # via
-    #   jupyterlab-server
-    #   mkdocs-material
-rfc3339-validator==0.1.4
-    # via
-    #   jsonschema
-    #   jupyter-events
-rfc3986-validator==0.1.1
-    # via
-    #   jsonschema
-    #   jupyter-events
-rpds-py==0.18.1
-    # via
-    #   jsonschema
-    #   referencing
+    # via mkdocs-material
 ruff==0.4.9
     # via atlanta_shore (pyproject.toml)
-send2trash==1.8.3
-    # via jupyter-server
+scikit-image==0.24.0
+    # via atlanta_shore (pyproject.toml)
+scipy==1.13.1
+    # via scikit-image
 six==1.16.0
     # via
     #   asttokens
-    #   bleach
     #   python-dateutil
     #   rchitect
-    #   rfc3339-validator
-sniffio==1.3.1
-    # via
-    #   anyio
-    #   httpx
-soupsieve==2.5
-    # via beautifulsoup4
 stack-data==0.6.3
     # via ipython
-terminado==0.18.1
-    # via
-    #   jupyter-server
-    #   jupyter-server-terminals
-tinycss2==1.3.0
-    # via nbconvert
+tifffile==2024.6.18
+    # via scikit-image
 tomli==2.0.1
     # via
     #   black
     #   build
-    #   jupyterlab
     #   mypy
     #   pip-tools
     #   pytest
@@ -405,33 +268,18 @@ tornado==6.4.1
     # via
     #   ipykernel
     #   jupyter-client
-    #   jupyter-server
-    #   jupyterlab
-    #   notebook
-    #   terminado
 traitlets==5.14.3
     # via
     #   comm
     #   ipykernel
+    #   ipympl
     #   ipython
     #   ipywidgets
     #   jupyter-client
-    #   jupyter-console
     #   jupyter-core
-    #   jupyter-events
-    #   jupyter-server
-    #   jupyterlab
     #   matplotlib-inline
-    #   nbclient
-    #   nbconvert
-    #   nbformat
-    #   qtconsole
-types-python-dateutil==2.9.0.20240316
-    # via arrow
 typing-extensions==4.12.2
     # via
-    #   anyio
-    #   async-lru
     #   black
     #   ipython
     #   mypy
@@ -439,22 +287,12 @@ typing-extensions==4.12.2
     #   pydantic-core
 tzdata==2024.1
     # via pandas
-uri-template==1.3.0
-    # via jsonschema
 urllib3==2.2.2
     # via requests
 watchdog==4.0.1
     # via mkdocs
 wcwidth==0.2.13
     # via prompt-toolkit
-webcolors==24.6.0
-    # via jsonschema
-webencodings==0.5.1
-    # via
-    #   bleach
-    #   tinycss2
-websocket-client==1.8.0
-    # via jupyter-server
 wheel==0.43.0
     # via pip-tools
 widgetsnbextension==4.0.11

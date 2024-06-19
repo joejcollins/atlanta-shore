@@ -20,18 +20,22 @@ classifiers = [
 dependencies = [
     "black",
     "debugpy",  # only required for debugging, not needed for production.
+    "imageio",
+    "ipykernel",  # required for jupyter notebook in VS Code.
+    "ipympl",
     "lxml",  # for parsing GPX files.
+    "matplotlib",
     "mkdocs",
     "mkdocs-material",  # theme for the documentation.
     "mypy",
+    "OSGridConverter",
     "pandas",
     "pydantic",
     "pip-tools", # used to manage requirements.txt.
     "pytest",  # used for testing, not needed for production.
     "radian",
     "ruff",
-    "OSGridConverter",
-    "jupyter"
+    "scikit-image"
 ]
 
 [project.urls]
@@ -39,22 +43,11 @@ dependencies = [
 "repository" = "https://github.com/joejcollins/atlanta-shore"
 "documentation" = "https://github.com/joejcollins/atlanta-shore"
 
-# [tool.setuptools]
-# packages = { find = { where = ["python_src"] } }
-# include-package-data = true
-
-# Find all the packages in the project using automatic discovery (src-layout).
 [tool.setuptools.packages.find]
 where = [
     "python_src",
     "pytest"
 ]  
-
-# [tool.setuptools]
-# py-modules = [
-#     "python_src",
-#     "pytest"
-# ]  #  Disable auto discovery of modules (and only include the ones we specifically want).
 
 [tool.black]
 line-length = 88

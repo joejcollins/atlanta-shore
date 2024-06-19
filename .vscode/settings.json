@@ -24,13 +24,13 @@
   "python.defaultInterpreterPath": ".venv/bin/python",
   "terminal.integrated.shellIntegration.enabled": true,
   "terminal.integrated.profiles.linux": {
-        "bash": {
-            "path": "bash",
-            "icon": "terminal-bash",
-            "args": [
-                "-l"
-            ]
-        }
+    "bash": {
+      "path": "bash",
+      "icon": "terminal-bash",
+      "args": [
+        "-l"
+      ]
+    }
   },
   "terminal.integrated.defaultProfile.linux": "bash",
   "terminal.integrated.scrollback": 100000,
@@ -38,85 +38,175 @@
   "r.rterm.linux": "/workspace/atlanta-shore/.venv/bin/radian",
   "latex-workshop.latex.tools": [
     {
-     "name": "latexmk",
-     "command": "latexmk",
-     "args": [
-      "-synctex=1",
-      "-interaction=nonstopmode",
-      "-file-line-error",
-      "-pdf",
-      "-outdir=%OUTDIR%",
-      "%DOC%"
-     ],
-     "env": {}
+      "name": "latexmk",
+      "command": "latexmk",
+      "args": [
+        "-synctex=1",
+        "-interaction=nonstopmode",
+        "-file-line-error",
+        "-pdf",
+        "-outdir=%OUTDIR%",
+        "%DOC%"
+      ],
+      "env": {}
     },
     {
-     "name": "xelatex",
-     "command": "xelatex",
-     "args": [
-      "-synctex=1",
-      "-interaction=nonstopmode",
-      "-file-line-error",
-      "%DOC%"
-     ],
-     "env": {}
+      "name": "xelatex",
+      "command": "xelatex",
+      "args": [
+        "-synctex=1",
+        "-interaction=nonstopmode",
+        "-file-line-error",
+        "%DOC%"
+      ],
+      "env": {}
     },
     {
-     "name": "pdflatex",
-     "command": "pdflatex",
-     "args": [
-      "-synctex=1",
-      "-interaction=nonstopmode",
-      "-file-line-error",
-      "%DOC%"
-     ],
-     "env": {}
+      "name": "pdflatex",
+      "command": "pdflatex",
+      "args": [
+        "-synctex=1",
+        "-interaction=nonstopmode",
+        "-file-line-error",
+        "%DOC%"
+      ],
+      "env": {}
     },
     {
-     "name": "bibtex",
-     "command": "bibtex",
-     "args": [
-      "%DOCFILE%"
-     ],
-     "env": {}
+      "name": "bibtex",
+      "command": "bibtex",
+      "args": [
+        "%DOCFILE%"
+      ],
+      "env": {}
     }
-   ],   
+  ],
   "latex-workshop.latex.recipes": [
     {
-     "name": "pdfLaTeX",
-     "tools": [
-      "pdflatex"
-     ]
+      "name": "pdfLaTeX",
+      "tools": [
+        "pdflatex"
+      ]
     },
     {
-     "name": "latexmk 🔃",
-     "tools": [
-      "latexmk"
-     ]
+      "name": "latexmk 🔃",
+      "tools": [
+        "latexmk"
+      ]
     },
     {
-     "name": "xelatex",
-     "tools": [
-      "xelatex"
-     ]
+      "name": "xelatex",
+      "tools": [
+        "xelatex"
+      ]
     },
     {
-     "name": "pdflatex ➞ bibtex ➞ pdflatex`×2",
-     "tools": [
-      "pdflatex",
-      "bibtex",
-      "pdflatex",
-      "pdflatex"
-     ]
+      "name": "pdflatex ➞ bibtex ➞ pdflatex`×2",
+      "tools": [
+        "pdflatex",
+        "bibtex",
+        "pdflatex",
+        "pdflatex"
+      ]
     },
     {
-    "name": "xelatex ➞ bibtex ➞ xelatex`×2",
-    "tools": [
-      "xelatex",
-      "bibtex",
-      "xelatex",
-      "xelatex"
-     ]
+      "name": "xelatex ➞ bibtex ➞ xelatex`×2",
+      "tools": [
+        "xelatex",
+        "bibtex",
+        "xelatex",
+        "xelatex"
+      ]
     }
+  ],
+  "cSpell.words": [
+    "abcdefghijklmnopqrstuvwxyz",
+    "apidocs",
+    "asdfgh",
+    "azuretools",
+    "bierner",
+    "blockinfile",
+    "bungcip",
+    "charliermarsh",
+    "cp",
+    "cpus",
+    "csv",
+    "cust",
+    "debugpy",
+    "devcontainer",
+    "devcontainers",
+    "DOCKERHUB",
+    "dotenv",
+    "eamodio",
+    "eastings",
+    "endswith",
+    "Finchingfield",
+    "flasgger",
+    "funcs",
+    "Galium",
+    "geolocated",
+    "getenv",
+    "ggplot",
+    "GUIDs",
+    "Hentschel",
+    "highr",
+    "htmltools",
+    "httpgd",
+    "Ikuyadeu",
+    "imageio",
+    "imread",
+    "imshow",
+    "isort",
+    "joejcollins",
+    "jsonlite",
+    "Kindbergia",
+    "knitr",
+    "ldap",
+    "levelname",
+    "lineinfile",
+    "lintr",
+    "lpass",
+    "lubridate",
+    "lxml",
+    "magrittr",
+    "mechatroner",
+    "mypy",
+    "nolint",
+    "northings",
+    "organisation",
+    "praelonga",
+    "prebuilds",
+    "pydantic",
+    "pyenv",
+    "pylint",
+    "pytest",
+    "quadrat",
+    "Rcpp",
+    "readr",
+    "reditorsupport",
+    "regen",
+    "repens",
+    "rlang",
+    "rmarkdown",
+    "Rstudio",
+    "rsync",
+    "setenv",
+    "sourcery",
+    "spains",
+    "stringi",
+    "stringr",
+    "subnet",
+    "tamasfe",
+    "testthat",
+    "tidyverse",
+    "tinytex",
+    "ujson",
+    "useable",
+    "vcpus",
+    "venv",
+    "werkzeug",
+    "xfun",
+    "xlab",
+    "ylab"
   ]
 }

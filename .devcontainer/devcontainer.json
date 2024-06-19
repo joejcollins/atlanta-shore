@@ -17,6 +17,7 @@
                 "ms-python.black-formatter",
                 "ms-python.mypy-type-checker",
                 "ms-python.python",
+                "ms-toolsai.jupyter",
                 "ms-vscode.makefile-tools",
                 "RDebugger.r-debugger",
                 "reditorsupport.r",
