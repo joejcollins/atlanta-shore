@@ -81,6 +81,6 @@ venv:  # Install the requirements for Python and R.
 	mkdir --parents .R/library
 	Rscript "setup.R"
 
-test:  # Run the tests.
+test:  # Run the tests (tests in Github Actions are run as 'root' so add .libPaths)
 	.venv/bin/python -m pytest ./tests/pytest
 	Rscript -e ".libPaths('.R/library'); devtools::test()"
