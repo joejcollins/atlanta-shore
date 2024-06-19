@@ -22,8 +22,8 @@ jobs:
 
     - name: Symlink the prebuilt assets and run tests.
       run: |
-        ln -snf /app/.venv .venv
+        ln -snf /app/.venv .
         .venv/bin/python -m pip install --editable .
-        ln -snf /app/.R .R
+        ln -snf /app/.R .
         make test
 ...
