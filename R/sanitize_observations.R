@@ -3,7 +3,17 @@
 library(readr)
 sample_points_path <- paste0("data/raw/spains-hall-waypoints-regular-30m",
                              "-with-name-edited.csv")
-sample_points <- read_csv(sample_points_path)
+
+col_types <- cols(
+  sample_point_id = col_character(),
+  lat = col_double(),
+  lon = col_double(),
+  eastings = col_integer(),
+  northings = col_integer(),
+  grid_ref = col_character()
+)
+
+sample_points <- read_csv(sample_points_path, col_types = col_types)
 # force the id to be an integer, not sure why this is necessary
 sample_points$sample_point_id <- as.integer(sample_points$sample_point_id)
 
