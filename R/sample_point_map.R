@@ -1,5 +1,5 @@
-library(leaflet)
-library(readr)
+suppressPackageStartupMessages(library(leaflet))
+suppressPackageStartupMessages(library(readr))
 sample_points_path <- paste0(
   "data/raw/spains-hall-waypoints-regular-30m",
   "-with-name-edited.csv"

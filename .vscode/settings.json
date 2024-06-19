@@ -23,7 +23,6 @@
   "workbench.colorTheme": "Visual Studio Light",
   "python.defaultInterpreterPath": ".venv/bin/python",
   "terminal.integrated.shellIntegration.enabled": true,
-  "terminal.integrated.defaultProfile.linux": "bash",
   "terminal.integrated.profiles.linux": {
         "bash": {
             "path": "bash",
@@ -31,8 +30,9 @@
             "args": [
                 "-l"
             ]
-        },
+        }
   },
+  "terminal.integrated.defaultProfile.linux": "bash",
   "terminal.integrated.scrollback": 100000,
   "r.bracketedPaste": true,
   "r.rterm.linux": "/workspace/atlanta-shore/.venv/bin/radian",
@@ -118,8 +118,5 @@
       "xelatex"
      ]
     }
-  ],
-  "terminal.integrated.automationProfile.linux": {
-
-  }
+  ]
 }
