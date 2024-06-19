@@ -25,5 +25,6 @@ jobs:
         ln -snf /app/.venv .
         .venv/bin/python -m pip install --editable .
         ln -snf /app/.R .
+        make report
         make test
 ...
