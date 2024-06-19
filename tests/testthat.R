@@ -7,7 +7,6 @@
 # * https://testthat.r-lib.org/reference/test_package.html#special-files
 
 library(testthat)
-library(devtools)
-load_all("./")  # library(atlanta.shore) # nolint: commented_code_linter.
+library(atlanta.shore)
 
 test_check("atlanta.shore")
