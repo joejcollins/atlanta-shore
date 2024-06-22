@@ -51,6 +51,7 @@ class AtlantaShoreSettings(BaseModel):
         "2023-06/data-plant-2023-06-23-MEC.csv",
         "2023-06/data-plant-2023-06-24-MEC.csv",
         "2023-06/data-plant-2023-06-25-MEC.csv",
+        "2024-06/data-plant-2024-06-21-MEC.csv"
     ]
 
     @property
