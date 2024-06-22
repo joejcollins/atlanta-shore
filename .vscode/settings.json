@@ -139,6 +139,7 @@
     "devcontainers",
     "DOCKERHUB",
     "dotenv",
+    "dtype",
     "eamodio",
     "eastings",
     "endswith",
