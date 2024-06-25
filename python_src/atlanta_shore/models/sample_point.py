@@ -2,7 +2,7 @@
 
 from pydantic import BaseModel
 
-from python_src.models import geo_point
+from atlanta_shore.models import geo_point
 
 
 class SamplePoint(BaseModel):

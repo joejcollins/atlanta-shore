@@ -4,7 +4,7 @@ title: QGIS Setup Notes
 
 # QGis Setup Notes
 
-QGIS version 3.4.3-Madeira
+Using QGIS version 3.4.3-Madeira
 
 ## Install QuickMapServices
 

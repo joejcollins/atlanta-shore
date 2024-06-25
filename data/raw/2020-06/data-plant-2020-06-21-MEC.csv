@@ -28,7 +28,7 @@ photo_up,P6210003,
 photo_down,P6210004,
 wetness,1,
 canopy,85,
-species,Tammus communis,
+species,Tamus communis,
 ,Sambucus nigra,
 ,Carduus crispus,
 ,Urtica dioica,
@@ -51,8 +51,8 @@ canopy,90,
 species,Mercurialis perennis,
 ,Poa trivialis,
 ,Galium aparine,
-,Ulmus procera,
-,Tilia x europaea,Canopy tree
+,Ulmus procera agg.,
+,T. x europaea,Canopy tree
 ,Myosotis sylvatica,
 ,Fissidens taxifolius var. taxifolius,
 quadrat,23,
@@ -71,7 +71,7 @@ species,Cirsium vulgare,
 ,Lapsana communis,
 ,Rumex obtusifolius,
 ,Poa trivialis,
-,Ulmus procera,Canopy tree and seedling
+,Ulmus procera agg.,Canopy tree and seedling
 ,Sambucus nigra,Canopy tree
 ,Anisantha sterilis,
 ,Mercurialis perennis,

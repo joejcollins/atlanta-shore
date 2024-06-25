@@ -2,7 +2,7 @@
 
 from datetime import date
 
-from python_src.models.sample_point_observation import SamplePointObservation
+from atlanta_shore.models.sample_point_observation import SamplePointObservation
 
 OBSERVATION_STRING = """quadrat,49,
 waypoint,1,
@@ -16,10 +16,7 @@ species,Veronica beccabunga,
 ,Sambucus nigra,
 ,Urtica dioica,
 ,Galium aparine,
-,Poa trivialis,
 ,Rorippa nasturtium-aquaticum,
-,Alliaria petiolata,
-,Circaea lutetiana,
 ,Adoxa moschatellina,
 ,Populus x canadensis,sucker
 ,Carex sp,seedling
@@ -38,7 +35,7 @@ def test_set_values_from_observation_string() -> None:
     # Assert
     assert observation.canopy_cover_estimate == 80
     assert observation.garmin_grid_ref == "TL6796833089"
-    assert len(observation.species_identified) == 15
+    assert len(observation.species_identified) == 12
 
 
 def test_as_csv() -> None:

@@ -1,1 +1,2 @@
-# Create keys and run the playbook.
+# Make the virtual environment.
+make venv

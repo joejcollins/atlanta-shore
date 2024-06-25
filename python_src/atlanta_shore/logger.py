@@ -1,7 +1,7 @@
 """Standard logger for the project."""
 import logging
 
-from python_src.settings import ATLANTA_SHORE
+from atlanta_shore.settings import ATLANTA_SHORE
 
 
 def setup_logger(name: str = __name__) -> logging.Logger:

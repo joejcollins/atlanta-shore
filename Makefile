@@ -10,7 +10,7 @@ clean:  # Remove all build, test, coverage and Python artifacts.
 
 compile:  # Compile the requirements files using pip-tools.
 	rm -f requirements.*
-	.venv/bin/pip-compile --output-file=requirements.txt && echo "-e ." >> requirements.txt
+	.venv/bin/pip-compile --output-file=requirements.txt
 
 .PHONY: help
 help: # Show help for each of the makefile recipes.
@@ -20,7 +20,7 @@ survey-prep:
 	.venv/bin/python ./src/data/add_id_to_waypoints.py
 
 dataset:  # Prepare the datasets for analysis
-	.venv/bin/python ./python_src/make_observations_dataset.py
+	.venv/bin/python ./python_src/atlanta_shore/make_observations_dataset.py
 
 .PHONY: docs  # because there is a directory called docs.
 docs:  # Build the mkdocs documentation.
@@ -42,9 +42,6 @@ gitpod-before:  # Customize the terminal and install global project dependencies
 	-git config pull.rebase false
 	# Get Starship running.
 	echo 'eval "$$(starship init bash)"' >> ~/.bashrc
-	# Ensure the pyenv is configured for the user.
-	echo 'eval "$$(pyenv init - --no-rehash)"' >> ~/.bashrc
-	-sudo chmod -R 777 ${PYENV_ROOT}
 	# Remove the .bash_profile so the .bashrc gets sourced.
 	rm -f ~/.bash_profile
 
@@ -61,8 +58,10 @@ gitpod-command:  # Ensure that the rserver is available.
 	sudo rserver
 	sudo pkill rserver
 
-lint:  # Lint the code with ruff, yamllint and ansible-lint.
-	.venv/bin/python -m ruff check .
+lint:  # Lint the code with ruff and sourcery.
+	.venv/bin/python -m ruff check ./python_src ./tests
+	.venv/bin/sourcery login --token $$SOURCERY_TOKEN
+	.venv/bin/sourcery review ./python_src ./tests --check --no-summary
 
 mypy:  # Type check the code with mypy.
 	.venv/bin/python -m mypy ./python_src ./tests
@@ -75,12 +74,13 @@ report:  # Report the python version and pip list.
 		print(installed_packages[c('Package', 'LibPath')])"
 
 venv:  # Install the requirements for Python and R.
-	-pyenv install --skip-existing
-	python -m venv .venv
+	python3 -m venv .venv
 	.venv/bin/python -m pip install --upgrade pip setuptools
 	.venv/bin/python -m pip install -r requirements.txt
+	-.venv/bin/python -m pip install --editable .
+	mkdir --parents .R/library
 	Rscript "setup.R"
 
-test:  # Run the tests.
+test:  # Run the tests (tests in Github Actions are run as 'root' so add .libPaths)
 	.venv/bin/python -m pytest ./tests/pytest
-	Rscript -e "testthat::test_dir('tests')"
+	Rscript -e ".libPaths('.R/library'); devtools::test()"

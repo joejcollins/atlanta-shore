@@ -7,7 +7,7 @@ wetness,2,Standing water 0%
 canopy,70,Ulmus procera and Prunus spinosa
 species,Urtica dioica,
 ,Poa trivialis,
-,Bromopsis ramosus,
+,Bromopsis ramosa,
 ,Galium aparine,
 ,Silene dioica,
 ,Glechoma hederacea,
@@ -24,7 +24,7 @@ photo_up,P6230009,
 photo_down,P6230010,
 wetness,2,Standing water 0%
 canopy,15,Salix cinerea
-species,Glyceria sp,check specimen
+species,Glyceria sp.,check specimen
 ,Ranunculus repens,
 ,Urtica dioica,
 ,Poa trivialis,
@@ -50,7 +50,7 @@ species,Cirsium arvense,
 ,Geranium dissectum,
 ,Ranunculus repens,
 ,Potentilla reptans,
-,Taraxacum officinalis agg.,
+,Taraxacum officinale agg.,
 ,Urtica dioica,
 ,Rumex sanguineus,
 ,Galium aparine,
@@ -68,7 +68,7 @@ wetness,5,"Standing water 100%, with filamentous algae"
 canopy,1,
 species,Carex pendula,
 ,Juncus effusus,
-,Filapendula ulmaria,
+,Filipendula ulmaria,
 ,Cardamine flexuosa,
 ,Mentha aquatica,
 ,Epilobium hirsutum,
@@ -78,12 +78,12 @@ grid_reference,TL6800033054,
 photo_up,P6230015,
 photo_down,P6230016,
 wetness,3,"averaged, range 2-5, near ditch, standing water 10%"
-canopy,85,Populus x canadensis
+canopy,85,P. x canadensis
 species,Glechoma hederacea,
 ,Geranium robertianum,
 ,Mercurialis perennis,
 ,Urtica dioica,
-,Bromopsis ramosus,
+,Bromopsis ramosa,
 ,Brachypodium sylvaticum,
 ,Geum urbanum,
 ,Carex pendula,
@@ -104,7 +104,7 @@ species,Glechoma hederacea,
 ,Solanum dulcamara,
 ,Sparganium erectum,
 ,Mentha aquatica,
-,Apium nodiflorum,
+,Helosciadium nodiflorum,
 ,Carduus crispus,
 ,Urtica dioica,
 ,Galium aparine,
@@ -114,7 +114,7 @@ grid_reference,TL6794033112,
 photo_up,P6230019,
 photo_down,P6230020,
 wetness,1,Standing water 0%
-canopy,90,Tilia x europaea
+canopy,90,T. x europaea
 species,Mercurialis perennis,
 ,Galium aparine,
 ,Sambucus nigra,
@@ -125,9 +125,9 @@ grid_reference,TL6790933113,
 photo_up,P6230021,
 photo_down,P6230022,
 wetness,2,Standing water 0%
-canopy,95,"Tilia x europaea, Acer campestre"
+canopy,95,"T. x europaea, Acer campestre"
 species,Mercurialis perennis,
-,Tilia x europaea,
+,T. x europaea,
 ,Acer campestre,
 ,Glechoma hederacea,
 ,Galium aparine,
@@ -142,8 +142,8 @@ canopy,85,"Quercus, Acer campestre"
 species,Urtica dioica,
 ,Mercurialis perennis,
 ,Glechoma hederacea,
-,Quercus sp,standard
-,Ulmus procera,pole stage
+,Quercus sp.,standard
+,Ulmus procera agg.,pole stage
 ,Acer campestre,standard
 quadrat,9,
 waypoint,15,
@@ -151,12 +151,12 @@ grid_reference,TL6788033143,
 photo_up,P6230025,
 photo_down,P6230026,
 wetness,1,Standing water 0%
-canopy,90,"Tilia species, Acer campestre"
+canopy,90,"Tilia sp., Acer campestre"
 species,Mercurialis perennis,
 ,Urtica dioica,
 ,Galium aparine,
 ,Glechoma hederacea,
-,Ulmus procera,seedling
+,Ulmus procera agg.,seedling
 quadrat,8,
 waypoint,16,
 grid_reference,TL6784833145,
@@ -194,7 +194,7 @@ grid_reference,TL6781933174,
 photo_up,P6230031,
 photo_down,P6230032,
 wetness,2,Standing water 0%
-canopy,60,"mainly Tilia species, Sambucus nigra"
+canopy,60,"mainly Tilia sp., Sambucus nigra"
 species,Silene dioica,
 ,Stachys sylvatica,
 ,Mercurialis perennis,
@@ -203,8 +203,8 @@ species,Silene dioica,
 ,Sambucus nigra,
 ,Circaea lutetiana,
 ,Poa trivialis,
-,Tilia species,pole stage
-,Ulmus procera,
+,Tilia sp.,pole stage
+,Ulmus procera agg.,
 ,Ranunculus repens,
 quadrat,4,
 waypoint,19,

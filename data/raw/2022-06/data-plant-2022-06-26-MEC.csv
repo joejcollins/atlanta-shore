@@ -4,8 +4,8 @@ grid_reference,TL6776233170,"Near electric line,  thick brambles so sample point
 photo_up,P6260066,
 photo_down,P6260067,
 wetness,1,
-canopy,75,"Upper canopy Fraxinus excelsior and Populus x canadensis, with Prunus spinosa and Ulmus procera in mid storey"
-species,Rubus fruticosus,
+canopy,75,"Upper canopy Fraxinus excelsior and P. x canadensis, with Prunus spinosa and Ulmus procera in mid storey"
+species,Rubus fruticosus agg.,
 ,Urtica dioica,
 ,Mercurialis perennis,
 ,Galium aparine,
@@ -16,7 +16,7 @@ grid_reference,TL6776033204,
 photo_up,P6260068,
 photo_down,P6260069,
 wetness,2,
-canopy,90,Mainly Tilia x europaea and Salix alba var. caerulea
+canopy,90,Mainly T. x europaea and Salix alba var. caerulea
 species,Mercurialis perennis,
 ,Myosotis sylvatica,
 ,Urtica dioica,
@@ -115,7 +115,7 @@ species,Carduus crispus,
 ,Stachys sylvatica,
 ,Scrophularia auriculata,
 ,Poa trivialis,
-,Symphytum x uplandicum,
+,S. x uplandicum,
 ,Carex acutiformis,
 ,Hypericum tetrapterum,
 ,Pulicaria dysenterica,
@@ -179,7 +179,7 @@ grid_reference,TL6772933203,
 photo_up,P6260086,
 photo_down,P6260087,
 wetness,1,
-canopy,25,"Acer campestre, Tilia x europaea"
+canopy,25,"Acer campestre, T. x europaea"
 species,Mercurialis perennis,
 ,Urtica dioica,
 ,Glechoma hederacea,
@@ -191,7 +191,7 @@ grid_reference,TL6773133174,Between fence and hedge
 photo_up,P6260088,
 photo_down,P6260089,
 wetness,1,
-canopy,35,"Crataegus monogyna, Ulmus procera, Sambucus nigra"
+canopy,35,"Crataegus monogyna, Ulmus procera agg., Sambucus nigra"
 species,Galium aparine,
 ,Urtica dioica,
 ,Arrhenatherum elatius,
@@ -210,8 +210,8 @@ grid_reference,TL6782323116,Slightly off due to brambles
 photo_up,P6260090,
 photo_down,P6260091,
 wetness,1,
-canopy,5,Tilia x europaea
-species,Rubus fruticosus,
+canopy,5,T. x europaea
+species,Rubus fruticosus agg.,
 ,Rosa canina agg.,
 ,Glechoma hederacea,
 ,Mercurialis perennis,
@@ -254,7 +254,7 @@ grid_reference,TL6784933085,
 photo_up,P6260096,
 photo_down,P6260097,
 wetness,1,
-canopy,90,"High canopy Populus x canadensis, mid storey is Sambucus nigra"
+canopy,90,"High canopy P. x canadensis, mid storey is Sambucus nigra"
 species,Urtica dioica,
 ,Glechoma hederacea,
 ,Galium aparine,
