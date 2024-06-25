@@ -12,6 +12,8 @@ babel==2.15.0
     # via mkdocs-material
 black==24.4.2
     # via atlanta_shore (pyproject.toml)
+blinker==1.8.2
+    # via flask
 build==1.2.1
     # via pip-tools
 certifi==2024.6.2
@@ -23,6 +25,7 @@ charset-normalizer==3.3.2
 click==8.1.7
     # via
     #   black
+    #   flask
     #   mkdocs
     #   pip-tools
 colorama==0.4.6
@@ -47,13 +50,15 @@ exceptiongroup==1.2.1
     #   pytest
 executing==2.0.1
     # via stack-data
+flask==3.0.3
+    # via sqlite-web
 fonttools==4.53.0
     # via matplotlib
 ghp-import==2.1.0
     # via mkdocs
 idna==3.7
     # via requests
-imageio==2.34.1
+imageio==2.34.2
     # via
     #   atlanta_shore (pyproject.toml)
     #   scikit-image
@@ -72,10 +77,13 @@ ipython-genutils==0.2.0
     # via ipympl
 ipywidgets==8.1.3
     # via ipympl
+itsdangerous==2.2.0
+    # via flask
 jedi==0.19.1
     # via ipython
 jinja2==3.1.4
     # via
+    #   flask
     #   mkdocs
     #   mkdocs-material
 jupyter-client==8.6.2
@@ -101,6 +109,7 @@ markupsafe==2.1.5
     # via
     #   jinja2
     #   mkdocs
+    #   werkzeug
 matplotlib==3.9.0
     # via
     #   atlanta_shore (pyproject.toml)
@@ -123,7 +132,7 @@ mkdocs-material==9.5.27
     # via atlanta_shore (pyproject.toml)
 mkdocs-material-extensions==1.3.1
     # via mkdocs-material
-mypy==1.10.0
+mypy==1.10.1
     # via atlanta_shore (pyproject.toml)
 mypy-extensions==1.0.0
     # via
@@ -166,6 +175,8 @@ pathspec==0.12.1
     # via
     #   black
     #   mkdocs
+peewee==3.17.5
+    # via sqlite-web
 pexpect==4.9.0
     # via ipython
 pillow==10.3.0
@@ -204,6 +215,7 @@ pygments==2.18.0
     #   ipython
     #   mkdocs-material
     #   radian
+    #   sqlite-web
 pymdown-extensions==10.8.1
     # via mkdocs-material
 pyparsing==3.1.2
@@ -242,17 +254,19 @@ regex==2024.5.15
     # via mkdocs-material
 requests==2.32.3
     # via mkdocs-material
-ruff==0.4.9
+ruff==0.4.10
     # via atlanta_shore (pyproject.toml)
 scikit-image==0.24.0
     # via atlanta_shore (pyproject.toml)
-scipy==1.13.1
+scipy==1.14.0
     # via scikit-image
 six==1.16.0
     # via
     #   asttokens
     #   python-dateutil
     #   rchitect
+sqlite-web==0.6.3
+    # via atlanta_shore (pyproject.toml)
 stack-data==0.6.3
     # via ipython
 tifffile==2024.6.18
@@ -293,6 +307,8 @@ watchdog==4.0.1
     # via mkdocs
 wcwidth==0.2.13
     # via prompt-toolkit
+werkzeug==3.0.3
+    # via flask
 wheel==0.43.0
     # via pip-tools
 widgetsnbextension==4.0.11

@@ -479,3 +479,6 @@ fabric.properties
 # Quarto
 reports/*/*.html
 **/*_files
+
+# Sqlite database
+database.db
