@@ -8,7 +8,13 @@ photo,A1 Ditch confl.JPG,
 species plant,Mentha aquatica,
 ,Apium nodiflorum,
 ,Carex pendula,
-species animal,,
+species animal,Velia caprai,Water Cricket adult
+,Gammarus pulex,Water Shrimp adult
+,Bathyomphalus contortus,Twisted Ram's-horn snail
+,Potamopyrgus antipodarum,New Zealand Mud snail
+,Spercheidae ,Beetle larvae
+,Dytiscidae,Diving beetle larva
+,Diptera ,Fly larvae
 sample number,A2,
 sample name,Beaver canals,Beaver canals through Juncus inflexus tussocks
 grid reference,TL6793033055,
@@ -20,7 +26,12 @@ species plant,Juncus inflexus,
 ,Mentha aquatica,
 ,Scrophularia auriculata,
 ,Carex pendula,
-species animal,Dytiscus marginalis,Great Diving Beetle larvae.
+species animal,Dytiscus marginalis,"Great Diving Beetle larva, photos IMG_0001.JPG, IMG_0002.JPG, IMG_0003.JPG, IMG_0004.JPG"
+,Chironomidae,Midge larvae
+,Potamopyrgus antipodarum,New Zealand Mud snail
+,Galba truncatula,Dwarf Pond snail
+,Gammarus pulex,Water Shrimp adult
+,Corixidae,Lesser Water Boatman adult
 sample number,A3,
 sample name,Arterial drain,Central drainage channel.
 grid reference,TL6791733082,
@@ -32,7 +43,13 @@ species plant,Apium nodiflorum,
 ,Mentha aquatica,
 ,Filamentous algae,
 ,Carex pendula,
-species animal,Acilius sulcatus,Lesser Diving beetle adult
+species animal,Acilius sulcatus,"Lesser Diving beetle adult, photos IMG_0008.JPG, IMG_0007.JPG, IMG_0008.JPG"
+,Gammarus pulex,Water Shrimp adult
+,Corixidae,Lesser Water Boatman adult
+,Gerridae,Water Strider adult
+,Notonecta glauca,Common Back Swimmer adult
+,Asellus aquaticus,Common Water Slater adult
+,Azeca goodalli,"Three-toothed Moss snail, fallen into water"
 sample number,A4,
 sample name,Springhead,Gravel and shells.
 grid reference,TL6792833111,
@@ -42,8 +59,8 @@ conductivity microSiemens (uS/cm),770,
 photo,A4 Springhead.jpg,
 species plant,Mercurialis perennis,Rooted adjacent.
 ,Urtica dioica,Rooted adjacent.
-species animal,Gammarus,
-,Water cricket,
+species animal,Gammarus pulex,Water Shrimp adult
+,Velia caprai,Water Cricket adult
 sample number,A5,
 sample name,Beaver release pond,
 grid reference,TL6788833113,
@@ -55,8 +72,12 @@ species plant,Apium nodiflorum,
 ,Sparganium erectum,
 ,Solanum dulcamara,
 ,Mentha aquatica,
-species animal,Gammarus,
-,Water cricket,
+species animal,Gammarus pulex,Water Shrimp adult
+,Velia caprai,Water Cricket adult
+,Notonecta glauca,Common Back Swimmer adult and nymph
+,Spercheidae ,Beetle larvae
+,Coleoptera,Beetle larvae
+,Clausilia bidentata,"Two-toothed Door snail, fallen into water"
 sample number,A6,
 sample name,Upper beaver pond,Upstream of the dam immediately above the beaver release pond.
 grid reference,TL6783433119,
@@ -66,6 +87,10 @@ conductivity microSiemens (uS/cm),1077,
 photo,A6 Upper Dam.jpg,
 species plant,Calystegia sepium,
 ,Carex acutiformis,
-species animal,Elaphrus cupreus,"terrestrial coleoptera, a jewel beetle on bare mud."
-,Elaphrus riparius,"terrestrial coleoptera, a jewel beetle on bare mud."
-,Gyrinus substriatus,A whirlygig beetle
+species animal,Elaphrus cupreus,"terrestrial coleoptera, a jewel beetle on bare mud, photo IMG_0009.JPG."
+,Elaphrus riparius,"terrestrial coleoptera, a jewel beetle on bare mud, photo IMG_0009.JPG."
+,Gyrinus substriatus,A whirlygig beetle adult
+,Gammarus pulex,Water Shrimp adult
+,Notonecta glauca,Common Back Swimmer adult and nymph
+,Azeca goodalli,"Three-toothed Moss snail, fallen into water"
+,Velia caprai,Water Cricket nymph
