@@ -38,7 +38,7 @@ contourpy==1.2.1
     # via matplotlib
 cycler==0.12.1
     # via matplotlib
-debugpy==1.8.1
+debugpy==1.8.2
     # via
     #   atlanta_shore (pyproject.toml)
     #   ipykernel
@@ -224,6 +224,8 @@ pyproject-hooks==1.1.0
     # via
     #   build
     #   pip-tools
+pysqlite3==0.5.3
+    # via atlanta_shore (pyproject.toml)
 pytest==8.2.2
     # via atlanta_shore (pyproject.toml)
 python-dateutil==2.9.0.post0

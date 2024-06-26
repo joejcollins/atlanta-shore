@@ -25,13 +25,14 @@ dependencies = [
     "ipympl",
     "lxml",  # for parsing GPX files.
     "matplotlib",
+    "mkdocs-material", # theme for the documentation.
     "mkdocs",
-    "mkdocs-material",  # theme for the documentation.
     "mypy",
     "OSGridConverter",
     "pandas",
+    "pip-tools",  # used to manage requirements.txt.
     "pydantic",
-    "pip-tools", # used to manage requirements.txt.
+    "pysqlite3",  # in case we need the enhanced geospatial stuff.
     "pytest",  # used for testing, not needed for production.
     "radian",
     "ruff",

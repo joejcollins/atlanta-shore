@@ -3,7 +3,7 @@ FROM ghcr.io/rocker-org/devcontainer/geospatial:4.4
 
 # Build the Python virtual environment and R library so they are available to all users.
 RUN apt-get --quiet update
-RUN sudo apt-get install --assume-yes python3.10-venv lsof
+RUN sudo apt-get install --assume-yes python3.10-dev python3.10-venv lsof sqlite3
 
 # Build some assets for the rstudio user so they are available for testing.
 USER rstudio
