@@ -1,0 +1,71 @@
+sample number,A1,
+sample name,Ditch confluence,Junction of three watercourses below main beaver dam
+grid reference,TL6795333063,
+pH,7.4,
+conductivity (ppm),424,
+conductivity microSiemens (uS/cm),828,"Silty bottom, with iron ochre deposits"
+photo,A1 Ditch confl.JPG,
+species plant,Mentha aquatica,
+,Apium nodiflorum,
+,Carex pendula,
+species animal,,
+sample number,A2,
+sample name,Beaver canals,Beaver canals through Juncus inflexus tussocks
+grid reference,TL6793033055,
+pH,7.94,
+conductivity (ppm),432,
+conductivity microSiemens (uS/cm),825,Silty bottom. 
+photo,A2 Beaver Canals.JPG,
+species plant,Juncus inflexus,
+,Mentha aquatica,
+,Scrophularia auriculata,
+,Carex pendula,
+species animal,Dytiscus marginalis,Great Diving Beetle larvae.
+sample number,A3,
+sample name,Arterial drain,Central drainage channel.
+grid reference,TL6791733082,
+pH,7.47,
+conductivity (ppm),502,
+conductivity microSiemens (uS/cm),963,
+photo,A3 arterial drain.JPG,
+species plant,Apium nodiflorum,
+,Mentha aquatica,
+,Filamentous algae,
+,Carex pendula,
+species animal,Acilius sulcatus,Lesser Diving beetle adult
+sample number,A4,
+sample name,Springhead,Gravel and shells.
+grid reference,TL6792833111,
+pH,7.54,
+conductivity (ppm),395,
+conductivity microSiemens (uS/cm),770,
+photo,A4 Springhead.jpg,
+species plant,Mercurialis perennis,Rooted adjacent.
+,Urtica dioica,Rooted adjacent.
+species animal,Gammarus,
+,Water cricket,
+sample number,A5,
+sample name,Beaver release pond,
+grid reference,TL6788833113,
+pH,7.23,
+conductivity (ppm),548,
+conductivity microSiemens (uS/cm),1050,
+photo,A5 Beaver Release Pond.jpg,
+species plant,Apium nodiflorum,
+,Sparganium erectum,
+,Solanum dulcamara,
+,Mentha aquatica,
+species animal,Gammarus,
+,Water cricket,
+sample number,A6,
+sample name,Upper beaver pond,Upstream of the dam immediately above the beaver release pond.
+grid reference,TL6783433119,
+pH,7.51,
+conductivity (ppm),558,
+conductivity microSiemens (uS/cm),1077,
+photo,A6 Upper Dam.jpg,
+species plant,Calystegia sepium,
+,Carex acutiformis,
+species animal,Elaphrus cupreus,"terrestrial coleoptera, a jewel beetle on bare mud."
+,Elaphrus riparius,"terrestrial coleoptera, a jewel beetle on bare mud."
+,Gyrinus substriatus,A whirlygig beetle
