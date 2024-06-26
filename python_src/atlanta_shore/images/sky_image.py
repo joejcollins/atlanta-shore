@@ -11,3 +11,5 @@ class SkyImage(AbstractImageProcessor):
         # Implement sky amount calculation logic
         sky_amount = 0.75  # Placeholder value
         return sky_amount
+
+    def 
