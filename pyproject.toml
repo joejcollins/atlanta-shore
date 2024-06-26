@@ -35,7 +35,8 @@ dependencies = [
     "pytest",  # used for testing, not needed for production.
     "radian",
     "ruff",
-    "scikit-image"
+    "scikit-image",
+    "sqlite-web"
 ]
 
 [project.urls]
