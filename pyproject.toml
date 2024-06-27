@@ -49,7 +49,10 @@ dependencies = [
 where = [
     "python_src",
     "tests"
-]  
+]
+
+[project.scripts]
+datasets = "atlanta_shore.handlers.make_observations_dataset:create_observations_table"
 
 [tool.black]
 line-length = 88
