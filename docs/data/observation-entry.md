@@ -1,5 +1,7 @@
 ---
+layout: default
 title: Data Entry
+parent: Data
 ---
 
 * Use a `csv` file so you can edit with Excel.

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Survey Prep
-nav_order: 2
+parent: Survey
 ---
 # Survey Preparation
 

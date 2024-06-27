@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Survey Data Handling
-nav_order: 2
+parent: Survey
 ---
 
 ## View Ranger
