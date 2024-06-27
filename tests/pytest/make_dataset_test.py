@@ -3,12 +3,13 @@ from atlanta_shore import settings
 from atlanta_shore.handlers import make_observations_dataset
 from atlanta_shore.file_finder_service import FileFinderService
 
+
 def test_get_field_names() -> None:
     """Test that the field names are correct."""
     # ARRANGE
     first_observations_file = settings.ATLANTA_SHORE.observations_files[0]
     # ACT
-    field_names =  make_observations_dataset._get_field_names(first_observations_file)
+    field_names = make_observations_dataset._get_field_names(first_observations_file)
     # ASSERT
     assert field_names == [
         "sample_point_id",
@@ -19,5 +20,5 @@ def test_get_field_names() -> None:
         "photo_down_id",
         "wetness_estimate",
         "canopy_cover_estimate",
-        "species_identified"
+        "species_identified",
     ]

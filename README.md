@@ -3,7 +3,7 @@
 ## Background
 
 A study of the effects of the introduction of beavers on botanical biodiversity.
-Beavers were reintroduced to the [Spains Hall Estate](https://www.spainshallestate.co.uk/nfm_beavers) in 2019 
+Beavers were reintroduced to the [Spains Hall Estate](https://www.spainshallestate.co.uk/nfm_beavers) in 2019
 as part of a program of nature recovery and natural flood reduction.
 Since then the beavers have started a family
 and transformed their environment to suit their needs.
@@ -42,5 +42,3 @@ Documents at <https://joejcollins.github.io/atlanta-shore/>.
   - [ ] def to_csv(self) -> str:
 - [ ] def parse_raw_observation(raw_observation: str) -> dict:
   - [ ] return a dict with the fields of the observation ready fo Pydantic.
-
-  

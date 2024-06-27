@@ -20,4 +20,3 @@ To run
 To include drafts
 
     bundle exec jekyll serve --drafts --baseurl '' --port 8080
-

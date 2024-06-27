@@ -30,6 +30,7 @@ dependencies = [
     "mypy",
     "OSGridConverter",
     "pandas",
+    "pre-commit",
     "pip-tools",  # used to manage requirements.txt.
     "pydantic",
     "pysqlite3",  # in case we need the enhanced geospatial stuff.

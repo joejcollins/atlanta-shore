@@ -65,7 +65,7 @@ Using QGIS version 3.4.3-Madeira
 
 * Right click on the random points layer
 * Export > Save Features As...
-    * Format `GPs eXchange Format GPX` 
+    * Format `GPs eXchange Format GPX`
     * Filename `C:\wherever\the\project\is\points.gpx`
     * CRS `EPSG:4326 - WGS 84`
     * Add saved file to map (un ticked)
@@ -77,7 +77,7 @@ The file should look something like this:
 ```xml
 <?xml version="1.0"?>
 <gpx version="1.1" creator="GDAL 2.4.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ogr="http://osgeo.org/gdal" xmlns="http://www.topografix.com/GPX/1/1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
-<metadata><bounds minlat="52.186767066829788" minlon="-1.128193888182918" maxlat="52.193258182429538" maxlon="-1.117239786388285"/></metadata>                  
+<metadata><bounds minlat="52.186767066829788" minlon="-1.128193888182918" maxlat="52.193258182429538" maxlon="-1.117239786388285"/></metadata>
 <wpt lat="52.189190527945314" lon="-1.122703264375532">
   <extensions>
     <ogr:id>0</ogr:id>
@@ -106,7 +106,7 @@ Don't know why this isn't available in QGis, maybe I am missing something.
 
 * Right click on the random points layer
 * Export > Save Features As...
-    * Format `Comma Separated Value CSV` 
+    * Format `Comma Separated Value CSV`
     * Filename `C:\wherever\the\project\is\points.csv`
     * CRS `EPSG:27700 - OSGB 1936`
     * Add saved file to map (un ticked)
@@ -154,7 +154,7 @@ The resulting file should look like this:
 ```xml
 <?xml version="1.0"?>
 <gpx version="1.1" creator="GDAL 2.4.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ogr="http://osgeo.org/gdal" xmlns="http://www.topografix.com/GPX/1/1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
-<metadata><bounds minlat="52.679782899781813" minlon="-2.679492437047489" maxlat="52.695697527520039" maxlon="-2.650486284870098"/></metadata>                  
+<metadata><bounds minlat="52.679782899781813" minlon="-2.679492437047489" maxlat="52.695697527520039" maxlon="-2.650486284870098"/></metadata>
 <trk>
   <extensions>
   </extensions>
@@ -169,4 +169,4 @@ The resulting file should look like this:
 
 ### Import boundary GPX and convert to polygon
 
-* 
+*

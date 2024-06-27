@@ -1,7 +1,7 @@
 Package: atlanta.shore
 Title: Beavers and Botany
 Version: 0.0.0.9000
-Authors@R: 
+Authors@R:
     person("Joe", "Collins", , "joejcollins@gmail.com", role = c("aut", "cre"),
            comment = c(ORCID = "0009-0004-5788-9856"))
 Description: Processing and analysis of the Spains Hall botanical data.

@@ -552,13 +552,13 @@ date,quadrat,waypoint,grid_reference,photo_up,photo_down,wetness,canopy,species,
 2019-06-20,53,7,TL6776033240,P6200013,P6200014,1,65,Galium aparine,
 2019-06-20,53,7,TL6776033240,P6200013,P6200014,1,65,Kindbergia praelonga,
 2019-06-20,53,7,TL6776033240,P6200013,P6200014,1,65,Populus alba,
-2019-06-20,37,8,TL6781933210,P6200015,P6200016,1,50,Urtica dioica,quadrat was near fence 
-2019-06-20,37,8,TL6781933210,P6200015,P6200016,1,50,Galium aparine,quadrat was near fence 
-2019-06-20,37,8,TL6781933210,P6200015,P6200016,1,50,Cirsium arvense,quadrat was near fence 
-2019-06-20,37,8,TL6781933210,P6200015,P6200016,1,50,Ulmus procera,quadrat was near fence 
-2019-06-20,37,8,TL6781933210,P6200015,P6200016,1,50,Silene dioica,quadrat was near fence 
-2019-06-20,37,8,TL6781933210,P6200015,P6200016,1,50,Poa trivialis,quadrat was near fence 
-2019-06-20,37,8,TL6781933210,P6200015,P6200016,1,50,Plantago major,quadrat was near fence 
+2019-06-20,37,8,TL6781933210,P6200015,P6200016,1,50,Urtica dioica,quadrat was near fence
+2019-06-20,37,8,TL6781933210,P6200015,P6200016,1,50,Galium aparine,quadrat was near fence
+2019-06-20,37,8,TL6781933210,P6200015,P6200016,1,50,Cirsium arvense,quadrat was near fence
+2019-06-20,37,8,TL6781933210,P6200015,P6200016,1,50,Ulmus procera,quadrat was near fence
+2019-06-20,37,8,TL6781933210,P6200015,P6200016,1,50,Silene dioica,quadrat was near fence
+2019-06-20,37,8,TL6781933210,P6200015,P6200016,1,50,Poa trivialis,quadrat was near fence
+2019-06-20,37,8,TL6781933210,P6200015,P6200016,1,50,Plantago major,quadrat was near fence
 2019-06-20,36,9,TL6779133211,P6200017,P6200018,1,85,Galium aparine,
 2019-06-20,36,9,TL6779133211,P6200017,P6200018,1,85,Urtica dioica,
 2019-06-20,36,9,TL6779133211,P6200017,P6200018,1,85,Glechoma hederacea,
@@ -1964,23 +1964,23 @@ date,quadrat,waypoint,grid_reference,photo_up,photo_down,wetness,canopy,species,
 2021-06-21,11,6,TL6793633026,P6210067,P6210068,2,60,Ranunculus repens,
 2021-06-21,11,6,TL6793633026,P6210067,P6210068,2,60,Poa trivialis,
 2021-06-21,11,6,TL6793633026,P6210067,P6210068,2,60,Symphytum x uplandicum,
-2021-06-21,61,7,TL6793832995,P6210069,P6210070,1,0,Anisantha sterilis,on arable reversion 
-2021-06-21,61,7,TL6793832995,P6210069,P6210070,1,0,Vulpia myosuroides,on arable reversion 
-2021-06-21,61,7,TL6793832995,P6210069,P6210070,1,0,Urtica dioica,on arable reversion 
-2021-06-21,61,7,TL6793832995,P6210069,P6210070,1,0,Cirsium vulgare,on arable reversion 
-2021-06-21,61,7,TL6793832995,P6210069,P6210070,1,0,Carduus crispus,on arable reversion 
-2021-06-21,61,7,TL6793832995,P6210069,P6210070,1,0,Arrhenatherum elatius,on arable reversion 
-2021-06-21,61,7,TL6793832995,P6210069,P6210070,1,0,Holcus lanatus,on arable reversion 
-2021-06-21,61,7,TL6793832995,P6210069,P6210070,1,0,Taraxacum officinale,on arable reversion 
-2021-06-21,61,7,TL6793832995,P6210069,P6210070,1,0,Sonchus asper,on arable reversion 
-2021-06-21,61,7,TL6793832995,P6210069,P6210070,1,0,Geranium dissectum,on arable reversion 
-2021-06-21,61,7,TL6793832995,P6210069,P6210070,1,0,Bromus commutatus,on arable reversion 
-2021-06-21,61,7,TL6793832995,P6210069,P6210070,1,0,Epilobium sp,on arable reversion 
-2021-06-21,61,7,TL6793832995,P6210069,P6210070,1,0,Jacobaea vulgaris,on arable reversion 
-2021-06-21,61,7,TL6793832995,P6210069,P6210070,1,0,Poa trivialis,on arable reversion 
-2021-06-21,61,7,TL6793832995,P6210069,P6210070,1,0,Sisymbrium officinale,on arable reversion 
-2021-06-21,61,7,TL6793832995,P6210069,P6210070,1,0,Galium aparine,on arable reversion 
-2021-06-21,61,7,TL6793832995,P6210069,P6210070,1,0,Matricularia matriculoides,on arable reversion 
+2021-06-21,61,7,TL6793832995,P6210069,P6210070,1,0,Anisantha sterilis,on arable reversion
+2021-06-21,61,7,TL6793832995,P6210069,P6210070,1,0,Vulpia myosuroides,on arable reversion
+2021-06-21,61,7,TL6793832995,P6210069,P6210070,1,0,Urtica dioica,on arable reversion
+2021-06-21,61,7,TL6793832995,P6210069,P6210070,1,0,Cirsium vulgare,on arable reversion
+2021-06-21,61,7,TL6793832995,P6210069,P6210070,1,0,Carduus crispus,on arable reversion
+2021-06-21,61,7,TL6793832995,P6210069,P6210070,1,0,Arrhenatherum elatius,on arable reversion
+2021-06-21,61,7,TL6793832995,P6210069,P6210070,1,0,Holcus lanatus,on arable reversion
+2021-06-21,61,7,TL6793832995,P6210069,P6210070,1,0,Taraxacum officinale,on arable reversion
+2021-06-21,61,7,TL6793832995,P6210069,P6210070,1,0,Sonchus asper,on arable reversion
+2021-06-21,61,7,TL6793832995,P6210069,P6210070,1,0,Geranium dissectum,on arable reversion
+2021-06-21,61,7,TL6793832995,P6210069,P6210070,1,0,Bromus commutatus,on arable reversion
+2021-06-21,61,7,TL6793832995,P6210069,P6210070,1,0,Epilobium sp,on arable reversion
+2021-06-21,61,7,TL6793832995,P6210069,P6210070,1,0,Jacobaea vulgaris,on arable reversion
+2021-06-21,61,7,TL6793832995,P6210069,P6210070,1,0,Poa trivialis,on arable reversion
+2021-06-21,61,7,TL6793832995,P6210069,P6210070,1,0,Sisymbrium officinale,on arable reversion
+2021-06-21,61,7,TL6793832995,P6210069,P6210070,1,0,Galium aparine,on arable reversion
+2021-06-21,61,7,TL6793832995,P6210069,P6210070,1,0,Matricularia matriculoides,on arable reversion
 2021-06-21,60,8,TL6790932994,P6210071,P6210072,1,0,Schedonorus arundinaceus,arable reversion
 2021-06-21,60,8,TL6790932994,P6210071,P6210072,1,0,Leucanthemum vulgare,arable reversion
 2021-06-21,60,8,TL6790932994,P6210071,P6210072,1,0,Vicia tetrasperma,arable reversion
@@ -2341,18 +2341,18 @@ date,quadrat,waypoint,grid_reference,photo_up,photo_down,wetness,canopy,species,
 2022-06-25,9,21,TL679803315,P6250043,P6250044,1,95,Mercurialis perennis,Is this correct?Mainly Acer campestre
 2022-06-25,9,21,TL679803315,P6250043,P6250044,1,95,Ulmus procera agg.,Is this correct?Mainly Acer campestre
 2022-06-25,9,21,TL679803315,P6250043,P6250044,1,95,Myosotis sylvatica,Is this correct?Mainly Acer campestre
-2022-06-25,59,22,TL6787833142,P6250045,P6250046,4,0,Mentha aquatica,Ash death 
-2022-06-25,59,22,TL6787833142,P6250045,P6250046,4,0,Veronica beccabunga,Ash death 
-2022-06-25,59,22,TL6787833142,P6250045,P6250046,4,0,Berula erecta,Ash death 
-2022-06-25,59,22,TL6787833142,P6250045,P6250046,4,0,Holcus lanatus,Ash death 
-2022-06-25,59,22,TL6787833142,P6250045,P6250046,4,0,Carex pendula,Ash death 
-2022-06-25,59,22,TL6787833142,P6250045,P6250046,4,0,Carduus crispus,Ash death 
-2022-06-25,59,22,TL6787833142,P6250045,P6250046,4,0,Urtica dioica,Ash death 
-2022-06-25,59,22,TL6787833142,P6250045,P6250046,4,0,Symphytum x uplandicum,Ash death 
-2022-06-25,59,22,TL6787833142,P6250045,P6250046,4,0,Ranunculus repens,Ash death 
-2022-06-25,59,22,TL6787833142,P6250045,P6250046,4,0,Glechoma hederacea,Ash death 
-2022-06-25,59,22,TL6787833142,P6250045,P6250046,4,0,Agrostis stolonifera,Ash death 
-2022-06-25,59,22,TL6787833142,P6250045,P6250046,4,0,Solanum dulcamara,Ash death 
+2022-06-25,59,22,TL6787833142,P6250045,P6250046,4,0,Mentha aquatica,Ash death
+2022-06-25,59,22,TL6787833142,P6250045,P6250046,4,0,Veronica beccabunga,Ash death
+2022-06-25,59,22,TL6787833142,P6250045,P6250046,4,0,Berula erecta,Ash death
+2022-06-25,59,22,TL6787833142,P6250045,P6250046,4,0,Holcus lanatus,Ash death
+2022-06-25,59,22,TL6787833142,P6250045,P6250046,4,0,Carex pendula,Ash death
+2022-06-25,59,22,TL6787833142,P6250045,P6250046,4,0,Carduus crispus,Ash death
+2022-06-25,59,22,TL6787833142,P6250045,P6250046,4,0,Urtica dioica,Ash death
+2022-06-25,59,22,TL6787833142,P6250045,P6250046,4,0,Symphytum x uplandicum,Ash death
+2022-06-25,59,22,TL6787833142,P6250045,P6250046,4,0,Ranunculus repens,Ash death
+2022-06-25,59,22,TL6787833142,P6250045,P6250046,4,0,Glechoma hederacea,Ash death
+2022-06-25,59,22,TL6787833142,P6250045,P6250046,4,0,Agrostis stolonifera,Ash death
+2022-06-25,59,22,TL6787833142,P6250045,P6250046,4,0,Solanum dulcamara,Ash death
 2022-06-25,8,23,TL6784933142,P6250047,P6250048,2,85,Urtica dioica,Fraxinus excelsior and Acer campestre
 2022-06-25,8,23,TL6784933142,P6250047,P6250048,2,85,Galium aparine,Fraxinus excelsior and Acer campestre
 2022-06-25,8,23,TL6784933142,P6250047,P6250048,2,85,Silene dioica,Fraxinus excelsior and Acer campestre

@@ -4,7 +4,7 @@ title: Development Environment
 
 # Development Setup
 
-## Gitpod 
+## Gitpod
 
 * Open at Gitpod <https://gitpod.io/#https://github.com/joejcollins/atlanta-shore>.
 

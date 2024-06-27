@@ -100,7 +100,7 @@ waypoint,27,
 grid_reference,TL6790933026,
 photo_up,P6240012,
 photo_down,P6240013,
-wetness,2,Standing water 0%   
+wetness,2,Standing water 0%
 canopy,10,"Rosa canina, Prunus spinosa, Bat willow"
 species,Rubus fruticosus agg.,
 ,Calystegia sepium,
@@ -288,7 +288,7 @@ grid_reference,TL6788033085,
 photo_up,P6240036,
 photo_down,P6240037,
 wetness,2,"No standing water or bare ground, grassy open area"
-canopy,40,Fraxinus excelsior and Tilia x.europaea 
+canopy,40,Fraxinus excelsior and Tilia x.europaea
 species,Stachys sylvatica,
 ,Glechoma hederacea,
 ,Urtica dioica,And putative hybrid with fen nettle
