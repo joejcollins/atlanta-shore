@@ -221,5 +221,8 @@
     "xfun",
     "xlab",
     "ylab"
+  ],
+  "python.analysis.extraPaths": [
+    "./python_src"
   ]
 }

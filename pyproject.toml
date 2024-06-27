@@ -48,7 +48,7 @@ dependencies = [
 [tool.setuptools.packages.find]
 where = [
     "python_src",
-    "pytest"
+    "tests"
 ]  
 
 [tool.black]
