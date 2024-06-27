@@ -9,7 +9,10 @@ class FileFinderService:
     """Find a file upwards from a starting directory."""
 
     def __init__(self, isfile=path.isfile, abspath=path.abspath, glob=glob.glob):
-        """Initialise the file finder service, with items that can mock for testing."""
+        """Initialise the file finder service
+
+        Use dependency injection so that we can pass in mock items for testing.  Under
+        normal use the default "normal" values are used."""
         self.isfile = isfile  # so we can confirm if a file exists.
         self.abspath = (
             # so we can get the complete path to where we are to begin with.
