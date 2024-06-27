@@ -1,6 +1,6 @@
 {
     "name": "Python and R Data Science Environment",
-    "image": "ghcr.io/joejcollins/atlanta-shore:latest",
+    "image": "ghcr.io/joejcollins/atlanta-shore:15ddd4f",
     "features":{
         "ghcr.io/rocker-org/devcontainer-features/quarto-cli:1": {},
         "ghcr.io/devcontainers-contrib/features/starship:1":{}
