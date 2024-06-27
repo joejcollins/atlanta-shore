@@ -1,3 +1,7 @@
+---
+title: About
+nav_order: 2
+---
 # Local Jekyll Set Up
 
 ## Set Up on WSL (Ubuntu 18.04)

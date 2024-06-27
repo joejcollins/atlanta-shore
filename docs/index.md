@@ -1,7 +1,6 @@
 ---
-layout: default
 title: Home
-navigation_weight: 1
+nav_order: 1
 ---
 # Beavers and Botany
 
