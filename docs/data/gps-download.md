@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Survey Data Handling
-parent: Survey
+title: GPS Download
+parent: Data
 ---
 
 ## View Ranger
