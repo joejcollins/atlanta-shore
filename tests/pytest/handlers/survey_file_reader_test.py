@@ -1,12 +1,12 @@
 """Confirm that the survey file reader can iterate through a file."""
 
-from atlanta_shore.handlers.survey_file_reader import SurveyFileReader
+from atlanta_shore.data.csv.observation_file_reader import ObservationFileReader
 
 
 def test_read_first_record() -> None:
     """Confirm that the first record can be read."""
     # Arrange
-    survey_file_reader = SurveyFileReader("tests/pytest/dummy_survey_file.csv")
+    survey_file_reader = ObservationFileReader("tests/pytest/dummy_survey_file.csv")
     # Act
     record = next(survey_file_reader)
     # Assert
@@ -17,7 +17,7 @@ def test_read_first_record() -> None:
 def test_read_second_record() -> None:
     """Confirm that the second record can be read."""
     # Arrange
-    survey_file_reader = SurveyFileReader("tests/pytest/dummy_survey_file.csv")
+    survey_file_reader = ObservationFileReader("tests/pytest/dummy_survey_file.csv")
     # Act
     record = next(survey_file_reader)
     record = next(survey_file_reader)
@@ -29,7 +29,7 @@ def test_read_second_record() -> None:
 def test_read_last_record() -> None:
     """Confirm that the last record can be read."""
     # Arrange
-    survey_file_reader = SurveyFileReader("tests/pytest/dummy_survey_file.csv")
+    survey_file_reader = ObservationFileReader("tests/pytest/dummy_survey_file.csv")
     # Act
     record = None
     for record in survey_file_reader:

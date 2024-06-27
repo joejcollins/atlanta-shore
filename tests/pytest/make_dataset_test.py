@@ -1,5 +1,6 @@
 """Test the functions using for making the dataset."""
-from atlanta_shore import make_observations_dataset, settings
+from atlanta_shore import settings
+from atlanta_shore.handlers import make_observations_dataset
 
 
 def test_get_field_names() -> None:

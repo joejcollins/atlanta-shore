@@ -1,7 +1,7 @@
 """Iterate through a survey data file."""
 
 
-class SurveyFileReader:
+class ObservationFileReader:
     """Iterate through a survey data file."""
 
     def __init__(self, file_path: str) -> None:
