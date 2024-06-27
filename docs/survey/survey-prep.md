@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Survey Prep
-navigation_weight: 2
+nav_order: 2
 ---
 # Survey Preparation
 
