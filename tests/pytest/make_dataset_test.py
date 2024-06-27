@@ -1,7 +1,7 @@
 """Test the functions using for making the dataset."""
 from atlanta_shore import settings
 from atlanta_shore.handlers import make_observations_dataset
-
+from atlanta_shore.file_finder_service import FileFinderService
 
 def test_get_field_names() -> None:
     """Test that the field names are correct."""

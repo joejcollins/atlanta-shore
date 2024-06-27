@@ -74,14 +74,17 @@ def test_file_finder_service_not_found() -> None:
     # ASSERT
     assert result is None
 
+
 def test_find_data_files() -> None:
     """Confirm that a sorted list of file paths is returned."""
     # ARRANGE
-    pattern =  'data-plant*.csv'
+    pattern = "data-plant*.csv"
 
     def mock_glob(pathname, recursive):
-        return ["/data/raw/2024-06/data-plant-2024-06.csv",
-                "/data/raw/2019-02/data-plant-2019-02.csv"]
+        return [
+            "/data/raw/2024-06/data-plant-2024-06.csv",
+            "/data/raw/2019-02/data-plant-2019-02.csv",
+        ]
 
     file_finder = file_finder_service.FileFinderService(glob=mock_glob)
     # ACT

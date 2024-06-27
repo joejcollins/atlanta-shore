@@ -1,9 +1,11 @@
 """Global settings for the project."""
+
 import datetime
 import inspect
 import os
-from typing import List
+from typing import Any
 
+from atlanta_shore.file_finder_service import FileFinderService
 from pydantic import BaseModel
 
 
@@ -34,32 +36,12 @@ class AtlantaShoreSettings(BaseModel):
     )
     log_level: str = "WARN"  # as a string so it can be read and set in settings.json.
 
-    data_files: List[str] = [
-        # "2019-02/data-plant-2019-02-01-MEC.csv",  # Winter survey
-        # "2019-02/data-plant-2019-02-02-MEC.csv",  # Winter survey
-        "2019-06/data-plant-2019-06-20-MEC.csv",
-        "2019-06/data-plant-2019-06-21-MEC.csv",
-        "2020-06/data-plant-2020-06-19-MEC.csv",
-        "2020-06/data-plant-2020-06-20-MEC.csv",
-        "2020-06/data-plant-2020-06-21-MEC.csv",
-        "2021-06/data-plant-2021-06-20-MEC.csv",
-        "2021-06/data-plant-2021-06-21-MEC.csv",
-        "2022-06/data-plant-2022-06-24-MEC.csv",
-        "2022-06/data-plant-2022-06-25-MEC.csv",
-        "2022-06/data-plant-2022-06-26-MEC.csv",
-        "2023-06/data-plant-2023-06-22-MEC.csv",
-        "2023-06/data-plant-2023-06-23-MEC.csv",
-        "2023-06/data-plant-2023-06-24-MEC.csv",
-        "2023-06/data-plant-2023-06-25-MEC.csv",
-        "2024-06/data-plant-2024-06-21-MEC.csv",
-        "2024-06/data-plant-2024-06-22-MEC.csv"
-    ]
-
     @property
-    def observations_files(self) -> List[str]:
-        """Return the observation file paths as a list of strings."""
-        data_directory = "./data/raw"
-        return [f"{data_directory}/{data_file}" for data_file in self.data_files]
+    def observations_files(self) -> Any:
+        """Get the list of file names."""
+        file_finder = FileFinderService()
+        data_files = file_finder.find_data_files(pattern="data-plant*.csv")
+        return data_files
 
 
 ATLANTA_SHORE = AtlantaShoreSettings()

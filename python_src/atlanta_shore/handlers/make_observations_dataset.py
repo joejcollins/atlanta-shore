@@ -4,9 +4,11 @@ import csv
 from typing import Any
 
 from atlanta_shore.data.csv.observation_file_reader import ObservationFileReader
+
 from atlanta_shore.logger import setup_logger
 from atlanta_shore.models.sample_point_observation import SamplePointObservation
-from atlanta_shore.settings import ATLANTA_SHORE, date_from_file
+from atlanta_shore.settings import date_from_file
+from atlanta_shore.settings import ATLANTA_SHORE
 
 LOG = setup_logger(__name__)
 
