@@ -4,6 +4,5 @@ url: https://joejcollins.github.io
 baseurl: /atlanta-shore # the sub path of your site, e.g. /blog/
 
 remote_theme: just-the-docs/just-the-docs
-color_scheme: "dark"
 search_enabled: true
 timezone: Europe/London
