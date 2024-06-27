@@ -212,6 +212,7 @@
     "testthat",
     "tidyverse",
     "tinytex",
+    "toolsai",
     "ujson",
     "useable",
     "vcpus",
