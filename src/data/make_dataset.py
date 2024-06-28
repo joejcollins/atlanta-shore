@@ -36,10 +36,6 @@ def date_from_file(file_path):
     return datetime.date(year, month, day)
 
 
-def create_waypoints_table():
-    pass
-
-
 def create_records_table():
     """Transform all the survey files into a records list
 
@@ -100,5 +96,4 @@ def create_records_table():
 
 
 if __name__ == "__main__":
-    create_waypoints_table()
     create_records_table()
