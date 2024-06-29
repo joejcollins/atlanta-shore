@@ -53,7 +53,8 @@ where = [
 ]
 
 [project.scripts]
-datasets = "atlanta_shore.handlers.make_observations_dataset:create_observations_table"
+as = "atlanta_shore.main:main"
+atlanta-shore = "atlanta_shore.main:main"
 
 [tool.black]
 line-length = 88

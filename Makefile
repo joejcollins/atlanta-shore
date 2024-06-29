@@ -16,6 +16,9 @@ compile:  # Compile the requirements files using pip-tools.
 help: # Show help for each of the makefile recipes.
 	@grep -E '^[a-zA-Z0-9 -]+:.*#'  Makefile | sort | while read -r l; do printf "\033[1;32m$$(echo $$l | cut -f 1 -d':')\033[00m:$$(echo $$l | cut -f 2- -d'#')\n"; done
 
+
+
+
 survey-prep:
 	.venv/bin/python ./src/data/add_id_to_waypoints.py
 
