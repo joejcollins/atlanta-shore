@@ -53,8 +53,7 @@ where = [
 ]
 
 [project.scripts]
-as = "atlanta_shore.main:main"
-atlanta-shore = "atlanta_shore.main:main"
+run = "atlanta_shore.main:main"
 
 [tool.black]
 line-length = 88

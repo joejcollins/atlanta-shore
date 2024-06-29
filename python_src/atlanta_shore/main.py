@@ -1,54 +1,45 @@
-"""Starting point for console access to the package."""
-# console_app_with_help.py
+"""Entry point for console access to the package."""
 
 import argparse
 
-
-def add_numbers():
-    num1 = float(input("Enter the first number: "))
-    num2 = float(input("Enter the second number: "))
-    result = num1 + num2
-    print(f"The sum of {num1} and {num2} is {result}")
+from atlanta_shore.handlers import create_dataset
 
 
-def subtract_numbers():
-    num1 = float(input("Enter the first number: "))
-    num2 = float(input("Enter the second number: "))
-    result = num1 - num2
-    print(f"The difference between {num1} and {num2} is {result}")
+def create_datasets():
+    """Recreate the datasets for analysis."""
+    create_dataset.create_observations()
+    print("Data files for analysis recreated.")
 
 
-def multiply_numbers():
-    num1 = float(input("Enter the first number: "))
-    num2 = float(input("Enter the second number: "))
-    result = num1 * num2
-    print(f"The product of {num1} and {num2} is {result}")
+def perform_analysis():
+    """Do some analysis."""
+    create_dataset.create_records()
+    print("Analysis was rerun.")
 
 
 def main():
-    # Create the parser
+    """Entry point for repeating analytical operations."""
     parser = argparse.ArgumentParser(
-        description="Simple Arithmetic Console Application"
+        description="Beavers and Botany Analysis Command Line Interface"
     )
-
-    # Add an argument for the operation
     parser.add_argument(
-        "operation",
-        type=str,
-        choices=["add", "subtract", "multiply"],
-        help="The operation to perform",
+        "-a", "--analysis", action="store_true", help="Rerun the analysis."
+    )
+    parser.add_argument(
+        "-c",
+        "--create",
+        action="store_true",
+        help="Recreate the datasets.",
     )
 
-    # Parse the arguments
     args = parser.parse_args()
 
-    # Perform the selected operation
-    if args.operation == "add":
-        add_numbers()
-    elif args.operation == "subtract":
-        subtract_numbers()
-    elif args.operation == "multiply":
-        multiply_numbers()
+    if args.create:
+        create_datasets()
+    elif args.analysis:
+        perform_analysis()
+    else:
+        parser.print_help()
 
 
 if __name__ == "__main__":

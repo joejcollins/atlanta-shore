@@ -4,11 +4,9 @@ import csv
 from typing import Any
 
 from atlanta_shore.data.csv.observation_file_reader import ObservationFileReader
-
 from atlanta_shore.logger import setup_logger
 from atlanta_shore.models.sample_point_observation import SamplePointObservation
-from atlanta_shore.settings import date_from_file
-from atlanta_shore.settings import ATLANTA_SHORE
+from atlanta_shore.settings import ATLANTA_SHORE, date_from_file
 
 LOG = setup_logger(__name__)
 
@@ -23,8 +21,8 @@ def _get_field_names(first_observations_file) -> Any:
     return sample_point_observation.headers()
 
 
-def create_observations_table() -> None:
-    """Create the observations table"""
+def create_observations() -> None:
+    """Create the observations dataset."""
     # Get the headers from the first file.
     first_observations_file = ATLANTA_SHORE.observations_files[0]
     fieldnames = _get_field_names(first_observations_file)
@@ -48,6 +46,6 @@ def create_observations_table() -> None:
                 record_writer.writerow(sample_point_observation.model_dump())
 
 
-if __name__ == "__main__":
-    create_observations_table()
-    print("Done")
+def create_records() -> None:
+    """Create a set of records, one for each species identified."""
+    pass

@@ -5,7 +5,7 @@ from atlanta_shore.settings import ATLANTA_SHORE
 
 
 def setup_logger(name: str = __name__) -> logging.Logger:
-    """Create a standard logger"""
+    """Create a standard logger and log to stdout for convenience."""
     logger = logging.getLogger(name)
     logger.setLevel(ATLANTA_SHORE.log_level)
 
