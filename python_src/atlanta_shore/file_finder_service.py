@@ -13,11 +13,8 @@ class FileFinderService:
 
         Use dependency injection so that we can pass in mock items for testing.  Under
         normal use the default "normal" values are used."""
-        self.isfile = isfile  # so we can confirm if a file exists.
-        self.abspath = (
-            # so we can get the complete path to where we are to begin with.
-            abspath
-        )
+        self.isfile = isfile
+        self.abspath = abspath
         self.glob = glob
 
     def find_file_upwards(self, filename: str, start_directory: str = ".") -> Any:

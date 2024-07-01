@@ -482,3 +482,4 @@ reports/*/*.html
 
 # Sqlite database
 database.db
+settings.json

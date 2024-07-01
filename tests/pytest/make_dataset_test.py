@@ -1,7 +1,6 @@
 """Test the functions using for making the dataset."""
 from atlanta_shore import settings
-from atlanta_shore.handlers import make_observations_dataset
-from atlanta_shore.file_finder_service import FileFinderService
+from atlanta_shore.handlers import create_dataset
 
 
 def test_get_field_names() -> None:
@@ -9,7 +8,7 @@ def test_get_field_names() -> None:
     # ARRANGE
     first_observations_file = settings.ATLANTA_SHORE.observations_files[0]
     # ACT
-    field_names = make_observations_dataset._get_field_names(first_observations_file)
+    field_names = create_dataset._get_field_names(first_observations_file)
     # ASSERT
     assert field_names == [
         "sample_point_id",

@@ -2,6 +2,15 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "name": "Python: Run with --create flag",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/python_src/atlanta_shore/main.py",
+            "args": ["--create"],
+            "console": "integratedTerminal",
+            "justMyCode": false
+        },
+        {
             "name": "Python: Current File (Integrated Terminal)",
             "type": "debugpy",
             "request": "launch",
