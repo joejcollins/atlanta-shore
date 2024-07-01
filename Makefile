@@ -19,9 +19,6 @@ help: # Show help for each of the makefile recipes.
 survey-prep:
 	.venv/bin/python ./src/data/add_id_to_waypoints.py
 
-dataset:  # Prepare the datasets for analysis
-	.venv/bin/python ./python_src/atlanta_shore/handlers/make_observations_dataset.py
-
 .PHONY: docs  # because there is a directory called docs.
 docs:  # Build the mkdocs documentation.
 	.venv/bin/python -m mkdocs build --clean

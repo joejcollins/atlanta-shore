@@ -8,6 +8,7 @@ from atlanta_shore.handlers import create_dataset
 def create_datasets():
     """Recreate the datasets for analysis."""
     create_dataset.create_observations()
+    create_dataset.create_records()
     print("Data files for analysis recreated.")
 
 

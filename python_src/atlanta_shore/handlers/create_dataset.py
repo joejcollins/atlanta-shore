@@ -1,6 +1,7 @@
 """Create the main observations data file by merging the observations files."""
 
 import csv
+import re
 from typing import Any
 
 from atlanta_shore.data.csv.observation_file_reader import ObservationFileReader
@@ -27,9 +28,11 @@ def create_observations() -> None:
     first_observations_file = ATLANTA_SHORE.observations_files[0]
     fieldnames = _get_field_names(first_observations_file)
 
-    with open("./data/processed/observations.csv", "w+", newline="") as records_file:
+    with open(
+        "./data/processed/observations.csv", "w+", newline=""
+    ) as observations_file:
         record_writer = csv.DictWriter(
-            records_file,
+            observations_file,
             fieldnames=fieldnames,
         )
         record_writer.writeheader()
@@ -47,5 +50,59 @@ def create_observations() -> None:
 
 
 def create_records() -> None:
-    """Create a set of records, one for each species identified."""
-    pass
+    """Transform all the survey files into a records list
+
+    Create a records for each waypoint with the date and species identified.
+    """
+    with open("./data/processed/records.csv", "w+", newline="") as records_file:
+        record_writer = csv.DictWriter(
+            records_file,
+            fieldnames=[
+                "date",
+                "quadrat",
+                "waypoint",
+                "grid_reference",
+                "photo_up",
+                "photo_down",
+                "wetness",
+                "canopy",
+                "species",
+                "comments",
+            ],
+        )
+        record_writer.writeheader()
+
+        for survey_file_path in ATLANTA_SHORE.observations_files:
+            print(survey_file_path)
+            with open(survey_file_path, newline="") as survey_file:
+                survey_file_reader = csv.reader(survey_file, delimiter=",")
+                # Prepare an empty record with the file date
+                record = {
+                    "date": date_from_file(survey_file_path).isoformat(),
+                    "comments": "",
+                }
+                waypoint_comments = ""  # to collect waypoint comments
+                for row in survey_file_reader:
+                    # Read the waypoint information into the record.
+                    while "species" not in row[0]:
+                        record[row[0]] = row[1]  # so just add it to the record
+                        if row[2]:  # there is a comment
+                            waypoint_comments = waypoint_comments + row[2]
+                        row = next(survey_file_reader)
+                    # Get the individual species records
+                    while True:
+                        record["comments"] = waypoint_comments
+                        record["species"] = row[1]
+                        if row[2]:  # there is a comment
+                            record["comments"] = record["comments"] + " - " + row[2]
+                        # write a species record
+                        record_writer.writerow(record)
+                        try:
+                            row = next(survey_file_reader)
+                        except StopIteration:
+                            break  # at the end of the file
+                        if re.match(r"species|^$", row[0]) is None:
+                            # Next waypoint so add the read row to the record
+                            record[row[0]] = row[1]
+                            waypoint_comments = row[2] or ""
+                            break  # at the end of the species list
