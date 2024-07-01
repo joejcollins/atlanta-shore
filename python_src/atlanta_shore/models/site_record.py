@@ -1,4 +1,4 @@
-# import io
+import io
 
 
 class SiteRecord(object):
@@ -13,15 +13,16 @@ class SiteRecord(object):
         self.wetness = None
         self.canopy = None
         # self.species = []
-        # string_as_file = io.StringIO(site_record_string)
-        # self._initialize_attributes()
+        string_as_file = io.StringIO(site_record_string)
+        self._initialize_attributes(string_as_file)
 
     def _initialize_attributes(self, string_as_file):
         """Set the site record values"""
-        for row in string_as_file:
+        for line in string_as_file:
+            row = line.split(",")
             first = row[0]
             second = row[1]
-            third = row[3]
+            third = row[2]
             match first:
                 case "quadrat":
                     self.quadrat = {"id": second, "comment": third}

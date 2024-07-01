@@ -1,5 +1,6 @@
-""" Tests for site_record.py """
-from src.data import site_record
+"""Tests for site_record.py"""
+
+from atlanta_shore.models import site_record
 
 SITE_RECORD_STRING = """quadrat,3,
 waypoint,1,
@@ -23,6 +24,8 @@ species,Urtica dioica,
 
 def test_site_record() -> None:
     """Read in a site record and confirm attributes."""
+    # ACT
     the_site_record = site_record.SiteRecord(SITE_RECORD_STRING)
-    assert the_site_record.quadrat == 3
-    assert the_site_record.waypoint == 1
+    # ASSE
+    assert the_site_record.quadrat["id"] == '3'
+    assert the_site_record.waypoint["name"] == '1'
