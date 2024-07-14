@@ -23,6 +23,7 @@ dependencies = [
     "imageio",
     "ipykernel",  # required for jupyter notebook in VS Code.
     "ipympl",
+    "jupyterlab",
     "lxml",  # for parsing GPX files.
     "matplotlib",
     "mkdocs-material", # theme for the documentation.
