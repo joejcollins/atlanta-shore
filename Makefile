@@ -70,8 +70,6 @@ report:  # Report the python version and pip list.
 
 rserver:  # Run Rstudio server
 	@echo "https://127.0.0.1:8787/"
-	export DISABLE_AUTH=true && \
-	export PASSWORD=qwer && \
 	sudo rstudio-server restart
 
 venv:  # Install the requirements for Python and R.
