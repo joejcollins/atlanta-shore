@@ -8,7 +8,7 @@ clean:  # Remove all build, test, coverage and Python artifacts.
 	find . -type f -name "*.py[co]" -delete -or -type d -name "__pycache__" -delete
 	rm -rf .R
 
-compile:  # Compile the requirements files using pip-tools.
+lock:  # Compile the requirements files using pip-tools.
 	rm -f requirements.*
 	.venv/bin/pip-compile --output-file=requirements.txt
 
