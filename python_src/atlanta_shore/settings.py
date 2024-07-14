@@ -37,8 +37,6 @@ class AtlantaShoreSettings:
 
     # endregion
 
-
-
     def load_local_settings(self) -> None:
         """Load custom settings from the local settings.json file."""
         if settings_path := self.file_finder.find_file_upwards("settings.json"):
