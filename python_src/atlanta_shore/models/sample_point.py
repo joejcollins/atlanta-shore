@@ -1,8 +1,7 @@
 """Schema for a sampling point."""
 
-from pydantic import BaseModel
-
 from atlanta_shore.models import geo_point
+from pydantic import BaseModel
 
 
 class SamplePoint(BaseModel):

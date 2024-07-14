@@ -1,7 +1,9 @@
 """fa"""
 
+from atlanta_shore.data import abstract_image_processor
 
-class SkyImage(AbstractImageProcessor):
+
+class SkyImage(abstract_image_processor.AbstractImageProcessor):
     def process_image(self):
         sky_amount = self.calculate_sky_amount()
         metadata = self.exif_data.get_metadata()

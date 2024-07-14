@@ -59,8 +59,6 @@ lint:  # Lint the code with ruff and sourcery.
 	.venv/bin/python -m ruff check ./python_src ./tests
 	.venv/bin/sourcery login --token $$SOURCERY_TOKEN
 	.venv/bin/sourcery review ./python_src ./tests --check --no-summary
-
-mypy:  # Type check the code with mypy.
 	.venv/bin/python -m mypy ./python_src ./tests
 
 report:  # Report the python version and pip list.
@@ -69,6 +67,10 @@ report:  # Report the python version and pip list.
 	.venv/bin/python -m pip list -v
 	Rscript -e "installed_packages <- as.data.frame(installed.packages()); \
 		print(installed_packages[c('Package', 'LibPath')])"
+
+rserver:  # Run Rstudio server
+	@echo "https://127.0.0.1:8787/"
+	sudo rstudio-server start
 
 venv:  # Install the requirements for Python and R.
 	python3 -m venv .venv
