@@ -183,7 +183,7 @@ jupyter-server==2.14.2
     #   notebook-shim
 jupyter-server-terminals==0.5.3
     # via jupyter-server
-jupyterlab==4.2.3
+jupyterlab==4.2.5
     # via atlanta_shore (pyproject.toml)
 jupyterlab-pygments==0.3.0
     # via nbconvert
