@@ -4,7 +4,7 @@ In 2019, Spains Hall Estate introduced a pair of beavers as part of an ambitious
 
 [Learn more about the project here.](https://www.spainshallestate.co.uk/nfm_beavers)
 
-Each summer since the beavers' introduction, we’ve conducted an extensive botanical survey of the site. Now, we’re seeking understand how influenced the botany of the area and how effective our survey techniques have been.  Some of the things we are interested to investigate are:
+Each summer since the beavers' introduction, we’ve conducted an extensive botanical survey of the site. Now, we’re seeking understand how the introduction of beavers influenced the botany of the area and how effective our survey techniques have been.  Some of the things we are interested to investigate are:
 
 1. Which plant communities have declined, and which have flourished?
 2. How have Ellenberg indicator values changed across the site, and do these changes align with water level measurements?
