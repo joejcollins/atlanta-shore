@@ -3,12 +3,15 @@
 import argparse
 
 from atlanta_shore.handlers import create_dataset
+from atlanta_shore.handlers.gpx_parser import create_gpx_observations
 
 
 def create_datasets():
     """Recreate the datasets for analysis."""
     create_dataset.create_observations()
     create_dataset.create_records()
+    # Process GPX files
+    create_gpx_observations()
     print("Data files for analysis recreated.")
 
 

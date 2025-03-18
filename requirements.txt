@@ -208,7 +208,7 @@ markupsafe==2.1.5
     #   mkdocs
     #   nbconvert
     #   werkzeug
-matplotlib==3.9.1
+matplotlib==3.9.0 #AK avoid install error
     # via
     #   atlanta_shore (pyproject.toml)
     #   ipympl

@@ -2,6 +2,7 @@
 
 import datetime
 import json
+import re
 from pathlib import Path
 from typing import Any
 
@@ -15,6 +16,35 @@ def date_from_file(file_path: str) -> datetime.date:
     month = int(split_path[-3])
     day = int(split_path[-2])
     return datetime.date(year, month, day)
+
+def date_from_gpx_file(file_path: str) -> datetime.date:
+    """Extract the survey date from the gpx file path, handling both formats."""
+    # Format 1: spains-hall-waypoints-survey-YYYY-MM-DD.gpx
+    match1 = re.search(r"(\d{4})-(\d{2})-(\d{2})", file_path)
+    if match1:
+        year, month, day = map(int, match1.groups())
+        return datetime.date(year, month, day)
+
+    # Format 2: Waypoints_DD-MMM-YY.gpx
+    match2 = re.search(r"Waypoints_(\d{2})-([A-Z]{3})-(\d{2})\.gpx", file_path)
+    if match2:
+        day, month_str, year_short = match2.groups()
+        day = int(day)
+        year = 2000 + int(year_short)  # Assuming 21st century
+
+        # Convert month string to month number
+        month_dict = {
+            "JAN": 1, "FEB": 2, "MAR": 3, "APR": 4, "MAY": 5, "JUN": 6,
+            "JUL": 7, "AUG": 8, "SEP": 9, "OCT": 10, "NOV": 11, "DEC": 12,
+        }
+        month = month_dict.get(month_str, None)
+
+        if month:
+            return datetime.date(year, month, day)
+        else:
+            raise ValueError(f"Invalid month in file path: {file_path}")
+
+        raise ValueError(f"Could not extract date from file path: {file_path}")
 
 
 class AtlantaShoreSettings:
@@ -49,9 +79,20 @@ class AtlantaShoreSettings:
 
     # region Properties
     @property
-    def observations_files(self) -> Any:
+    def observations_files(self, pattern="data-plant*.csv") -> Any:
         """Get the list of file names."""
-        return self.file_finder.find_data_files(pattern="data-plant*.csv")
+        return self.file_finder.find_data_files(pattern=pattern)
+
+    @property
+    def gpx_files(self) -> Any:
+        """Get the list of GPX file names."""
+        pattern1 = "spains-hall-waypoints-survey-*.gpx"
+        pattern2 = "Waypoints_*.gpx"
+
+        files1 = self.file_finder.find_data_files(pattern=pattern1)
+        files2 = self.file_finder.find_data_files(pattern=pattern2)
+
+        return sorted(files1 + files2)
 
     @property
     def processed_data(self) -> Any:
