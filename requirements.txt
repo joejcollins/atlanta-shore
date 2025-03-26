@@ -511,6 +511,9 @@ wheel==0.43.0
     # via pip-tools
 widgetsnbextension==4.0.11
     # via ipywidgets
+folium==0.14.0
+seaborn==0.13.2
+plotly==5.24.1
 
 # The following packages are considered to be unsafe in a requirements file:
 # pip
