@@ -3,6 +3,7 @@
     "language": "en",
     "words": [
         "abcdefghijklmnopqrstuvwxyz",
+        "addopts",
         "apidocs",
         "asdfgh",
         "axvline",
@@ -109,6 +110,7 @@
         "stringr",
         "subnet",
         "tamasfe",
+        "testpaths",
         "testthat",
         "tidyr",
         "tidyverse",
