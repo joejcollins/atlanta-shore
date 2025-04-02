@@ -19,3 +19,4 @@ sample_points <- read.csv("data/processed/observations.csv")
 
 # Merge the two dataframes based on a common ID
 merged_data <- merge(data1, data2, by = "id")
+```
