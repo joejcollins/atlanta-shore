@@ -12,11 +12,11 @@ RUN curl -LsSf https://astral.sh/uv/install.sh | sh \
     && cp /root/.local/bin/uv /usr/local/bin/uv
 
 # Precache the R packages for the rstudio user to improve start up times.
-USER rstudio
-WORKDIR /home/rstudio/app
-COPY renv.lock ./
-RUN R -e "install.packages('renv')" \
-    && R -e "renv::restore()"
+# USER rstudio
+# WORKDIR /home/rstudio/app
+# COPY renv.lock ./
+# RUN R -e "install.packages('renv')" \
+#     && R -e "renv::restore()"
 
 # Precache the Python packages for the rstudio user as well.
 COPY pyproject.toml requirements.txt Makefile ./
