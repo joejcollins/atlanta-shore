@@ -17,6 +17,7 @@ def date_from_file(file_path: str) -> datetime.date:
     day = int(split_path[-2])
     return datetime.date(year, month, day)
 
+
 def date_from_gpx_file(file_path: str) -> datetime.date:
     """Extract the survey date from the gpx file path, handling both formats."""
     # Format 1: spains-hall-waypoints-survey-YYYY-MM-DD.gpx
@@ -34,8 +35,18 @@ def date_from_gpx_file(file_path: str) -> datetime.date:
 
         # Convert month string to month number
         month_dict = {
-            "JAN": 1, "FEB": 2, "MAR": 3, "APR": 4, "MAY": 5, "JUN": 6,
-            "JUL": 7, "AUG": 8, "SEP": 9, "OCT": 10, "NOV": 11, "DEC": 12,
+            "JAN": 1,
+            "FEB": 2,
+            "MAR": 3,
+            "APR": 4,
+            "MAY": 5,
+            "JUN": 6,
+            "JUL": 7,
+            "AUG": 8,
+            "SEP": 9,
+            "OCT": 10,
+            "NOV": 11,
+            "DEC": 12,
         }
         month = month_dict.get(month_str, None)
 

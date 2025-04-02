@@ -16,4 +16,3 @@ Questions we’re keen to explore include:
 You are also invited to join us to assist with the next botanical survey, scheduled for 19–22 June 2025. This is a fantastic opportunity to gain hands-on experience of how the data was gathered.  It will be midsummer, the days are long, and the Essex countryside wil be at its most beautiful.
 
 We’d love to hear from you!
-

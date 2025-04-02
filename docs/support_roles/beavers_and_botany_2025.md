@@ -15,4 +15,3 @@ Each summer since the beavers' introduction, we’ve conducted an extensive bota
 You are also invited to join us to assist with the next botanical survey, scheduled for 19–22 June 2025. This is a opportunity to gain hands-on experience of how the data was gathered.  It will be in midsummer, the days are long, and the Essex countryside will be at its most beautiful.
 
 We’d love to hear from you!
-

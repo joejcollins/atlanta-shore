@@ -9,6 +9,7 @@ from atlanta_shore.settings import ATLANTA_SHORE, date_from_gpx_file
 
 LOG = setup_logger(__name__)
 
+
 class GPXFileReader:
     def __init__(self, gpx_file_path):
         self.tree = ET.parse(gpx_file_path)
@@ -26,11 +27,13 @@ class GPXFileReader:
         except StopIteration:
             raise StopIteration
 
+
 def _get_gpx_field_names(first_gpx_file) -> Any:
     gpx_file_reader = GPXFileReader(first_gpx_file)
     first_waypoint = next(gpx_file_reader)
     fields = ["lat", "lon", "ele", "time", "name", "sym", "cmt", "date"]
     return fields
+
 
 def create_gpx_observations() -> None:
     first_gpx_file = ATLANTA_SHORE.gpx_files[0]
@@ -50,19 +53,46 @@ def create_gpx_observations() -> None:
             for waypoint in gpx_file_reader:
                 lat = waypoint.get("lat")
                 lon = waypoint.get("lon")
-                ele = waypoint.find("gpx:ele", namespaces=gpx_file_reader.ns).text if waypoint.find("gpx:ele", namespaces=gpx_file_reader.ns) is not None else None
-                time = waypoint.find("gpx:time", namespaces=gpx_file_reader.ns).text if waypoint.find("gpx:time", namespaces=gpx_file_reader.ns) is not None else None
-                name = waypoint.find("gpx:name", namespaces=gpx_file_reader.ns).text if waypoint.find("gpx:name", namespaces=gpx_file_reader.ns) is not None else None
-                sym = waypoint.find("gpx:sym", namespaces=gpx_file_reader.ns).text if waypoint.find("gpx:sym", namespaces=gpx_file_reader.ns) is not None else None
-                cmt = waypoint.find("gpx:cmt", namespaces=gpx_file_reader.ns).text if waypoint.find("gpx:cmt", namespaces=gpx_file_reader.ns) is not None else None
+                ele = (
+                    waypoint.find("gpx:ele", namespaces=gpx_file_reader.ns).text
+                    if waypoint.find("gpx:ele", namespaces=gpx_file_reader.ns)
+                    is not None
+                    else None
+                )
+                time = (
+                    waypoint.find("gpx:time", namespaces=gpx_file_reader.ns).text
+                    if waypoint.find("gpx:time", namespaces=gpx_file_reader.ns)
+                    is not None
+                    else None
+                )
+                name = (
+                    waypoint.find("gpx:name", namespaces=gpx_file_reader.ns).text
+                    if waypoint.find("gpx:name", namespaces=gpx_file_reader.ns)
+                    is not None
+                    else None
+                )
+                sym = (
+                    waypoint.find("gpx:sym", namespaces=gpx_file_reader.ns).text
+                    if waypoint.find("gpx:sym", namespaces=gpx_file_reader.ns)
+                    is not None
+                    else None
+                )
+                cmt = (
+                    waypoint.find("gpx:cmt", namespaces=gpx_file_reader.ns).text
+                    if waypoint.find("gpx:cmt", namespaces=gpx_file_reader.ns)
+                    is not None
+                    else None
+                )
 
-                record_writer.writerow({
-                    "lat": lat,
-                    "lon": lon,
-                    "ele": ele,
-                    "time": time,
-                    "name": name,
-                    "sym": sym,
-                    "cmt": cmt,
-                    "date": observation_date.isoformat()
-                })
+                record_writer.writerow(
+                    {
+                        "lat": lat,
+                        "lon": lon,
+                        "ele": ele,
+                        "time": time,
+                        "name": name,
+                        "sym": sym,
+                        "cmt": cmt,
+                        "date": observation_date.isoformat(),
+                    }
+                )

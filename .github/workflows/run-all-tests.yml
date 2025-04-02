@@ -15,16 +15,21 @@ jobs:
       GITHUB_PAT: ${{ secrets.PAT_NO_PERMISSIONS }}
 
     steps:
-    - uses: actions/checkout@v4
-      with:
-        submodules: false
-        clean: true
+      - uses: actions/checkout@v4
+        with:
+          submodules: false
+          clean: true
 
-    - name: Symlink the prebuilt assets and run tests.
-      run: |
-        ln -snf /app/.venv .
-        .venv/bin/python -m pip install --editable .
-        ln -snf /app/.R .
-        make report
-        make test
+      - name: Run Python tests.
+        run: |
+          make venv
+          make report
+          make test
+      
+      - name: Run R tests.
+        run: |
+          install.packages("renv")
+          renv::restore()
+          devtools::test()
+        shell: Rscript {0}
 ...
