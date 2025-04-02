@@ -1,5 +1,7 @@
-# PYTHON IGNORE
-##########################################################################
+##########
+# PYTHON #
+##########
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -22,6 +24,7 @@ parts/
 sdist/
 var/
 wheels/
+share/python-wheels/
 *.egg-info/
 .installed.cfg
 *.egg
@@ -40,14 +43,17 @@ pip-delete-this-directory.txt
 # Unit test / coverage reports
 htmlcov/
 .tox/
+.nox/
 .coverage
 .coverage.*
 .cache
 nosetests.xml
 coverage.xml
 *.cover
+*.py,cover
 .hypothesis/
 .pytest_cache/
+cover/
 
 # Translations
 *.mo
@@ -57,6 +63,7 @@ coverage.xml
 *.log
 local_settings.py
 db.sqlite3
+db.sqlite3-journal
 
 # Flask stuff:
 instance/
@@ -69,16 +76,57 @@ instance/
 docs/_build/
 
 # PyBuilder
+.pybuilder/
 target/
 
 # Jupyter Notebook
 .ipynb_checkpoints
 
-# pyenv
-.python-version
+# IPython
+profile_default/
+ipython_config.py
 
-# celery beat schedule file
+# pyenv
+#   For a library or package, you might want to ignore these files since the code is
+#   intended to run in multiple environments; otherwise, check them in:
+# .python-version
+
+# pipenv
+#   According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control.
+#   However, in case of collaboration, if having platform-specific dependencies or dependencies
+#   having no cross-platform support, pipenv may install dependencies that don't work, or not
+#   install all needed dependencies.
+#Pipfile.lock
+
+# UV
+#   Similar to Pipfile.lock, it is generally recommended to include uv.lock in version control.
+#   This is especially recommended for binary packages to ensure reproducibility, and is more
+#   commonly ignored for libraries.
+#uv.lock
+
+# poetry
+#   Similar to Pipfile.lock, it is generally recommended to include poetry.lock in version control.
+#   This is especially recommended for binary packages to ensure reproducibility, and is more
+#   commonly ignored for libraries.
+#   https://python-poetry.org/docs/basic-usage/#commit-your-poetrylock-file-to-version-control
+#poetry.lock
+
+# pdm
+#   Similar to Pipfile.lock, it is generally recommended to include pdm.lock in version control.
+#pdm.lock
+#   pdm stores project-wide configurations in .pdm.toml, but it is recommended to not include it
+#   in version control.
+#   https://pdm.fming.dev/latest/usage/project/#working-with-version-control
+.pdm.toml
+.pdm-python
+.pdm-build/
+
+# PEP 582; used by e.g. github.com/David-OConnor/pyflow and github.com/pdm-project/pdm
+__pypackages__/
+
+# Celery stuff
 celerybeat-schedule
+celerybeat.pid
 
 # SageMath parsed files
 *.sage.py
@@ -104,28 +152,34 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+.dmypy.json
+dmypy.json
 
-# Jekyll
-_site
-.DS_Store
-.jekyll
-.jekyll-metadata
-.bundle
-.RData
-.Rproj.user
-.Rhistory
-.sass-cache
-Gemfile
-Gemfile.lock
-node_modules
-package.json
+# Pyre type checker
+.pyre/
 
-# Visual Studio
-.vs
+# pytype static type analyzer
+.pytype/
 
-# LATEX IGNORE
-##########################################################################
-# Core latex/pdflatex auxiliary files:
+# Cython debug symbols
+cython_debug/
+
+# PyCharm
+#  JetBrains specific template is maintained in a separate JetBrains.gitignore that can
+#  be found at https://github.com/github/gitignore/blob/main/Global/JetBrains.gitignore
+#  and can be added to the global gitignore or merged into this file.  For a more nuclear
+#  option (not recommended) you can uncomment the following to ignore the entire idea folder.
+#.idea/
+
+# PyPI configuration file
+.pypirc
+
+
+#########
+# LaTeX #
+#########
+
+## Core latex/pdflatex auxiliary files:
 *.aux
 *.lof
 *.log
@@ -146,14 +200,16 @@ package.json
 # these rules might exclude image files for figures etc.
 # *.ps
 # *.eps
-*.pdf
+# *.pdf
 
 ## Generated if empty string is given at "Please type another file name for output:"
 .pdf
 
 ## Bibliography auxiliary files (bibtex/biblatex/biber):
 *.bbl
+*.bbl-SAVE-ERROR
 *.bcf
+*.bcf-SAVE-ERROR
 *.blg
 *-blx.aux
 *-blx.bib
@@ -166,6 +222,8 @@ package.json
 *.synctex.gz
 *.synctex.gz(busy)
 *.pdfsync
+*.rubbercache
+rubber.cache
 
 ## Build tool directories for auxiliary files
 # latexrun
@@ -191,221 +249,9 @@ acs-*.bib
 # changes
 *.soc
 
-# comment
-*.cut
-
-# cprotect
-*.cpt
-
-# elsarticle (documentclass of Elsevier journals)
-*.spl
-
-# endnotes
-*.ent
-
-# fixme
-*.lox
-
-# feynmf/feynmp
-*.mf
-*.mp
-*.t[1-9]
-*.t[1-9][0-9]
-*.tfm
-
-#(r)(e)ledmac/(r)(e)ledpar
-*.end
-*.?end
-*.[1-9]
-*.[1-9][0-9]
-*.[1-9][0-9][0-9]
-*.[1-9]R
-*.[1-9][0-9]R
-*.[1-9][0-9][0-9]R
-*.eledsec[1-9]
-*.eledsec[1-9]R
-*.eledsec[1-9][0-9]
-*.eledsec[1-9][0-9]R
-*.eledsec[1-9][0-9][0-9]
-*.eledsec[1-9][0-9][0-9]R
-
-# glossaries
-*.acn
-*.acr
-*.glg
-*.glo
-*.gls
-*.glsdefs
-*.lzo
-*.lzs
-
-# uncomment this for glossaries-extra (will ignore makeindex's style files!)
-# *.ist
-
-# gnuplottex
-*-gnuplottex-*
-
-# gregoriotex
-*.gaux
-*.gtex
-
-# htlatex
-*.4ct
-*.4tc
-*.idv
-*.lg
-*.trc
-*.xref
-
-# hyperref
-*.brf
-
-# knitr
-*-concordance.tex
-# TODO Comment the next line if you want to keep your tikz graphics files
-*.tikz
-*-tikzDictionary
-
-# listings
-*.lol
-
-# luatexja-ruby
-*.ltjruby
-
-# makeidx
-*.idx
-*.ilg
-*.ind
-
-# minitoc
-*.maf
-*.mlf
-*.mlt
-*.mtc[0-9]*
-*.slf[0-9]*
-*.slt[0-9]*
-*.stc[0-9]*
-
-# minted
-_minted*
-*.pyg
-
-# morewrites
-*.mw
-
-# nomencl
-*.nlg
-*.nlo
-*.nls
-
-# pax
-*.pax
-
-# pdfpcnotes
-*.pdfpc
-
-# sagetex
-*.sagetex.sage
-*.sagetex.py
-*.sagetex.scmd
-
-# scrwfile
-*.wrt
-
-# sympy
-*.sout
-*.sympy
-sympy-plots-for-*.tex/
-
-# pdfcomment
-*.upa
-*.upb
-
-# pythontex
-*.pytxcode
-pythontex-files-*/
-
-# tcolorbox
-*.listing
-
-# thmtools
-*.loe
-
-# TikZ & PGF
-*.dpth
-*.md5
-*.auxlock
-
-# todonotes
-*.tdo
-
-# vhistory
-*.hst
-*.ver
-
-# easy-todo
-*.lod
-
-# xcolor
-*.xcp
-
-# xmpincl
-*.xmpi
-
-# xindy
-*.xdy
-
-# xypic precompiled matrices and outlines
-*.xyc
-*.xyd
-
-# endfloat
-*.ttt
-*.fff
-
-# Latexian
-TSWLatexianTemp*
-
-## Editors:
-# WinEdt
-*.bak
-*.sav
-
-# Texpad
-.texpadtmp
-
-# LyX
-*.lyx~
-
-# Kile
-*.backup
-
-# gummi
-.*.swp
-
-# KBibTeX
-*~[0-9]*
-
-# TeXnicCenter
-*.tps
-
-# auto folder when using emacs and auctex
-./auto/*
-*.el
-
-# expex forward references with \gathertags
-*-tags.tex
-
-# standalone packages
-*.sta
-
-# Makeindex log files
-*.lpz
-
-# R LANG IGNORE
-##########################################################################
-# User packages
-/.R
+##########
+# R LANG #
+##########
 
 # History files
 .Rhistory
@@ -413,6 +259,7 @@ TSWLatexianTemp*
 
 # Session Data files
 .RData
+.RDataTmp
 
 # User-specific files
 .Ruserdata
@@ -450,36 +297,26 @@ vignettes/*.pdf
 # translation temp files
 po/*~
 
-# Ignore process data unless compelled to.
-data/processed/*
+# RStudio Connect folder
+rsconnect/
 
-# Ignore the generated html in
-/reports/html.*
+.R/
 
-#JetBrains IDEs
-.idea/*
+###########
+# PROJECT #
+###########
+# Gitpod Flex
+core
 
-# File-based project format
-*.iws
+# Mac Desktop Services Store
+.DS_Store
 
-# IntelliJ
-out/
+# Data Files
+data
 
-# mpeltonen/sbt-idea plugin
-.idea_modules/
+# Scratch files
+shit.*
 
-# Crashlytics plugin (for Android Studio and IntelliJ)
-com_crashlytics_export_strings.xml
-crashlytics.properties
-crashlytics-build.properties
-fabric.properties
-
-/.luarc.json
-
-# Quarto
-reports/*/*.html
-**/*_files
-
-# Sqlite database
-database.db
-settings.json
+# Generated pdfs
+reports/*.pdf
+notebooks/*.pdf
