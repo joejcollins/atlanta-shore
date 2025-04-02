@@ -25,7 +25,7 @@ jobs:
           make venv
           make report
           make test
-      
+
       - name: Run R tests.
         run: |
           install.packages("renv")
