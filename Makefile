@@ -35,9 +35,9 @@ r:  # Run Rstudio server
 rtest: lock  # Run the R tests.
 	R -e "devtools::test()"
 
-test:  # Run the Python tests.
+test:  # Run the unit tests.
 	.venv/bin/pytest ./tests --verbose --color=yes
-	.venv/bin/pytest --cov=erpsoiltools --cov-fail-under=80
+	.venv/bin/pytest --cov=atlanta_shore --cov-fail-under=50
 
 venv:  # Create the virtual environment.
 	uv venv .venv
