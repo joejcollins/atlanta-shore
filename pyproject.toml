@@ -12,7 +12,6 @@ requires-python = ">=3.10"
 classifiers = [
     "Programming Language :: Python :: 3",
     "License :: OSI Approved :: MIT License",
-    "Operating System :: OS Independent",
 ]
 dependencies = [
     "black",
@@ -29,9 +28,7 @@ dependencies = [
     "OSGridConverter",
     "pandas",
     "pre-commit",
-    "pip-tools",       # used to manage requirements.txt.
     "pydantic",
-    "pysqlite3",       # in case we need the enhanced geospatial stuff.
     "pytest",
     "pytest-cov",
     "radian",
