@@ -1,9 +1,5 @@
 {
     "name": "Data Repository",
-    "build": {
-        "dockerfile": "Dockerfile"
-    },
-    // "image": "ghcr.io/joejcollins/atlanta-shore:latest",
     "features": {
         "ghcr.io/devcontainers/features/docker-in-docker:2": {}
     },
