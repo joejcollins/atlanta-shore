@@ -1,5 +1,5 @@
 # Get a simple base image
-FROM mcr.microsoft.com/devcontainers/base:alpine-3.20
+FROM mcr.microsoft.com/devcontainers/base:bullseye
 
 # # Install LaTeX because it is not included in the Rocker image.
 # RUN apt-get --quiet update \
