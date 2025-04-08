@@ -1,6 +1,10 @@
 {
-    "name": "Python and R Data Science Environment",
-    "image": "ghcr.io/joejcollins/atlanta-shore:latest",
+    "name": "Data Repository",
+    "build": {
+        "context": "..",
+        "dockerfile": ".devcontainer/Dockerfile"
+    },
+    // "image": "ghcr.io/joejcollins/atlanta-shore:latest",
     "features": {
         "ghcr.io/devcontainers/features/docker-in-docker:2": {}
     },
