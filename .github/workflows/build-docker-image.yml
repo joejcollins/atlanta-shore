@@ -7,7 +7,6 @@ on:
     paths:
       - '.github/workflows/build-docker-image.yml'
       - 'Dockerfile'
-      - 'requirements.txt'
 
 jobs:
   build-and-push:

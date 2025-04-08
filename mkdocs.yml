@@ -1,0 +1,19 @@
+---
+site_name: Atlanta Shore
+repo_url: https://github.com/joejcollins/atlanta-shore
+theme:
+    name: 'readthedocs'
+    palette:
+        - scheme: default
+          primary: indigo
+          accent: indigo
+
+plugins:
+    - search
+    - mermaid2
+
+extra_javascript:
+    - https://polyfill.io/v3/polyfill.min.js?features=es6
+    - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+    - https://unpkg.com/mermaid/dist/mermaid.min.js
+    
