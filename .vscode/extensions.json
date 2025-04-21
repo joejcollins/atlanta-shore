@@ -1,10 +1,6 @@
 {
     "recommendations": [
-        "bierner.markdown-mermaid",
-        "eamodio.gitlens",
-        "james-yu.latex-workshop",
         "mechatroner.rainbow-csv",
-        "streetsidesoftware.code-spell-checker",
-        "tamasfe.even-better-toml"
+        "streetsidesoftware.code-spell-checker"
     ]
 }
