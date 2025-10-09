@@ -1,19 +1,23 @@
 ---
 site_name: Atlanta Shore
 repo_url: https://github.com/joejcollins/atlanta-shore
+use_directory_urls: false
 theme:
-    name: 'readthedocs'
-    palette:
-        - scheme: default
-          primary: indigo
-          accent: indigo
+    name: readthedocs
 
 plugins:
     - search
-    - mermaid2
+    - mermaid2:
+          javascript: https://unpkg.com/mermaid@10.9.0/dist/mermaid.min.js
+          arguments:
+              startOnLoad: true
+    - mkdocstrings:
+          handlers:
+              python:
+                  options:
+                      docstring_style: google
+                      show_source: false
 
 extra_javascript:
     - https://polyfill.io/v3/polyfill.min.js?features=es6
     - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
-    - https://unpkg.com/mermaid/dist/mermaid.min.js
-    

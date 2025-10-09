@@ -1,2 +1,0 @@
-# Hand built, just add packages.
-mkdocs

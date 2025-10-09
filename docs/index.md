@@ -2,8 +2,6 @@
 title: Home
 nav_order: 1
 ---
-# Beavers and Botany
-
 ## Background
 
 A study of the effects of the introduction of beavers on botanical biodiversity.
@@ -20,12 +18,3 @@ of the beaver introduction site has been transformed under beaver management.
 1. Evaluate techniques for monitoring the effects of beaver introductions.
 1. Create a model to predict the timeline for the effects of beaver introductions.
 1. Create an automated tool for predicting moisture and light levels from digital images.
-
-## Data and Analysis
-
-This is an on going study and both the data and analysis in Open Source.
-You can take and look an run the analyses yourself on Gitpod.
-
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#github.com/joejcollins/atlanta-shore)
-
-To use Rstudio run `rserver` in the VSCode terminal.

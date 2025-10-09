@@ -1,0 +1,64 @@
+[project]
+name = "atlanta_shore"
+version = "0.0.1"
+authors = [
+    { name = "Joe Collins", email = "joejcollins@gmail.com" },
+    { name = "Mags Cousins", email = "magscousins@hotmail.com" },
+]
+description = "Spains Hall ETL."
+license = { file = "LICENSE" }
+readme = "README.md"
+requires-python = ">=3.14"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+]
+dependencies = [
+    "debugpy",         # only required for debugging, not needed for production.
+    "imageio",
+    "ipykernel",       # required for jupyter notebook in VS Code.
+    "ipympl",
+    "jupyterlab",
+    "loguru",
+    "lxml",            # for parsing GPX files.
+    "mkdocs",
+    "mkdocs-mermaid2-plugin",
+    "mkdocstrings[python]",
+    "mypy",
+    "OSGridConverter",
+    "pandas",
+    "pre-commit",
+    "pydantic",
+    "pytest-cov",
+    "pytest",
+    "python-dotenv",
+    "ruff",
+    "tqdm",
+    "types-tqdm",
+]
+[tool.pytest.ini_options]
+log_cli = true
+log_cli_level = "INFO"
+log_cli_format = "%(asctime)s [%(levelname)s] %(message)s"
+log_cli_date_format = "%Y-%m-%d %H:%M:%S"
+addopts = "-q --disable-warnings --cache-clear"
+testpaths = ["./tests"]
+
+[tool.ruff]
+lint.select = ["F", "E", "W", "C90", "I", "PL", "D"]
+lint.ignore = ["D203", "D213"]
+lint.fixable = ["ALL"]
+line-length = 88
+
+[tool.uv]
+package = true
+
+[[tool.mypy.overrides]]
+module = ["atlanta_shore.*"]
+follow_untyped_imports = true
+
+[tool.mypy]
+python_version = "3.14"
+warn_return_any = true
+warn_unused_configs = true
+
