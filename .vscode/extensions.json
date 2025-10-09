@@ -1,6 +1,11 @@
 {
     "recommendations": [
+        "charliermarsh.ruff",
+        "ms-toolsai.jupyter",
+        "ms-python.python",
         "mechatroner.rainbow-csv",
-        "streetsidesoftware.code-spell-checker"
+        "sourcery.sourcery",
+        "streetsidesoftware.code-spell-checker",
+        "tamasfe.even-better-toml"
     ]
 }
