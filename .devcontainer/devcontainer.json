@@ -7,7 +7,7 @@
         "vscode": {
             "settings": {
                 "editor.rulers": [
-                    80
+                    88
                 ],
                 "files.watcherExclude": {
                     "**/__pycache__": true,
