@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="shortcut icon" href="img/favicon.ico" />
+    <title>QGIS Setup Notes - Atlanta Shore</title>
+    <link rel="stylesheet" href="css/theme.css" />
+    <link rel="stylesheet" href="css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+        <link href="assets/_mkdocstrings.css" rel="stylesheet" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "QGIS Setup Notes";
+        var mkdocs_page_input_path = "QGIS.md";
+        var mkdocs_page_url = null;
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="index.html" class="icon icon-home"> Atlanta Shore
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="./search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="index.html">Home</a>
+                </li>
+              </ul>
+              <ul class="current">
+                <li class="toctree-l1 current"><a class="reference internal current" href="#">QGIS Setup Notes</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#install-quickmapservices">Install QuickMapServices</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#install-tombio-tools">Install TomBio tools</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#locate-the-survey-area">Locate the survey area</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#to-create-the-random-points-within-a-polygon">To Create the random points within a polygon</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#export-gpx-points-for-use-in-view-ranger">Export GPX points for use in View Ranger</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#export-csv-xy-to-convert-to-grid-references-with-sheet-numbers">Export CSV XY to convert to grid references with sheet numbers</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#export-boundary-for-reference-purposes">Export boundary for reference purposes</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#import-boundary-gpx-and-convert-to-polygon">Import boundary GPX and convert to polygon</a>
+    </li>
+        </ul>
+    </li>
+    </ul>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="project-layout.html">Project Layout</a>
+                </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Data</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="data/index.html">Data</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="data/gps-download.html">GPS Download</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="data/observation-entry.html">Data Entry</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="data/processing.html">Data Processing</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Survey</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="survey/index.html">Survey</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="survey/location.html">Survey Location</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="survey/points.html">Survey Points</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="survey/prep.html">Survey Prep</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="survey/procedure.html">Survey Procedure</a>
+                  </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Atlanta Shore</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="index.html" class="icon icon-home" aria-label="Docs"></a></li>
+      <li class="breadcrumb-item active">QGIS Setup Notes</li>
+    <li class="wy-breadcrumbs-aside">
+          <a href="https://github.com/joejcollins/atlanta-shore/edit/master/docs/QGIS.md" class="icon icon-github"> Edit on GitHub</a>
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="qgis-setup-notes">QGis Setup Notes</h1>
+<p>Using QGIS version 3.4.3-Madeira</p>
+<h2 id="install-quickmapservices">Install QuickMapServices</h2>
+<ul>
+<li>Plugins &gt; Manage and Install Plugins...<ul>
+<li>QuickMapService</li>
+<li>Install Plugin</li>
+</ul>
+</li>
+<li>Close</li>
+<li>Web &gt; QuickMapServices &gt; Settings<ul>
+<li>More services</li>
+<li>Get contributed pack</li>
+<li>Save</li>
+</ul>
+</li>
+<li>Last version onf contrib pack was downloaded!<ul>
+<li>OK</li>
+</ul>
+</li>
+<li>Visibility<ul>
+<li>nasa (ticked)</li>
+<li>bing (ticked)</li>
+<li>google (ticked)</li>
+<li>mapbox (ticked)</li>
+<li>all others (un ticked)</li>
+<li>Save</li>
+</ul>
+</li>
+</ul>
+<h2 id="install-tombio-tools">Install TomBio tools</h2>
+<ul>
+<li>Plugins &gt; Manage and Install Plugins...<ul>
+<li>TomBio tools</li>
+<li>Install Plugin</li>
+</ul>
+</li>
+<li>Close</li>
+</ul>
+<h2 id="locate-the-survey-area">Locate the survey area</h2>
+<ul>
+<li>Change CRS (Coordinate Reference System) to EPSG:4326 - WGS 84 (bottom right hand corner of the window)</li>
+<li>Web &gt; QuickMapServices &gt; Bing &gt; Bing Map</li>
+<li>Zoom in on the area</li>
+</ul>
+<h2 id="to-create-the-random-points-within-a-polygon">To Create the random points within a polygon</h2>
+<ul>
+<li>Layer &gt; Create Layer &gt; New Shapefile Layer...<ul>
+<li>Filename <code>C:\whereever\the\project\is\boundary.shp</code></li>
+<li>Geometry type <code>polygon</code></li>
+<li>OK</li>
+</ul>
+</li>
+<li>Select the boundary layer (left click)</li>
+<li>Layer &gt; Toggle Editing (= on)</li>
+<li>Edit &gt; Add Polygon Feature</li>
+<li>Mark boundary (left click) and finish with right click<ul>
+<li>OK (leave id as <code>NULL</code>)</li>
+</ul>
+</li>
+<li>Layer &gt; Toggle Editing (= off)</li>
+<li>Do you want to save the changes to layer boundary?<ul>
+<li>Save</li>
+</ul>
+</li>
+<li>Edit &gt; Select &gt; Select Feature(s)</li>
+<li>Click on the polygon</li>
+<li>Vector &gt; Research Tools &gt; Random Points Inside Polygons<ul>
+<li>Expression <code>60</code> (= the number of points you want)</li>
+<li>Minimum distance between points <code>10 meters</code></li>
+<li>Run</li>
+<li>Close</li>
+</ul>
+</li>
+</ul>
+<h3 id="export-gpx-points-for-use-in-view-ranger">Export GPX points for use in View Ranger</h3>
+<ul>
+<li>Right click on the random points layer</li>
+<li>Export &gt; Save Features As...<ul>
+<li>Format <code>GPs eXchange Format GPX</code></li>
+<li>Filename <code>C:\wherever\the\project\is\points.gpx</code></li>
+<li>CRS <code>EPSG:4326 - WGS 84</code></li>
+<li>Add saved file to map (un ticked)</li>
+<li>GPX_USE_EXTENSIONS <code>YES</code></li>
+<li>OK</li>
+</ul>
+</li>
+</ul>
+<p>The file should look something like this:</p>
+<pre><code class="language-xml">&lt;?xml version=&quot;1.0&quot;?&gt;
+&lt;gpx version=&quot;1.1&quot; creator=&quot;GDAL 2.4.0&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:ogr=&quot;http://osgeo.org/gdal&quot; xmlns=&quot;http://www.topografix.com/GPX/1/1&quot; xsi:schemaLocation=&quot;http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd&quot;&gt;
+&lt;metadata&gt;&lt;bounds minlat=&quot;52.186767066829788&quot; minlon=&quot;-1.128193888182918&quot; maxlat=&quot;52.193258182429538&quot; maxlon=&quot;-1.117239786388285&quot;/&gt;&lt;/metadata&gt;
+&lt;wpt lat=&quot;52.189190527945314&quot; lon=&quot;-1.122703264375532&quot;&gt;
+  &lt;extensions&gt;
+    &lt;ogr:id&gt;0&lt;/ogr:id&gt;
+  &lt;/extensions&gt;
+&lt;/wpt&gt;
+&lt;wpt lat=&quot;52.190683732326015&quot; lon=&quot;-1.124903206001818&quot;&gt;
+  &lt;extensions&gt;
+    &lt;ogr:id&gt;1&lt;/ogr:id&gt;
+  &lt;/extensions&gt;
+&lt;/wpt&gt;
+&lt;wpt lat=&quot;52.18855928606613&quot; lon=&quot;-1.12247621327738&quot;&gt;
+  &lt;extensions&gt;
+    &lt;ogr:id&gt;2&lt;/ogr:id&gt;
+  &lt;/extensions&gt;
+&lt;/wpt&gt;
+&lt;wpt lat=&quot;52.190158618187283&quot; lon=&quot;-1.120695743211964&quot;&gt;
+  &lt;extensions&gt;
+    &lt;ogr:id&gt;3&lt;/ogr:id&gt;
+  &lt;/extensions&gt;
+&lt;/wpt&gt;
+</code></pre>
+<h3 id="export-csv-xy-to-convert-to-grid-references-with-sheet-numbers">Export CSV XY to convert to grid references with sheet numbers</h3>
+<p>Don't know why this isn't available in QGis, maybe I am missing something.</p>
+<ul>
+<li>Right click on the random points layer</li>
+<li>Export &gt; Save Features As...<ul>
+<li>Format <code>Comma Separated Value CSV</code></li>
+<li>Filename <code>C:\wherever\the\project\is\points.csv</code></li>
+<li>CRS <code>EPSG:27700 - OSGB 1936</code></li>
+<li>Add saved file to map (un ticked)</li>
+<li>Layer Option, CREATE_CSVT <code>YES</code></li>
+<li>Layer Option, GEOMETRY <code>AS_XY</code></li>
+<li>Layer Option, SEPARATOR <code>COMMA</code></li>
+<li>OK</li>
+</ul>
+</li>
+</ul>
+<p>The file should look something like this (12 figure grid references with spurious precision):</p>
+<pre><code class="language-csv">Y,X,id,
+254912.2810871,460070.769246927,&quot;0&quot;
+255076.548472869,459918.375857874,&quot;1&quot;
+254842.258012982,460087.139992674,&quot;2&quot;
+255021.620004009,460206.699737778,&quot;3&quot;
+254793.89340851,459817.585632391,&quot;4&quot;
+254987.211709348,460410.746274626,&quot;5&quot;
+255032.448489482,460043.630676199,&quot;6&quot;
+255366.670451529,460317.504679373,&quot;7&quot;
+255106.919742886,460166.875878207,&quot;8&quot;
+</code></pre>
+<h3 id="export-boundary-for-reference-purposes">Export boundary for reference purposes</h3>
+<p>A polygon can't be exported as GPX so it needs to be converted to a <code>track</code> to be exported.</p>
+<ul>
+<li>Select the boundary layer (left click)</li>
+<li>Edit &gt; Select &gt; Select Feature(s)</li>
+<li>Click on the polygon</li>
+<li>Vector &gt; Geometry Tools &gt; Polygons to Lines<ul>
+<li>Selected features only (ticked)</li>
+<li>Run</li>
+<li>Close</li>
+</ul>
+</li>
+<li>Right click the new line layer</li>
+<li>Export &gt; Save Features As...<ul>
+<li>File name <code>C:\whereever\the\project\is\boundary.gpx</code></li>
+<li>CRS <code>EPSG:4326 - WGS 84</code></li>
+<li>Add saved file to map (un ticked)</li>
+<li>GPX_USE_EXTENSIONS <code>YES</code></li>
+<li>FORCE_GPX_TRACK <code>YES</code></li>
+</ul>
+</li>
+</ul>
+<p>The resulting file should look like this:</p>
+<pre><code class="language-xml">&lt;?xml version=&quot;1.0&quot;?&gt;
+&lt;gpx version=&quot;1.1&quot; creator=&quot;GDAL 2.4.0&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:ogr=&quot;http://osgeo.org/gdal&quot; xmlns=&quot;http://www.topografix.com/GPX/1/1&quot; xsi:schemaLocation=&quot;http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd&quot;&gt;
+&lt;metadata&gt;&lt;bounds minlat=&quot;52.679782899781813&quot; minlon=&quot;-2.679492437047489&quot; maxlat=&quot;52.695697527520039&quot; maxlon=&quot;-2.650486284870098&quot;/&gt;&lt;/metadata&gt;
+&lt;trk&gt;
+  &lt;extensions&gt;
+  &lt;/extensions&gt;
+  &lt;trkseg&gt;
+    &lt;trkpt lat=&quot;52.690123302974932&quot; lon=&quot;-2.677763072961032&quot;&gt;
+    &lt;/trkpt&gt;
+    &lt;trkpt lat=&quot;52.691600303568372&quot; lon=&quot;-2.669037645070273&quot;&gt;
+    &lt;/trkpt&gt;
+    &lt;trkpt lat=&quot;52.693648963609128&quot; lon=&quot;-2.667622710817716&quot;&gt;
+    &lt;/trkpt&gt;
+</code></pre>
+<h3 id="import-boundary-gpx-and-convert-to-polygon">Import boundary GPX and convert to polygon</h3>
+<p>*</p>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="index.html" class="btn btn-neutral float-left" title="Home"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="project-layout.html" class="btn btn-neutral float-right" title="Project Layout">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+        <span>
+          <a href="https://github.com/joejcollins/atlanta-shore" class="fa fa-github" style="color: #fcfcfc"> GitHub</a>
+        </span>
+    
+    
+      <span><a href="index.html" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="project-layout.html" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = ".";</script>
+    <script src="js/theme_extra.js"></script>
+    <script src="js/theme.js"></script>
+      <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+      <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+      <script src="search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>
