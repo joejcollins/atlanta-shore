@@ -3,7 +3,7 @@ site_name: Atlanta Shore
 repo_url: https://github.com/joejcollins/atlanta-shore
 use_directory_urls: false
 theme:
-    name: readthedocs
+    name: material
 
 plugins:
     - search

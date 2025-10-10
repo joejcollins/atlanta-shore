@@ -22,6 +22,7 @@ dependencies = [
     "lxml",            # for parsing GPX files.
     "mkdocs",
     "mkdocs-mermaid2-plugin",
+    "mkdocs-material",
     "mkdocstrings[python]",
     "mypy",
     "OSGridConverter",
