@@ -19,7 +19,6 @@ dependencies = [
     "ipykernel",       # required for jupyter notebook in VS Code.
     "ipympl",
     "jupyterlab",
-    "loguru",
     "lxml",            # for parsing GPX files.
     "mkdocs",
     "mkdocs-mermaid2-plugin",
