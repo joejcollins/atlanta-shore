@@ -1,0 +1,19 @@
+[project]
+site_name = "Atlanta Shore"
+repo_url = "https://github.com/joejcollins/atlanta-shore"
+use_directory_urls = false
+extra_javascript = [
+    "https://polyfill.io/v3/polyfill.min.js?features=es6",
+    "https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js",
+    "https://unpkg.com/mermaid@10.9.0/dist/mermaid.min.js",
+    "javascripts/mermaid.js",
+]
+
+[project.theme]
+variant = "classic"
+
+[project.plugins.search]
+
+[project.plugins.mkdocstrings.handlers.python.options]
+docstring_style = "google"
+show_source = false

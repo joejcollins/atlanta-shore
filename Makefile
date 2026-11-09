@@ -12,7 +12,7 @@ data:  # Create the combined data sets.
 
 .PHONY: docs
 docs: # Serve the documentation.
-	.venv/bin/mkdocs serve
+	.venv/bin/zensical serve
 
 .PHONY: help
 help: # Show help for each of the makefile recipes.
@@ -25,7 +25,7 @@ lock:  # Update the lock file from pyproject.toml.
 	uv lock
 
 publish: # Publish the documentation.
-	.venv/bin/mkdocs gh-deploy --force --verbose
+	.venv/bin/zensical build
 
 report:  # Report the python version and pip list.
 	.venv/bin/python --version
@@ -41,4 +41,3 @@ test:  # Run tests.
 venv:  # Create the virtual environment.
 	uv venv .venv --clear
 	uv sync --frozen
-

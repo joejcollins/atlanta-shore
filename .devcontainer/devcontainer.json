@@ -47,7 +47,8 @@
                 "mechatroner.rainbow-csv",
                 "sourcery.sourcery",
                 "streetsidesoftware.code-spell-checker",
-                "tamasfe.even-better-toml"
+                "tamasfe.even-better-toml",
+                "zensical.zensical-studio"
             ]
         }
     },
