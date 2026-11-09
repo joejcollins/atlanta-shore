@@ -118,6 +118,7 @@
         "tidyverse",
         "tinytex",
         "toolsai",
+        "tqdm",
         "ujson",
         "useable",
         "vcpus",

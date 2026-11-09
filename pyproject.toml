@@ -5,7 +5,7 @@ authors = [
     { name = "Joe Collins", email = "joejcollins@gmail.com" },
     { name = "Mags Cousins", email = "magscousins@hotmail.com" },
 ]
-description = "Spains Hall ETL."
+description = "Spains Hall data collection, processing and investigation tools."
 license = { file = "LICENSE" }
 readme = "README.md"
 requires-python = ">=3.13"
