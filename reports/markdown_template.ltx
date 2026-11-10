@@ -1,11 +1,11 @@
-\documentclass[12pt]{article}
+\documentclass[12pt,a4paper]{article}
 
 % Packages
 \usepackage[british]{babel}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage{hyperref}  % Required for hyperlinks from pandoc
-\usepackage[english]{isodate}
+\usepackage[british,iso]{isodate}
 
 % Make it look kind of like Word
 \usepackage[margin=1in]{geometry}
@@ -22,9 +22,14 @@
 
 % Title and Author
 \title{$title$}
-\author{$author$ - $email$}
+\author{$author$}
 \date{\today}
 \begin{document}
 \maketitle
+\hypersetup{
+  pdftitle={$title$},
+  pdfauthor={$author$}
+}
+\tableofcontents
 $body$
 \end{document}

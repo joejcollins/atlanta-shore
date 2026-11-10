@@ -1,0 +1,108 @@
+\documentclass[12pt,a4paper]{article}
+
+\usepackage{graphicx}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage[english,iso]{isodate}
+
+\newcommand{\authorname}{Joe J Collins}
+\newcommand{\documenttitle}{On the Custody of Empirical Data}
+\makeatletter
+\newcommand{\subtitle}[1]{\g@addto@macro\@title{\\[0.5em]\Large #1}}
+\makeatother
+
+\hypersetup{
+  pdftitle={\documenttitle},
+  pdfauthor={\authorname}
+}
+
+\title{\documenttitle}
+\subtitle{A Seven-Layer Architecture for Maintaining an Unbroken Chain of Provenance in Field Research}
+\author{\authorname}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+  Write a concise summary of the article here.
+\end{abstract}
+
+\tableofcontents
+
+%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Seven Steps}
+
+Typically,
+the collection, cleaning and curation of data is not formally taught
+to students of the sciences.
+There is enough for students to learn in their own disciplines
+without having to learn the intricacies of data management.
+As a result, many students develop their own ad hoc methods for
+collecting, cleaning and curating data.
+Most often
+the student will determine the shape of the data frame required for their analysis.
+Then take this data frame
+(in the form of a spreadsheet)
+to the field and attempt to fill it with data.
+This approach is fraught with problems of data integrity and provenance.
+At best it is inefficient and error-prone.
+However,
+for a single student working alone on a small project,
+it may be sufficient.
+However, this approach is
+not scalable or sustainable
+once the student joins a research team
+and is no longer the sole collector, cleaner and consumer of the data.
+
+Fortunately, the process of collecting, cleaning and curating data
+has a long history in the sciences and engineering.
+The process is often poorly documented
+and often obscured by the technical details of the software used to implement it.
+For software vendors there is a perverse incentive to obscure the process
+to make it appear that their software is doing something magical.
+In reality, the process is often simple and straightforward.
+The purpose of this article is to describe a simple and straightforward process
+for collecting, cleaning and curating data.
+
+Each step in the process is a separate layer in a seven-layer architecture
+for maintaining an unbroken chain of provenance in field research data.
+Focusing on them separately allows explicit control over the process
+is reproducible and transparent.
+Separating the layers allows for the process to be scaled and sustained
+across multiple researchers and multiple projects.
+And allows researchers to focus effectively on each step in the process
+without being distracted by the other steps.
+
+%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Collect}
+
+\subsection{Measure}
+
+\subsection{Record}
+
+\subsection{Share}
+
+%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Enhance}
+
+\subsection{Refine}
+
+\subsection{Regulate}
+
+\subsection{Retrieve}
+
+\subsection{Wrap}
+
+%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Investigate}
+
+
+
+
+\section*{References}
+
+\addcontentsline{toc}{section}{References}
+
+\end{document}
